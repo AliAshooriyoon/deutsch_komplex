@@ -6,9 +6,11 @@ import mainPic from "../public/de-home-removebg-preview.png"
 import customPic from "../public/removebg.png"
 import Plan from "./components/home-design/plan";
 import Footer from "./components/home-design/Footer";
+import Header from "./components/Header";
 export default function Home() {
   return (
     <>
+      <Header />
       <div className="p-2">
         <div className="main py-16 pl-12 flex items-center justify-between">
           <div className="main_content">

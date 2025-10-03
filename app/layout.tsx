@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "./components/Header";
 
 export const metadata: Metadata = {
   title: "Deutsch komplex",
@@ -16,7 +15,6 @@ export default function RootLayout({
     <html lang="en">
       <body
       >
-        <Header />
         {children}
       </body>
     </html>
