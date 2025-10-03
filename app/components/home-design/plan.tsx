@@ -33,10 +33,16 @@ const Plan = ({ mode }: { mode: string }) => {
           </div>
         })}
       </div>
-      <button className={`text-2xl py-2 border-4 px-10 cursor-pointer delay-100
+      <div className='btn_box text-center'>
+        <p className='price text-xl py-2 font-bold'>
+          {mode == 'free' ? 'Kostenlos' : mode == 'standard' ? '3$ pro Monat' : '5$ pro Monat'}
+        </p>
+        <button className={`text-2xl py-2 border-4 px-10 cursor-pointer delay-100
         ${mode == 'free' ? 'border-green-500 hover:bg-green-500 hover:border-white' :
-          mode == 'standard' ? 'border-red-600 hover:bg-red-600 hover:border-white' : 'border-blue-600 hover:bg-blue-600 hover:border-white'}
+            mode == 'standard' ? 'border-red-600 hover:bg-red-600 hover:border-white' : 'border-blue-600 hover:bg-blue-600 hover:border-white'}
         mx-auto rounded-2xl`}>{mode == "free" ? 'anmelden' : 'abonnieren'}</button>
+
+      </div>
     </div>
   </>
 }

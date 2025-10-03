@@ -5,6 +5,7 @@ import { PiExamFill } from "react-icons/pi";
 import mainPic from "../public/de-home-removebg-preview.png"
 import customPic from "../public/removebg.png"
 import Plan from "./components/home-design/plan";
+import Footer from "./components/home-design/Footer";
 export default function Home() {
   return (
     <>
@@ -72,6 +73,7 @@ export default function Home() {
           <Plan mode={'standard'} />
           <Plan mode={'premium'} />
         </div>
+        <Footer />
       </div>
     </>
   );
