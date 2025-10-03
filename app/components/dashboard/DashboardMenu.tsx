@@ -87,11 +87,21 @@ const DashboardMenu = () => {
         </div>
 
         <div className="main_item">
-          <p className="showItem flex items-center">
+          <p onClick={() => setSelectedMenu((prev) => ["listen", !prev[1]])} className="showItem flex items-center">
             <FaHeadphones />
             <span> Hören</span>
           </p>
-
+          {selectedMenu[0] == "listen" && selectedMenu[1] &&
+            <ul className=" flex flex-col text-lg gap-5 indent-4">
+              <Link className={`${path == '/dashboard/listen/listen-files' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/listen/listen-files'}>
+                Lainter </Link>
+              <Link className={`${path == '/dashboard/listen/podcasts' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/listen/podcasts'}>Wörter zu jedem Niveau</Link>
+              <Link
+                className={`${path == '/dashboard/listen/tests' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/listen/tests'}>Test-modelle</Link>
+            </ul>}
         </div>
 
         <div className='account'>
