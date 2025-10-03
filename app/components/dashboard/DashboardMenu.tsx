@@ -4,9 +4,11 @@ import Image from "next/image";
 import { FcAbout } from "react-icons/fc";
 import { MdReport } from "react-icons/md";
 import { MdAccountCircle } from "react-icons/md";
+import { TiMediaRecord } from "react-icons/ti";
 import { IoSettingsSharp } from "react-icons/io5";
 import { VscSymbolKeyword } from "react-icons/vsc";
 import { FaHeadphones } from "react-icons/fa";
+import { TiArrowSortedDown } from "react-icons/ti";
 import { FaBookReader, FaPenAlt } from "react-icons/fa";
 import Link from "next/link";
 import Logo from "../../../public/de-icon.png";
@@ -32,12 +34,18 @@ const DashboardMenu = () => {
           <p onClick={() => setSelectedMenu(state => ["schreiben", !state[1]])} className="showItem flex items-center">
             <FaPenAlt />
             <p>Schreiben</p>
+            {selectedMenu[0] == "schreiben" && selectedMenu[1] && <TiArrowSortedDown className="absolute right-10" />}
           </p>
           {selectedMenu[0] == "schreiben" && selectedMenu[1] &&
             <ul className=" flex flex-col text-lg gap-5 indent-4">
-              <Link href={'/dashboard/schreiben/tipps'}>Tipps zum Schreiben</Link>
-              <Link href={'/dashboard/schreiben/example'}>Beispiele zum Schreiben</Link>
-              <Link href={'/dashboard/schreiben/tests'}>Test-modelle</Link>
+              <Link className={`${path == '/dashboard/schreiben/tipps' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/schreiben/tipps'}>
+                Tipps zum Schreiben </Link>
+              <Link className={`${path == '/dashboard/schreiben/example' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/schreiben/example'}>Beispiele zum Schreiben</Link>
+              <Link
+                className={`${path == '/dashboard/schreiben/tests' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/schreiben/tests'}>Test-modelle</Link>
             </ul>}
         </div>
 
