@@ -1,6 +1,10 @@
 import Image from "next/image";
+import { FaUser } from "react-icons/fa";
+import { FaBookOpen } from "react-icons/fa";
+import { PiExamFill } from "react-icons/pi";
 import mainPic from "../public/de-home-removebg-preview.png"
 import customPic from "../public/removebg.png"
+import Plan from "./components/home-design/plan";
 export default function Home() {
   return (
     <>
@@ -17,6 +21,36 @@ export default function Home() {
           </div>
           <Image alt="main picture" className="w-[50rem]" src={mainPic} />
         </div>
+        <div className="analys p-6 h-44  shadow-2xl shadow-[#D73722] w-[96%] mx-auto
+          bg-zinc-900 rounded-4xl flex justify-between">
+          <div className='users flex items-center gap-6'>
+            <div className='iconBox border-2 p-4 rounded-full bg-red-300 border-red-300'>
+              <FaUser className="w-8 h-8 fill-[#D73722]" />
+            </div>
+            <div className='nums'>
+              <p className='text-3xl font-bold'>Über 200</p>
+              <p className='text-xl'>Kunden</p>
+            </div>
+          </div>
+          <div className='practices flex items-center gap-6'>
+            <div className="iconBox border-2 p-4 rounded-full bg-red-300 border-red-300">
+              <FaBookOpen className="w-8 h-8 fill-[#D73722]" />  </div>
+            <div className='nums'>
+              <p className='text-3xl font-bold'>Über 130</p>
+              <p className='text-xl'>Übungen</p>
+            </div>
+          </div>
+
+          <div className='Modell-Tests flex items-center gap-6'>
+            <div className="iconBox border-2 p-4 rounded-full bg-red-300 border-red-300">
+              <PiExamFill className="w-8 h-8 fill-[#D73722]" />
+            </div>
+            <div className='nums'>
+              <p className='text-3xl font-bold'>Über 40</p>
+              <p className='text-xl'>Modell-Tests</p>
+            </div>
+          </div>
+        </div>
         <div className='flex items-center justify-between px-12 py-30 flex-wrap'>
           <Image className="" src={customPic} alt='' />
           <div className='description_customer max-w-[40%]'>
@@ -32,6 +66,11 @@ export default function Home() {
               <li>Viele deutsche Geschichten</li>
             </ul>
           </div>
+        </div>
+        <div className='plans py-12 px-10 flex justify-between w-[85%] mx-auto'>
+          <Plan mode={'free'} />
+          <Plan mode={'standard'} />
+          <Plan mode={'premium'} />
         </div>
       </div>
     </>
