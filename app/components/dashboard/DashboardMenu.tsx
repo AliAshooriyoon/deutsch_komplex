@@ -30,11 +30,12 @@ const DashboardMenu = () => {
 
       <div className="items flex-1 min-h-0 flex flex-col gap-8 overflow-y-auto pr-2">
         <div className='wrapper'></div>
-        <div className="main_item">
+        <div className="main_item schreiben">
           <p onClick={() => setSelectedMenu(state => ["schreiben", !state[1]])} className="showItem flex items-center">
             <FaPenAlt />
             <p>Schreiben</p>
-            {selectedMenu[0] == "schreiben" && selectedMenu[1] && <TiArrowSortedDown className="absolute right-10" />}
+            {selectedMenu[0] == "schreiben" && selectedMenu[1] &&
+              <TiArrowSortedDown className="absolute right-10" />}
           </p>
           {selectedMenu[0] == "schreiben" && selectedMenu[1] &&
             <ul className=" flex flex-col text-lg gap-5 indent-4">
@@ -50,11 +51,21 @@ const DashboardMenu = () => {
         </div>
 
         <div className="main_item">
-          <Link href={'/dashboard/lesen'} onClick={() => changeStatus(true)} className="showItem flex items-center">
+          <p onClick={() => setSelectedMenu(prev => ["lesen", !prev[1]])} className="showItem flex items-center">
             <FaBookReader />
             <span>Lesen</span>
-          </Link>
-
+          </p>
+          {selectedMenu[0] == "lesen" && selectedMenu[1] &&
+            <ul className=" flex flex-col text-lg gap-5 indent-4">
+              <Link className={`${path == '/dashboard/lesen/stories' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/lesen/stories'}>
+                Geschichten </Link>
+              <Link className={`${path == '/dashboard/lesen/texts' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/lesen/texts'}>Beispiele zum Schreiben</Link>
+              <Link
+                className={`${path == '/dashboard/lesen/tests' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/lesen/tests'}>Test-modelle</Link>
+            </ul>}
         </div>
         <div className="main_item">
           <Link href={'/dashboard/worter'} className="showItem flex items-center">
