@@ -68,18 +68,29 @@ const DashboardMenu = () => {
             </ul>}
         </div>
         <div className="main_item">
-          <Link href={'/dashboard/worter'} className="showItem flex items-center">
+          <p onClick={() => setSelectedMenu((prev) => ["words", !prev[1]])} className="showItem flex items-center">
             <VscSymbolKeyword />
             <span>Wörter</span>
-          </Link>
+          </p>
+          {selectedMenu[0] == "words" && selectedMenu[1] &&
+            <ul className=" flex flex-col text-lg gap-5 indent-4">
+              <Link className={`${path == '/dashboard/words/lainter' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/words/lainter'}>
+                Lainter </Link>
+              <Link className={`${path == '/dashboard/words/words-list' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/words/words-list'}>Wörter zu jedem Niveau</Link>
+              <Link
+                className={`${path == '/dashboard/words/street-words' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/words/street-words'}>Test-modelle</Link>
+            </ul>}
 
         </div>
 
         <div className="main_item">
-          <Link href={'/'} className="showItem flex items-center">
+          <p className="showItem flex items-center">
             <FaHeadphones />
             <span> Hören</span>
-          </Link>
+          </p>
 
         </div>
 
