@@ -1,4 +1,4 @@
-.wellcome {
+.main_page {
   position: absolute;
   right: 0;
   top: 0;
@@ -12,7 +12,7 @@
 .main_item {
   padding-left: 0.7rem;
 }
-.main_item p {
+.main_item * {
   font-size: 1.3rem;
   text-align: center;
   display: flex;

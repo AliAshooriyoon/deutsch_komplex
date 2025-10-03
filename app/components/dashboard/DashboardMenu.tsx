@@ -1,3 +1,4 @@
+"use client"
 import { MdEmail } from "react-icons/md";
 import Image from "next/image";
 import { FcAbout } from "react-icons/fc";
@@ -7,84 +8,96 @@ import { IoSettingsSharp } from "react-icons/io5";
 import { VscSymbolKeyword } from "react-icons/vsc";
 import { FaHeadphones } from "react-icons/fa";
 import { FaBookReader, FaPenAlt } from "react-icons/fa";
+import Link from "next/link";
 import Logo from "../../../public/de-icon.png";
+import { useStatus } from "@/app/zustand";
+import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 
 const DashboardMenu = () => {
+  const [selectedMenu, setSelectedMenu] = useState(["", false])
+  const changeStatus = useStatus(state => state.changeStatus)
+  const path = usePathname()
   return <>
     <div className="dashboard_menu fixed w-[22rem] left-0 top-0 bg-[#4a4b4e] px-4 pl-6 rounded-r-3xl h-screen flex flex-col">
-      <div className="logoBox flex items-center gap-3 text-2xl py-4  shrink-0">
+      <Link href={'/dashboard'} className="logoBox flex items-center gap-3 text-2xl py-4  shrink-0">
         <Image alt="" src={Logo} />
-        <p>Deutsch komplex</p>
-      </div>
+        <p>Deutsch komplex </p>
+      </Link>
 
       <div className="items flex-1 min-h-0 flex flex-col gap-8 overflow-y-auto pr-2">
         <div className='wrapper'></div>
         <div className="main_item">
-          <p className="showItem flex items-center">
+          <p onClick={() => setSelectedMenu(state => ["schreiben", !state[1]])} className="showItem flex items-center">
             <FaPenAlt />
-            <span>Schreiben</span>
+            <p>Schreiben</p>
           </p>
-
+          {selectedMenu[0] == "schreiben" && selectedMenu[1] &&
+            <ul className=" flex flex-col text-lg gap-5 indent-4">
+              <Link href={'/dashboard/schreiben/tipps'}>Tipps zum Schreiben</Link>
+              <Link href={'/dashboard/schreiben/example'}>Beispiele zum Schreiben</Link>
+              <Link href={'/dashboard/schreiben/tests'}>Test-modelle</Link>
+            </ul>}
         </div>
 
         <div className="main_item">
-          <p className="showItem flex items-center">
+          <Link href={'/dashboard/lesen'} onClick={() => changeStatus(true)} className="showItem flex items-center">
             <FaBookReader />
             <span>Lesen</span>
-          </p>
+          </Link>
 
         </div>
         <div className="main_item">
-          <p className="showItem flex items-center">
+          <Link href={'/dashboard/worter'} className="showItem flex items-center">
             <VscSymbolKeyword />
             <span>Wörter</span>
-          </p>
+          </Link>
 
         </div>
 
         <div className="main_item">
-          <p className="showItem flex items-center">
+          <Link href={'/'} className="showItem flex items-center">
             <FaHeadphones />
             <span> Hören</span>
-          </p>
+          </Link>
 
         </div>
 
         <div className='account'>
           <div className='wrapper' />
           <div className="main_item pt-6">
-            <p className="showItem flex items-center">
+            <Link href={'/dashboard/account'} className="showItem flex items-center">
               <MdAccountCircle className="" />
               <span>Konto</span>
-            </p>
+            </Link>
           </div>
           <div className="main_item pt-6">
-            <p className="showItem flex items-center">
+            <Link href={'/dashboard/setting'} className="showItem flex items-center">
               <IoSettingsSharp className="" />
               <span>Einstellung</span>
-            </p>
+            </Link>
           </div>
         </div>
         <div className='contact'>
           <div className='wrapper'></div>
           <div className="main_item pt-6">
-            <p className="showItem flex items-center">
+            <Link href={'/about'} className="showItem flex items-center">
               <FcAbout className="" />
               <span>Über uns</span>
-            </p>
+            </Link>
           </div>
           <div className="main_item pt-6">
-            <p className="showItem flex items-center">
+            <Link href={'/about'} className="showItem flex items-center">
               <MdEmail />
               <span>E-Mail</span>
-            </p>
+            </Link>
           </div>
           <div className="main_item pt-6">
-            <p className="showItem flex items-center">
+            <Link href={'/report'} className="showItem flex items-center">
               <MdReport />
               <span>Berichten</span>
-            </p>
+            </Link>
           </div>
         </div>
       </div>
