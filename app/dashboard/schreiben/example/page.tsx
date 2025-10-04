@@ -35,7 +35,9 @@ const ExampleSchreiben = () => {
           <p className="text-xl pb-8">Beispiel:</p>
           Liebe Familie Huber,
 
-          vielen Dank für die schöne Zeit in Wien. Das Essen war sehr lecker und das Zimmer war sehr gemütlich. Mir hat der Spaziergang im Park sehr gefallen. Ich komme im Sommer wieder!
+          vielen Dank für die schöne Zeit in Wien.
+          Das Essen war sehr lecker und das Zimmer war sehr gemütlich.
+          Mir hat der Spaziergang im Park sehr gefallen. Ich komme im Sommer wieder!
 
           Viele Grüße
           Ali        </p>

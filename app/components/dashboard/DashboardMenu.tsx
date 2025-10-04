@@ -54,6 +54,9 @@ const DashboardMenu = () => {
           <p onClick={() => setSelectedMenu(prev => ["lesen", !prev[1]])} className="showItem flex items-center">
             <FaBookReader />
             <span>Lesen</span>
+            {selectedMenu[0] == "lesen" && selectedMenu[1] &&
+              <TiArrowSortedDown className="absolute right-10" />}
+
           </p>
           {selectedMenu[0] == "lesen" && selectedMenu[1] &&
             <ul className=" flex flex-col text-lg gap-5 indent-4">
@@ -71,6 +74,9 @@ const DashboardMenu = () => {
           <p onClick={() => setSelectedMenu((prev) => ["words", !prev[1]])} className="showItem flex items-center">
             <VscSymbolKeyword />
             <span>Wörter</span>
+            {selectedMenu[0] == "words" && selectedMenu[1] &&
+              <TiArrowSortedDown className="absolute right-10" />}
+
           </p>
           {selectedMenu[0] == "words" && selectedMenu[1] &&
             <ul className=" flex flex-col text-lg gap-5 indent-4">
@@ -90,6 +96,9 @@ const DashboardMenu = () => {
           <p onClick={() => setSelectedMenu((prev) => ["listen", !prev[1]])} className="showItem flex items-center">
             <FaHeadphones />
             <span> Hören</span>
+            {selectedMenu[0] == "listen" && selectedMenu[1] &&
+              <TiArrowSortedDown className="absolute right-10" />}
+
           </p>
           {selectedMenu[0] == "listen" && selectedMenu[1] &&
             <ul className=" flex flex-col text-lg gap-5 indent-4">

@@ -7,7 +7,7 @@ export default function SignIn() {
         await signIn("github")
       }}
     >
-      <button type="submit">Signin with GitHub</button>
+      <button className="py-4 px-5 text-xl bg-stone-800 rounded-2xl cursor-pointer" type="submit">Signin with GitHub</button>
     </form>
   )
 } 
