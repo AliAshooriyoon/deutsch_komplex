@@ -1,7 +1,7 @@
 const ExampleSchreiben = () => {
   return <>
     <div className="">
-      Beispiele
+
     </div>
   </>
 }
