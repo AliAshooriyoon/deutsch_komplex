@@ -31,12 +31,12 @@ const DashboardMenu = () => {
       <div className="items flex-1 min-h-0 flex flex-col gap-8 overflow-y-auto pr-2">
         <div className='wrapper'></div>
         <div className="main_item schreiben">
-          <p onClick={() => setSelectedMenu(state => ["schreiben", !state[1]])} className="showItem flex items-center">
+          <div onClick={() => setSelectedMenu(state => ["schreiben", !state[1]])} className="showItem flex items-center">
             <FaPenAlt />
             <p>Schreiben</p>
             {selectedMenu[0] == "schreiben" && selectedMenu[1] &&
               <TiArrowSortedDown className="absolute right-10" />}
-          </p>
+          </div>
           {selectedMenu[0] == "schreiben" && selectedMenu[1] &&
             <ul className=" flex flex-col text-lg gap-5 indent-4">
               <Link className={`${path == '/dashboard/schreiben/tipps' && 'underline text-[#FFBF08]'}`}

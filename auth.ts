@@ -35,7 +35,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
       }
       if (!token.id && token.email) {
         const userDb = await prisma.user.findUnique({
-          where: { email: user.email },
+          where: { email: user.email as string },
         });
         token.id = userDb;
       }

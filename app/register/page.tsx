@@ -1,29 +1,40 @@
 "use client"
-import "./styleLogin.css"
 import { ImGithub } from "react-icons/im";
 import Header from "../components/Header";
-// import SignIn from "../components/sign-in";
 import { signIn } from "next-auth/react";
 import Link from "next/link";
 import { useState } from "react";
 import { redirect } from "next/navigation";
 
-const LoginPage = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const doLogin = async () => {
-    await signIn("credentials", { email, password, callbackUrl: "/dashboard" })
+const RegisterPage = () => {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const register = async () => {
+    const res = await fetch("api/register", {
+      method: "POST",
+      body: JSON.stringify({ name, email, password })
+    })
+    const data = await res.json()
+    console.log(data)
+    redirect('/login')
   }
   return <>
     <Header />
     <div className=" flex items-center justify-center w-[100vw] h-[100vh]">
-      <div className='w-[30%] h-[40rem] bg-[#555] rounded-4xl mx-auto shadow-xl shadow-[#F0B100]'>
+      <div className='w-[30%] pt-2 pb-8 bg-[#555] rounded-4xl mx-auto shadow-xl shadow-[#F0B100]'>
         <div className='login_form_manual'>
-          <h2 className="text-center pb-4 pt-12 text-4xl font-bold">Einloggen</h2>
+          <h2 className="text-center pb-4 pt-12 text-4xl font-bold">Register</h2>
           <div className="flex flex-col gap-8 mx-auto pt-12 pb-6">
             <div className="">
               <div className='userNameBox p-2  h-[6rem] w-[24rem] border-black
               border-2 mx-auto flex flex-col justify-between'>
+                <span className="text-lg">Ihr Name </span>
+                <input onChange={(e) => setName(e.target.value)} id="name" name="name" className="h-[70%] outline-0  text-xl" type='text' />
+              </div>
+
+              <div className='userNameBox p-2  h-[6rem] w-[24rem] border-black
+              border-b-2 border-r-2 border-l-2 mx-auto flex flex-col justify-between'>
                 <span className="text-lg">E-Mail Addresse </span>
                 <input onChange={(e) => setEmail(e.target.value)} id="email" name="email" className="h-[70%] outline-0  text-xl" type='text' />
               </div>
@@ -34,9 +45,10 @@ const LoginPage = () => {
               </div>
             </div>
             <div className='text-center flex flex-col justify-between items-center'>
-              <button onClick={doLogin} className="h-[4rem] cursor-pointer hover:rounded-2xl delay-100 w-[24rem] bg-black text-white text-xl" type="button">Einloggen</button>
+              <button onClick={register} className="h-[4rem] cursor-pointer hover:rounded-2xl 
+      delay-100 w-[24rem] bg-black text-white text-xl" type="button">anmelden</button>
               <Link className="pt-4 text-lg hover:text-[#F0B100]"
-                href={'/register'}>Keinen Konto? anmelden</Link>
+                href={'/login'}>Haben Sie Konto? einloggen</Link>
             </div>
           </div>
           <div className="text-center pt-4">
@@ -51,4 +63,4 @@ const LoginPage = () => {
     </div>
   </>
 }
-export default LoginPage;
+export default RegisterPage;

@@ -1,7 +1,13 @@
 import "./dashboardStyle.css"
 import DashboardMenu from "../components/dashboard/DashboardMenu";
+import { redirect } from "next/navigation";
+import { auth } from "@/auth";
 
-const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
+const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
+  const user = await auth()
+  if (!user?.user?.email) {
+    redirect("/")
+  }
   return (
     <>
       <DashboardMenu />
