@@ -12,7 +12,7 @@ const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const doLogin = async () => {
-    await signIn("credentials", { email, password, callbackUrl: "/dashboard" })
+    await signIn("credentials", { email, password, callbackUrl: "/dashboard" });
   }
   return <>
     <Header />
