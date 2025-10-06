@@ -2,11 +2,9 @@
 import "./styleLogin.css"
 import { ImGithub } from "react-icons/im";
 import Header from "../components/Header";
-// import SignIn from "../components/sign-in";
 import { signIn } from "next-auth/react";
 import Link from "next/link";
 import { useState } from "react";
-import { redirect } from "next/navigation";
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
