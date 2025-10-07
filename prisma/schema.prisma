@@ -13,6 +13,26 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model exam {
+  id         String  @id @default(cuid())
+  level      String
+  examCenter String?
+  topic      String
+  content    String
+
+  @@map("exams")
+}
+
+model example {
+  id      String  @id @default(cuid())
+  level   String
+  exam    String?
+  topic   String
+  content String
+
+  @@map("examples")
+}
+
 model Account {
   id                String  @id @default(cuid())
   userId            String  @map("user_id")
