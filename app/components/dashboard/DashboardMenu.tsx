@@ -4,7 +4,6 @@ import Image from "next/image";
 import { FcAbout } from "react-icons/fc";
 import { MdReport } from "react-icons/md";
 import { MdAccountCircle } from "react-icons/md";
-import { TiMediaRecord } from "react-icons/ti";
 import { IoSettingsSharp } from "react-icons/io5";
 import { VscSymbolKeyword } from "react-icons/vsc";
 import { FaHeadphones } from "react-icons/fa";
@@ -64,7 +63,7 @@ const DashboardMenu = () => {
                 href={'/dashboard/lesen/stories'}>
                 Geschichten </Link>
               <Link className={`${path == '/dashboard/lesen/texts' && 'underline text-[#FFBF08]'}`}
-                href={'/dashboard/lesen/texts'}>Beispiele zum Schreiben</Link>
+                href={'/dashboard/lesen/texts'}>Beispiele zum Lesen</Link>
               <Link
                 className={`${path == '/dashboard/lesen/tests' && 'underline text-[#FFBF08]'}`}
                 href={'/dashboard/lesen/tests'}>Test-modelle</Link>
