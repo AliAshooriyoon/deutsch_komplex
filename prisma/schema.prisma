@@ -28,6 +28,7 @@ model exam {
   examCenter String?
   topic      String
   content    String
+  type       String?
 
   @@map("exams")
 }

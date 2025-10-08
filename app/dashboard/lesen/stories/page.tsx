@@ -34,7 +34,7 @@ const Stories = () => {
         <div className='flex flex-col justify-between gap-12'>
           {stories.map((i) => <div className="flex flex-col gap-3 w-[95%] mx-auto" key={i.id}>
             <p className="text-2xl">{i.title}</p>
-            <p className="text-xl">{i.content}</p>
+            <p className="text-xl ">{i.content}</p>
           </div>)}
         </div>
       </div>
