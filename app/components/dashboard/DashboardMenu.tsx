@@ -62,8 +62,8 @@ const DashboardMenu = () => {
               <Link className={`${path == '/dashboard/lesen/stories' && 'underline text-[#FFBF08]'}`}
                 href={'/dashboard/lesen/stories'}>
                 Geschichten </Link>
-              <Link className={`${path == '/dashboard/lesen/texts' && 'underline text-[#FFBF08]'}`}
-                href={'/dashboard/lesen/texts'}>Beispiele zum Lesen</Link>
+              <Link className={`${path == '/dashboard/lesen/example' && 'underline text-[#FFBF08]'}`}
+                href={'/dashboard/lesen/example'}>Beispiele zum Lesen</Link>
               <Link
                 className={`${path == '/dashboard/lesen/tests' && 'underline text-[#FFBF08]'}`}
                 href={'/dashboard/lesen/tests'}>Test-modelle</Link>

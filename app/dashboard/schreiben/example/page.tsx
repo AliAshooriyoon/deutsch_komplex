@@ -1,7 +1,7 @@
 import prisma from "@/prisma/client";
 import "./exampleStyles.css"
 const ExampleSchreiben = async () => {
-  const data = await prisma.example.findMany();
+  const data = await prisma.example.findMany({ where: { type: "schreiben" } });
 
   //   const res = await prisma.example.create({
   //     data: {

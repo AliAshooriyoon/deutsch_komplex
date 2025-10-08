@@ -39,6 +39,7 @@ model example {
   exam    String?
   topic   String
   content String
+  type    String?
 
   @@map("examples")
 }
