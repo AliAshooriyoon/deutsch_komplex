@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 
 const TestsSchreiben = () => {
+  const [level, setLevel] = useState('');
   const [a2Exams, setA2Exams] = useState([{ id: "", topic: "", content: "" }])
   const [b1Exams, setB1Exams] = useState([{ id: "", topic: "", content: "" }])
   const [answer, setAnswer] = useState('Nothing')
@@ -24,7 +25,10 @@ const TestsSchreiben = () => {
   }
 
   const createExam = async () => {
-    const res = await fetch("/api/createExam", { method: "POST", body: JSON.stringify({ message: "Hi" }) })
+    const res = await fetch("/api/createExam", {
+      method: "POST",
+      body: JSON.stringify({ message: `Create one german exam for Schreiben like ÖSD in level ${level}. Write not answer the exam and write just title of exam, title of question and points of question and nothing else! title of exam should be like official exams ` })
+    })
     const data = await res.json();
     console.log("----------Data Answer---------------")
     console.log(data.reply)
@@ -43,9 +47,9 @@ const TestsSchreiben = () => {
         <div className='text-2xl flex flex-col items-start gap-12'>
           {answer}
           <p className='text-2xl '>Eine Prüfung auswählen</p>
-          <select className="w-32 border-2 py-2 px-5 rounded-2xl">
-            <option value={''}>A2</option>
-            <option value={''}>B1</option>
+          <select onChange={(e) => setLevel(e.target.value)} className="w-32 border-2 py-2 px-5 rounded-2xl">
+            <option value={'a2'}>A2</option>
+            <option value={'b1'}>B1</option>
           </select>
           <button onClick={createExam} className="cursor-pointer border-2 p-2 rounded-2xl">Prüfung erstellen</button>
         </div>

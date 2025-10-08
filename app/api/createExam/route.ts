@@ -10,12 +10,13 @@ const openai = new OpenAI({
   },
 });
 export async function POST(req: Request) {
+  const body = await req.json();
   try {
     const completion = await openai.chat.completions.create({
-      model: 'mistralai/mistral-small-3.2-24b-instruct:free', // or "gpt-4o" if you have access
+      model: 'mistralai/mistral-small-3.2-24b-instruct:free',
       messages: [
         { role: 'system', content: 'You are an exam creator.' },
-        { role: 'user', content: 'Create 3 random B2 German exam questions.' },
+        { role: 'system', content: body.message },
       ],
     });
 
