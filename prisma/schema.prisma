@@ -13,6 +13,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model story {
+  id      String  @id @default(cuid())
+  level   String?
+  title   String
+  content String
+
+  @@map("stories")
+}
+
 model exam {
   id         String  @id @default(cuid())
   level      String
