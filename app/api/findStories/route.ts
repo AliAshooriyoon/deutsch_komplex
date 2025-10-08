@@ -8,7 +8,5 @@ export const POST = async (req: NextRequest) => {
       level: body.level,
     },
   });
-  console.log('----------hi-------------');
-  console.log(body);
   return NextResponse.json(res);
 };

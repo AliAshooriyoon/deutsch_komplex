@@ -22,7 +22,8 @@ const Stories = () => {
       <div className='flex flex-col items-start gap-6'>
         <p className="text-xl">Wöhlen Sie Niveau der Geschichten aus!</p>
         <div className='stories border-2  p-2 text-2xl rounded-2xl'>
-          <select onChange={(e) => setLevel(e.target.value)}>
+          <select value={level} onChange={(e) => setLevel(e.target.value)}>
+            <option value={''} disabled>Auswählen</option>
             <option value={'a1'}>a1</option>
             <option value={'a2'}>a2</option>
             <option value={'b1'}>b1</option>
@@ -31,7 +32,7 @@ const Stories = () => {
           </select>
         </div>
         <div className='flex flex-col justify-between gap-12'>
-          {stories.map((i) => <div className="" key={i.id}>
+          {stories.map((i) => <div className="flex flex-col gap-3 w-[95%] mx-auto" key={i.id}>
             <p className="text-2xl">{i.title}</p>
             <p className="text-xl">{i.content}</p>
           </div>)}
