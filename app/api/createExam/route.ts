@@ -20,7 +20,6 @@ export async function POST(req: Request) {
       ],
     });
 
-    console.log('API KEY:', process.env.OPENROUTER_API_KEY ? '✅ Loaded' : '❌ Missing');
     const answer = completion.choices[0].message.content;
     // console.log('---------------answer-----------------');
     // console.log(answer);
