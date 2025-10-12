@@ -21,8 +21,6 @@ export async function POST(req: Request) {
     });
 
     const answer = completion.choices[0].message.content;
-    // console.log('---------------answer-----------------');
-    // console.log(answer);
     return NextResponse.json({ reply: answer });
   } catch (err) {
     console.error('Error:', err);
