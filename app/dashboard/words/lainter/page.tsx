@@ -1,6 +1,9 @@
 const Lainter = () => {
   return <>
-    <div className=''>Lainter</div>
+    <div className=''>
+      <div className=""> Lainter </div>
+
+    </div>
   </>
 }
 export default Lainter;

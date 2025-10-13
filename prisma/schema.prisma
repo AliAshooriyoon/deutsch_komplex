@@ -13,6 +13,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model lainter {
+  id      String  @id @default(cuid())
+  level   String?
+  title   String
+  content String?
+  mean    String
+  status  String
+}
+
 model story {
   id      String  @id @default(cuid())
   level   String?
