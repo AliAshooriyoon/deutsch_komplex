@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import data from '../../../../anki_vocab.json' assert { type: 'json' };
 const Lainter = () => {
   const [words, setWords] = useState(data);
-  const [location, setLocation] = useState(0);
+  const [location, setLocation] = useState({ page: 0, path: "next" });
   const [lengthBack, setLengthBack] = useState(0);
   const [prevLocation, setPrevLocation] = useState<number[]>([0]);
 
@@ -12,8 +12,10 @@ const Lainter = () => {
   const nextWord = () => {
 
     setLengthBack(prev => prev > 0 ? prev - 1 : prev)
-    setLocation(lengthBack <= 0 ? Math.floor(Math.random() * words.length - 1) + 1
-      : prevLocation[prevLocation.length - lengthBack])
+    setLocation({
+      page: lengthBack <= 0 ? Math.floor(Math.random() * words.length - 1) + 1
+        : prevLocation[prevLocation.length - lengthBack], path: "next"
+    })
     console.log(lengthBack)
   }
 
@@ -26,7 +28,7 @@ const Lainter = () => {
 
   useEffect(() => {
     console.log(prevLocation)
-    setLocation(prevLocation.length > 1 ? prevLocation[prevLocation.length - (lengthBack + 1)] : 0)
+    setLocation({ page: prevLocation.length > 1 ? prevLocation[prevLocation.length - (lengthBack + 1)] : 0, path: "prev" })
     console.log(prevLocation[prevLocation.length - lengthBack + 1])
     console.log(lengthBack)
     console.log("fitst use effect")
@@ -38,7 +40,7 @@ const Lainter = () => {
   }, [prevLocation])
 
   useEffect(() => {
-    setPrevLocation(prev => [...prev, location])
+    setPrevLocation(prev => location.path == "next" ? [...prev, location.page] : [...prev])
 
     console.log(prevLocation)
     console.log("second use effect")
@@ -50,7 +52,7 @@ const Lainter = () => {
         <div className="lainter_box flex items-center justify-between flex-col w-[60%]
           mt-24 bg-sky-700 rounded-3xl h-[40rem] mx-auto">
           <div className="pt-24">
-            <p className="text-5xl text-center pt-12">{words[location].word}</p>
+            <p className="text-5xl text-center pt-12">{words[location.page].word}</p>
             <p className="text-2xl text-center pt-6">In besonderen Haltungen wird es verwendet</p>
           </div>
           <div className='flex items-center justify-around pb-24 gap-12 flex-row-reverse'>
