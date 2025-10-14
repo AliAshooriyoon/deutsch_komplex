@@ -1,0 +1,3706 @@
+[
+  {
+    "word": "die Ansage, -n",
+    "meaning": "announcement"
+  },
+  {
+    "word": "der Anschluss",
+    "meaning": "connection"
+  },
+  {
+    "word": "der Anschluss",
+    "meaning": "connection"
+  },
+  {
+    "word": "an sein",
+    "meaning": "to be (switched) on"
+  },
+  {
+    "word": "antworten",
+    "meaning": "to answer"
+  },
+  {
+    "word": "die Antwort, -en",
+    "meaning": "answer"
+  },
+  {
+    "word": "die Anzeige, -n",
+    "meaning": "advert"
+  },
+  {
+    "word": "(sich) anziehen",
+    "meaning": "to get dressed"
+  },
+  {
+    "word": "das Apartment, -s",
+    "meaning": "apartment"
+  },
+  {
+    "word": "der Apfel, -Ä",
+    "meaning": "apple"
+  },
+  {
+    "word": "der Appetit",
+    "meaning": "…"
+  },
+  {
+    "word": "arbeiten",
+    "meaning": "to work"
+  },
+  {
+    "word": "die Arbeit, -en",
+    "meaning": "work"
+  },
+  {
+    "word": "arbeitslos",
+    "meaning": "unemployed"
+  },
+  {
+    "word": "der Arbeitsplatz, -ä, e",
+    "meaning": "workplace"
+  },
+  {
+    "word": "der Arm, -e",
+    "meaning": "arm"
+  },
+  {
+    "word": "der Arzt, -Ä, e",
+    "meaning": "doctor"
+  },
+  {
+    "word": "auch",
+    "meaning": "also"
+  },
+  {
+    "word": "auf",
+    "meaning": "on"
+  },
+  {
+    "word": "auf",
+    "meaning": "until"
+  },
+  {
+    "word": "auf",
+    "meaning": "in"
+  },
+  {
+    "word": "die Aufgabe, -n",
+    "meaning": "task"
+  },
+  {
+    "word": "aufhören",
+    "meaning": "to end"
+  },
+  {
+    "word": "aufhören",
+    "meaning": "to end"
+  },
+  {
+    "word": "auf sein",
+    "meaning": "to be open"
+  },
+  {
+    "word": "aufstehen",
+    "meaning": "to get up"
+  },
+  {
+    "word": "aufstehen",
+    "meaning": "to get up"
+  },
+  {
+    "word": "der Aufzug, -ü, e",
+    "meaning": "lift"
+  },
+  {
+    "word": "das Auge, -n",
+    "meaning": "eye"
+  },
+  {
+    "word": "aus",
+    "meaning": "from"
+  },
+  {
+    "word": "der Ausflug",
+    "meaning": "excursion"
+  },
+  {
+    "word": "ausfüllen",
+    "meaning": "to fill out"
+  },
+  {
+    "word": "der Ausgang",
+    "meaning": "exit"
+  },
+  {
+    "word": "die Auskunft, -ü, e",
+    "meaning": "information/details"
+  },
+  {
+    "word": "das Ausland",
+    "meaning": "abroad/overseas"
+  },
+  {
+    "word": "der Ausländer, -",
+    "meaning": "foreigner"
+  },
+  {
+    "word": "ausländisch",
+    "meaning": "foreign"
+  },
+  {
+    "word": "ausmachen",
+    "meaning": "to switch off"
+  },
+  {
+    "word": "die Aussage, -n",
+    "meaning": "statement"
+  },
+  {
+    "word": "aussehen",
+    "meaning": "to look"
+  },
+  {
+    "word": "aus sein",
+    "meaning": "to be (switched) off"
+  },
+  {
+    "word": "aus sein",
+    "meaning": "to be out"
+  },
+  {
+    "word": "aussteigen",
+    "meaning": "to alight"
+  },
+  {
+    "word": "der Ausweis",
+    "meaning": "identity card"
+  },
+  {
+    "word": "ausziehen",
+    "meaning": "to take off"
+  },
+  {
+    "word": "sich ausziehen",
+    "meaning": "to get undressed"
+  },
+  {
+    "word": "das Auto, -s",
+    "meaning": "car"
+  },
+  {
+    "word": "die Autobahn, -en",
+    "meaning": "motorway"
+  },
+  {
+    "word": "der Automat",
+    "meaning": "machine"
+  },
+  {
+    "word": "automatisch",
+    "meaning": "automatic"
+  },
+  {
+    "word": "das Baby, -s",
+    "meaning": "baby"
+  },
+  {
+    "word": "die Bäckerei",
+    "meaning": "bakery"
+  },
+  {
+    "word": "das Bad",
+    "meaning": "bathroom"
+  },
+  {
+    "word": "baden",
+    "meaning": "to bathe"
+  },
+  {
+    "word": "die Bahn",
+    "meaning": "train"
+  },
+  {
+    "word": "die Bahn",
+    "meaning": "train"
+  },
+  {
+    "word": "der Bahnhof",
+    "meaning": "train station"
+  },
+  {
+    "word": "der Bahnsteig",
+    "meaning": "platform"
+  },
+  {
+    "word": "bald",
+    "meaning": "soon"
+  },
+  {
+    "word": "der Balkon",
+    "meaning": "balcony"
+  },
+  {
+    "word": "die Banane, -n",
+    "meaning": "banana"
+  },
+  {
+    "word": "die Bank",
+    "meaning": "bank"
+  },
+  {
+    "word": "die Bank",
+    "meaning": "bench"
+  },
+  {
+    "word": "bar",
+    "meaning": "cash"
+  },
+  {
+    "word": "der Bauch",
+    "meaning": "stomach"
+  },
+  {
+    "word": "der Baum, -ä, e",
+    "meaning": "tree"
+  },
+  {
+    "word": "der Beamte, -n",
+    "meaning": "official"
+  },
+  {
+    "word": "bedeuten",
+    "meaning": "to mean"
+  },
+  {
+    "word": "beginnen",
+    "meaning": "to begin"
+  },
+  {
+    "word": "bei",
+    "meaning": "next to"
+  },
+  {
+    "word": "bei",
+    "meaning": "at"
+  },
+  {
+    "word": "bei uns",
+    "meaning": "here / where we are"
+  },
+  {
+    "word": "bei",
+    "meaning": "for"
+  },
+  {
+    "word": "beide",
+    "meaning": "both"
+  },
+  {
+    "word": "beide",
+    "meaning": "both"
+  },
+  {
+    "word": "das Bein, -e",
+    "meaning": "leg"
+  },
+  {
+    "word": "das Beispiel, -e",
+    "meaning": "example"
+  },
+  {
+    "word": "zum Beispiel/z. B.",
+    "meaning": "for example"
+  },
+  {
+    "word": "bekannt",
+    "meaning": "well known"
+  },
+  {
+    "word": "der/die Bekannte, -n",
+    "meaning": "acquaintance"
+  },
+  {
+    "word": "bekommen",
+    "meaning": "to receive"
+  },
+  {
+    "word": "bekommen",
+    "meaning": "to have"
+  },
+  {
+    "word": "bekommen",
+    "meaning": "to get"
+  },
+  {
+    "word": "benutzen",
+    "meaning": "to use"
+  },
+  {
+    "word": "der Beruf, -e",
+    "meaning": "profession"
+  },
+  {
+    "word": "der Beruf, -e",
+    "meaning": "occupation"
+  },
+  {
+    "word": "besetzt",
+    "meaning": "busy"
+  },
+  {
+    "word": "besetzt",
+    "meaning": "taken"
+  },
+  {
+    "word": "besichtigen",
+    "meaning": "to visit"
+  },
+  {
+    "word": "besser",
+    "meaning": "better"
+  },
+  {
+    "word": "best-",
+    "meaning": "best"
+  },
+  {
+    "word": "bestellen",
+    "meaning": "to order"
+  },
+  {
+    "word": "bestellen",
+    "meaning": "to order"
+  },
+  {
+    "word": "besuchen",
+    "meaning": "to visit"
+  },
+  {
+    "word": "das Bett, -en",
+    "meaning": "bed"
+  },
+  {
+    "word": "bezahlen",
+    "meaning": "to pay"
+  },
+  {
+    "word": "das Bier",
+    "meaning": "beer"
+  },
+  {
+    "word": "das Bild, -er",
+    "meaning": "picture"
+  },
+  {
+    "word": "billig",
+    "meaning": "cheap"
+  },
+  {
+    "word": "die Birne, -n",
+    "meaning": "pear"
+  },
+  {
+    "word": "bis",
+    "meaning": "to (as far as)"
+  },
+  {
+    "word": "bis",
+    "meaning": "until"
+  },
+  {
+    "word": "bisschen",
+    "meaning": "(a) little"
+  },
+  {
+    "word": "bitte",
+    "meaning": "please"
+  },
+  {
+    "word": "bitte",
+    "meaning": "please"
+  },
+  {
+    "word": "die Bitte, -n",
+    "meaning": "request"
+  },
+  {
+    "word": "bitten",
+    "meaning": "to ask"
+  },
+  {
+    "word": "bitter",
+    "meaning": "bitter"
+  },
+  {
+    "word": "bleiben",
+    "meaning": "to stay"
+  },
+  {
+    "word": "bleiben",
+    "meaning": "to stay"
+  },
+  {
+    "word": "der Bleistift, -e",
+    "meaning": "pencil"
+  },
+  {
+    "word": "der Blick",
+    "meaning": "view"
+  },
+  {
+    "word": "die Blume, -n",
+    "meaning": "flower"
+  },
+  {
+    "word": "der Bogen",
+    "meaning": "sheet"
+  },
+  {
+    "word": "böse",
+    "meaning": "angry"
+  },
+  {
+    "word": "brauchen",
+    "meaning": "to need"
+  },
+  {
+    "word": "breit",
+    "meaning": "wide"
+  },
+  {
+    "word": "der Brief, -e",
+    "meaning": "letter"
+  },
+  {
+    "word": "die Briefmarke, -n",
+    "meaning": "(postage) stamp"
+  },
+  {
+    "word": "bringen",
+    "meaning": "to bring"
+  },
+  {
+    "word": "bringen",
+    "meaning": "to take"
+  },
+  {
+    "word": "das Brot, -e",
+    "meaning": "bread"
+  },
+  {
+    "word": "das Brot, -e",
+    "meaning": "bread roll"
+  },
+  {
+    "word": "das Brötchen, –",
+    "meaning": "bread roll"
+  },
+  {
+    "word": "der Bruder, -ü",
+    "meaning": "brother"
+  },
+  {
+    "word": "das Buch, -ü, er",
+    "meaning": "book"
+  },
+  {
+    "word": "das Wörterbuch, -ü, er",
+    "meaning": "dictionary"
+  },
+  {
+    "word": "der Buchstabe, -n",
+    "meaning": "letter (character)"
+  },
+  {
+    "word": "buchstabieren",
+    "meaning": "to spell"
+  },
+  {
+    "word": "der Bus, -se",
+    "meaning": "bus"
+  },
+  {
+    "word": "die Butter",
+    "meaning": "butter"
+  },
+  {
+    "word": "das Café, -s",
+    "meaning": "cafe"
+  },
+  {
+    "word": "die CD, -s",
+    "meaning": "CD"
+  },
+  {
+    "word": "der Chef",
+    "meaning": "boss"
+  },
+  {
+    "word": "circa/ca.",
+    "meaning": "approximately"
+  },
+  {
+    "word": "der Computer, –",
+    "meaning": "computer"
+  },
+  {
+    "word": "da",
+    "meaning": "there"
+  },
+  {
+    "word": "da",
+    "meaning": "here"
+  },
+  {
+    "word": "da",
+    "meaning": "there"
+  },
+  {
+    "word": "da",
+    "meaning": "here"
+  },
+  {
+    "word": "die Dame, -n",
+    "meaning": "lady"
+  },
+  {
+    "word": "die Dame, -n",
+    "meaning": "lady"
+  },
+  {
+    "word": "daneben",
+    "meaning": "next to it"
+  },
+  {
+    "word": "danken",
+    "meaning": "to thank"
+  },
+  {
+    "word": "der Dank",
+    "meaning": "thanks"
+  },
+  {
+    "word": "der Dank",
+    "meaning": "thanks"
+  },
+  {
+    "word": "danke",
+    "meaning": "thank you"
+  },
+  {
+    "word": "dann",
+    "meaning": "then (afterwards)"
+  },
+  {
+    "word": "das Datum",
+    "meaning": "date"
+  },
+  {
+    "word": "dauern",
+    "meaning": "to take (duration)"
+  },
+  {
+    "word": "dein-",
+    "meaning": "your"
+  },
+  {
+    "word": "dein-",
+    "meaning": "yourself"
+  },
+  {
+    "word": "denn",
+    "meaning": "because"
+  },
+  {
+    "word": "das",
+    "meaning": "that"
+  },
+  {
+    "word": "das",
+    "meaning": "the"
+  },
+  {
+    "word": "der",
+    "meaning": "the"
+  },
+  {
+    "word": "die",
+    "meaning": "the"
+  },
+  {
+    "word": "dich",
+    "meaning": "you"
+  },
+  {
+    "word": "dies-",
+    "meaning": "this"
+  },
+  {
+    "word": "dir",
+    "meaning": "you"
+  },
+  {
+    "word": "die Disco",
+    "meaning": "disco"
+  },
+  {
+    "word": "der Doktor",
+    "meaning": "doctor"
+  },
+  {
+    "word": "das Doppelzimmer",
+    "meaning": "double room"
+  },
+  {
+    "word": "das Dorf, -ö, er",
+    "meaning": "village"
+  },
+  {
+    "word": "dort",
+    "meaning": "there"
+  },
+  {
+    "word": "dorthin",
+    "meaning": "there (to that place, in that direction)"
+  },
+  {
+    "word": "dorther",
+    "meaning": "from there"
+  },
+  {
+    "word": "draußen",
+    "meaning": "outside"
+  },
+  {
+    "word": "drucken",
+    "meaning": "to print"
+  },
+  {
+    "word": "der Drucker, –",
+    "meaning": "printer"
+  },
+  {
+    "word": "drücken",
+    "meaning": "to press"
+  },
+  {
+    "word": "durch",
+    "meaning": "through"
+  },
+  {
+    "word": "die Durchsage, -n",
+    "meaning": "announcement"
+  },
+  {
+    "word": "dürfen",
+    "meaning": "to be allowed"
+  },
+  {
+    "word": "dürfen",
+    "meaning": "to be allowed"
+  },
+  {
+    "word": "dürfen",
+    "meaning": "to be allowed"
+  },
+  {
+    "word": "der Durst",
+    "meaning": "thirst"
+  },
+  {
+    "word": "(sich) duschen",
+    "meaning": "to shower"
+  },
+  {
+    "word": "die Dusche",
+    "meaning": "shower"
+  },
+  {
+    "word": "die Ecke, -n",
+    "meaning": "corner"
+  },
+  {
+    "word": "die Ehefrau, -en/",
+    "meaning": "wife"
+  },
+  {
+    "word": "der Ehemann, ä, er",
+    "meaning": "husband"
+  },
+  {
+    "word": "das Ei, -er",
+    "meaning": "egg"
+  },
+  {
+    "word": "eilig",
+    "meaning": "…"
+  },
+  {
+    "word": "ein-",
+    "meaning": "one / a"
+  },
+  {
+    "word": "ein-",
+    "meaning": "someone"
+  },
+  {
+    "word": "einfach",
+    "meaning": "simple"
+  },
+  {
+    "word": "einfach",
+    "meaning": "a single (ticket)"
+  },
+  {
+    "word": "einfach",
+    "meaning": "simple"
+  },
+  {
+    "word": "der Eingang",
+    "meaning": "entrance"
+  },
+  {
+    "word": "einkaufen",
+    "meaning": "to go shopping"
+  },
+  {
+    "word": "einladen",
+    "meaning": "to invite / treat"
+  },
+  {
+    "word": "die Einladung",
+    "meaning": "invitation"
+  },
+  {
+    "word": "noch einmal",
+    "meaning": "again"
+  },
+  {
+    "word": "einmal",
+    "meaning": "once"
+  },
+  {
+    "word": "einsteigen",
+    "meaning": "to get on (board)"
+  },
+  {
+    "word": "der Eintritt",
+    "meaning": "entry"
+  },
+  {
+    "word": "das Einzelzimmer",
+    "meaning": "single room"
+  },
+  {
+    "word": "die Eltern (pl.)",
+    "meaning": "parents"
+  },
+  {
+    "word": "die E-Mail, -s",
+    "meaning": "email"
+  },
+  {
+    "word": "der Empfänger, –",
+    "meaning": "recipient"
+  },
+  {
+    "word": "empfehlen",
+    "meaning": "to recommend"
+  },
+  {
+    "word": "enden",
+    "meaning": "to end"
+  },
+  {
+    "word": "das Ende",
+    "meaning": "end"
+  },
+  {
+    "word": "das Ende",
+    "meaning": "end"
+  },
+  {
+    "word": "entschuldigen",
+    "meaning": "to excuse"
+  },
+  {
+    "word": "die Entschuldigung",
+    "meaning": "…"
+  },
+  {
+    "word": "er",
+    "meaning": "he"
+  },
+  {
+    "word": "das Ergebnis, -se",
+    "meaning": "result"
+  },
+  {
+    "word": "erklären",
+    "meaning": "to explain"
+  },
+  {
+    "word": "erlauben",
+    "meaning": "allow"
+  },
+  {
+    "word": "der Erwachsene, -n",
+    "meaning": "adult"
+  },
+  {
+    "word": "erzählen",
+    "meaning": "to tell"
+  },
+  {
+    "word": "es",
+    "meaning": "it"
+  },
+  {
+    "word": "essen",
+    "meaning": "to eat"
+  },
+  {
+    "word": "das Essen",
+    "meaning": "food"
+  },
+  {
+    "word": "euer",
+    "meaning": "your [pl.]"
+  },
+  {
+    "word": "fahren",
+    "meaning": "to travel"
+  },
+  {
+    "word": "der Fahrer",
+    "meaning": "driver"
+  },
+  {
+    "word": "die Fahrkarte, -n",
+    "meaning": "(transport) ticket"
+  },
+  {
+    "word": "das Fahrrad, -ä, er",
+    "meaning": "bicycle"
+  },
+  {
+    "word": "falsch",
+    "meaning": "wrong / incorrect"
+  },
+  {
+    "word": "die Familie, -n",
+    "meaning": "family"
+  },
+  {
+    "word": "der Familienname",
+    "meaning": "surname"
+  },
+  {
+    "word": "der Familienstand",
+    "meaning": "family/marital status"
+  },
+  {
+    "word": "die Farbe, -n",
+    "meaning": "colour"
+  },
+  {
+    "word": "das Fax, -e",
+    "meaning": "fax"
+  },
+  {
+    "word": "der Feierabend",
+    "meaning": "end of work/home time"
+  },
+  {
+    "word": "der Feiertag",
+    "meaning": "bank holiday"
+  },
+  {
+    "word": "feiern",
+    "meaning": "to celebrate"
+  },
+  {
+    "word": "fehlen",
+    "meaning": "to be absent"
+  },
+  {
+    "word": "fehlen",
+    "meaning": "to be missing"
+  },
+  {
+    "word": "der Fehler, –",
+    "meaning": "mistake"
+  },
+  {
+    "word": "fernsehen",
+    "meaning": "to watch TV"
+  },
+  {
+    "word": "fertig",
+    "meaning": "finished / ready / done"
+  },
+  {
+    "word": "fertig",
+    "meaning": "finished / ready / done"
+  },
+  {
+    "word": "das Feuer",
+    "meaning": "fire / lighter"
+  },
+  {
+    "word": "das Fieber",
+    "meaning": "fever"
+  },
+  {
+    "word": "der Film, -e",
+    "meaning": "film"
+  },
+  {
+    "word": "finden",
+    "meaning": "to find"
+  },
+  {
+    "word": "die Firma",
+    "meaning": "company"
+  },
+  {
+    "word": "der Fisch, -e",
+    "meaning": "fish"
+  },
+  {
+    "word": "die Flasche, -n",
+    "meaning": "bottle"
+  },
+  {
+    "word": "das Fleisch",
+    "meaning": "meat"
+  },
+  {
+    "word": "fliegen",
+    "meaning": "to fly"
+  },
+  {
+    "word": "abfliegen",
+    "meaning": "to depart (by air)"
+  },
+  {
+    "word": "der Abflug",
+    "meaning": "(flight) departure"
+  },
+  {
+    "word": "der Flughafen",
+    "meaning": "airport"
+  },
+  {
+    "word": "das Flugzeug",
+    "meaning": "aeroplane"
+  },
+  {
+    "word": "das Formular, -e",
+    "meaning": "form"
+  },
+  {
+    "word": "das Foto, -s",
+    "meaning": "photograph"
+  },
+  {
+    "word": "fragen",
+    "meaning": "to ask"
+  },
+  {
+    "word": "die Frage, -n",
+    "meaning": "question"
+  },
+  {
+    "word": "die Frau",
+    "meaning": "Ms"
+  },
+  {
+    "word": "die Frau",
+    "meaning": "woman"
+  },
+  {
+    "word": "die Frauen",
+    "meaning": "women"
+  },
+  {
+    "word": "frei",
+    "meaning": "free"
+  },
+  {
+    "word": "die Freizeit",
+    "meaning": "free time"
+  },
+  {
+    "word": "fremd",
+    "meaning": "foreign"
+  },
+  {
+    "word": "(sich) freuen",
+    "meaning": "to look forward"
+  },
+  {
+    "word": "der Freund, -e",
+    "meaning": "friend"
+  },
+  {
+    "word": "die Freundin",
+    "meaning": "friend / girlfriend"
+  },
+  {
+    "word": "früher",
+    "meaning": "earlier / in the past"
+  },
+  {
+    "word": "frühstücken",
+    "meaning": "to have breakfast"
+  },
+  {
+    "word": "das Frühstück",
+    "meaning": "breakfast"
+  },
+  {
+    "word": "die Führung",
+    "meaning": "tour"
+  },
+  {
+    "word": "für",
+    "meaning": "for"
+  },
+  {
+    "word": "für",
+    "meaning": "for"
+  },
+  {
+    "word": "für",
+    "meaning": "for"
+  },
+  {
+    "word": "der Fuß, -ü, e",
+    "meaning": "foot"
+  },
+  {
+    "word": "der Fußball",
+    "meaning": "football"
+  },
+  {
+    "word": "der Garten",
+    "meaning": "garden"
+  },
+  {
+    "word": "der Gast, -ä, e",
+    "meaning": "guest"
+  },
+  {
+    "word": "geben",
+    "meaning": "to give"
+  },
+  {
+    "word": "es gibt",
+    "meaning": "there is/are"
+  },
+  {
+    "word": "geboren",
+    "meaning": "born"
+  },
+  {
+    "word": "das Geburtsjahr",
+    "meaning": "birth year"
+  },
+  {
+    "word": "der Geburtsort",
+    "meaning": "birthplace"
+  },
+  {
+    "word": "der Geburtstag",
+    "meaning": "birthday"
+  },
+  {
+    "word": "gefallen",
+    "meaning": "to like"
+  },
+  {
+    "word": "gegen",
+    "meaning": "into"
+  },
+  {
+    "word": "gegen",
+    "meaning": "against"
+  },
+  {
+    "word": "gegen",
+    "meaning": "against"
+  },
+  {
+    "word": "gehen",
+    "meaning": "to work/function"
+  },
+  {
+    "word": "gehen",
+    "meaning": "to go"
+  },
+  {
+    "word": "gehen",
+    "meaning": "to go"
+  },
+  {
+    "word": "gehen",
+    "meaning": "to go"
+  },
+  {
+    "word": "gehen",
+    "meaning": "to be okay"
+  },
+  {
+    "word": "gehören",
+    "meaning": "to belong"
+  },
+  {
+    "word": "das Geld",
+    "meaning": "money"
+  },
+  {
+    "word": "das Gemüse",
+    "meaning": "vegetables"
+  },
+  {
+    "word": "das Gepäck",
+    "meaning": "luggage"
+  },
+  {
+    "word": "gerade",
+    "meaning": "now"
+  },
+  {
+    "word": "geradeaus",
+    "meaning": "straight on"
+  },
+  {
+    "word": "gern(e)",
+    "meaning": "…"
+  },
+  {
+    "word": "das Geschäft, -e",
+    "meaning": "shop"
+  },
+  {
+    "word": "das Geschenk, -e",
+    "meaning": "present"
+  },
+  {
+    "word": "die Geschwister (pl.)",
+    "meaning": "sibling"
+  },
+  {
+    "word": "das Gespräch, -e",
+    "meaning": "conversation/talk/call"
+  },
+  {
+    "word": "gestern",
+    "meaning": "yesterday"
+  },
+  {
+    "word": "gestorben",
+    "meaning": "died"
+  },
+  {
+    "word": "das Getränk, -e",
+    "meaning": "drink"
+  },
+  {
+    "word": "das Gewicht",
+    "meaning": "weight"
+  },
+  {
+    "word": "gewinnen",
+    "meaning": "to win"
+  },
+  {
+    "word": "das Glas, -ä, er",
+    "meaning": "glass"
+  },
+  {
+    "word": "das Glas, -ä, er",
+    "meaning": "glasses"
+  },
+  {
+    "word": "glauben",
+    "meaning": "to believe"
+  },
+  {
+    "word": "glauben",
+    "meaning": "to think"
+  },
+  {
+    "word": "gleich",
+    "meaning": "same"
+  },
+  {
+    "word": "gleich",
+    "meaning": "same"
+  },
+  {
+    "word": "gleich",
+    "meaning": "now"
+  },
+  {
+    "word": "das Gleis, -e",
+    "meaning": "platform"
+  },
+  {
+    "word": "das Glück",
+    "meaning": "luck"
+  },
+  {
+    "word": "glücklich",
+    "meaning": "happily"
+  },
+  {
+    "word": "der Glückwunsch",
+    "meaning": "congratulations"
+  },
+  {
+    "word": "Grad (Celsius)",
+    "meaning": "degrees"
+  },
+  {
+    "word": "gratulieren",
+    "meaning": "to congratulate"
+  },
+  {
+    "word": "grillen",
+    "meaning": "to (have a) barbecue"
+  },
+  {
+    "word": "groß",
+    "meaning": "tall"
+  },
+  {
+    "word": "groß",
+    "meaning": "large"
+  },
+  {
+    "word": "die Größe",
+    "meaning": "size"
+  },
+  {
+    "word": "die Großeltern (pl.)",
+    "meaning": "grandparents"
+  },
+  {
+    "word": "die Großmutter",
+    "meaning": "grandmother"
+  },
+  {
+    "word": "der Großvater",
+    "meaning": "grandfather"
+  },
+  {
+    "word": "die Gruppe, -n",
+    "meaning": "group"
+  },
+  {
+    "word": "der Gruß, -ü, e",
+    "meaning": "regards"
+  },
+  {
+    "word": "der Gruß, -ü, e",
+    "meaning": "regards"
+  },
+  {
+    "word": "gültig",
+    "meaning": "valid"
+  },
+  {
+    "word": "günstig",
+    "meaning": "cheap"
+  },
+  {
+    "word": "gut",
+    "meaning": "good"
+  },
+  {
+    "word": "gut",
+    "meaning": "good"
+  },
+  {
+    "word": "gut",
+    "meaning": "good"
+  },
+  {
+    "word": "gut",
+    "meaning": "…"
+  },
+  {
+    "word": "gut",
+    "meaning": "…"
+  },
+  {
+    "word": "das Haar, -e",
+    "meaning": "hair"
+  },
+  {
+    "word": "haben",
+    "meaning": "to have"
+  },
+  {
+    "word": "das Hähnchen, -",
+    "meaning": "chicken"
+  },
+  {
+    "word": "die Halbpension",
+    "meaning": "board (dining)"
+  },
+  {
+    "word": "die Halle",
+    "meaning": "hall"
+  },
+  {
+    "word": "hallo",
+    "meaning": "hello"
+  },
+  {
+    "word": "halten",
+    "meaning": "to stop"
+  },
+  {
+    "word": "die Haltestelle",
+    "meaning": "(public transport) stop"
+  },
+  {
+    "word": "die Hand, -ä, e",
+    "meaning": "hand"
+  },
+  {
+    "word": "das Handy, -s",
+    "meaning": "mobile telephone"
+  },
+  {
+    "word": "das Haus, -ä, er",
+    "meaning": "house / building"
+  },
+  {
+    "word": "das Haus, -ä, er",
+    "meaning": "home"
+  },
+  {
+    "word": "das Haus, -ä, er",
+    "meaning": "home"
+  },
+  {
+    "word": "die Hausaufgabe,-n",
+    "meaning": "homework"
+  },
+  {
+    "word": "die Hausfrau, -en/",
+    "meaning": "housewife"
+  },
+  {
+    "word": "der Hausmann",
+    "meaning": "househusband"
+  },
+  {
+    "word": "die Heimat",
+    "meaning": "home"
+  },
+  {
+    "word": "heiraten",
+    "meaning": "to marry"
+  },
+  {
+    "word": "heißen",
+    "meaning": "to be called"
+  },
+  {
+    "word": "heißen",
+    "meaning": "to be called"
+  },
+  {
+    "word": "helfen",
+    "meaning": "to help"
+  },
+  {
+    "word": "hell",
+    "meaning": "light"
+  },
+  {
+    "word": "der Herd",
+    "meaning": "stove"
+  },
+  {
+    "word": "der Herr, -en",
+    "meaning": "Mister"
+  },
+  {
+    "word": "herzlich",
+    "meaning": "…"
+  },
+  {
+    "word": "heute",
+    "meaning": "today"
+  },
+  {
+    "word": "hier",
+    "meaning": "here"
+  },
+  {
+    "word": "hier",
+    "meaning": "here"
+  },
+  {
+    "word": "die Hilfe",
+    "meaning": "help"
+  },
+  {
+    "word": "die Hilfe",
+    "meaning": "help"
+  },
+  {
+    "word": "hinten",
+    "meaning": "at/in the back"
+  },
+  {
+    "word": "das Hobby, -s",
+    "meaning": "hobby"
+  },
+  {
+    "word": "hoch",
+    "meaning": "high"
+  },
+  {
+    "word": "die Hochzeit",
+    "meaning": "marriage"
+  },
+  {
+    "word": "holen",
+    "meaning": "to fetch"
+  },
+  {
+    "word": "hören",
+    "meaning": "to listen"
+  },
+  {
+    "word": "hören",
+    "meaning": "to hear"
+  },
+  {
+    "word": "das Hotel, -s",
+    "meaning": "hotel"
+  },
+  {
+    "word": "der Hund, -e",
+    "meaning": "dog"
+  },
+  {
+    "word": "der Hunger",
+    "meaning": "hunger"
+  },
+  {
+    "word": "ich",
+    "meaning": "I"
+  },
+  {
+    "word": "ihm/ihr",
+    "meaning": "him/her"
+  },
+  {
+    "word": "ihn",
+    "meaning": "him"
+  },
+  {
+    "word": "immer",
+    "meaning": "always"
+  },
+  {
+    "word": "in",
+    "meaning": "in"
+  },
+  {
+    "word": "in",
+    "meaning": "in"
+  },
+  {
+    "word": "in",
+    "meaning": "in"
+  },
+  {
+    "word": "in",
+    "meaning": "to"
+  },
+  {
+    "word": "die Information, -en",
+    "meaning": "information point"
+  },
+  {
+    "word": "die Information, -en",
+    "meaning": "information"
+  },
+  {
+    "word": "international",
+    "meaning": "international"
+  },
+  {
+    "word": "das Internet",
+    "meaning": "internet"
+  },
+  {
+    "word": "ja",
+    "meaning": "yes"
+  },
+  {
+    "word": "die Jacke, -n",
+    "meaning": "jacket"
+  },
+  {
+    "word": "jed-",
+    "meaning": "every"
+  },
+  {
+    "word": "jetzt",
+    "meaning": "now"
+  },
+  {
+    "word": "der Job, -s",
+    "meaning": "job"
+  },
+  {
+    "word": "der Jugendliche, -n",
+    "meaning": "youth/young person"
+  },
+  {
+    "word": "jung",
+    "meaning": "young"
+  },
+  {
+    "word": "der Junge, -n",
+    "meaning": "boy"
+  },
+  {
+    "word": "der Kaffee",
+    "meaning": "coffee"
+  },
+  {
+    "word": "kaputt",
+    "meaning": "…"
+  },
+  {
+    "word": "kaputt",
+    "meaning": "broken"
+  },
+  {
+    "word": "die Karte, -n",
+    "meaning": "card"
+  },
+  {
+    "word": "die Karte, -n",
+    "meaning": "card"
+  },
+  {
+    "word": "die Karte, -n",
+    "meaning": "menu"
+  },
+  {
+    "word": "(Kredit)-Karte, -n",
+    "meaning": "(credit) card"
+  },
+  {
+    "word": "die Kartoffel, -n",
+    "meaning": "potato"
+  },
+  {
+    "word": "die Kasse",
+    "meaning": "till"
+  },
+  {
+    "word": "kaufen",
+    "meaning": "to buy"
+  },
+  {
+    "word": "kein",
+    "meaning": "no/none"
+  },
+  {
+    "word": "kennen",
+    "meaning": "to know"
+  },
+  {
+    "word": "kennenlernen",
+    "meaning": "to get to know"
+  },
+  {
+    "word": "das Kind, -er",
+    "meaning": "child"
+  },
+  {
+    "word": "der Kindergarten",
+    "meaning": "kindergarten"
+  },
+  {
+    "word": "das Kino, -s",
+    "meaning": "cinema"
+  },
+  {
+    "word": "der Kiosk",
+    "meaning": "kiosk"
+  },
+  {
+    "word": "klar",
+    "meaning": "of course / naturally"
+  },
+  {
+    "word": "die Klasse",
+    "meaning": "class"
+  },
+  {
+    "word": "die Klasse",
+    "meaning": "class"
+  },
+  {
+    "word": "die Kleidung",
+    "meaning": "clothes"
+  },
+  {
+    "word": "klein",
+    "meaning": "small"
+  },
+  {
+    "word": "kochen",
+    "meaning": "to cook"
+  },
+  {
+    "word": "der Koffer, –",
+    "meaning": "suitcase"
+  },
+  {
+    "word": "der Kollege, -n",
+    "meaning": "colleague"
+  },
+  {
+    "word": "kommen",
+    "meaning": "to come"
+  },
+  {
+    "word": "kommen",
+    "meaning": "to come"
+  },
+  {
+    "word": "können",
+    "meaning": "to be able to"
+  },
+  {
+    "word": "können",
+    "meaning": "to be able to"
+  },
+  {
+    "word": "das Konto",
+    "meaning": "account"
+  },
+  {
+    "word": "der Kopf",
+    "meaning": "head"
+  },
+  {
+    "word": "kosten",
+    "meaning": "to cost"
+  },
+  {
+    "word": "krank",
+    "meaning": "ill"
+  },
+  {
+    "word": "kriegen",
+    "meaning": "to get"
+  },
+  {
+    "word": "die Küche",
+    "meaning": "kitchen"
+  },
+  {
+    "word": "der Kuchen",
+    "meaning": "cake"
+  },
+  {
+    "word": "der Kugelschreiber",
+    "meaning": "ball-point pen"
+  },
+  {
+    "word": "der Kühlschrank",
+    "meaning": "fridge"
+  },
+  {
+    "word": "kulturell interessiert",
+    "meaning": "interested in culture"
+  },
+  {
+    "word": "kulturell",
+    "meaning": "cultural"
+  },
+  {
+    "word": "sich kümmern",
+    "meaning": "to look after"
+  },
+  {
+    "word": "der Kunde, -n",
+    "meaning": "customer"
+  },
+  {
+    "word": "der Kurs, -e",
+    "meaning": "course"
+  },
+  {
+    "word": "kurz",
+    "meaning": "short"
+  },
+  {
+    "word": "lachen",
+    "meaning": "to laugh"
+  },
+  {
+    "word": "der Laden, -ä",
+    "meaning": "shop"
+  },
+  {
+    "word": "das Land, -ä, er",
+    "meaning": "country"
+  },
+  {
+    "word": "lang",
+    "meaning": "long"
+  },
+  {
+    "word": "lange",
+    "meaning": "long"
+  },
+  {
+    "word": "langsam",
+    "meaning": "slow"
+  },
+  {
+    "word": "laufen",
+    "meaning": "to walk/run"
+  },
+  {
+    "word": "laut",
+    "meaning": "loud"
+  },
+  {
+    "word": "leben",
+    "meaning": "to live"
+  },
+  {
+    "word": "leben",
+    "meaning": "to live"
+  },
+  {
+    "word": "das Leben",
+    "meaning": "life"
+  },
+  {
+    "word": "die Lebensmittel (pl.)",
+    "meaning": "food"
+  },
+  {
+    "word": "ledig",
+    "meaning": "single"
+  },
+  {
+    "word": "legen",
+    "meaning": "to put"
+  },
+  {
+    "word": "der Lehrer, –",
+    "meaning": "teacher"
+  },
+  {
+    "word": "leicht",
+    "meaning": "light (weight)"
+  },
+  {
+    "word": "leicht",
+    "meaning": "easy"
+  },
+  {
+    "word": "leider",
+    "meaning": "unfortunately"
+  },
+  {
+    "word": "leise",
+    "meaning": "quiet"
+  },
+  {
+    "word": "lernen",
+    "meaning": "to learn"
+  },
+  {
+    "word": "lesen",
+    "meaning": "to read"
+  },
+  {
+    "word": "letzt-",
+    "meaning": "last"
+  },
+  {
+    "word": "die Leute (pl.)",
+    "meaning": "people"
+  },
+  {
+    "word": "das Licht",
+    "meaning": "light"
+  },
+  {
+    "word": "lieb-",
+    "meaning": "dear"
+  },
+  {
+    "word": "lieben",
+    "meaning": "to love"
+  },
+  {
+    "word": "lieber",
+    "meaning": "to prefer"
+  },
+  {
+    "word": "Lieblings-",
+    "meaning": "favourite"
+  },
+  {
+    "word": "das Lied, -er",
+    "meaning": "song"
+  },
+  {
+    "word": "liegen",
+    "meaning": "to lie"
+  },
+  {
+    "word": "liegen",
+    "meaning": "to lie / be located"
+  },
+  {
+    "word": "links",
+    "meaning": "left"
+  },
+  {
+    "word": "der Lkw, -s",
+    "meaning": "HGV"
+  },
+  {
+    "word": "das Lokal",
+    "meaning": "pub"
+  },
+  {
+    "word": "die Lösung, -en",
+    "meaning": "solution"
+  },
+  {
+    "word": "lustig",
+    "meaning": "funny"
+  },
+  {
+    "word": "machen",
+    "meaning": "to do"
+  },
+  {
+    "word": "machen",
+    "meaning": "to make"
+  },
+  {
+    "word": "machen",
+    "meaning": "to come to"
+  },
+  {
+    "word": "machen",
+    "meaning": "…"
+  },
+  {
+    "word": "das Mädchen, –",
+    "meaning": "girl"
+  },
+  {
+    "word": "man",
+    "meaning": "one / impersonal ‘you’"
+  },
+  {
+    "word": "der Mann, -ä, er",
+    "meaning": "man / husband"
+  },
+  {
+    "word": "männlich",
+    "meaning": "male"
+  },
+  {
+    "word": "die Maschine, -n",
+    "meaning": "machine"
+  },
+  {
+    "word": "das Meer",
+    "meaning": "sea"
+  },
+  {
+    "word": "mehr",
+    "meaning": "more"
+  },
+  {
+    "word": "mein",
+    "meaning": "my"
+  },
+  {
+    "word": "meist-",
+    "meaning": "most"
+  },
+  {
+    "word": "der Mensch, -en",
+    "meaning": "people"
+  },
+  {
+    "word": "mieten",
+    "meaning": "to rent"
+  },
+  {
+    "word": "die Miete",
+    "meaning": "rent"
+  },
+  {
+    "word": "die Milch",
+    "meaning": "milk"
+  },
+  {
+    "word": "mit",
+    "meaning": "with"
+  },
+  {
+    "word": "mitbringen",
+    "meaning": "to bring with one / to get (sth. for sb.)"
+  },
+  {
+    "word": "mitkommen",
+    "meaning": "to come with"
+  },
+  {
+    "word": "mitmachen",
+    "meaning": "to join in"
+  },
+  {
+    "word": "mitnehmen",
+    "meaning": "to take with"
+  },
+  {
+    "word": "die Mitte",
+    "meaning": "middle"
+  },
+  {
+    "word": "die Möbel (pl.)",
+    "meaning": "furniture"
+  },
+  {
+    "word": "möchten",
+    "meaning": "would like to"
+  },
+  {
+    "word": "mögen",
+    "meaning": "to like"
+  },
+  {
+    "word": "möglich",
+    "meaning": "possible"
+  },
+  {
+    "word": "der Moment",
+    "meaning": "moment"
+  },
+  {
+    "word": "der Moment",
+    "meaning": "moment"
+  },
+  {
+    "word": "morgen",
+    "meaning": "tomorrow"
+  },
+  {
+    "word": "müde",
+    "meaning": "tired"
+  },
+  {
+    "word": "der Mund",
+    "meaning": "mouth"
+  },
+  {
+    "word": "müssen",
+    "meaning": "to have to"
+  },
+  {
+    "word": "die Mutter, -ü",
+    "meaning": "mother"
+  },
+  {
+    "word": "nach",
+    "meaning": "to (somewhere)"
+  },
+  {
+    "word": "nach",
+    "meaning": "to (somewhere)"
+  },
+  {
+    "word": "nach",
+    "meaning": "after / past (time)"
+  },
+  {
+    "word": "nächst-",
+    "meaning": "next"
+  },
+  {
+    "word": "der Name, -n",
+    "meaning": "name"
+  },
+  {
+    "word": "der Name, -n",
+    "meaning": "name"
+  },
+  {
+    "word": "nehmen",
+    "meaning": "to have (food/drink)"
+  },
+  {
+    "word": "nehmen",
+    "meaning": "to take"
+  },
+  {
+    "word": "nein",
+    "meaning": "no"
+  },
+  {
+    "word": "neu",
+    "meaning": "new"
+  },
+  {
+    "word": "neu",
+    "meaning": "new"
+  },
+  {
+    "word": "nicht",
+    "meaning": "not"
+  },
+  {
+    "word": "nicht",
+    "meaning": "no"
+  },
+  {
+    "word": "nichts",
+    "meaning": "…"
+  },
+  {
+    "word": "nichts",
+    "meaning": "nothing"
+  },
+  {
+    "word": "nie",
+    "meaning": "never"
+  },
+  {
+    "word": "noch",
+    "meaning": "still"
+  },
+  {
+    "word": "noch",
+    "meaning": "another"
+  },
+  {
+    "word": "noch",
+    "meaning": "still"
+  },
+  {
+    "word": "normal",
+    "meaning": "normal"
+  },
+  {
+    "word": "die Nummer, -n",
+    "meaning": "number"
+  },
+  {
+    "word": "die Nummer, -n",
+    "meaning": "number"
+  },
+  {
+    "word": "nur",
+    "meaning": "only"
+  },
+  {
+    "word": "oben",
+    "meaning": "upstairs"
+  },
+  {
+    "word": "das Obst",
+    "meaning": "fruit"
+  },
+  {
+    "word": "oder",
+    "meaning": "or"
+  },
+  {
+    "word": "öffnen",
+    "meaning": "to open"
+  },
+  {
+    "word": "geöffnet",
+    "meaning": "open"
+  },
+  {
+    "word": "oft",
+    "meaning": "often"
+  },
+  {
+    "word": "ohne",
+    "meaning": "without"
+  },
+  {
+    "word": "das Öl",
+    "meaning": "oil"
+  },
+  {
+    "word": "die Oma, -s",
+    "meaning": "grandmother"
+  },
+  {
+    "word": "der Opa, -s",
+    "meaning": "grandfather"
+  },
+  {
+    "word": "die Ordnung",
+    "meaning": "…"
+  },
+  {
+    "word": "der Ort, -e",
+    "meaning": "location / place"
+  },
+  {
+    "word": "das Papier",
+    "meaning": "paper"
+  },
+  {
+    "word": "die Papiere (pl.)",
+    "meaning": "papers"
+  },
+  {
+    "word": "der Partner, -/",
+    "meaning": "(male) partner"
+  },
+  {
+    "word": "die Partnerin, -nen",
+    "meaning": "(female) partner"
+  },
+  {
+    "word": "die Party",
+    "meaning": "party"
+  },
+  {
+    "word": "der Pass, -ä, e",
+    "meaning": "passport"
+  },
+  {
+    "word": "die Pause, -n",
+    "meaning": "break"
+  },
+  {
+    "word": "der Plan, -ä, e",
+    "meaning": "map / plan"
+  },
+  {
+    "word": "der Platz, -ä, e",
+    "meaning": "seat"
+  },
+  {
+    "word": "der Platz, -ä, e",
+    "meaning": "seat"
+  },
+  {
+    "word": "der Platz, -ä, e",
+    "meaning": "square"
+  },
+  {
+    "word": "die Polizei",
+    "meaning": "police"
+  },
+  {
+    "word": "die Pommes frites (pl.)",
+    "meaning": "chips"
+  },
+  {
+    "word": "die Post",
+    "meaning": "post office"
+  },
+  {
+    "word": "die Post",
+    "meaning": "post / mail"
+  },
+  {
+    "word": "die Postleitzahl",
+    "meaning": "postcode"
+  },
+  {
+    "word": "das Praktikum",
+    "meaning": "internship"
+  },
+  {
+    "word": "die Praxis",
+    "meaning": "practice"
+  },
+  {
+    "word": "der Preis, -e",
+    "meaning": "price"
+  },
+  {
+    "word": "das Problem, -e",
+    "meaning": "problem"
+  },
+  {
+    "word": "der Prospekt, -e",
+    "meaning": "brochure"
+  },
+  {
+    "word": "die Prüfung",
+    "meaning": "examination"
+  },
+  {
+    "word": "pünktlich",
+    "meaning": "sharp"
+  },
+  {
+    "word": "pünktlich",
+    "meaning": "punctual"
+  },
+  {
+    "word": "Rad fahren",
+    "meaning": "to cycle"
+  },
+  {
+    "word": "rauchen",
+    "meaning": "to smoke"
+  },
+  {
+    "word": "der Raum, -ä, e",
+    "meaning": "room"
+  },
+  {
+    "word": "die Rechnung, -en",
+    "meaning": "bill"
+  },
+  {
+    "word": "rechts",
+    "meaning": "right"
+  },
+  {
+    "word": "regnen",
+    "meaning": "to rain"
+  },
+  {
+    "word": "der Regen",
+    "meaning": "rain"
+  },
+  {
+    "word": "der Reis",
+    "meaning": "rice"
+  },
+  {
+    "word": "reisen",
+    "meaning": "to travel"
+  },
+  {
+    "word": "die Reise",
+    "meaning": "journey / trip"
+  },
+  {
+    "word": "das Reisebüro, -s",
+    "meaning": "travel agency"
+  },
+  {
+    "word": "der Reiseführer",
+    "meaning": "travel guide"
+  },
+  {
+    "word": "der Reiseführer",
+    "meaning": "tour guide"
+  },
+  {
+    "word": "reparieren",
+    "meaning": "to repair"
+  },
+  {
+    "word": "die Reparatur",
+    "meaning": "repair"
+  },
+  {
+    "word": "das Restaurant, -s",
+    "meaning": "restaurant"
+  },
+  {
+    "word": "die Rezeption",
+    "meaning": "reception"
+  },
+  {
+    "word": "richtig",
+    "meaning": "correct"
+  },
+  {
+    "word": "richtig",
+    "meaning": "right / correct"
+  },
+  {
+    "word": "riechen",
+    "meaning": "to smell"
+  },
+  {
+    "word": "ruhig",
+    "meaning": "quiet"
+  },
+  {
+    "word": "der Saft",
+    "meaning": "juice"
+  },
+  {
+    "word": "sagen",
+    "meaning": "to say / tell"
+  },
+  {
+    "word": "der Salat",
+    "meaning": "salad"
+  },
+  {
+    "word": "das Salz",
+    "meaning": "salt"
+  },
+  {
+    "word": "der Satz, -ä, e",
+    "meaning": "sentence"
+  },
+  {
+    "word": "die S-Bahn",
+    "meaning": "commuter train"
+  },
+  {
+    "word": "der Schalter",
+    "meaning": "counter"
+  },
+  {
+    "word": "scheinen",
+    "meaning": "to shine"
+  },
+  {
+    "word": "schicken",
+    "meaning": "to send"
+  },
+  {
+    "word": "das Schild, -er",
+    "meaning": "sign"
+  },
+  {
+    "word": "der Schinken, –",
+    "meaning": "ham"
+  },
+  {
+    "word": "schlafen",
+    "meaning": "to sleep"
+  },
+  {
+    "word": "schlecht",
+    "meaning": "sick"
+  },
+  {
+    "word": "schlecht",
+    "meaning": "bad"
+  },
+  {
+    "word": "schlecht",
+    "meaning": "bad"
+  },
+  {
+    "word": "schließen",
+    "meaning": "to close"
+  },
+  {
+    "word": "geschlossen",
+    "meaning": "closed"
+  },
+  {
+    "word": "der Schluss",
+    "meaning": "…"
+  },
+  {
+    "word": "der Schluss",
+    "meaning": "end"
+  },
+  {
+    "word": "der Schlüssel, –",
+    "meaning": "key"
+  },
+  {
+    "word": "schmecken",
+    "meaning": "to taste"
+  },
+  {
+    "word": "schnell",
+    "meaning": "quick / fast"
+  },
+  {
+    "word": "schon",
+    "meaning": "already"
+  },
+  {
+    "word": "schön",
+    "meaning": "lovely"
+  },
+  {
+    "word": "schön",
+    "meaning": "beautiful"
+  },
+  {
+    "word": "der Schrank, -ä, e",
+    "meaning": "cupboard"
+  },
+  {
+    "word": "schreiben",
+    "meaning": "to write"
+  },
+  {
+    "word": "der Schuh, -e",
+    "meaning": "shoe"
+  },
+  {
+    "word": "die Schule",
+    "meaning": "school"
+  },
+  {
+    "word": "die Schule",
+    "meaning": "school"
+  },
+  {
+    "word": "der Schüler, –",
+    "meaning": "pupil"
+  },
+  {
+    "word": "schwer",
+    "meaning": "heavy"
+  },
+  {
+    "word": "schwer",
+    "meaning": "difficult"
+  },
+  {
+    "word": "die Schwester, -n",
+    "meaning": "sister"
+  },
+  {
+    "word": "schwimmen",
+    "meaning": "to swim"
+  },
+  {
+    "word": "das Schwimmbad",
+    "meaning": "swimming pool"
+  },
+  {
+    "word": "der See",
+    "meaning": "lake"
+  },
+  {
+    "word": "sehen",
+    "meaning": "to see"
+  },
+  {
+    "word": "sehen",
+    "meaning": "to see"
+  },
+  {
+    "word": "die Sehenswürdigkeit, -en",
+    "meaning": "sights/attractions"
+  },
+  {
+    "word": "sehr",
+    "meaning": "very"
+  },
+  {
+    "word": "sehr",
+    "meaning": "very"
+  },
+  {
+    "word": "sein",
+    "meaning": "his"
+  },
+  {
+    "word": "sein",
+    "meaning": "to be"
+  },
+  {
+    "word": "sein",
+    "meaning": "to be"
+  },
+  {
+    "word": "an sein",
+    "meaning": "to be on"
+  },
+  {
+    "word": "auf sein",
+    "meaning": "to be open"
+  },
+  {
+    "word": "weg sein",
+    "meaning": "to be gone"
+  },
+  {
+    "word": "zu sein",
+    "meaning": "to be closed"
+  },
+  {
+    "word": "seit",
+    "meaning": "for (an amount of time)"
+  },
+  {
+    "word": "selbstständig",
+    "meaning": "independent"
+  },
+  {
+    "word": "sich",
+    "meaning": "yourself"
+  },
+  {
+    "word": "sie",
+    "meaning": "she"
+  },
+  {
+    "word": "Sie",
+    "meaning": "you (polite)"
+  },
+  {
+    "word": "sitzen",
+    "meaning": "to sit"
+  },
+  {
+    "word": "so",
+    "meaning": "like this"
+  },
+  {
+    "word": "so",
+    "meaning": "so"
+  },
+  {
+    "word": "so",
+    "meaning": "as"
+  },
+  {
+    "word": "so",
+    "meaning": "so"
+  },
+  {
+    "word": "das Sofa",
+    "meaning": "sofa"
+  },
+  {
+    "word": "sofort",
+    "meaning": "immediately"
+  },
+  {
+    "word": "der Sohn, -ö, e",
+    "meaning": "son"
+  },
+  {
+    "word": "sollen",
+    "meaning": "should"
+  },
+  {
+    "word": "sollen",
+    "meaning": "should"
+  },
+  {
+    "word": "die Sonne",
+    "meaning": "sun"
+  },
+  {
+    "word": "spät",
+    "meaning": "late"
+  },
+  {
+    "word": "später",
+    "meaning": "later"
+  },
+  {
+    "word": "die Speisekarte",
+    "meaning": "menu"
+  },
+  {
+    "word": "spielen",
+    "meaning": "to play"
+  },
+  {
+    "word": "spielen",
+    "meaning": "to play"
+  },
+  {
+    "word": "der Sport",
+    "meaning": "sport"
+  },
+  {
+    "word": "die Sprache, -n",
+    "meaning": "language"
+  },
+  {
+    "word": "sprechen",
+    "meaning": "to speak"
+  },
+  {
+    "word": "die Stadt, -ä, e",
+    "meaning": "town / city"
+  },
+  {
+    "word": "stehen",
+    "meaning": "to be (written)"
+  },
+  {
+    "word": "stehen",
+    "meaning": "to be (located)"
+  },
+  {
+    "word": "die Stelle, -n",
+    "meaning": "job / position"
+  },
+  {
+    "word": "stellen",
+    "meaning": "to put"
+  },
+  {
+    "word": "der Stock",
+    "meaning": "floor (of a building)"
+  },
+  {
+    "word": "die Straße, -n",
+    "meaning": "street"
+  },
+  {
+    "word": "die Straßenbahn",
+    "meaning": "tram"
+  },
+  {
+    "word": "studieren",
+    "meaning": "to study"
+  },
+  {
+    "word": "das Studium",
+    "meaning": "degree course"
+  },
+  {
+    "word": "der Student, -en",
+    "meaning": "student"
+  },
+  {
+    "word": "die Stunde, -n",
+    "meaning": "hour"
+  },
+  {
+    "word": "suchen",
+    "meaning": "to look / search for"
+  },
+  {
+    "word": "tanzen",
+    "meaning": "to dance"
+  },
+  {
+    "word": "die Tasche, -n",
+    "meaning": "bag"
+  },
+  {
+    "word": "das Taxi, -s",
+    "meaning": "taxi"
+  },
+  {
+    "word": "der Tee",
+    "meaning": "tea"
+  },
+  {
+    "word": "der Teil, -e",
+    "meaning": "part"
+  },
+  {
+    "word": "telefonieren",
+    "meaning": "to telephone"
+  },
+  {
+    "word": "das Telefon",
+    "meaning": "telephone"
+  },
+  {
+    "word": "der Termin, -e",
+    "meaning": "appointment"
+  },
+  {
+    "word": "der Test",
+    "meaning": "test"
+  },
+  {
+    "word": "teuer",
+    "meaning": "expensive"
+  },
+  {
+    "word": "der Text, -e",
+    "meaning": "text"
+  },
+  {
+    "word": "das Thema",
+    "meaning": "topic"
+  },
+  {
+    "word": "das Ticket, -s",
+    "meaning": "ticket"
+  },
+  {
+    "word": "der Tisch, -e",
+    "meaning": "table"
+  },
+  {
+    "word": "die Tochter, -ö",
+    "meaning": "daughter"
+  },
+  {
+    "word": "die Toilette, -en",
+    "meaning": "toilet"
+  },
+  {
+    "word": "die Tomate, -n",
+    "meaning": "tomato"
+  },
+  {
+    "word": "tot",
+    "meaning": "dead"
+  },
+  {
+    "word": "(sich) treffen",
+    "meaning": "to meet"
+  },
+  {
+    "word": "(sich) treffen",
+    "meaning": "to meet"
+  },
+  {
+    "word": "die Treppe, -n",
+    "meaning": "stairs"
+  },
+  {
+    "word": "trinken",
+    "meaning": "to drink"
+  },
+  {
+    "word": "tschüss",
+    "meaning": "..."
+  },
+  {
+    "word": "tun",
+    "meaning": "to do"
+  },
+  {
+    "word": "tun",
+    "meaning": "to do"
+  },
+  {
+    "word": "über",
+    "meaning": "across"
+  },
+  {
+    "word": "über",
+    "meaning": "above"
+  },
+  {
+    "word": "über",
+    "meaning": "over"
+  },
+  {
+    "word": "übernachten",
+    "meaning": "to stay overnight"
+  },
+  {
+    "word": "überweisen",
+    "meaning": "to transfer"
+  },
+  {
+    "word": "die Uhr",
+    "meaning": "o'clock / am / pm"
+  },
+  {
+    "word": "um",
+    "meaning": "at"
+  },
+  {
+    "word": "um",
+    "meaning": "around"
+  },
+  {
+    "word": "umziehen",
+    "meaning": "to move (residence)"
+  },
+  {
+    "word": "und",
+    "meaning": "and"
+  },
+  {
+    "word": "unser-",
+    "meaning": "our"
+  },
+  {
+    "word": "unten",
+    "meaning": "at the bottom"
+  },
+  {
+    "word": "unter",
+    "meaning": "below"
+  },
+  {
+    "word": "der Unterricht",
+    "meaning": "class"
+  },
+  {
+    "word": "unterschreiben",
+    "meaning": "to sign"
+  },
+  {
+    "word": "die Unterschrift",
+    "meaning": "signature"
+  },
+  {
+    "word": "der Urlaub",
+    "meaning": "holiday"
+  },
+  {
+    "word": "der Vater, -ä",
+    "meaning": "father"
+  },
+  {
+    "word": "verboten",
+    "meaning": "forbidden"
+  },
+  {
+    "word": "verdienen",
+    "meaning": "to earn"
+  },
+  {
+    "word": "der Verein",
+    "meaning": "club"
+  },
+  {
+    "word": "verheiratet",
+    "meaning": "married"
+  },
+  {
+    "word": "verkaufen",
+    "meaning": "to sell"
+  },
+  {
+    "word": "der Verkäufer, –",
+    "meaning": "salesperson"
+  },
+  {
+    "word": "vermieten",
+    "meaning": "to rent out"
+  },
+  {
+    "word": "der Vermieter",
+    "meaning": "landlord"
+  },
+  {
+    "word": "verstehen",
+    "meaning": "to understand"
+  },
+  {
+    "word": "der Verwandte, -n",
+    "meaning": "relative"
+  },
+  {
+    "word": "viel",
+    "meaning": "a lot"
+  },
+  {
+    "word": "vielleicht",
+    "meaning": "perhaps / may(be)"
+  },
+  {
+    "word": "von",
+    "meaning": "\"of (possessive “s\"\")\""
+  },
+  {
+    "word": "von",
+    "meaning": "from"
+  },
+  {
+    "word": "vor",
+    "meaning": "ago"
+  },
+  {
+    "word": "vor",
+    "meaning": "in front of"
+  },
+  {
+    "word": "der Vorname, -n",
+    "meaning": "first name"
+  },
+  {
+    "word": "die Vorsicht",
+    "meaning": "…"
+  },
+  {
+    "word": "die Vorsicht",
+    "meaning": "attention"
+  },
+  {
+    "word": "(sich) vorstellen",
+    "meaning": "to introduce"
+  },
+  {
+    "word": "die Vorwahl",
+    "meaning": "area code"
+  },
+  {
+    "word": "wandern",
+    "meaning": "to hike"
+  },
+  {
+    "word": "wann",
+    "meaning": "when"
+  },
+  {
+    "word": "wann",
+    "meaning": "when"
+  },
+  {
+    "word": "wann",
+    "meaning": "when"
+  },
+  {
+    "word": "warten",
+    "meaning": "to wait"
+  },
+  {
+    "word": "warten",
+    "meaning": "to wait"
+  },
+  {
+    "word": "warum",
+    "meaning": "why"
+  },
+  {
+    "word": "was",
+    "meaning": "what"
+  },
+  {
+    "word": "was",
+    "meaning": "what"
+  },
+  {
+    "word": "was für ein",
+    "meaning": "what kind of"
+  },
+  {
+    "word": "(sich) waschen",
+    "meaning": "to wash"
+  },
+  {
+    "word": "(sich) waschen",
+    "meaning": "to wash"
+  },
+  {
+    "word": "das Wasser",
+    "meaning": "water"
+  },
+  {
+    "word": "weh tun",
+    "meaning": "to hurt"
+  },
+  {
+    "word": "weiblich",
+    "meaning": "female"
+  },
+  {
+    "word": "der Wein",
+    "meaning": "wine"
+  },
+  {
+    "word": "weit",
+    "meaning": "far"
+  },
+  {
+    "word": "weiter",
+    "meaning": "further"
+  },
+  {
+    "word": "welch-",
+    "meaning": "which"
+  },
+  {
+    "word": "die Welt",
+    "meaning": "world"
+  },
+  {
+    "word": "wenig",
+    "meaning": "little / not very much"
+  },
+  {
+    "word": "wenig",
+    "meaning": "little"
+  },
+  {
+    "word": "wer",
+    "meaning": "who"
+  },
+  {
+    "word": "werden",
+    "meaning": "to become"
+  },
+  {
+    "word": "das Wetter",
+    "meaning": "weather"
+  },
+  {
+    "word": "wichtig",
+    "meaning": "important"
+  },
+  {
+    "word": "wie",
+    "meaning": "what"
+  },
+  {
+    "word": "wie",
+    "meaning": "like"
+  },
+  {
+    "word": "wie",
+    "meaning": "as"
+  },
+  {
+    "word": "wie",
+    "meaning": "how"
+  },
+  {
+    "word": "wie",
+    "meaning": "how"
+  },
+  {
+    "word": "wie",
+    "meaning": "…"
+  },
+  {
+    "word": "wie",
+    "meaning": "how"
+  },
+  {
+    "word": "wiederholen",
+    "meaning": "to repeat"
+  },
+  {
+    "word": "das Wiederhören",
+    "meaning": "…"
+  },
+  {
+    "word": "das Wiedersehen",
+    "meaning": "…"
+  },
+  {
+    "word": "wie viel",
+    "meaning": "how much"
+  },
+  {
+    "word": "willkommen",
+    "meaning": "…"
+  },
+  {
+    "word": "der Wind",
+    "meaning": "wind"
+  },
+  {
+    "word": "wir",
+    "meaning": "we"
+  },
+  {
+    "word": "wissen",
+    "meaning": "to know"
+  },
+  {
+    "word": "wo",
+    "meaning": "where"
+  },
+  {
+    "word": "wo",
+    "meaning": "where"
+  },
+  {
+    "word": "wo",
+    "meaning": "where"
+  },
+  {
+    "word": "woher",
+    "meaning": "from where"
+  },
+  {
+    "word": "wohin",
+    "meaning": "to where"
+  },
+  {
+    "word": "wohin",
+    "meaning": "to where"
+  },
+  {
+    "word": "wohnen",
+    "meaning": "to live"
+  },
+  {
+    "word": "die Wohnung, -en",
+    "meaning": "flat"
+  },
+  {
+    "word": "wollen",
+    "meaning": "to want"
+  },
+  {
+    "word": "das Wort, -ö, er/-e",
+    "meaning": "word"
+  },
+  {
+    "word": "wunderbar",
+    "meaning": "wonderful"
+  },
+  {
+    "word": "zahlen",
+    "meaning": "to pay"
+  },
+  {
+    "word": "die Zeit",
+    "meaning": "time"
+  },
+  {
+    "word": "zurzeit",
+    "meaning": "at the moment"
+  },
+  {
+    "word": "die Zeitung, -en",
+    "meaning": "newspaper"
+  },
+  {
+    "word": "die Zigarette, -n",
+    "meaning": "cigarette"
+  },
+  {
+    "word": "das Zimmer, –",
+    "meaning": "room"
+  },
+  {
+    "word": "das Zimmer, –",
+    "meaning": "room"
+  },
+  {
+    "word": "das Zimmer, –",
+    "meaning": "room"
+  },
+  {
+    "word": "das Zimmer, –",
+    "meaning": "room"
+  },
+  {
+    "word": "der Zoll",
+    "meaning": "customs"
+  },
+  {
+    "word": "zu",
+    "meaning": "to"
+  },
+  {
+    "word": "zu",
+    "meaning": "by"
+  },
+  {
+    "word": "zu",
+    "meaning": "at"
+  },
+  {
+    "word": "zufrieden",
+    "meaning": "happy"
+  },
+  {
+    "word": "der Zug, -ü, e",
+    "meaning": "train"
+  },
+  {
+    "word": "zurück",
+    "meaning": "return"
+  },
+  {
+    "word": "zurück",
+    "meaning": "back"
+  },
+  {
+    "word": "zusammen",
+    "meaning": "together"
+  },
+  {
+    "word": "zusammen",
+    "meaning": "together"
+  },
+  {
+    "word": "zwischen",
+    "meaning": "between"
+  },
+  {
+    "word": "zwischen",
+    "meaning": "between"
+  },
+  {
+    "word": "eins",
+    "meaning": "one"
+  },
+  {
+    "word": "zwei",
+    "meaning": "two"
+  },
+  {
+    "word": "drei",
+    "meaning": "three"
+  },
+  {
+    "word": "vier",
+    "meaning": "four"
+  },
+  {
+    "word": "fünf",
+    "meaning": "five"
+  },
+  {
+    "word": "sechs",
+    "meaning": "six"
+  },
+  {
+    "word": "sieben",
+    "meaning": "seven"
+  },
+  {
+    "word": "acht",
+    "meaning": "eight"
+  },
+  {
+    "word": "neun",
+    "meaning": "nine"
+  },
+  {
+    "word": "zehn",
+    "meaning": "ten"
+  },
+  {
+    "word": "elf",
+    "meaning": "eleven"
+  },
+  {
+    "word": "zwölf",
+    "meaning": "twelve"
+  },
+  {
+    "word": "dreizehn",
+    "meaning": "thirteen"
+  },
+  {
+    "word": "vierzehn",
+    "meaning": "fourteen"
+  },
+  {
+    "word": "fünfzehn",
+    "meaning": "fifteen"
+  },
+  {
+    "word": "sechzehn",
+    "meaning": "sixteen"
+  },
+  {
+    "word": "siebzehn",
+    "meaning": "seventeen"
+  },
+  {
+    "word": "achtzehn",
+    "meaning": "eighteen"
+  },
+  {
+    "word": "neunzehn",
+    "meaning": "nineteen"
+  },
+  {
+    "word": "zwanzig",
+    "meaning": "twenty"
+  },
+  {
+    "word": "einundzwanzig",
+    "meaning": "twenty one"
+  },
+  {
+    "word": "dreißig",
+    "meaning": "thirty"
+  },
+  {
+    "word": "vierzig",
+    "meaning": "fourty"
+  },
+  {
+    "word": "fünfzig",
+    "meaning": "fifty"
+  },
+  {
+    "word": "sechzig",
+    "meaning": "sixty"
+  },
+  {
+    "word": "siebzig",
+    "meaning": "seventy"
+  },
+  {
+    "word": "achtzig",
+    "meaning": "eighty"
+  },
+  {
+    "word": "neunzig",
+    "meaning": "ninety"
+  },
+  {
+    "word": "(ein)hundert",
+    "meaning": "(one) hundred"
+  },
+  {
+    "word": "hunderteins",
+    "meaning": "one hundred and one"
+  },
+  {
+    "word": "zweihundert",
+    "meaning": "two hundred"
+  },
+  {
+    "word": "(ein)tausend",
+    "meaning": "(one) thousand"
+  },
+  {
+    "word": "eine Million, -en",
+    "meaning": "one million"
+  },
+  {
+    "word": "eine Milliarde, -en",
+    "meaning": "one billion"
+  },
+  {
+    "word": "erste",
+    "meaning": "first"
+  },
+  {
+    "word": "zweite",
+    "meaning": "second"
+  },
+  {
+    "word": "dritte",
+    "meaning": "third"
+  },
+  {
+    "word": "vierte",
+    "meaning": "fourth"
+  },
+  {
+    "word": "null Uhr drei",
+    "meaning": "time: 00:03"
+  },
+  {
+    "word": "sieben Uhr fünfzehn",
+    "meaning": "time: 07:15"
+  },
+  {
+    "word": "dreizehn Uhr siebzehn",
+    "meaning": "time: 13:17"
+  },
+  {
+    "word": "vierundzwanzig Uhr",
+    "meaning": "time: 24:00"
+  },
+  {
+    "word": "die Sekunde, -n",
+    "meaning": "second"
+  },
+  {
+    "word": "die Minute, -n",
+    "meaning": "minute"
+  },
+  {
+    "word": "die Stunde, -n",
+    "meaning": "hour"
+  },
+  {
+    "word": "der Tag, -e",
+    "meaning": "day"
+  },
+  {
+    "word": "die Woche, -e",
+    "meaning": "week"
+  },
+  {
+    "word": "das Jahr, -e",
+    "meaning": "year"
+  },
+  {
+    "word": "ein Uhr",
+    "meaning": "one o'clock"
+  },
+  {
+    "word": "fünf Minuten vor/nach eins (ein Uhr)",
+    "meaning": "five to/past one (one o’clock)"
+  },
+  {
+    "word": "Viertel vor/nach zwei (zwei Uhr)",
+    "meaning": "quarter to/past two (two o’clock)"
+  },
+  {
+    "word": "halb drei",
+    "meaning": "half past two"
+  },
+  {
+    "word": "ein halb; halb",
+    "meaning": "one half; half"
+  },
+  {
+    "word": "ein Viertel; Viertel",
+    "meaning": "one quarter; quarter"
+  },
+  {
+    "word": "neunzehnhundertneunundneunzig",
+    "meaning": "nineteen ninety nine"
+  },
+  {
+    "word": "zweitausendvierzehn",
+    "meaning": "two thousand and fourteen"
+  },
+  {
+    "word": "der Wochentag, -e",
+    "meaning": "weekday"
+  },
+  {
+    "word": "der Sonntag",
+    "meaning": "Sunday"
+  },
+  {
+    "word": "der Montag",
+    "meaning": "Monday"
+  },
+  {
+    "word": "der Dienstag",
+    "meaning": "Tuesday"
+  },
+  {
+    "word": "der Mittwoch",
+    "meaning": "Wednesday"
+  },
+  {
+    "word": "der Donnerstag",
+    "meaning": "Thursday"
+  },
+  {
+    "word": "der Freitag",
+    "meaning": "Friday"
+  },
+  {
+    "word": "der Samstag/Sonnabend",
+    "meaning": "Saturday"
+  },
+  {
+    "word": "das Wochenende",
+    "meaning": "weekend"
+  },
+  {
+    "word": "am Wochenende",
+    "meaning": "at the weekend"
+  },
+  {
+    "word": "der Tag",
+    "meaning": "day"
+  },
+  {
+    "word": "der Morgen",
+    "meaning": "morning"
+  },
+  {
+    "word": "der Vormittag,-e",
+    "meaning": "morning"
+  },
+  {
+    "word": "der Mittag",
+    "meaning": "midday"
+  },
+  {
+    "word": "der Nachmittag,-e",
+    "meaning": "afternoon"
+  },
+  {
+    "word": "der Abend,-e",
+    "meaning": "evening"
+  },
+  {
+    "word": "die Nacht,¨-e",
+    "meaning": "night"
+  },
+  {
+    "word": "der Januar",
+    "meaning": "January"
+  },
+  {
+    "word": "der Februar",
+    "meaning": "February"
+  },
+  {
+    "word": "der März",
+    "meaning": "March"
+  },
+  {
+    "word": "der April",
+    "meaning": "April"
+  },
+  {
+    "word": "der Mai",
+    "meaning": "May"
+  },
+  {
+    "word": "der Juni",
+    "meaning": "June"
+  },
+  {
+    "word": "der Juli",
+    "meaning": "July"
+  },
+  {
+    "word": "der August",
+    "meaning": "August"
+  },
+  {
+    "word": "der September",
+    "meaning": "September"
+  },
+  {
+    "word": "der Oktober",
+    "meaning": "October"
+  },
+  {
+    "word": "der November",
+    "meaning": "November"
+  },
+  {
+    "word": "der Dezember",
+    "meaning": "December"
+  },
+  {
+    "word": "der Frühling/das Frühjahr",
+    "meaning": "spring"
+  },
+  {
+    "word": "der Sommer",
+    "meaning": "summer"
+  },
+  {
+    "word": "der Herbst",
+    "meaning": "autumn"
+  },
+  {
+    "word": "der Winter",
+    "meaning": "winter"
+  },
+  {
+    "word": "ein Meter",
+    "meaning": "one metre"
+  },
+  {
+    "word": "ein Zentimeter",
+    "meaning": "one centimetre"
+  },
+  {
+    "word": "ein Meter fünfzehn",
+    "meaning": "one metre fifteen"
+  },
+  {
+    "word": "zweihundert Kilometer",
+    "meaning": "two hundred kilometres"
+  },
+  {
+    "word": "ein Quadratmeter",
+    "meaning": "one square metre"
+  },
+  {
+    "word": "ein Grad unter Null/minus ein Grad",
+    "meaning": "one degree below zero/minus one degree"
+  },
+  {
+    "word": "vier Grad über Null/plus vier Grad",
+    "meaning": "four degrees above zero/plus four degrees"
+  },
+  {
+    "word": "ein Prozent",
+    "meaning": "one percent"
+  },
+  {
+    "word": "ein Liter",
+    "meaning": "one litre"
+  },
+  {
+    "word": "ein Gramm",
+    "meaning": "one gram"
+  },
+  {
+    "word": "ein Pfund",
+    "meaning": "one pound"
+  },
+  {
+    "word": "ein Kilo(gramm)",
+    "meaning": "one kilo(gram)"
+  },
+  {
+    "word": "schwarz",
+    "meaning": "black"
+  },
+  {
+    "word": "grau",
+    "meaning": "grey"
+  },
+  {
+    "word": "blau",
+    "meaning": "blue"
+  },
+  {
+    "word": "grün",
+    "meaning": "green"
+  },
+  {
+    "word": "weiß",
+    "meaning": "white"
+  },
+  {
+    "word": "rot",
+    "meaning": "red"
+  },
+  {
+    "word": "gelb",
+    "meaning": "yellow"
+  },
+  {
+    "word": "braun",
+    "meaning": "brown"
+  },
+  {
+    "word": "der Norden",
+    "meaning": "north"
+  },
+  {
+    "word": "der Süden",
+    "meaning": "south"
+  },
+  {
+    "word": "der Westen",
+    "meaning": "west"
+  },
+  {
+    "word": "der Osten",
+    "meaning": "east"
+  },
+  {
+    "word": "(sich) waschen",
+    "meaning": "to wash"
+  },
+  {
+    "word": "die Nummer, -n",
+    "meaning": "number"
+  }
+]

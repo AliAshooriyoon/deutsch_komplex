@@ -1,9 +1,15 @@
+"use client"
+import { useState } from 'react';
+import data from '../../../../anki_vocab.json' assert { type: 'json' };
 const Lainter = () => {
+  const [words, setWords] = useState(data);
+  const [location, setLocation] = useState(1)
+  console.log(words)
   return <>
     <div className=''>
       <div className="">
         <div className="lainter_box flex items-center justify-between flex-col w-[60%] 
-          mt-24 bg-sky-700 rounded-3xl h-[40rem] mx-auto ">
+          mt-24 bg-sky-700 rounded-3xl h-[40rem] mx-auto">
           <div className="pt-24">
             <p className="text-5xl text-center pt-12">der Wandel</p>
             <p className="text-2xl text-center pt-6">In besonderen Haltungen wird es verwendet</p>
