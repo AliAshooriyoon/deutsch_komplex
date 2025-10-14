@@ -14,7 +14,7 @@ const Lainter = () => {
     setLengthBack(prev => prev > 0 ? prev - 1 : prev)
     setLocation({
       page: lengthBack <= 0 ? Math.floor(Math.random() * words.length - 1) + 1
-        : prevLocation[prevLocation.length - lengthBack], path: "next"
+        : prevLocation[prevLocation.length - lengthBack], path: `${lengthBack <= 0 ? "next" : "prev"}`
     })
     console.log(lengthBack)
   }
@@ -29,7 +29,6 @@ const Lainter = () => {
   useEffect(() => {
     console.log(prevLocation)
     setLocation({ page: prevLocation.length > 1 ? prevLocation[prevLocation.length - (lengthBack + 1)] : 0, path: "prev" })
-    console.log(prevLocation[prevLocation.length - lengthBack + 1])
     console.log(lengthBack)
     console.log("fitst use effect")
   }, [lengthBack])
@@ -43,6 +42,7 @@ const Lainter = () => {
     setPrevLocation(prev => location.path == "next" ? [...prev, location.page] : [...prev])
 
     console.log(prevLocation)
+    console.log(location.path)
     console.log("second use effect")
   }, [location]);
 
