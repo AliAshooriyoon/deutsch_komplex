@@ -1,8 +1,8 @@
 'use client'
 import { useState } from "react"
 const TestsLesen = () => {
-  const [answer, setAnswer] = useState('')
-  const [level, setLevel] = useState('')
+  const [answer, setAnswer] = useState('');
+  const [level, setLevel] = useState('');
   const createExam = async () => {
     const res = await fetch("/api/createExam", {
       method: "POST",
