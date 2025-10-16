@@ -7,12 +7,12 @@ const Lainter = () => {
   const [location, setLocation] = useState({ page: 0, path: "next" });
   const [lengthBack, setLengthBack] = useState(0);
   const [prevLocation, setPrevLocation] = useState<number[]>([0]);
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState({ num: 0, path: "next" });
 
 
 
   const nextWord = () => {
-    setCount(prev => lengthBack == 0 ? prev + 1 : prev)
+    setCount(prev => { return { num: prev.num + 1, path: "next" } })
     setLengthBack(prev => prev > 0 ? prev - 1 : prev)
     setLocation({
       page: lengthBack <= 0 ? Math.floor(Math.random() * words.length - 1) + 1
@@ -22,17 +22,14 @@ const Lainter = () => {
   }
 
   const previousWord = () => {
-    setCount(prev => prev - 1)
-    setLengthBack(prev => prev < prevLocation.length ? prev + 1 : prevLocation.length - 1)
+    setCount(prev => prev.num > 0 ? { num: prev.num - 1, path: "prev" } : prev)
+    setLengthBack(prev => prev < prevLocation.length && count.num > 1 ? prev + 1 : prevLocation.length - 1)
     console.log(lengthBack < prevLocation.length)
     console.log(lengthBack)
     console.log(words[prevLocation[prevLocation.length - 1]].word)
   }
-
   useEffect(() => {
-    console.log(prevLocation)
     setLocation({ page: prevLocation.length > 1 ? prevLocation[prevLocation.length - (lengthBack + 1)] : 0, path: "prev" })
-    console.log(lengthBack)
     console.log("fitst use effect")
   }, [lengthBack])
 
