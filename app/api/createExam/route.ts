@@ -22,8 +22,13 @@ export async function POST(req: Request) {
 
     const answer = completion.choices[0].message.content;
     return NextResponse.json({ reply: answer });
-  } catch (err) {
+  } catch (err: unknown) {
     console.error('Error:', err);
-    return NextResponse.json({ error: err.message || 'OpenAI request failed' }, { status: 500 });
+
+    if (err instanceof Error) {
+      return NextResponse.json({ error: err.message }, { status: 500 });
+    }
+
+    return NextResponse.json({ error: 'OpenAI request failed' }, { status: 500 });
   }
 }
