@@ -13,6 +13,15 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model word {
+  id    String  @id @default(cuid())
+  title String  @unique
+  mean  String
+  level String?
+
+  @@map("words")
+}
+
 model lainter {
   id      String  @id @default(cuid())
   level   String?

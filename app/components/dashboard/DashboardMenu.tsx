@@ -84,9 +84,6 @@ const DashboardMenu = () => {
                 Lainter </Link>
               <Link className={`${path == '/dashboard/words/words-list' && 'underline text-[#FFBF08]'}`}
                 href={'/dashboard/words/words-list'}>Wörter zu jedem Niveau</Link>
-              <Link
-                className={`${path == '/dashboard/words/street-words' && 'underline text-[#FFBF08]'}`}
-                href={'/dashboard/words/street-words'}>Test-modelle</Link>
             </ul>}
 
         </div>
