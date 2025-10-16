@@ -27,7 +27,9 @@ const TestsSchreiben = () => {
   const createExam = async () => {
     const res = await fetch("/api/createExam", {
       method: "POST",
-      body: JSON.stringify({ message: `Create one german exam for Schreiben like ÖSD in level ${level}. Write not answer the exam and write just title of exam, title of question and points of question and nothing else! title of exam should be like official exams ` })
+      body: JSON.stringify({
+        message: `Create one german exam for Schreiben like ÖSD in level ${level}.
+Write not answer the exam and write just title of exam, title of question and points of question and nothing else! title of exam should be like official exams ` })
     })
     const data = await res.json();
     setAnswer(data.reply)

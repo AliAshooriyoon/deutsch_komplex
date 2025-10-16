@@ -1,4 +1,7 @@
-const WordsList = () => {
+"use server"
+
+const WordsList = async () => {
+  fetch("http://localhost:3000/api/createWord")
   return <>
     <div className=''>Words list</div>
   </>
