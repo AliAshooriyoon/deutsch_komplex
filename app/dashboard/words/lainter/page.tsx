@@ -7,10 +7,12 @@ const Lainter = () => {
   const [location, setLocation] = useState({ page: 0, path: "next" });
   const [lengthBack, setLengthBack] = useState(0);
   const [prevLocation, setPrevLocation] = useState<number[]>([0]);
+  const [count, setCount] = useState(0);
+
 
 
   const nextWord = () => {
-
+    setCount(prev => lengthBack == 0 ? prev + 1 : prev)
     setLengthBack(prev => prev > 0 ? prev - 1 : prev)
     setLocation({
       page: lengthBack <= 0 ? Math.floor(Math.random() * words.length - 1) + 1
@@ -20,6 +22,7 @@ const Lainter = () => {
   }
 
   const previousWord = () => {
+    setCount(prev => prev - 1)
     setLengthBack(prev => prev < prevLocation.length ? prev + 1 : prevLocation.length - 1)
     console.log(lengthBack < prevLocation.length)
     console.log(lengthBack)
