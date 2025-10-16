@@ -20,17 +20,15 @@ const Texts = () => {
     <>
       <div className=''>
         <div className="flex flex-col justify-around gap-16 w-[80%] mx-auto">
-          <div className='a1 goethe example_box'>
-            {data.map(i =>
-              <div key={i.id} className='text-xl p-12 border-2 border-blue-400 rounded-2xl'>
-                <p className='text-center text-3xl'>{i.level} {i.exam}</p>
-                <span className="situation"></span>
-                <p>{i.topic}</p>
-                <p>
-                  {i.content}
-                </p>
-              </div>)}
-          </div>
+          {data.map(i =>
+            <div key={i.id} className='text-xl p-12 border-2 border-blue-400 rounded-2xl'>
+              <p className='text-center text-3xl'>{i.level} {i.exam}</p>
+              <span className="situation"></span>
+              <p>{i.topic}</p>
+              <p>
+                {i.content}
+              </p>
+            </div>)}
         </div>
       </div>
     </>
