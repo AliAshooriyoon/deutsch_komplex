@@ -8,7 +8,6 @@ const WordsList = () => {
   const [loading, setLoading] = useState(false)
   const showWords = async (level: string) => {
     setLoading(true)
-    console.log(level)
     const res = await fetch("/api/selectWord", {
       method: "POST", body: JSON.stringify({
         level
@@ -20,7 +19,6 @@ const WordsList = () => {
       setLoading(false)
     }
     const data = await res.json()
-    console.log(data)
     setWords(data)
   }
 
