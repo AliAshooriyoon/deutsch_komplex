@@ -6,7 +6,7 @@ const Lainter = () => {
   const [words, setWords] = useState(data);
   const [location, setLocation] = useState({ page: 0, path: "next" });
   const [lengthBack, setLengthBack] = useState(0);
-  const [prevLocation, setPrevLocation] = useState<number[]>([0]);
+  const [prevLocation, setPrevLocation] = useState<number[]>([]);
   const [count, setCount] = useState({ num: 0, path: "next" });
   const [showAnswer, setShowAnswer] = useState(false)
 
