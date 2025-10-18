@@ -14,10 +14,11 @@ datasource db {
 }
 
 model word {
-  id    String  @id @default(cuid())
-  title String  @unique
-  mean  String
-  level String?
+  id       String  @id @default(cuid())
+  title    String  @unique
+  mean     String
+  level    String?
+  examples Json?
 
   @@map("words")
 }

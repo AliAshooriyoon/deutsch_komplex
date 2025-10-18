@@ -3702,5 +3702,6077 @@
   {
     "word": "die Nummer, -n",
     "meaning": "number"
+  },
+
+  {
+    "word": "ab",
+    "meaning": "from",
+    "level": "a2"
+  },
+  {
+    "word": "aber",
+    "meaning": "but",
+    "level": "a2"
+  },
+  {
+    "word": "anbieten",
+    "meaning": "to offer",
+    "level": "a2"
+  },
+  {
+    "word": "Angebot",
+    "meaning": "offer",
+    "level": "a2"
+  },
+  {
+    "word": "anderen",
+    "meaning": "other",
+    "level": "a2"
+  },
+  {
+    "word": "abgeben",
+    "meaning": "to give (sth.) in / to submit (sth.) / to deliver (sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "anders",
+    "meaning": "different",
+    "level": "a2"
+  },
+  {
+    "word": "ändern",
+    "meaning": "to change",
+    "level": "a2"
+  },
+  {
+    "word": "abholen",
+    "meaning": "pick up",
+    "level": "a2"
+  },
+  {
+    "word": "abschließen",
+    "meaning": "to lock, to finish",
+    "level": "a2"
+  },
+  {
+    "word": "Achtung",
+    "meaning": "Attention!",
+    "level": "a2"
+  },
+  {
+    "word": "Adresse",
+    "meaning": "address",
+    "level": "a2"
+  },
+  {
+    "word": "anfangen",
+    "meaning": "to begin",
+    "level": "a2"
+  },
+  {
+    "word": "Anfang",
+    "meaning": "Beginning",
+    "level": "a2"
+  },
+  {
+    "word": "Angst",
+    "meaning": "anxiety / fear",
+    "level": "a2"
+  },
+  {
+    "word": "ankommen",
+    "meaning": "arrive",
+    "level": "a2"
+  },
+  {
+    "word": "Ahnung",
+    "meaning": "idea",
+    "level": "a2"
+  },
+  {
+    "word": "aktiv",
+    "meaning": "active",
+    "level": "a2"
+  },
+  {
+    "word": "aktuell",
+    "meaning": "current",
+    "level": "a2"
+  },
+  {
+    "word": "alles",
+    "meaning": "everything",
+    "level": "a2"
+  },
+  {
+    "word": "alle",
+    "meaning": "all",
+    "level": "a2"
+  },
+  {
+    "word": "anmachen",
+    "meaning": "to turn on",
+    "level": "a2"
+  },
+  {
+    "word": "Ankunft",
+    "meaning": "Arrival",
+    "level": "a2"
+  },
+  {
+    "word": "sich anmelden",
+    "meaning": "to register / to enroll / to apply",
+    "level": "a2"
+  },
+  {
+    "word": "Anmeldung",
+    "meaning": "registration",
+    "level": "a2"
+  },
+  {
+    "word": "Anrufbeantworter",
+    "meaning": "Answering machine",
+    "level": "a2"
+  },
+  {
+    "word": "anrufen",
+    "meaning": "call",
+    "level": "a2"
+  },
+  {
+    "word": "Anruf",
+    "meaning": "Call",
+    "level": "a2"
+  },
+  {
+    "word": "allein",
+    "meaning": "alone",
+    "level": "a2"
+  },
+  {
+    "word": "als",
+    "meaning": "as",
+    "level": "a2"
+  },
+  {
+    "word": "also",
+    "meaning": "so",
+    "level": "a2"
+  },
+  {
+    "word": "Anschluss",
+    "meaning": "connection",
+    "level": "a2"
+  },
+  {
+    "word": "ansehen",
+    "meaning": "look at",
+    "level": "a2"
+  },
+  {
+    "word": "antworten",
+    "meaning": "reply",
+    "level": "a2"
+  },
+  {
+    "word": "Antwort",
+    "meaning": "answer",
+    "level": "a2"
+  },
+  {
+    "word": "alt",
+    "meaning": "old",
+    "level": "a2"
+  },
+  {
+    "word": "Alter",
+    "meaning": "age",
+    "level": "a2"
+  },
+  {
+    "word": "Ampel",
+    "meaning": "traffic light",
+    "level": "a2"
+  },
+  {
+    "word": "an",
+    "meaning": "at",
+    "level": "a2"
+  },
+  {
+    "word": "Anzeige",
+    "meaning": "display",
+    "level": "a2"
+  },
+  {
+    "word": "Anzug",
+    "meaning": "suit",
+    "level": "a2"
+  },
+  {
+    "word": "Apfel",
+    "meaning": "Apple",
+    "level": "a2"
+  },
+  {
+    "word": "Apotheke",
+    "meaning": "pharmacy",
+    "level": "a2"
+  },
+  {
+    "word": "Apparat",
+    "meaning": "device / machine",
+    "level": "a2"
+  },
+  {
+    "word": "aus",
+    "meaning": "out",
+    "level": "a2"
+  },
+  {
+    "word": "arbeiten",
+    "meaning": "work",
+    "level": "a2"
+  },
+  {
+    "word": "Arbeit",
+    "meaning": "job",
+    "level": "a2"
+  },
+  {
+    "word": "Ausbildung",
+    "meaning": "education",
+    "level": "a2"
+  },
+  {
+    "word": "Ausflug",
+    "meaning": "Excursion",
+    "level": "a2"
+  },
+  {
+    "word": "arbeitslos",
+    "meaning": "unemployed",
+    "level": "a2"
+  },
+  {
+    "word": "sich ärgern",
+    "meaning": "to be angry",
+    "level": "a2"
+  },
+  {
+    "word": "ausfüllen",
+    "meaning": "to fill (in)",
+    "level": "a2"
+  },
+  {
+    "word": "arm",
+    "meaning": "poor",
+    "level": "a2"
+  },
+  {
+    "word": "Arm",
+    "meaning": "arm",
+    "level": "a2"
+  },
+  {
+    "word": "Ausgang",
+    "meaning": "exit",
+    "level": "a2"
+  },
+  {
+    "word": "ausgeben",
+    "meaning": "to spend (sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "Artikel",
+    "meaning": "item",
+    "level": "a2"
+  },
+  {
+    "word": "ausgehen",
+    "meaning": "go out",
+    "level": "a2"
+  },
+  {
+    "word": "auch",
+    "meaning": "too / also",
+    "level": "a2"
+  },
+  {
+    "word": "auf",
+    "meaning": "on",
+    "level": "a2"
+  },
+  {
+    "word": "Auskunft",
+    "meaning": "information desk",
+    "level": "a2"
+  },
+  {
+    "word": "Ausland",
+    "meaning": "foreign country",
+    "level": "a2"
+  },
+  {
+    "word": "ausmachen",
+    "meaning": "to turn (sth.) off",
+    "level": "a2"
+  },
+  {
+    "word": "auspacken",
+    "meaning": "unpacking",
+    "level": "a2"
+  },
+  {
+    "word": "sich ausruhen",
+    "meaning": "to rest",
+    "level": "a2"
+  },
+  {
+    "word": "auf jeden Fall",
+    "meaning": "definitely",
+    "level": "a2"
+  },
+  {
+    "word": "auf keinen Fall",
+    "meaning": "no way",
+    "level": "a2"
+  },
+  {
+    "word": "aussehen",
+    "meaning": "to appear / to look like (sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "aufhören",
+    "meaning": "stop",
+    "level": "a2"
+  },
+  {
+    "word": "aufmachen",
+    "meaning": "open",
+    "level": "a2"
+  },
+  {
+    "word": "außer",
+    "meaning": "except",
+    "level": "a2"
+  },
+  {
+    "word": "außerdem",
+    "meaning": "beside",
+    "level": "a2"
+  },
+  {
+    "word": "außerhalb",
+    "meaning": "outside",
+    "level": "a2"
+  },
+  {
+    "word": "aufpassen",
+    "meaning": "watch out",
+    "level": "a2"
+  },
+  {
+    "word": "aussprechen",
+    "meaning": "pronounce",
+    "level": "a2"
+  },
+  {
+    "word": "aussteigen",
+    "meaning": "get out / get off",
+    "level": "a2"
+  },
+  {
+    "word": "aufräumen",
+    "meaning": "to clean up",
+    "level": "a2"
+  },
+  {
+    "word": "aufregend",
+    "meaning": "exciting",
+    "level": "a2"
+  },
+  {
+    "word": "aufstehen",
+    "meaning": "get up",
+    "level": "a2"
+  },
+  {
+    "word": "Ausstellung",
+    "meaning": "exhibition",
+    "level": "a2"
+  },
+  {
+    "word": "austragen",
+    "meaning": "to deliver (sth.) / to carry (sth.) out",
+    "level": "a2"
+  },
+  {
+    "word": "Ausweis",
+    "meaning": "ID card",
+    "level": "a2"
+  },
+  {
+    "word": "Aufzug",
+    "meaning": "elevator",
+    "level": "a2"
+  },
+  {
+    "word": "Auge",
+    "meaning": "eye",
+    "level": "a2"
+  },
+  {
+    "word": "Auto",
+    "meaning": "automobile",
+    "level": "a2"
+  },
+  {
+    "word": "Autobahn",
+    "meaning": "Highway",
+    "level": "a2"
+  },
+  {
+    "word": "Automat",
+    "meaning": "machine / automat / vending machine",
+    "level": "a2"
+  },
+  {
+    "word": "automatisch",
+    "meaning": "automatically",
+    "level": "a2"
+  },
+  {
+    "word": "Baby",
+    "meaning": "baby",
+    "level": "a2"
+  },
+  {
+    "word": "Babysitter",
+    "meaning": "baby-sitter",
+    "level": "a2"
+  },
+  {
+    "word": "beenden",
+    "meaning": "to end (sth.) / to finish (sth.) / to break up",
+    "level": "a2"
+  },
+  {
+    "word": "beginnen",
+    "meaning": "begin",
+    "level": "a2"
+  },
+  {
+    "word": "begründen",
+    "meaning": "justify",
+    "level": "a2"
+  },
+  {
+    "word": "bei",
+    "meaning": "at",
+    "level": "a2"
+  },
+  {
+    "word": "backen",
+    "meaning": "to bake",
+    "level": "a2"
+  },
+  {
+    "word": "Bäckerei",
+    "meaning": "bakery",
+    "level": "a2"
+  },
+  {
+    "word": "Bad",
+    "meaning": "bath",
+    "level": "a2"
+  },
+  {
+    "word": "beide",
+    "meaning": "both",
+    "level": "a2"
+  },
+  {
+    "word": "baden",
+    "meaning": "to bathe",
+    "level": "a2"
+  },
+  {
+    "word": "Bahn",
+    "meaning": "train",
+    "level": "a2"
+  },
+  {
+    "word": "bekannt",
+    "meaning": "known",
+    "level": "a2"
+  },
+  {
+    "word": "Bekannte (weiblich)",
+    "meaning": "female friend / female acquaintance",
+    "level": "a2"
+  },
+  {
+    "word": "Bekannte (männlich)",
+    "meaning": "male friend / male acquaintance",
+    "level": "a2"
+  },
+  {
+    "word": "Bahnhof",
+    "meaning": "railway station",
+    "level": "a2"
+  },
+  {
+    "word": "Bahnsteig",
+    "meaning": "platform",
+    "level": "a2"
+  },
+  {
+    "word": "bekommen",
+    "meaning": "to get",
+    "level": "a2"
+  },
+  {
+    "word": "bald",
+    "meaning": "soon",
+    "level": "a2"
+  },
+  {
+    "word": "Balkon",
+    "meaning": "balcony",
+    "level": "a2"
+  },
+  {
+    "word": "beliebt",
+    "meaning": "popular",
+    "level": "a2"
+  },
+  {
+    "word": "Ball",
+    "meaning": "ball",
+    "level": "a2"
+  },
+  {
+    "word": "Banane",
+    "meaning": "banana",
+    "level": "a2"
+  },
+  {
+    "word": "benutzen",
+    "meaning": "to use",
+    "level": "a2"
+  },
+  {
+    "word": "Band",
+    "meaning": "(music) band",
+    "level": "a2"
+  },
+  {
+    "word": "bequem",
+    "meaning": "comfortable",
+    "level": "a2"
+  },
+  {
+    "word": "Bank (Geldinstitut)",
+    "meaning": "Bank (Money Institution)",
+    "level": "a2"
+  },
+  {
+    "word": "Bank (Sitzgelegenheit)",
+    "meaning": "Bank (seating)",
+    "level": "a2"
+  },
+  {
+    "word": "bar",
+    "meaning": "in cash",
+    "level": "a2"
+  },
+  {
+    "word": "beraten",
+    "meaning": "to advise",
+    "level": "a2"
+  },
+  {
+    "word": "Basketball",
+    "meaning": "basketball",
+    "level": "a2"
+  },
+  {
+    "word": "Berg",
+    "meaning": "mountain",
+    "level": "a2"
+  },
+  {
+    "word": "basteln",
+    "meaning": "to tinker / to do handicrafts",
+    "level": "a2"
+  },
+  {
+    "word": "Bauch",
+    "meaning": "belly",
+    "level": "a2"
+  },
+  {
+    "word": "bauen",
+    "meaning": "to build",
+    "level": "a2"
+  },
+  {
+    "word": "berichten",
+    "meaning": "to report",
+    "level": "a2"
+  },
+  {
+    "word": "Beruf",
+    "meaning": "job",
+    "level": "a2"
+  },
+  {
+    "word": "berühmt",
+    "meaning": "famous",
+    "level": "a2"
+  },
+  {
+    "word": "Baum",
+    "meaning": "tree",
+    "level": "a2"
+  },
+  {
+    "word": "Bescheid",
+    "meaning": "answer / decision / information",
+    "level": "a2"
+  },
+  {
+    "word": "Baustelle",
+    "meaning": "Building site / construction site",
+    "level": "a2"
+  },
+  {
+    "word": "beschreiben",
+    "meaning": "to describe",
+    "level": "a2"
+  },
+  {
+    "word": "beantworten",
+    "meaning": "to answer",
+    "level": "a2"
+  },
+  {
+    "word": "sich bedanken",
+    "meaning": "to thank so. (for sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "bedeuten",
+    "meaning": "mean",
+    "level": "a2"
+  },
+  {
+    "word": "sich beschweren",
+    "meaning": "to complain",
+    "level": "a2"
+  },
+  {
+    "word": "sich beeilen",
+    "meaning": "to hurry up",
+    "level": "a2"
+  },
+  {
+    "word": "besetzt",
+    "meaning": "occupied",
+    "level": "a2"
+  },
+  {
+    "word": "besichtigen",
+    "meaning": "to visit",
+    "level": "a2"
+  },
+  {
+    "word": "bleiben",
+    "meaning": "to stay",
+    "level": "a2"
+  },
+  {
+    "word": "besonders",
+    "meaning": "especially",
+    "level": "a2"
+  },
+  {
+    "word": "Bleistift",
+    "meaning": "pencil",
+    "level": "a2"
+  },
+  {
+    "word": "bestätigen",
+    "meaning": "to confirm",
+    "level": "a2"
+  },
+  {
+    "word": "blöd",
+    "meaning": "stupid",
+    "level": "a2"
+  },
+  {
+    "word": "blond",
+    "meaning": "blond",
+    "level": "a2"
+  },
+  {
+    "word": "bestehen",
+    "meaning": "consist",
+    "level": "a2"
+  },
+  {
+    "word": "Blog",
+    "meaning": "blog",
+    "level": "a2"
+  },
+  {
+    "word": "Blume",
+    "meaning": "flower",
+    "level": "a2"
+  },
+  {
+    "word": "Bluse",
+    "meaning": "blouse",
+    "level": "a2"
+  },
+  {
+    "word": "bestellen",
+    "meaning": "to order",
+    "level": "a2"
+  },
+  {
+    "word": "Bohne",
+    "meaning": "Bean",
+    "level": "a2"
+  },
+  {
+    "word": "böse",
+    "meaning": "angry",
+    "level": "a2"
+  },
+  {
+    "word": "Besuch",
+    "meaning": "visit",
+    "level": "a2"
+  },
+  {
+    "word": "besuchen",
+    "meaning": "to visit",
+    "level": "a2"
+  },
+  {
+    "word": "braten",
+    "meaning": "to roast meat",
+    "level": "a2"
+  },
+  {
+    "word": "Bett",
+    "meaning": "bed",
+    "level": "a2"
+  },
+  {
+    "word": "brauchen",
+    "meaning": "to need",
+    "level": "a2"
+  },
+  {
+    "word": "sich bewerben",
+    "meaning": "to make an application / to apply for sth.",
+    "level": "a2"
+  },
+  {
+    "word": "Bewerbung",
+    "meaning": "application / canditature",
+    "level": "a2"
+  },
+  {
+    "word": "Brief",
+    "meaning": "letter",
+    "level": "a2"
+  },
+  {
+    "word": "bewölkt",
+    "meaning": "cloudy",
+    "level": "a2"
+  },
+  {
+    "word": "Briefmarke",
+    "meaning": "Stamp",
+    "level": "a2"
+  },
+  {
+    "word": "Brille",
+    "meaning": "glasses",
+    "level": "a2"
+  },
+  {
+    "word": "bezahlen",
+    "meaning": "to pay",
+    "level": "a2"
+  },
+  {
+    "word": "bringen",
+    "meaning": "bring",
+    "level": "a2"
+  },
+  {
+    "word": "Bibliothek",
+    "meaning": "library",
+    "level": "a2"
+  },
+  {
+    "word": "Brot",
+    "meaning": "bread",
+    "level": "a2"
+  },
+  {
+    "word": "Bier",
+    "meaning": "beer",
+    "level": "a2"
+  },
+  {
+    "word": "Bild",
+    "meaning": "image",
+    "level": "a2"
+  },
+  {
+    "word": "Brötchen",
+    "meaning": "bun / small bread",
+    "level": "a2"
+  },
+  {
+    "word": "billig",
+    "meaning": "cheap",
+    "level": "a2"
+  },
+  {
+    "word": "Brücke",
+    "meaning": "bridge",
+    "level": "a2"
+  },
+  {
+    "word": "Birne",
+    "meaning": "pear",
+    "level": "a2"
+  },
+  {
+    "word": "Buch",
+    "meaning": "book",
+    "level": "a2"
+  },
+  {
+    "word": "bis",
+    "meaning": "to",
+    "level": "a2"
+  },
+  {
+    "word": "bisschen",
+    "meaning": "little",
+    "level": "a2"
+  },
+  {
+    "word": "buchen",
+    "meaning": "to book",
+    "level": "a2"
+  },
+  {
+    "word": "Buchstabe",
+    "meaning": "letter / character",
+    "level": "a2"
+  },
+  {
+    "word": "bitte",
+    "meaning": "to request (sth.) / to beg for (sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "Bitte",
+    "meaning": "Request / Appeal / You're welcome",
+    "level": "a2"
+  },
+  {
+    "word": "bitten",
+    "meaning": "to ask for (sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "buchstabieren",
+    "meaning": "to spell",
+    "level": "a2"
+  },
+  {
+    "word": "bunt",
+    "meaning": "colorful",
+    "level": "a2"
+  },
+  {
+    "word": "bitter",
+    "meaning": "bitter",
+    "level": "a2"
+  },
+  {
+    "word": "Büro",
+    "meaning": "office",
+    "level": "a2"
+  },
+  {
+    "word": "Blatt",
+    "meaning": "sheet",
+    "level": "a2"
+  },
+  {
+    "word": "Bus",
+    "meaning": "bus",
+    "level": "a2"
+  },
+  {
+    "word": "Butter",
+    "meaning": "butter",
+    "level": "a2"
+  },
+  {
+    "word": "Café",
+    "meaning": "Coffee shop",
+    "level": "a2"
+  },
+  {
+    "word": "Cafeteria",
+    "meaning": "cafeteria",
+    "level": "a2"
+  },
+  {
+    "word": "chatten",
+    "meaning": "to chat",
+    "level": "a2"
+  },
+  {
+    "word": "Datum",
+    "meaning": "date",
+    "level": "a2"
+  },
+  {
+    "word": "dauern",
+    "meaning": "to last",
+    "level": "a2"
+  },
+  {
+    "word": "denken",
+    "meaning": "to think",
+    "level": "a2"
+  },
+  {
+    "word": "Chef",
+    "meaning": "male boss",
+    "level": "a2"
+  },
+  {
+    "word": "Chefin",
+    "meaning": "female boss",
+    "level": "a2"
+  },
+  {
+    "word": "Club",
+    "meaning": "club",
+    "level": "a2"
+  },
+  {
+    "word": "Comic",
+    "meaning": "comic",
+    "level": "a2"
+  },
+  {
+    "word": "denn",
+    "meaning": "because",
+    "level": "a2"
+  },
+  {
+    "word": "deshalb",
+    "meaning": "therefore / that's why",
+    "level": "a2"
+  },
+  {
+    "word": "deutlich",
+    "meaning": "clear",
+    "level": "a2"
+  },
+  {
+    "word": "Computer",
+    "meaning": "computer",
+    "level": "a2"
+  },
+  {
+    "word": "Creme",
+    "meaning": "cream",
+    "level": "a2"
+  },
+  {
+    "word": "dick",
+    "meaning": "thick",
+    "level": "a2"
+  },
+  {
+    "word": "Ding",
+    "meaning": "thing",
+    "level": "a2"
+  },
+  {
+    "word": "direkt",
+    "meaning": "directly",
+    "level": "a2"
+  },
+  {
+    "word": "da",
+    "meaning": "there",
+    "level": "a2"
+  },
+  {
+    "word": "Disco",
+    "meaning": "Disco",
+    "level": "a2"
+  },
+  {
+    "word": "diskutieren",
+    "meaning": "to discuss",
+    "level": "a2"
+  },
+  {
+    "word": "dabei sein",
+    "meaning": "to be present / to be there",
+    "level": "a2"
+  },
+  {
+    "word": "darüber",
+    "meaning": "about that",
+    "level": "a2"
+  },
+  {
+    "word": "doch",
+    "meaning": "still / however / but",
+    "level": "a2"
+  },
+  {
+    "word": "darauf",
+    "meaning": "afterwards / after that / thereon",
+    "level": "a2"
+  },
+  {
+    "word": "dagegen sein",
+    "meaning": "be against",
+    "level": "a2"
+  },
+  {
+    "word": "dafür sein",
+    "meaning": "to be for it",
+    "level": "a2"
+  },
+  {
+    "word": "damals",
+    "meaning": "back then",
+    "level": "a2"
+  },
+  {
+    "word": "Doppelzimmer",
+    "meaning": "double room",
+    "level": "a2"
+  },
+  {
+    "word": "Dame",
+    "meaning": "lady",
+    "level": "a2"
+  },
+  {
+    "word": "daneben",
+    "meaning": "aside / beside",
+    "level": "a2"
+  },
+  {
+    "word": "Dank",
+    "meaning": "thanks",
+    "level": "a2"
+  },
+  {
+    "word": "Dorf",
+    "meaning": "village",
+    "level": "a2"
+  },
+  {
+    "word": "dort",
+    "meaning": "there",
+    "level": "a2"
+  },
+  {
+    "word": "dorther",
+    "meaning": "thence / from there",
+    "level": "a2"
+  },
+  {
+    "word": "dorthin",
+    "meaning": "to there",
+    "level": "a2"
+  },
+  {
+    "word": "danke",
+    "meaning": "Thank you",
+    "level": "a2"
+  },
+  {
+    "word": "draußen",
+    "meaning": "outside",
+    "level": "a2"
+  },
+  {
+    "word": "danken",
+    "meaning": "to thank",
+    "level": "a2"
+  },
+  {
+    "word": "dann",
+    "meaning": "then",
+    "level": "a2"
+  },
+  {
+    "word": "dringend",
+    "meaning": "urgent",
+    "level": "a2"
+  },
+  {
+    "word": "drinnen",
+    "meaning": "indoors",
+    "level": "a2"
+  },
+  {
+    "word": "dass",
+    "meaning": "that",
+    "level": "a2"
+  },
+  {
+    "word": "Datei",
+    "meaning": "file",
+    "level": "a2"
+  },
+  {
+    "word": "drüben",
+    "meaning": "over there",
+    "level": "a2"
+  },
+  {
+    "word": "drücken",
+    "meaning": "to press",
+    "level": "a2"
+  },
+  {
+    "word": "drucken",
+    "meaning": "to print",
+    "level": "a2"
+  },
+  {
+    "word": "Einkaufszentrum",
+    "meaning": "shopping mall",
+    "level": "a2"
+  },
+  {
+    "word": "Drucker",
+    "meaning": "printer",
+    "level": "a2"
+  },
+  {
+    "word": "dumm",
+    "meaning": "stupid",
+    "level": "a2"
+  },
+  {
+    "word": "einladen",
+    "meaning": "to invite",
+    "level": "a2"
+  },
+  {
+    "word": "dunkel",
+    "meaning": "dark",
+    "level": "a2"
+  },
+  {
+    "word": "Einladung",
+    "meaning": "invitation",
+    "level": "a2"
+  },
+  {
+    "word": "einmal",
+    "meaning": "once",
+    "level": "a2"
+  },
+  {
+    "word": "einpacken",
+    "meaning": "to wrap (sth.) / to pack (sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "dünn",
+    "meaning": "thin",
+    "level": "a2"
+  },
+  {
+    "word": "durch",
+    "meaning": "by",
+    "level": "a2"
+  },
+  {
+    "word": "einsteigen",
+    "meaning": "to get in / to board / to enter",
+    "level": "a2"
+  },
+  {
+    "word": "dürfen",
+    "meaning": "can / may / to be allowed to do (sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "sich eintragen",
+    "meaning": "to register / to sign in",
+    "level": "a2"
+  },
+  {
+    "word": "Durst",
+    "meaning": "thirst",
+    "level": "a2"
+  },
+  {
+    "word": "Dusche",
+    "meaning": "shower",
+    "level": "a2"
+  },
+  {
+    "word": "Eintritt",
+    "meaning": "entry",
+    "level": "a2"
+  },
+  {
+    "word": "einverstanden sein",
+    "meaning": "to agree",
+    "level": "a2"
+  },
+  {
+    "word": "sich duschen",
+    "meaning": "to take a shower",
+    "level": "a2"
+  },
+  {
+    "word": "E-Book",
+    "meaning": "E-Book",
+    "level": "a2"
+  },
+  {
+    "word": "einzeln",
+    "meaning": "single / individual / separate",
+    "level": "a2"
+  },
+  {
+    "word": "Einzelkind",
+    "meaning": "the only child",
+    "level": "a2"
+  },
+  {
+    "word": "Einzelzimmer",
+    "meaning": "single room",
+    "level": "a2"
+  },
+  {
+    "word": "echt",
+    "meaning": "real",
+    "level": "a2"
+  },
+  {
+    "word": "Ecke",
+    "meaning": "corner",
+    "level": "a2"
+  },
+  {
+    "word": "einziehen",
+    "meaning": "to move in",
+    "level": "a2"
+  },
+  {
+    "word": "egal",
+    "meaning": "equal / whatever",
+    "level": "a2"
+  },
+  {
+    "word": "Eis",
+    "meaning": "ice cream",
+    "level": "a2"
+  },
+  {
+    "word": "E-Mail",
+    "meaning": "e-mail",
+    "level": "a2"
+  },
+  {
+    "word": "Ehefrau",
+    "meaning": "wife",
+    "level": "a2"
+  },
+  {
+    "word": "Ehepartner",
+    "meaning": "spouse",
+    "level": "a2"
+  },
+  {
+    "word": "Ehemann",
+    "meaning": "husband",
+    "level": "a2"
+  },
+  {
+    "word": "Ei",
+    "meaning": "egg",
+    "level": "a2"
+  },
+  {
+    "word": "eigenes",
+    "meaning": "own",
+    "level": "a2"
+  },
+  {
+    "word": "Empfänger",
+    "meaning": "receiver",
+    "level": "a2"
+  },
+  {
+    "word": "empfehlen",
+    "meaning": "to recommend",
+    "level": "a2"
+  },
+  {
+    "word": "eigentlich",
+    "meaning": "actually",
+    "level": "a2"
+  },
+  {
+    "word": "Ende",
+    "meaning": "the End",
+    "level": "a2"
+  },
+  {
+    "word": "eilig",
+    "meaning": "hurried",
+    "level": "a2"
+  },
+  {
+    "word": "einfach",
+    "meaning": "easy",
+    "level": "a2"
+  },
+  {
+    "word": "enden",
+    "meaning": "to end in (sth.) / to finish / to close",
+    "level": "a2"
+  },
+  {
+    "word": "endlich",
+    "meaning": "finally / at last",
+    "level": "a2"
+  },
+  {
+    "word": "eng",
+    "meaning": "tight / narrow / cramped",
+    "level": "a2"
+  },
+  {
+    "word": "Eingang",
+    "meaning": "entrance",
+    "level": "a2"
+  },
+  {
+    "word": "einige",
+    "meaning": "some",
+    "level": "a2"
+  },
+  {
+    "word": "sich entschuldigen",
+    "meaning": "to apologize",
+    "level": "a2"
+  },
+  {
+    "word": "einkaufen",
+    "meaning": "to shop / to do the shopping",
+    "level": "a2"
+  },
+  {
+    "word": "Entschuldigung",
+    "meaning": "excuse / apology",
+    "level": "a2"
+  },
+  {
+    "word": "Erdgeschoss",
+    "meaning": "ground floor",
+    "level": "a2"
+  },
+  {
+    "word": "falsch",
+    "meaning": "not correct / wrong",
+    "level": "a2"
+  },
+  {
+    "word": "Erfahrung",
+    "meaning": "experience",
+    "level": "a2"
+  },
+  {
+    "word": "sich erinnern",
+    "meaning": "to remember",
+    "level": "a2"
+  },
+  {
+    "word": "Familie",
+    "meaning": "family",
+    "level": "a2"
+  },
+  {
+    "word": "Familienname",
+    "meaning": "family name",
+    "level": "a2"
+  },
+  {
+    "word": "erkältet sein",
+    "meaning": "to have a cold",
+    "level": "a2"
+  },
+  {
+    "word": "fantastisch",
+    "meaning": "fantastic",
+    "level": "a2"
+  },
+  {
+    "word": "Fan",
+    "meaning": "fan",
+    "level": "a2"
+  },
+  {
+    "word": "erklären",
+    "meaning": "to explain",
+    "level": "a2"
+  },
+  {
+    "word": "Farbe",
+    "meaning": "Colour",
+    "level": "a2"
+  },
+  {
+    "word": "erlauben",
+    "meaning": "to allow",
+    "level": "a2"
+  },
+  {
+    "word": "erlaubt sein",
+    "meaning": "to be allowed",
+    "level": "a2"
+  },
+  {
+    "word": "Erlaubnis",
+    "meaning": "permission",
+    "level": "a2"
+  },
+  {
+    "word": "fast",
+    "meaning": "nearly",
+    "level": "a2"
+  },
+  {
+    "word": "faul",
+    "meaning": "lazy",
+    "level": "a2"
+  },
+  {
+    "word": "fehlen",
+    "meaning": "to be absence / to be missing",
+    "level": "a2"
+  },
+  {
+    "word": "Ermäßigung",
+    "meaning": "discount",
+    "level": "a2"
+  },
+  {
+    "word": "erreichen",
+    "meaning": "to reach",
+    "level": "a2"
+  },
+  {
+    "word": "Fehler",
+    "meaning": "error",
+    "level": "a2"
+  },
+  {
+    "word": "Feier",
+    "meaning": "celebration",
+    "level": "a2"
+  },
+  {
+    "word": "Feierabend",
+    "meaning": "end of working day",
+    "level": "a2"
+  },
+  {
+    "word": "Feiertag",
+    "meaning": "holiday",
+    "level": "a2"
+  },
+  {
+    "word": "feiern",
+    "meaning": "to celebrate",
+    "level": "a2"
+  },
+  {
+    "word": "erst",
+    "meaning": "first",
+    "level": "a2"
+  },
+  {
+    "word": "Erwachsene",
+    "meaning": "adult",
+    "level": "a2"
+  },
+  {
+    "word": "Fenster",
+    "meaning": "window",
+    "level": "a2"
+  },
+  {
+    "word": "Ferien",
+    "meaning": "vacation",
+    "level": "a2"
+  },
+  {
+    "word": "erzählen",
+    "meaning": "to tell",
+    "level": "a2"
+  },
+  {
+    "word": "fernsehen",
+    "meaning": "to watch TV",
+    "level": "a2"
+  },
+  {
+    "word": "essen",
+    "meaning": "to eat",
+    "level": "a2"
+  },
+  {
+    "word": "Essen",
+    "meaning": "food / meal",
+    "level": "a2"
+  },
+  {
+    "word": "Fernseher",
+    "meaning": "TV",
+    "level": "a2"
+  },
+  {
+    "word": "etwas",
+    "meaning": "something",
+    "level": "a2"
+  },
+  {
+    "word": "fertig sein",
+    "meaning": "to bei done (doing sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "Fest",
+    "meaning": "celebration / feast / party",
+    "level": "a2"
+  },
+  {
+    "word": "Fach",
+    "meaning": "subject",
+    "level": "a2"
+  },
+  {
+    "word": "fahren",
+    "meaning": "to drive",
+    "level": "a2"
+  },
+  {
+    "word": "abfahren",
+    "meaning": "depart",
+    "level": "a2"
+  },
+  {
+    "word": "Abfahrt",
+    "meaning": "Departure",
+    "level": "a2"
+  },
+  {
+    "word": "Fahrkarte",
+    "meaning": "ticket",
+    "level": "a2"
+  },
+  {
+    "word": "Festival",
+    "meaning": "festival",
+    "level": "a2"
+  },
+  {
+    "word": "fett",
+    "meaning": "fat",
+    "level": "a2"
+  },
+  {
+    "word": "Fieber",
+    "meaning": "fever",
+    "level": "a2"
+  },
+  {
+    "word": "Film",
+    "meaning": "movie",
+    "level": "a2"
+  },
+  {
+    "word": "finden",
+    "meaning": "to find",
+    "level": "a2"
+  },
+  {
+    "word": "Fahrplan",
+    "meaning": "timetable",
+    "level": "a2"
+  },
+  {
+    "word": "Firma",
+    "meaning": "company",
+    "level": "a2"
+  },
+  {
+    "word": "fallen",
+    "meaning": "to fall",
+    "level": "a2"
+  },
+  {
+    "word": "Fahrrad",
+    "meaning": "bicycle",
+    "level": "a2"
+  },
+  {
+    "word": "Fisch",
+    "meaning": "fish",
+    "level": "a2"
+  },
+  {
+    "word": "fit sein",
+    "meaning": "to be fit",
+    "level": "a2"
+  },
+  {
+    "word": "Flasche",
+    "meaning": "bottle",
+    "level": "a2"
+  },
+  {
+    "word": "Fleisch",
+    "meaning": "meat",
+    "level": "a2"
+  },
+  {
+    "word": "fleißig",
+    "meaning": "diligent / busy / hard-working",
+    "level": "a2"
+  },
+  {
+    "word": "früher",
+    "meaning": "earlier",
+    "level": "a2"
+  },
+  {
+    "word": "Frühstück",
+    "meaning": "breakfast",
+    "level": "a2"
+  },
+  {
+    "word": "frühstücken",
+    "meaning": "to have breakfast",
+    "level": "a2"
+  },
+  {
+    "word": "fliegen",
+    "meaning": "fly",
+    "level": "a2"
+  },
+  {
+    "word": "abfliegen",
+    "meaning": "depart",
+    "level": "a2"
+  },
+  {
+    "word": "sich fühlen",
+    "meaning": "to feel",
+    "level": "a2"
+  },
+  {
+    "word": "Flohmarkt",
+    "meaning": "flea market",
+    "level": "a2"
+  },
+  {
+    "word": "Führerschein",
+    "meaning": "driver's license",
+    "level": "a2"
+  },
+  {
+    "word": "Flug",
+    "meaning": "flight",
+    "level": "a2"
+  },
+  {
+    "word": "Führung",
+    "meaning": "guidance / leadership / conducted tour",
+    "level": "a2"
+  },
+  {
+    "word": "Fundsachen",
+    "meaning": "Lost property",
+    "level": "a2"
+  },
+  {
+    "word": "Flughafen",
+    "meaning": "airport",
+    "level": "a2"
+  },
+  {
+    "word": "Flugzeug",
+    "meaning": "plane",
+    "level": "a2"
+  },
+  {
+    "word": "für",
+    "meaning": "for",
+    "level": "a2"
+  },
+  {
+    "word": "Fluss",
+    "meaning": "river",
+    "level": "a2"
+  },
+  {
+    "word": "furchtbar",
+    "meaning": "awful",
+    "level": "a2"
+  },
+  {
+    "word": "Formular",
+    "meaning": "form",
+    "level": "a2"
+  },
+  {
+    "word": "Fotoapparat",
+    "meaning": "camera",
+    "level": "a2"
+  },
+  {
+    "word": "fotografieren",
+    "meaning": "to take photos",
+    "level": "a2"
+  },
+  {
+    "word": "Fuß",
+    "meaning": "foot",
+    "level": "a2"
+  },
+  {
+    "word": "Fußball",
+    "meaning": "soccer",
+    "level": "a2"
+  },
+  {
+    "word": "Foto",
+    "meaning": "photo",
+    "level": "a2"
+  },
+  {
+    "word": "Frage",
+    "meaning": "question",
+    "level": "a2"
+  },
+  {
+    "word": "fragen",
+    "meaning": "to ask",
+    "level": "a2"
+  },
+  {
+    "word": "Frau",
+    "meaning": "Mrs",
+    "level": "a2"
+  },
+  {
+    "word": "Gabel",
+    "meaning": "fork",
+    "level": "a2"
+  },
+  {
+    "word": "ganz",
+    "meaning": "all / quite",
+    "level": "a2"
+  },
+  {
+    "word": "frei",
+    "meaning": "free",
+    "level": "a2"
+  },
+  {
+    "word": "freiwillig",
+    "meaning": "voluntary",
+    "level": "a2"
+  },
+  {
+    "word": "Freizeit",
+    "meaning": "leisure",
+    "level": "a2"
+  },
+  {
+    "word": "fremd",
+    "meaning": "strange",
+    "level": "a2"
+  },
+  {
+    "word": "Garage",
+    "meaning": "garage",
+    "level": "a2"
+  },
+  {
+    "word": "Garten",
+    "meaning": "garden",
+    "level": "a2"
+  },
+  {
+    "word": "Gast",
+    "meaning": "guest",
+    "level": "a2"
+  },
+  {
+    "word": "geben",
+    "meaning": "to give",
+    "level": "a2"
+  },
+  {
+    "word": "sich freuen",
+    "meaning": "to be glad / to rejoice",
+    "level": "a2"
+  },
+  {
+    "word": "geboren",
+    "meaning": "born",
+    "level": "a2"
+  },
+  {
+    "word": "Geburtstag",
+    "meaning": "birthday",
+    "level": "a2"
+  },
+  {
+    "word": "Geburtsort",
+    "meaning": "place of birth",
+    "level": "a2"
+  },
+  {
+    "word": "Geburtsjahr",
+    "meaning": "year of birth",
+    "level": "a2"
+  },
+  {
+    "word": "Freund",
+    "meaning": "friend, boyfriend",
+    "level": "a2"
+  },
+  {
+    "word": "Freundin",
+    "meaning": "female friend, girlfriend",
+    "level": "a2"
+  },
+  {
+    "word": "geehrte",
+    "meaning": "Dear / honored",
+    "level": "a2"
+  },
+  {
+    "word": "freundlich",
+    "meaning": "friendly",
+    "level": "a2"
+  },
+  {
+    "word": "gefährlich",
+    "meaning": "dangerous",
+    "level": "a2"
+  },
+  {
+    "word": "frisch",
+    "meaning": "fresh",
+    "level": "a2"
+  },
+  {
+    "word": "gefallen",
+    "meaning": "to like",
+    "level": "a2"
+  },
+  {
+    "word": "froh",
+    "meaning": "glad",
+    "level": "a2"
+  },
+  {
+    "word": "früh",
+    "meaning": "early",
+    "level": "a2"
+  },
+  {
+    "word": "gegen",
+    "meaning": "against",
+    "level": "a2"
+  },
+  {
+    "word": "Gegenteil",
+    "meaning": "opposite",
+    "level": "a2"
+  },
+  {
+    "word": "gegenüber",
+    "meaning": "across / across from",
+    "level": "a2"
+  },
+  {
+    "word": "gewinnen",
+    "meaning": "to win",
+    "level": "a2"
+  },
+  {
+    "word": "Gehalt",
+    "meaning": "salary",
+    "level": "a2"
+  },
+  {
+    "word": "Gewitter",
+    "meaning": "thunderstorm",
+    "level": "a2"
+  },
+  {
+    "word": "gehen",
+    "meaning": "to go",
+    "level": "a2"
+  },
+  {
+    "word": "Gitarre",
+    "meaning": "guitar",
+    "level": "a2"
+  },
+  {
+    "word": "Glas",
+    "meaning": "Glass",
+    "level": "a2"
+  },
+  {
+    "word": "glauben",
+    "meaning": "to believe",
+    "level": "a2"
+  },
+  {
+    "word": "gleich",
+    "meaning": "equal",
+    "level": "a2"
+  },
+  {
+    "word": "gehören",
+    "meaning": "to belong to",
+    "level": "a2"
+  },
+  {
+    "word": "Geld",
+    "meaning": "money",
+    "level": "a2"
+  },
+  {
+    "word": "Gleis",
+    "meaning": "track",
+    "level": "a2"
+  },
+  {
+    "word": "Glück",
+    "meaning": "happiness",
+    "level": "a2"
+  },
+  {
+    "word": "Geldbörse",
+    "meaning": "Purse",
+    "level": "a2"
+  },
+  {
+    "word": "glücklich",
+    "meaning": "happy",
+    "level": "a2"
+  },
+  {
+    "word": "Gemüse",
+    "meaning": "vegetables",
+    "level": "a2"
+  },
+  {
+    "word": "Glückwunsch",
+    "meaning": "congratulation",
+    "level": "a2"
+  },
+  {
+    "word": "genau",
+    "meaning": "accurate / exact",
+    "level": "a2"
+  },
+  {
+    "word": "gratulieren",
+    "meaning": "to congratulate",
+    "level": "a2"
+  },
+  {
+    "word": "genug",
+    "meaning": "enough",
+    "level": "a2"
+  },
+  {
+    "word": "grillen",
+    "meaning": "to have a barbecue",
+    "level": "a2"
+  },
+  {
+    "word": "Gepäck",
+    "meaning": "Luggage",
+    "level": "a2"
+  },
+  {
+    "word": "gerade",
+    "meaning": "just",
+    "level": "a2"
+  },
+  {
+    "word": "Grippe",
+    "meaning": "flu",
+    "level": "a2"
+  },
+  {
+    "word": "groß",
+    "meaning": "big",
+    "level": "a2"
+  },
+  {
+    "word": "geradeaus",
+    "meaning": "straight",
+    "level": "a2"
+  },
+  {
+    "word": "Größe",
+    "meaning": "size",
+    "level": "a2"
+  },
+  {
+    "word": "Gerät",
+    "meaning": "device",
+    "level": "a2"
+  },
+  {
+    "word": "Gruppe",
+    "meaning": "group",
+    "level": "a2"
+  },
+  {
+    "word": "Gericht",
+    "meaning": "dish",
+    "level": "a2"
+  },
+  {
+    "word": "gern",
+    "meaning": "gladly",
+    "level": "a2"
+  },
+  {
+    "word": "Gruß",
+    "meaning": "greeting",
+    "level": "a2"
+  },
+  {
+    "word": "Geschäft",
+    "meaning": "shop / business",
+    "level": "a2"
+  },
+  {
+    "word": "gültig sein",
+    "meaning": "to be valid",
+    "level": "a2"
+  },
+  {
+    "word": "Geschenk",
+    "meaning": "present",
+    "level": "a2"
+  },
+  {
+    "word": "Geschichte",
+    "meaning": "story",
+    "level": "a2"
+  },
+  {
+    "word": "Geschirr",
+    "meaning": "dishes",
+    "level": "a2"
+  },
+  {
+    "word": "günstig",
+    "meaning": "Cheap",
+    "level": "a2"
+  },
+  {
+    "word": "gut",
+    "meaning": "good",
+    "level": "a2"
+  },
+  {
+    "word": "Gesicht",
+    "meaning": "face",
+    "level": "a2"
+  },
+  {
+    "word": "Gespräch",
+    "meaning": "talk",
+    "level": "a2"
+  },
+  {
+    "word": "gestern",
+    "meaning": "yesterday",
+    "level": "a2"
+  },
+  {
+    "word": "gesund",
+    "meaning": "healthy",
+    "level": "a2"
+  },
+  {
+    "word": "Gesundheit",
+    "meaning": "health",
+    "level": "a2"
+  },
+  {
+    "word": "Getränk",
+    "meaning": "drink",
+    "level": "a2"
+  },
+  {
+    "word": "Haar",
+    "meaning": "hair",
+    "level": "a2"
+  },
+  {
+    "word": "haben",
+    "meaning": "to have",
+    "level": "a2"
+  },
+  {
+    "word": "Hähnchen",
+    "meaning": "chicken",
+    "level": "a2"
+  },
+  {
+    "word": "Halle",
+    "meaning": "hall",
+    "level": "a2"
+  },
+  {
+    "word": "hallo",
+    "meaning": "hello",
+    "level": "a2"
+  },
+  {
+    "word": "herein",
+    "meaning": "in / this way in",
+    "level": "a2"
+  },
+  {
+    "word": "Hals",
+    "meaning": "neck",
+    "level": "a2"
+  },
+  {
+    "word": "Herd",
+    "meaning": "stove / cooker",
+    "level": "a2"
+  },
+  {
+    "word": "Herr",
+    "meaning": "Sir",
+    "level": "a2"
+  },
+  {
+    "word": "halten",
+    "meaning": "to hold (sth.) / to stop",
+    "level": "a2"
+  },
+  {
+    "word": "herstellen",
+    "meaning": "to produce",
+    "level": "a2"
+  },
+  {
+    "word": "Hamburger",
+    "meaning": "hamburger",
+    "level": "a2"
+  },
+  {
+    "word": "Haltestelle",
+    "meaning": "stop",
+    "level": "a2"
+  },
+  {
+    "word": "herunterladen",
+    "meaning": "to download",
+    "level": "a2"
+  },
+  {
+    "word": "Hand",
+    "meaning": "hand",
+    "level": "a2"
+  },
+  {
+    "word": "Handtuch",
+    "meaning": "towel",
+    "level": "a2"
+  },
+  {
+    "word": "herzlich",
+    "meaning": "warmly",
+    "level": "a2"
+  },
+  {
+    "word": "Handy",
+    "meaning": "mobile",
+    "level": "a2"
+  },
+  {
+    "word": "heute",
+    "meaning": "today",
+    "level": "a2"
+  },
+  {
+    "word": "hängen",
+    "meaning": "to hang",
+    "level": "a2"
+  },
+  {
+    "word": "hier",
+    "meaning": "here",
+    "level": "a2"
+  },
+  {
+    "word": "hart",
+    "meaning": "hard",
+    "level": "a2"
+  },
+  {
+    "word": "Hilfe",
+    "meaning": "Help",
+    "level": "a2"
+  },
+  {
+    "word": "hässlich",
+    "meaning": "ugly",
+    "level": "a2"
+  },
+  {
+    "word": "Hauptstadt",
+    "meaning": "capital",
+    "level": "a2"
+  },
+  {
+    "word": "Himmel",
+    "meaning": "sky",
+    "level": "a2"
+  },
+  {
+    "word": "Haus",
+    "meaning": "house",
+    "level": "a2"
+  },
+  {
+    "word": "hin",
+    "meaning": "(to go) there",
+    "level": "a2"
+  },
+  {
+    "word": "hinein",
+    "meaning": "in / into",
+    "level": "a2"
+  },
+  {
+    "word": "hinaus",
+    "meaning": "out / afield",
+    "level": "a2"
+  },
+  {
+    "word": "Haushalt",
+    "meaning": "household",
+    "level": "a2"
+  },
+  {
+    "word": "hinten",
+    "meaning": "in the back",
+    "level": "a2"
+  },
+  {
+    "word": "hinter",
+    "meaning": "behind",
+    "level": "a2"
+  },
+  {
+    "word": "Heft",
+    "meaning": "notebook",
+    "level": "a2"
+  },
+  {
+    "word": "Heimat",
+    "meaning": "homeland",
+    "level": "a2"
+  },
+  {
+    "word": "Hobby",
+    "meaning": "hobby",
+    "level": "a2"
+  },
+  {
+    "word": "hoch",
+    "meaning": "high",
+    "level": "a2"
+  },
+  {
+    "word": "Hochzeit",
+    "meaning": "wedding",
+    "level": "a2"
+  },
+  {
+    "word": "heiraten",
+    "meaning": "to marry",
+    "level": "a2"
+  },
+  {
+    "word": "hoffen",
+    "meaning": "to hope",
+    "level": "a2"
+  },
+  {
+    "word": "heiß",
+    "meaning": "hot",
+    "level": "a2"
+  },
+  {
+    "word": "heißen",
+    "meaning": "to be called",
+    "level": "a2"
+  },
+  {
+    "word": "hoffentlich",
+    "meaning": "hopefully",
+    "level": "a2"
+  },
+  {
+    "word": "holen",
+    "meaning": "pick up",
+    "level": "a2"
+  },
+  {
+    "word": "Heizung",
+    "meaning": "heater",
+    "level": "a2"
+  },
+  {
+    "word": "helfen",
+    "meaning": "to help",
+    "level": "a2"
+  },
+  {
+    "word": "Homepage",
+    "meaning": "homepage",
+    "level": "a2"
+  },
+  {
+    "word": "hören",
+    "meaning": "to hear",
+    "level": "a2"
+  },
+  {
+    "word": "hell",
+    "meaning": "bright",
+    "level": "a2"
+  },
+  {
+    "word": "Hose",
+    "meaning": "trousers",
+    "level": "a2"
+  },
+  {
+    "word": "Hemd",
+    "meaning": "shirt",
+    "level": "a2"
+  },
+  {
+    "word": "her kommen",
+    "meaning": "to come here",
+    "level": "a2"
+  },
+  {
+    "word": "heraus",
+    "meaning": "out",
+    "level": "a2"
+  },
+  {
+    "word": "Hotel",
+    "meaning": "hotel",
+    "level": "a2"
+  },
+  {
+    "word": "Hund",
+    "meaning": "dog",
+    "level": "a2"
+  },
+  {
+    "word": "Hunger",
+    "meaning": "hunger",
+    "level": "a2"
+  },
+  {
+    "word": "husten",
+    "meaning": "to cough",
+    "level": "a2"
+  },
+  {
+    "word": "Idee",
+    "meaning": "idea",
+    "level": "a2"
+  },
+  {
+    "word": "jung",
+    "meaning": "young",
+    "level": "a2"
+  },
+  {
+    "word": "immer",
+    "meaning": "always",
+    "level": "a2"
+  },
+  {
+    "word": "Junge",
+    "meaning": "Boy",
+    "level": "a2"
+  },
+  {
+    "word": "in",
+    "meaning": "in",
+    "level": "a2"
+  },
+  {
+    "word": "Information",
+    "meaning": "information",
+    "level": "a2"
+  },
+  {
+    "word": "sich über informieren",
+    "meaning": "to inform oneself about (so./sth.) / to catch up on sth.",
+    "level": "a2"
+  },
+  {
+    "word": "Kaffee",
+    "meaning": "coffee",
+    "level": "a2"
+  },
+  {
+    "word": "Kalender",
+    "meaning": "calendar",
+    "level": "a2"
+  },
+  {
+    "word": "kalt",
+    "meaning": "cold",
+    "level": "a2"
+  },
+  {
+    "word": "Insel",
+    "meaning": "island",
+    "level": "a2"
+  },
+  {
+    "word": "Instrument",
+    "meaning": "instrument",
+    "level": "a2"
+  },
+  {
+    "word": "intelligent",
+    "meaning": "intelligent",
+    "level": "a2"
+  },
+  {
+    "word": "Kamera",
+    "meaning": "camera",
+    "level": "a2"
+  },
+  {
+    "word": "Interesse",
+    "meaning": "interest",
+    "level": "a2"
+  },
+  {
+    "word": "kaputt",
+    "meaning": "broken",
+    "level": "a2"
+  },
+  {
+    "word": "Karte",
+    "meaning": "map",
+    "level": "a2"
+  },
+  {
+    "word": "sich interessieren",
+    "meaning": "to be interested in (so./sth.) / to care about (so./sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "interessant",
+    "meaning": "interesting",
+    "level": "a2"
+  },
+  {
+    "word": "international",
+    "meaning": "international",
+    "level": "a2"
+  },
+  {
+    "word": "Internet",
+    "meaning": "internet",
+    "level": "a2"
+  },
+  {
+    "word": "Kartoffel",
+    "meaning": "potato",
+    "level": "a2"
+  },
+  {
+    "word": "Käse",
+    "meaning": "cheese",
+    "level": "a2"
+  },
+  {
+    "word": "Kasse",
+    "meaning": "cash register",
+    "level": "a2"
+  },
+  {
+    "word": "Katze",
+    "meaning": "cat",
+    "level": "a2"
+  },
+  {
+    "word": "kaufen",
+    "meaning": "to buy",
+    "level": "a2"
+  },
+  {
+    "word": "Interview",
+    "meaning": "interview",
+    "level": "a2"
+  },
+  {
+    "word": "Kaufhaus",
+    "meaning": "department store",
+    "level": "a2"
+  },
+  {
+    "word": "kein",
+    "meaning": "no / none",
+    "level": "a2"
+  },
+  {
+    "word": "ja",
+    "meaning": "yes",
+    "level": "a2"
+  },
+  {
+    "word": "Jacke",
+    "meaning": "jacket",
+    "level": "a2"
+  },
+  {
+    "word": "Jeans",
+    "meaning": "Jeans",
+    "level": "a2"
+  },
+  {
+    "word": "Keller",
+    "meaning": "basement, cellar",
+    "level": "a2"
+  },
+  {
+    "word": "jeden",
+    "meaning": "each",
+    "level": "a2"
+  },
+  {
+    "word": "jedes",
+    "meaning": "each",
+    "level": "a2"
+  },
+  {
+    "word": "jemand",
+    "meaning": "someone",
+    "level": "a2"
+  },
+  {
+    "word": "kennen",
+    "meaning": "to know (so./sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "kennenlernen",
+    "meaning": "to get to know",
+    "level": "a2"
+  },
+  {
+    "word": "jetzt",
+    "meaning": "now",
+    "level": "a2"
+  },
+  {
+    "word": "Job",
+    "meaning": "job",
+    "level": "a2"
+  },
+  {
+    "word": "Kenntnisse",
+    "meaning": "expertise",
+    "level": "a2"
+  },
+  {
+    "word": "joggen",
+    "meaning": "to jog",
+    "level": "a2"
+  },
+  {
+    "word": "Kette",
+    "meaning": "chain",
+    "level": "a2"
+  },
+  {
+    "word": "Jugendherberge",
+    "meaning": "youth hostel",
+    "level": "a2"
+  },
+  {
+    "word": "Kind",
+    "meaning": "child",
+    "level": "a2"
+  },
+  {
+    "word": "Jugendliche (männlich)",
+    "meaning": "Youth (male)",
+    "level": "a2"
+  },
+  {
+    "word": "Jugendliche (weiblich)",
+    "meaning": "Youth (female)",
+    "level": "a2"
+  },
+  {
+    "word": "Kindergarten",
+    "meaning": "kindergarten",
+    "level": "a2"
+  },
+  {
+    "word": "Kino",
+    "meaning": "movie theater",
+    "level": "a2"
+  },
+  {
+    "word": "Kiosk",
+    "meaning": "kiosk",
+    "level": "a2"
+  },
+  {
+    "word": "Kirche",
+    "meaning": "church",
+    "level": "a2"
+  },
+  {
+    "word": "kostenlos",
+    "meaning": "free",
+    "level": "a2"
+  },
+  {
+    "word": "klappen",
+    "meaning": "to fold",
+    "level": "a2"
+  },
+  {
+    "word": "krank",
+    "meaning": "sick",
+    "level": "a2"
+  },
+  {
+    "word": "Krankenhaus",
+    "meaning": "hospital",
+    "level": "a2"
+  },
+  {
+    "word": "klar",
+    "meaning": "clearly / obvious",
+    "level": "a2"
+  },
+  {
+    "word": "Krankenkasse",
+    "meaning": "health insurance",
+    "level": "a2"
+  },
+  {
+    "word": "Krankheit",
+    "meaning": "illness",
+    "level": "a2"
+  },
+  {
+    "word": "Kredit",
+    "meaning": "credit",
+    "level": "a2"
+  },
+  {
+    "word": "Klavier",
+    "meaning": "piano",
+    "level": "a2"
+  },
+  {
+    "word": "Kleid",
+    "meaning": "dress",
+    "level": "a2"
+  },
+  {
+    "word": "Kreuzung",
+    "meaning": "crossing",
+    "level": "a2"
+  },
+  {
+    "word": "Kleidung",
+    "meaning": "cloths / outfit",
+    "level": "a2"
+  },
+  {
+    "word": "kriegen",
+    "meaning": "to get",
+    "level": "a2"
+  },
+  {
+    "word": "klein",
+    "meaning": "small",
+    "level": "a2"
+  },
+  {
+    "word": "Krimi",
+    "meaning": "thriller",
+    "level": "a2"
+  },
+  {
+    "word": "klug",
+    "meaning": "smart",
+    "level": "a2"
+  },
+  {
+    "word": "kochen",
+    "meaning": "to cook",
+    "level": "a2"
+  },
+  {
+    "word": "Küche",
+    "meaning": "kitchen",
+    "level": "a2"
+  },
+  {
+    "word": "Kuchen",
+    "meaning": "cake",
+    "level": "a2"
+  },
+  {
+    "word": "kühl",
+    "meaning": "cool",
+    "level": "a2"
+  },
+  {
+    "word": "Koffer",
+    "meaning": "suitcase",
+    "level": "a2"
+  },
+  {
+    "word": "Kühlschrank",
+    "meaning": "fridge",
+    "level": "a2"
+  },
+  {
+    "word": "Kollege",
+    "meaning": "male colleague / co-worker",
+    "level": "a2"
+  },
+  {
+    "word": "Kollegin",
+    "meaning": "female colleague / co-worker",
+    "level": "a2"
+  },
+  {
+    "word": "Kultur",
+    "meaning": "culture",
+    "level": "a2"
+  },
+  {
+    "word": "komisch",
+    "meaning": "funny",
+    "level": "a2"
+  },
+  {
+    "word": "sich kümmern",
+    "meaning": "to take care of",
+    "level": "a2"
+  },
+  {
+    "word": "kommen",
+    "meaning": "to come",
+    "level": "a2"
+  },
+  {
+    "word": "können",
+    "meaning": "can",
+    "level": "a2"
+  },
+  {
+    "word": "kündigen",
+    "meaning": "to cancel",
+    "level": "a2"
+  },
+  {
+    "word": "Kunde",
+    "meaning": "male customer",
+    "level": "a2"
+  },
+  {
+    "word": "Kundin",
+    "meaning": "female customer",
+    "level": "a2"
+  },
+  {
+    "word": "Kunst",
+    "meaning": "art",
+    "level": "a2"
+  },
+  {
+    "word": "Kontakt",
+    "meaning": "contact",
+    "level": "a2"
+  },
+  {
+    "word": "Konto",
+    "meaning": "account",
+    "level": "a2"
+  },
+  {
+    "word": "Kurs",
+    "meaning": "course",
+    "level": "a2"
+  },
+  {
+    "word": "kurz",
+    "meaning": "short",
+    "level": "a2"
+  },
+  {
+    "word": "kontrollieren",
+    "meaning": "to check / to controll",
+    "level": "a2"
+  },
+  {
+    "word": "Konzert",
+    "meaning": "concert",
+    "level": "a2"
+  },
+  {
+    "word": "lachen",
+    "meaning": "laugh",
+    "level": "a2"
+  },
+  {
+    "word": "Kopf",
+    "meaning": "head",
+    "level": "a2"
+  },
+  {
+    "word": "Laden",
+    "meaning": "small shop",
+    "level": "a2"
+  },
+  {
+    "word": "Körper",
+    "meaning": "body",
+    "level": "a2"
+  },
+  {
+    "word": "Lampe",
+    "meaning": "lamp",
+    "level": "a2"
+  },
+  {
+    "word": "Land",
+    "meaning": "country",
+    "level": "a2"
+  },
+  {
+    "word": "Kosmetik",
+    "meaning": "cosmetics",
+    "level": "a2"
+  },
+  {
+    "word": "kosten",
+    "meaning": "to cost",
+    "level": "a2"
+  },
+  {
+    "word": "Landschaft",
+    "meaning": "landscape",
+    "level": "a2"
+  },
+  {
+    "word": "lang",
+    "meaning": "long",
+    "level": "a2"
+  },
+  {
+    "word": "lange",
+    "meaning": "Long",
+    "level": "a2"
+  },
+  {
+    "word": "langsam",
+    "meaning": "slowly",
+    "level": "a2"
+  },
+  {
+    "word": "Link",
+    "meaning": "link",
+    "level": "a2"
+  },
+  {
+    "word": "links",
+    "meaning": "left",
+    "level": "a2"
+  },
+  {
+    "word": "Löffel",
+    "meaning": "spoon",
+    "level": "a2"
+  },
+  {
+    "word": "langweilig",
+    "meaning": "boring",
+    "level": "a2"
+  },
+  {
+    "word": "Lokal",
+    "meaning": "pub / tavern / restaurant",
+    "level": "a2"
+  },
+  {
+    "word": "Lüge",
+    "meaning": "lie",
+    "level": "a2"
+  },
+  {
+    "word": "lügen",
+    "meaning": "to lie / to tell a lie",
+    "level": "a2"
+  },
+  {
+    "word": "Laptop",
+    "meaning": "laptop",
+    "level": "a2"
+  },
+  {
+    "word": "lassen",
+    "meaning": "to let",
+    "level": "a2"
+  },
+  {
+    "word": "Lust",
+    "meaning": "desire / delight / lust",
+    "level": "a2"
+  },
+  {
+    "word": "laufen",
+    "meaning": "to run",
+    "level": "a2"
+  },
+  {
+    "word": "lustig",
+    "meaning": "funny",
+    "level": "a2"
+  },
+  {
+    "word": "laut",
+    "meaning": "noisy",
+    "level": "a2"
+  },
+  {
+    "word": "leben",
+    "meaning": "to live",
+    "level": "a2"
+  },
+  {
+    "word": "machen",
+    "meaning": "to do",
+    "level": "a2"
+  },
+  {
+    "word": "Leben",
+    "meaning": "Life",
+    "level": "a2"
+  },
+  {
+    "word": "Lebensmittel",
+    "meaning": "foods / groceries",
+    "level": "a2"
+  },
+  {
+    "word": "leer",
+    "meaning": "empty",
+    "level": "a2"
+  },
+  {
+    "word": "Mädchen",
+    "meaning": "girl",
+    "level": "a2"
+  },
+  {
+    "word": "Magen",
+    "meaning": "stomach",
+    "level": "a2"
+  },
+  {
+    "word": "legen",
+    "meaning": "to lay / to put",
+    "level": "a2"
+  },
+  {
+    "word": "leicht",
+    "meaning": "light",
+    "level": "a2"
+  },
+  {
+    "word": "leider",
+    "meaning": "unfortunately",
+    "level": "a2"
+  },
+  {
+    "word": "leidtun",
+    "meaning": "feels sorry for (so.) / feels sorry about (sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "Mailbox",
+    "meaning": "mailbox",
+    "level": "a2"
+  },
+  {
+    "word": "mal",
+    "meaning": "times",
+    "level": "a2"
+  },
+  {
+    "word": "Mal",
+    "meaning": "time / mark",
+    "level": "a2"
+  },
+  {
+    "word": "malen",
+    "meaning": "to paint",
+    "level": "a2"
+  },
+  {
+    "word": "man",
+    "meaning": "you",
+    "level": "a2"
+  },
+  {
+    "word": "leihen",
+    "meaning": "to lend",
+    "level": "a2"
+  },
+  {
+    "word": "leise",
+    "meaning": "quiet",
+    "level": "a2"
+  },
+  {
+    "word": "lernen",
+    "meaning": "to learn",
+    "level": "a2"
+  },
+  {
+    "word": "manche",
+    "meaning": "some",
+    "level": "a2"
+  },
+  {
+    "word": "manchmal",
+    "meaning": "sometimes",
+    "level": "a2"
+  },
+  {
+    "word": "Mann",
+    "meaning": "man",
+    "level": "a2"
+  },
+  {
+    "word": "männlich",
+    "meaning": "male",
+    "level": "a2"
+  },
+  {
+    "word": "lesen",
+    "meaning": "to read",
+    "level": "a2"
+  },
+  {
+    "word": "letzte",
+    "meaning": "last",
+    "level": "a2"
+  },
+  {
+    "word": "Mannschaft",
+    "meaning": "team",
+    "level": "a2"
+  },
+  {
+    "word": "Mantel",
+    "meaning": "coat",
+    "level": "a2"
+  },
+  {
+    "word": "Markt",
+    "meaning": "market",
+    "level": "a2"
+  },
+  {
+    "word": "Leute",
+    "meaning": "people",
+    "level": "a2"
+  },
+  {
+    "word": "Licht",
+    "meaning": "light",
+    "level": "a2"
+  },
+  {
+    "word": "lieber",
+    "meaning": "dear, beloved",
+    "level": "a2"
+  },
+  {
+    "word": "Maschine",
+    "meaning": "machine",
+    "level": "a2"
+  },
+  {
+    "word": "Medikament",
+    "meaning": "drug",
+    "level": "a2"
+  },
+  {
+    "word": "Meer",
+    "meaning": "sea",
+    "level": "a2"
+  },
+  {
+    "word": "lieben",
+    "meaning": "to love",
+    "level": "a2"
+  },
+  {
+    "word": "Lieblingsfarbe",
+    "meaning": "favourite colour",
+    "level": "a2"
+  },
+  {
+    "word": "mehr",
+    "meaning": "more",
+    "level": "a2"
+  },
+  {
+    "word": "meinen",
+    "meaning": "to mean",
+    "level": "a2"
+  },
+  {
+    "word": "Lied",
+    "meaning": "song",
+    "level": "a2"
+  },
+  {
+    "word": "Meinung",
+    "meaning": "opinion",
+    "level": "a2"
+  },
+  {
+    "word": "liefern",
+    "meaning": "to deliver",
+    "level": "a2"
+  },
+  {
+    "word": "liegen",
+    "meaning": "to lie (down) / to recline",
+    "level": "a2"
+  },
+  {
+    "word": "meisten",
+    "meaning": "most",
+    "level": "a2"
+  },
+  {
+    "word": "meistens",
+    "meaning": "mostly",
+    "level": "a2"
+  },
+  {
+    "word": "Menge",
+    "meaning": "amount",
+    "level": "a2"
+  },
+  {
+    "word": "Mensch",
+    "meaning": "human",
+    "level": "a2"
+  },
+  {
+    "word": "Moment",
+    "meaning": "moment",
+    "level": "a2"
+  },
+  {
+    "word": "morgen",
+    "meaning": "tomorrow",
+    "level": "a2"
+  },
+  {
+    "word": "Motor",
+    "meaning": "engine",
+    "level": "a2"
+  },
+  {
+    "word": "Motorroller",
+    "meaning": "scooter",
+    "level": "a2"
+  },
+  {
+    "word": "merken",
+    "meaning": "to realize / to notice / to memorize",
+    "level": "a2"
+  },
+  {
+    "word": "müde",
+    "meaning": "tired",
+    "level": "a2"
+  },
+  {
+    "word": "Müll",
+    "meaning": "rubbish",
+    "level": "a2"
+  },
+  {
+    "word": "Messe",
+    "meaning": "fair",
+    "level": "a2"
+  },
+  {
+    "word": "Messer",
+    "meaning": "knife",
+    "level": "a2"
+  },
+  {
+    "word": "Miete",
+    "meaning": "rental fee",
+    "level": "a2"
+  },
+  {
+    "word": "Mund",
+    "meaning": "mouth",
+    "level": "a2"
+  },
+  {
+    "word": "Museum",
+    "meaning": "museum",
+    "level": "a2"
+  },
+  {
+    "word": "Musik",
+    "meaning": "music",
+    "level": "a2"
+  },
+  {
+    "word": "mieten",
+    "meaning": "to rent",
+    "level": "a2"
+  },
+  {
+    "word": "Milch",
+    "meaning": "milk",
+    "level": "a2"
+  },
+  {
+    "word": "mindestens",
+    "meaning": "at least",
+    "level": "a2"
+  },
+  {
+    "word": "müssen",
+    "meaning": "have to / must",
+    "level": "a2"
+  },
+  {
+    "word": "Mütze",
+    "meaning": "cap",
+    "level": "a2"
+  },
+  {
+    "word": "Mineralwasser",
+    "meaning": "mineral water",
+    "level": "a2"
+  },
+  {
+    "word": "nach",
+    "meaning": "after",
+    "level": "a2"
+  },
+  {
+    "word": "mit",
+    "meaning": "with",
+    "level": "a2"
+  },
+  {
+    "word": "mitbringen",
+    "meaning": "to bring along / to bring (so./sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "mitspielen",
+    "meaning": "to play along",
+    "level": "a2"
+  },
+  {
+    "word": "mitmachen",
+    "meaning": "to participate",
+    "level": "a2"
+  },
+  {
+    "word": "mitkommen",
+    "meaning": "to come along",
+    "level": "a2"
+  },
+  {
+    "word": "mitnehmen",
+    "meaning": "to take (sth./so.) / to pick (sth./so.) / to give a lift",
+    "level": "a2"
+  },
+  {
+    "word": "Nachbar",
+    "meaning": "male neighbor",
+    "level": "a2"
+  },
+  {
+    "word": "Nachbarin",
+    "meaning": "female neighbor",
+    "level": "a2"
+  },
+  {
+    "word": "Nachricht",
+    "meaning": "message",
+    "level": "a2"
+  },
+  {
+    "word": "nächste",
+    "meaning": "next",
+    "level": "a2"
+  },
+  {
+    "word": "Mitarbeiter",
+    "meaning": "employee",
+    "level": "a2"
+  },
+  {
+    "word": "Mittagessen",
+    "meaning": "lunch",
+    "level": "a2"
+  },
+  {
+    "word": "Nähe",
+    "meaning": "proximity / closeness",
+    "level": "a2"
+  },
+  {
+    "word": "Mitte",
+    "meaning": "center",
+    "level": "a2"
+  },
+  {
+    "word": "Name",
+    "meaning": "name",
+    "level": "a2"
+  },
+  {
+    "word": "Mittel",
+    "meaning": "medium",
+    "level": "a2"
+  },
+  {
+    "word": "nass",
+    "meaning": "wet",
+    "level": "a2"
+  },
+  {
+    "word": "Möbel",
+    "meaning": "furniture",
+    "level": "a2"
+  },
+  {
+    "word": "Mobiltelefon",
+    "meaning": "mobile phone",
+    "level": "a2"
+  },
+  {
+    "word": "möchten",
+    "meaning": "to want",
+    "level": "a2"
+  },
+  {
+    "word": "Natur",
+    "meaning": "nature",
+    "level": "a2"
+  },
+  {
+    "word": "natürlich",
+    "meaning": "natural / of course / certainly",
+    "level": "a2"
+  },
+  {
+    "word": "Mode",
+    "meaning": "Fashion",
+    "level": "a2"
+  },
+  {
+    "word": "neben",
+    "meaning": "next",
+    "level": "a2"
+  },
+  {
+    "word": "nebenan",
+    "meaning": "next door",
+    "level": "a2"
+  },
+  {
+    "word": "modern",
+    "meaning": "modern",
+    "level": "a2"
+  },
+  {
+    "word": "mögen",
+    "meaning": "to like",
+    "level": "a2"
+  },
+  {
+    "word": "neblig",
+    "meaning": "foggy",
+    "level": "a2"
+  },
+  {
+    "word": "möglich",
+    "meaning": "possible",
+    "level": "a2"
+  },
+  {
+    "word": "nehmen",
+    "meaning": "to take",
+    "level": "a2"
+  },
+  {
+    "word": "nein",
+    "meaning": "no",
+    "level": "a2"
+  },
+  {
+    "word": "offen",
+    "meaning": "open",
+    "level": "a2"
+  },
+  {
+    "word": "öffnen",
+    "meaning": "to open",
+    "level": "a2"
+  },
+  {
+    "word": "oft",
+    "meaning": "often",
+    "level": "a2"
+  },
+  {
+    "word": "ohne",
+    "meaning": "without",
+    "level": "a2"
+  },
+  {
+    "word": "nennen",
+    "meaning": "to call so. sth. / to mention",
+    "level": "a2"
+  },
+  {
+    "word": "nervös",
+    "meaning": "nervous",
+    "level": "a2"
+  },
+  {
+    "word": "nett",
+    "meaning": "kind",
+    "level": "a2"
+  },
+  {
+    "word": "Ohr",
+    "meaning": "ear",
+    "level": "a2"
+  },
+  {
+    "word": "Öl",
+    "meaning": "oil",
+    "level": "a2"
+  },
+  {
+    "word": "neu",
+    "meaning": "new",
+    "level": "a2"
+  },
+  {
+    "word": "online",
+    "meaning": "on-line",
+    "level": "a2"
+  },
+  {
+    "word": "nicht",
+    "meaning": "not",
+    "level": "a2"
+  },
+  {
+    "word": "nichts",
+    "meaning": "nothing",
+    "level": "a2"
+  },
+  {
+    "word": "nie",
+    "meaning": "never",
+    "level": "a2"
+  },
+  {
+    "word": "Orange",
+    "meaning": "orange",
+    "level": "a2"
+  },
+  {
+    "word": "Ordnung",
+    "meaning": "order",
+    "level": "a2"
+  },
+  {
+    "word": "niemand",
+    "meaning": "nobody",
+    "level": "a2"
+  },
+  {
+    "word": "nirgends",
+    "meaning": "nowhere",
+    "level": "a2"
+  },
+  {
+    "word": "organisieren",
+    "meaning": "to organize",
+    "level": "a2"
+  },
+  {
+    "word": "Ort",
+    "meaning": "place",
+    "level": "a2"
+  },
+  {
+    "word": "noch",
+    "meaning": "still",
+    "level": "a2"
+  },
+  {
+    "word": "normal",
+    "meaning": "normal",
+    "level": "a2"
+  },
+  {
+    "word": "Note",
+    "meaning": "grade",
+    "level": "a2"
+  },
+  {
+    "word": "notieren",
+    "meaning": "to note",
+    "level": "a2"
+  },
+  {
+    "word": "Notiz",
+    "meaning": "note",
+    "level": "a2"
+  },
+  {
+    "word": "Paar",
+    "meaning": "Pair",
+    "level": "a2"
+  },
+  {
+    "word": "ein paar",
+    "meaning": "a few",
+    "level": "a2"
+  },
+  {
+    "word": "notwendig",
+    "meaning": "necessary",
+    "level": "a2"
+  },
+  {
+    "word": "packen",
+    "meaning": "to pack",
+    "level": "a2"
+  },
+  {
+    "word": "Nudel",
+    "meaning": "noodle",
+    "level": "a2"
+  },
+  {
+    "word": "Nummer",
+    "meaning": "number",
+    "level": "a2"
+  },
+  {
+    "word": "Paket",
+    "meaning": "package",
+    "level": "a2"
+  },
+  {
+    "word": "Papier",
+    "meaning": "paper",
+    "level": "a2"
+  },
+  {
+    "word": "Papiere",
+    "meaning": "papers, documents",
+    "level": "a2"
+  },
+  {
+    "word": "Parfüm",
+    "meaning": "perfume",
+    "level": "a2"
+  },
+  {
+    "word": "Park",
+    "meaning": "park",
+    "level": "a2"
+  },
+  {
+    "word": "nur",
+    "meaning": "only / simply",
+    "level": "a2"
+  },
+  {
+    "word": "parken",
+    "meaning": "to park",
+    "level": "a2"
+  },
+  {
+    "word": "Partner",
+    "meaning": "male partner",
+    "level": "a2"
+  },
+  {
+    "word": "Partnerin",
+    "meaning": "female partner",
+    "level": "a2"
+  },
+  {
+    "word": "nützlich",
+    "meaning": "useful",
+    "level": "a2"
+  },
+  {
+    "word": "Party",
+    "meaning": "party",
+    "level": "a2"
+  },
+  {
+    "word": "Pass",
+    "meaning": "passport",
+    "level": "a2"
+  },
+  {
+    "word": "oben",
+    "meaning": "above",
+    "level": "a2"
+  },
+  {
+    "word": "Obst",
+    "meaning": "fruit",
+    "level": "a2"
+  },
+  {
+    "word": "passen",
+    "meaning": "to fit / to suit",
+    "level": "a2"
+  },
+  {
+    "word": "passieren",
+    "meaning": "to happen",
+    "level": "a2"
+  },
+  {
+    "word": "oder",
+    "meaning": "or",
+    "level": "a2"
+  },
+  {
+    "word": "Passwort",
+    "meaning": "passtitle",
+    "level": "a2"
+  },
+  {
+    "word": "Projekt",
+    "meaning": "project",
+    "level": "a2"
+  },
+  {
+    "word": "Pause",
+    "meaning": "pause",
+    "level": "a2"
+  },
+  {
+    "word": "Prospekt",
+    "meaning": "brochure",
+    "level": "a2"
+  },
+  {
+    "word": "Person",
+    "meaning": "person",
+    "level": "a2"
+  },
+  {
+    "word": "prüfen",
+    "meaning": "to check",
+    "level": "a2"
+  },
+  {
+    "word": "Pferd",
+    "meaning": "horse",
+    "level": "a2"
+  },
+  {
+    "word": "Pflanze",
+    "meaning": "plant",
+    "level": "a2"
+  },
+  {
+    "word": "Prüfung",
+    "meaning": "exam",
+    "level": "a2"
+  },
+  {
+    "word": "Pullover",
+    "meaning": "pullover",
+    "level": "a2"
+  },
+  {
+    "word": "Pizza",
+    "meaning": "pizza",
+    "level": "a2"
+  },
+  {
+    "word": "pünktlich",
+    "meaning": "on time",
+    "level": "a2"
+  },
+  {
+    "word": "Plakat",
+    "meaning": "poster",
+    "level": "a2"
+  },
+  {
+    "word": "putzen",
+    "meaning": "to clean",
+    "level": "a2"
+  },
+  {
+    "word": "Plan",
+    "meaning": "plan",
+    "level": "a2"
+  },
+  {
+    "word": "planen",
+    "meaning": "to plan",
+    "level": "a2"
+  },
+  {
+    "word": "Platz",
+    "meaning": "place",
+    "level": "a2"
+  },
+  {
+    "word": "plötzlich",
+    "meaning": "suddenly",
+    "level": "a2"
+  },
+  {
+    "word": "Qualität",
+    "meaning": "quality",
+    "level": "a2"
+  },
+  {
+    "word": "Quiz",
+    "meaning": "quiz",
+    "level": "a2"
+  },
+  {
+    "word": "Polizei",
+    "meaning": "police",
+    "level": "a2"
+  },
+  {
+    "word": "Pommes frites",
+    "meaning": "French fries",
+    "level": "a2"
+  },
+  {
+    "word": "Radio",
+    "meaning": "radio",
+    "level": "a2"
+  },
+  {
+    "word": "raten",
+    "meaning": "to guess",
+    "level": "a2"
+  },
+  {
+    "word": "Portion",
+    "meaning": "portion",
+    "level": "a2"
+  },
+  {
+    "word": "Post",
+    "meaning": "post",
+    "level": "a2"
+  },
+  {
+    "word": "Poster",
+    "meaning": "poster",
+    "level": "a2"
+  },
+  {
+    "word": "Rathaus",
+    "meaning": "town hall",
+    "level": "a2"
+  },
+  {
+    "word": "Postkarte",
+    "meaning": "postcard",
+    "level": "a2"
+  },
+  {
+    "word": "Postleitzahl",
+    "meaning": "post code",
+    "level": "a2"
+  },
+  {
+    "word": "Rätsel",
+    "meaning": "mystery",
+    "level": "a2"
+  },
+  {
+    "word": "rauchen",
+    "meaning": "to smoke",
+    "level": "a2"
+  },
+  {
+    "word": "Praktikum",
+    "meaning": "internship",
+    "level": "a2"
+  },
+  {
+    "word": "Raum",
+    "meaning": "room",
+    "level": "a2"
+  },
+  {
+    "word": "praktisch",
+    "meaning": "practically",
+    "level": "a2"
+  },
+  {
+    "word": "rechnen",
+    "meaning": "to calculate",
+    "level": "a2"
+  },
+  {
+    "word": "Praxis",
+    "meaning": "practice",
+    "level": "a2"
+  },
+  {
+    "word": "Rechnung",
+    "meaning": "bill",
+    "level": "a2"
+  },
+  {
+    "word": "recht haben",
+    "meaning": "to be right",
+    "level": "a2"
+  },
+  {
+    "word": "Preis",
+    "meaning": "price",
+    "level": "a2"
+  },
+  {
+    "word": "preiswert",
+    "meaning": "inexpensive",
+    "level": "a2"
+  },
+  {
+    "word": "privat",
+    "meaning": "private",
+    "level": "a2"
+  },
+  {
+    "word": "rechts",
+    "meaning": "right",
+    "level": "a2"
+  },
+  {
+    "word": "reden",
+    "meaning": "to talk / to speak",
+    "level": "a2"
+  },
+  {
+    "word": "Regen",
+    "meaning": "rain",
+    "level": "a2"
+  },
+  {
+    "word": "pro",
+    "meaning": "per",
+    "level": "a2"
+  },
+  {
+    "word": "probieren",
+    "meaning": "to try",
+    "level": "a2"
+  },
+  {
+    "word": "regnen",
+    "meaning": "to rain",
+    "level": "a2"
+  },
+  {
+    "word": "reich",
+    "meaning": "rich",
+    "level": "a2"
+  },
+  {
+    "word": "Problem",
+    "meaning": "problem",
+    "level": "a2"
+  },
+  {
+    "word": "Reifen",
+    "meaning": "tire",
+    "level": "a2"
+  },
+  {
+    "word": "Produkt",
+    "meaning": "product",
+    "level": "a2"
+  },
+  {
+    "word": "Reihe",
+    "meaning": "line / row / queue",
+    "level": "a2"
+  },
+  {
+    "word": "Programm",
+    "meaning": "program",
+    "level": "a2"
+  },
+  {
+    "word": "Reinigung",
+    "meaning": "cleaning",
+    "level": "a2"
+  },
+  {
+    "word": "rund",
+    "meaning": "round",
+    "level": "a2"
+  },
+  {
+    "word": "Reis",
+    "meaning": "rice",
+    "level": "a2"
+  },
+  {
+    "word": "Reise",
+    "meaning": "travel",
+    "level": "a2"
+  },
+  {
+    "word": "Reisebüro",
+    "meaning": "travel agency",
+    "level": "a2"
+  },
+  {
+    "word": "Reiseführer",
+    "meaning": "travel guide",
+    "level": "a2"
+  },
+  {
+    "word": "Rundgang",
+    "meaning": "round tour / circut",
+    "level": "a2"
+  },
+  {
+    "word": "Sache",
+    "meaning": "thing",
+    "level": "a2"
+  },
+  {
+    "word": "reisen",
+    "meaning": "to travel",
+    "level": "a2"
+  },
+  {
+    "word": "reiten",
+    "meaning": "to ride",
+    "level": "a2"
+  },
+  {
+    "word": "renovieren",
+    "meaning": "to renovate",
+    "level": "a2"
+  },
+  {
+    "word": "Saft",
+    "meaning": "juice",
+    "level": "a2"
+  },
+  {
+    "word": "sagen",
+    "meaning": "to say (sth.) / to tell",
+    "level": "a2"
+  },
+  {
+    "word": "Rentner",
+    "meaning": "male pensioner",
+    "level": "a2"
+  },
+  {
+    "word": "Rentnerin",
+    "meaning": "female pensioner",
+    "level": "a2"
+  },
+  {
+    "word": "Salat",
+    "meaning": "salad",
+    "level": "a2"
+  },
+  {
+    "word": "Salz",
+    "meaning": "salt",
+    "level": "a2"
+  },
+  {
+    "word": "Reparatur",
+    "meaning": "repair",
+    "level": "a2"
+  },
+  {
+    "word": "sammeln",
+    "meaning": "to collect",
+    "level": "a2"
+  },
+  {
+    "word": "reparieren",
+    "meaning": "to repair",
+    "level": "a2"
+  },
+  {
+    "word": "Satz",
+    "meaning": "sentence",
+    "level": "a2"
+  },
+  {
+    "word": "sauber",
+    "meaning": "clean",
+    "level": "a2"
+  },
+  {
+    "word": "reservieren",
+    "meaning": "to reserve",
+    "level": "a2"
+  },
+  {
+    "word": "sauer",
+    "meaning": "angry",
+    "level": "a2"
+  },
+  {
+    "word": "Rest",
+    "meaning": "rest",
+    "level": "a2"
+  },
+  {
+    "word": "schade",
+    "meaning": "a pity",
+    "level": "a2"
+  },
+  {
+    "word": "schädlich",
+    "meaning": "harmful",
+    "level": "a2"
+  },
+  {
+    "word": "Restaurant",
+    "meaning": "restaurant",
+    "level": "a2"
+  },
+  {
+    "word": "schaffen",
+    "meaning": "to create",
+    "level": "a2"
+  },
+  {
+    "word": "Rezept",
+    "meaning": "recipe",
+    "level": "a2"
+  },
+  {
+    "word": "Schalter",
+    "meaning": "switch",
+    "level": "a2"
+  },
+  {
+    "word": "Rezeption",
+    "meaning": "reception",
+    "level": "a2"
+  },
+  {
+    "word": "richtig",
+    "meaning": "correct",
+    "level": "a2"
+  },
+  {
+    "word": "scharf",
+    "meaning": "sharp",
+    "level": "a2"
+  },
+  {
+    "word": "riechen",
+    "meaning": "to smell",
+    "level": "a2"
+  },
+  {
+    "word": "scheinen",
+    "meaning": "seem to be / to seem / to shine",
+    "level": "a2"
+  },
+  {
+    "word": "Rind",
+    "meaning": "beef",
+    "level": "a2"
+  },
+  {
+    "word": "Ring",
+    "meaning": "ring",
+    "level": "a2"
+  },
+  {
+    "word": "Rock",
+    "meaning": "skirt",
+    "level": "a2"
+  },
+  {
+    "word": "schenken",
+    "meaning": "to make a gift / to give sth. to so.",
+    "level": "a2"
+  },
+  {
+    "word": "romantisch",
+    "meaning": "romantic",
+    "level": "a2"
+  },
+  {
+    "word": "Schere",
+    "meaning": "scissors",
+    "level": "a2"
+  },
+  {
+    "word": "Rose",
+    "meaning": "rose",
+    "level": "a2"
+  },
+  {
+    "word": "Rücken",
+    "meaning": "back",
+    "level": "a2"
+  },
+  {
+    "word": "schicken",
+    "meaning": "to send",
+    "level": "a2"
+  },
+  {
+    "word": "Schiff",
+    "meaning": "ship",
+    "level": "a2"
+  },
+  {
+    "word": "Rucksack",
+    "meaning": "backpack",
+    "level": "a2"
+  },
+  {
+    "word": "Schild",
+    "meaning": "sign",
+    "level": "a2"
+  },
+  {
+    "word": "schimpfen",
+    "meaning": "to rant / to grumble",
+    "level": "a2"
+  },
+  {
+    "word": "rufen",
+    "meaning": "to call",
+    "level": "a2"
+  },
+  {
+    "word": "Ruhe",
+    "meaning": "rest",
+    "level": "a2"
+  },
+  {
+    "word": "ruhig",
+    "meaning": "calm",
+    "level": "a2"
+  },
+  {
+    "word": "Schirm",
+    "meaning": "umbrella",
+    "level": "a2"
+  },
+  {
+    "word": "schlafen",
+    "meaning": "to sleep",
+    "level": "a2"
+  },
+  {
+    "word": "Schlafzimmer",
+    "meaning": "bedroom",
+    "level": "a2"
+  },
+  {
+    "word": "Schüler",
+    "meaning": "male student / pupil",
+    "level": "a2"
+  },
+  {
+    "word": "Schülerin",
+    "meaning": "female student / pupil",
+    "level": "a2"
+  },
+  {
+    "word": "schlecht",
+    "meaning": "bad / poor",
+    "level": "a2"
+  },
+  {
+    "word": "schwach",
+    "meaning": "weak",
+    "level": "a2"
+  },
+  {
+    "word": "schließen",
+    "meaning": "to close / to conclude",
+    "level": "a2"
+  },
+  {
+    "word": "schwanger",
+    "meaning": "pregnant",
+    "level": "a2"
+  },
+  {
+    "word": "Schwein",
+    "meaning": "pig",
+    "level": "a2"
+  },
+  {
+    "word": "schwer",
+    "meaning": "heavy",
+    "level": "a2"
+  },
+  {
+    "word": "schlimm",
+    "meaning": "bad / worst / upsetting",
+    "level": "a2"
+  },
+  {
+    "word": "Schloss",
+    "meaning": "lock / castle",
+    "level": "a2"
+  },
+  {
+    "word": "schwierig",
+    "meaning": "difficult",
+    "level": "a2"
+  },
+  {
+    "word": "Schwimmbad",
+    "meaning": "pool",
+    "level": "a2"
+  },
+  {
+    "word": "Schluss",
+    "meaning": "ending / the end",
+    "level": "a2"
+  },
+  {
+    "word": "schwimmen",
+    "meaning": "to swim",
+    "level": "a2"
+  },
+  {
+    "word": "See (Teich)",
+    "meaning": "lake (pond)",
+    "level": "a2"
+  },
+  {
+    "word": "Schlüssel",
+    "meaning": "key",
+    "level": "a2"
+  },
+  {
+    "word": "schmecken",
+    "meaning": "to taste",
+    "level": "a2"
+  },
+  {
+    "word": "See (Meer)",
+    "meaning": "sea",
+    "level": "a2"
+  },
+  {
+    "word": "Schmerz",
+    "meaning": "pain",
+    "level": "a2"
+  },
+  {
+    "word": "sehen",
+    "meaning": "to see",
+    "level": "a2"
+  },
+  {
+    "word": "schmutzig",
+    "meaning": "dirty",
+    "level": "a2"
+  },
+  {
+    "word": "Schnee",
+    "meaning": "snow",
+    "level": "a2"
+  },
+  {
+    "word": "sich schneiden",
+    "meaning": "to cut oneself",
+    "level": "a2"
+  },
+  {
+    "word": "schneien",
+    "meaning": "to snow",
+    "level": "a2"
+  },
+  {
+    "word": "Sehenswürdigkeit",
+    "meaning": "point of interest",
+    "level": "a2"
+  },
+  {
+    "word": "sehr",
+    "meaning": "very",
+    "level": "a2"
+  },
+  {
+    "word": "Seife",
+    "meaning": "soap",
+    "level": "a2"
+  },
+  {
+    "word": "sein",
+    "meaning": "to be",
+    "level": "a2"
+  },
+  {
+    "word": "schnell",
+    "meaning": "fast",
+    "level": "a2"
+  },
+  {
+    "word": "Schokolade",
+    "meaning": "chocolate",
+    "level": "a2"
+  },
+  {
+    "word": "schon",
+    "meaning": "already / yet",
+    "level": "a2"
+  },
+  {
+    "word": "schön",
+    "meaning": "beautiful",
+    "level": "a2"
+  },
+  {
+    "word": "Schrank",
+    "meaning": "cupboard / closet",
+    "level": "a2"
+  },
+  {
+    "word": "an sein",
+    "meaning": "to be on",
+    "level": "a2"
+  },
+  {
+    "word": "aus sein",
+    "meaning": "be off",
+    "level": "a2"
+  },
+  {
+    "word": "auf sein",
+    "meaning": "to be up",
+    "level": "a2"
+  },
+  {
+    "word": "weg sein",
+    "meaning": "to be away",
+    "level": "a2"
+  },
+  {
+    "word": "zu sein",
+    "meaning": "to be closed",
+    "level": "a2"
+  },
+  {
+    "word": "schrecklich",
+    "meaning": "awful / dreadful",
+    "level": "a2"
+  },
+  {
+    "word": "seit",
+    "meaning": "since",
+    "level": "a2"
+  },
+  {
+    "word": "Seite",
+    "meaning": "page",
+    "level": "a2"
+  },
+  {
+    "word": "schreiben",
+    "meaning": "to write",
+    "level": "a2"
+  },
+  {
+    "word": "selbst",
+    "meaning": "in person / even",
+    "level": "a2"
+  },
+  {
+    "word": "Sendung",
+    "meaning": "program / show / broadcast",
+    "level": "a2"
+  },
+  {
+    "word": "schriftlich",
+    "meaning": "written / in written form",
+    "level": "a2"
+  },
+  {
+    "word": "Schuh",
+    "meaning": "shoe",
+    "level": "a2"
+  },
+  {
+    "word": "Service",
+    "meaning": "service",
+    "level": "a2"
+  },
+  {
+    "word": "Schule",
+    "meaning": "school",
+    "level": "a2"
+  },
+  {
+    "word": "sich setzen",
+    "meaning": "to sit down",
+    "level": "a2"
+  },
+  {
+    "word": "sicher",
+    "meaning": "for sure",
+    "level": "a2"
+  },
+  {
+    "word": "singen",
+    "meaning": "to sing",
+    "level": "a2"
+  },
+  {
+    "word": "spielen",
+    "meaning": "to play",
+    "level": "a2"
+  },
+  {
+    "word": "Sport",
+    "meaning": "sport",
+    "level": "a2"
+  },
+  {
+    "word": "sportlich",
+    "meaning": "athletic",
+    "level": "a2"
+  },
+  {
+    "word": "Situation",
+    "meaning": "situation",
+    "level": "a2"
+  },
+  {
+    "word": "Sportplatz",
+    "meaning": "sports ground",
+    "level": "a2"
+  },
+  {
+    "word": "sitzen",
+    "meaning": "to sit",
+    "level": "a2"
+  },
+  {
+    "word": "sprechen",
+    "meaning": "to speak",
+    "level": "a2"
+  },
+  {
+    "word": "Sprache",
+    "meaning": "language",
+    "level": "a2"
+  },
+  {
+    "word": "Ski",
+    "meaning": "ski",
+    "level": "a2"
+  },
+  {
+    "word": "so",
+    "meaning": "so / as",
+    "level": "a2"
+  },
+  {
+    "word": "Sprechstunde",
+    "meaning": "consultation hour",
+    "level": "a2"
+  },
+  {
+    "word": "Stadt",
+    "meaning": "city",
+    "level": "a2"
+  },
+  {
+    "word": "Sofa",
+    "meaning": "sofa",
+    "level": "a2"
+  },
+  {
+    "word": "Stadtplan",
+    "meaning": "map / city map",
+    "level": "a2"
+  },
+  {
+    "word": "Star",
+    "meaning": "star",
+    "level": "a2"
+  },
+  {
+    "word": "sofort",
+    "meaning": "immediately",
+    "level": "a2"
+  },
+  {
+    "word": "stark",
+    "meaning": "strong",
+    "level": "a2"
+  },
+  {
+    "word": "sogar",
+    "meaning": "even",
+    "level": "a2"
+  },
+  {
+    "word": "stattfinden",
+    "meaning": "to take place / to occur",
+    "level": "a2"
+  },
+  {
+    "word": "sollen",
+    "meaning": "should / shall",
+    "level": "a2"
+  },
+  {
+    "word": "stehen",
+    "meaning": "to stand",
+    "level": "a2"
+  },
+  {
+    "word": "Sonne",
+    "meaning": "sun",
+    "level": "a2"
+  },
+  {
+    "word": "sonnig",
+    "meaning": "sunny",
+    "level": "a2"
+  },
+  {
+    "word": "Stelle",
+    "meaning": "location",
+    "level": "a2"
+  },
+  {
+    "word": "sonst",
+    "meaning": "otherwise",
+    "level": "a2"
+  },
+  {
+    "word": "stellen",
+    "meaning": "to put",
+    "level": "a2"
+  },
+  {
+    "word": "spannend",
+    "meaning": "exciting",
+    "level": "a2"
+  },
+  {
+    "word": "sparen",
+    "meaning": "to save (sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "sterben",
+    "meaning": "to die",
+    "level": "a2"
+  },
+  {
+    "word": "Spaß",
+    "meaning": "fun",
+    "level": "a2"
+  },
+  {
+    "word": "Stiefel",
+    "meaning": "boots",
+    "level": "a2"
+  },
+  {
+    "word": "Stift",
+    "meaning": "pen",
+    "level": "a2"
+  },
+  {
+    "word": "Stipendium",
+    "meaning": "scholarship",
+    "level": "a2"
+  },
+  {
+    "word": "spät",
+    "meaning": "late",
+    "level": "a2"
+  },
+  {
+    "word": "später",
+    "meaning": "later",
+    "level": "a2"
+  },
+  {
+    "word": "Stock",
+    "meaning": "floor",
+    "level": "a2"
+  },
+  {
+    "word": "spazieren gehen",
+    "meaning": "to go for a walk",
+    "level": "a2"
+  },
+  {
+    "word": "Stockwerk",
+    "meaning": "level / floor",
+    "level": "a2"
+  },
+  {
+    "word": "Spaziergang",
+    "meaning": "walk",
+    "level": "a2"
+  },
+  {
+    "word": "stören",
+    "meaning": "to disturb",
+    "level": "a2"
+  },
+  {
+    "word": "Strand",
+    "meaning": "beach",
+    "level": "a2"
+  },
+  {
+    "word": "speichern",
+    "meaning": "to save",
+    "level": "a2"
+  },
+  {
+    "word": "Straße",
+    "meaning": "road",
+    "level": "a2"
+  },
+  {
+    "word": "Straßenbahn",
+    "meaning": "tram",
+    "level": "a2"
+  },
+  {
+    "word": "Speisekarte",
+    "meaning": "menu",
+    "level": "a2"
+  },
+  {
+    "word": "Spiel",
+    "meaning": "game",
+    "level": "a2"
+  },
+  {
+    "word": "sich streiten",
+    "meaning": "to have a fight",
+    "level": "a2"
+  },
+  {
+    "word": "streng",
+    "meaning": "strict",
+    "level": "a2"
+  },
+  {
+    "word": "Stress",
+    "meaning": "stress",
+    "level": "a2"
+  },
+  {
+    "word": "stressig",
+    "meaning": "stressful",
+    "level": "a2"
+  },
+  {
+    "word": "teilnehmen",
+    "meaning": "to participate / to take part",
+    "level": "a2"
+  },
+  {
+    "word": "Stück",
+    "meaning": "piece",
+    "level": "a2"
+  },
+  {
+    "word": "Telefon",
+    "meaning": "phone",
+    "level": "a2"
+  },
+  {
+    "word": "telefonieren",
+    "meaning": "to phone (so.)",
+    "level": "a2"
+  },
+  {
+    "word": "Student",
+    "meaning": "male student",
+    "level": "a2"
+  },
+  {
+    "word": "Studentin",
+    "meaning": "female student",
+    "level": "a2"
+  },
+  {
+    "word": "studieren",
+    "meaning": "to study",
+    "level": "a2"
+  },
+  {
+    "word": "Teller",
+    "meaning": "plate",
+    "level": "a2"
+  },
+  {
+    "word": "Tennis",
+    "meaning": "tennis",
+    "level": "a2"
+  },
+  {
+    "word": "Studium",
+    "meaning": "studies / academic studies",
+    "level": "a2"
+  },
+  {
+    "word": "Stuhl",
+    "meaning": "chair",
+    "level": "a2"
+  },
+  {
+    "word": "suchen",
+    "meaning": "to search",
+    "level": "a2"
+  },
+  {
+    "word": "Termin",
+    "meaning": "meeting",
+    "level": "a2"
+  },
+  {
+    "word": "teuer",
+    "meaning": "expensive",
+    "level": "a2"
+  },
+  {
+    "word": "Text",
+    "meaning": "text",
+    "level": "a2"
+  },
+  {
+    "word": "Theater",
+    "meaning": "theatre",
+    "level": "a2"
+  },
+  {
+    "word": "super",
+    "meaning": "great",
+    "level": "a2"
+  },
+  {
+    "word": "Thema",
+    "meaning": "subject / topic",
+    "level": "a2"
+  },
+  {
+    "word": "Ticket",
+    "meaning": "ticket",
+    "level": "a2"
+  },
+  {
+    "word": "Supermarkt",
+    "meaning": "supermarket",
+    "level": "a2"
+  },
+  {
+    "word": "Suppe",
+    "meaning": "soup",
+    "level": "a2"
+  },
+  {
+    "word": "tief",
+    "meaning": "deep",
+    "level": "a2"
+  },
+  {
+    "word": "Tier",
+    "meaning": "animal",
+    "level": "a2"
+  },
+  {
+    "word": "surfen",
+    "meaning": "to surf",
+    "level": "a2"
+  },
+  {
+    "word": "süß",
+    "meaning": "sweet",
+    "level": "a2"
+  },
+  {
+    "word": "Tipp",
+    "meaning": "tip",
+    "level": "a2"
+  },
+  {
+    "word": "Tisch",
+    "meaning": "table",
+    "level": "a2"
+  },
+  {
+    "word": "Titel",
+    "meaning": "title",
+    "level": "a2"
+  },
+  {
+    "word": "Süßigkeiten",
+    "meaning": "sweets",
+    "level": "a2"
+  },
+  {
+    "word": "Toilette",
+    "meaning": "toilet",
+    "level": "a2"
+  },
+  {
+    "word": "sympathisch",
+    "meaning": "likeable / friendly",
+    "level": "a2"
+  },
+  {
+    "word": "toll",
+    "meaning": "great",
+    "level": "a2"
+  },
+  {
+    "word": "Tomate",
+    "meaning": "tomato",
+    "level": "a2"
+  },
+  {
+    "word": "Topf",
+    "meaning": "pot",
+    "level": "a2"
+  },
+  {
+    "word": "Tablet",
+    "meaning": "tablet",
+    "level": "a2"
+  },
+  {
+    "word": "Tablette",
+    "meaning": "pill / tablet",
+    "level": "a2"
+  },
+  {
+    "word": "Torte",
+    "meaning": "cake",
+    "level": "a2"
+  },
+  {
+    "word": "tot",
+    "meaning": "dead",
+    "level": "a2"
+  },
+  {
+    "word": "Tafel",
+    "meaning": "whiteboard",
+    "level": "a2"
+  },
+  {
+    "word": "total",
+    "meaning": "total",
+    "level": "a2"
+  },
+  {
+    "word": "Tour",
+    "meaning": "trip",
+    "level": "a2"
+  },
+  {
+    "word": "tanzen",
+    "meaning": "to dance",
+    "level": "a2"
+  },
+  {
+    "word": "Tasche",
+    "meaning": "bag",
+    "level": "a2"
+  },
+  {
+    "word": "Tourist",
+    "meaning": "male tourist",
+    "level": "a2"
+  },
+  {
+    "word": "Touristin",
+    "meaning": "female tourist",
+    "level": "a2"
+  },
+  {
+    "word": "tragen",
+    "meaning": "to carry",
+    "level": "a2"
+  },
+  {
+    "word": "Taschengeld",
+    "meaning": "pocket money",
+    "level": "a2"
+  },
+  {
+    "word": "trainieren",
+    "meaning": "work out",
+    "level": "a2"
+  },
+  {
+    "word": "Tasse",
+    "meaning": "cup",
+    "level": "a2"
+  },
+  {
+    "word": "austauschen",
+    "meaning": "change / exchange",
+    "level": "a2"
+  },
+  {
+    "word": "tauschen",
+    "meaning": "to exchange",
+    "level": "a2"
+  },
+  {
+    "word": "Taxi",
+    "meaning": "taxi",
+    "level": "a2"
+  },
+  {
+    "word": "Training",
+    "meaning": "training",
+    "level": "a2"
+  },
+  {
+    "word": "Traum",
+    "meaning": "dream",
+    "level": "a2"
+  },
+  {
+    "word": "träumen",
+    "meaning": "to dream",
+    "level": "a2"
+  },
+  {
+    "word": "Team",
+    "meaning": "team",
+    "level": "a2"
+  },
+  {
+    "word": "Tee",
+    "meaning": "tea",
+    "level": "a2"
+  },
+  {
+    "word": "traurig",
+    "meaning": "sad",
+    "level": "a2"
+  },
+  {
+    "word": "teilen",
+    "meaning": "to divide",
+    "level": "a2"
+  },
+  {
+    "word": "sich treffen",
+    "meaning": "to meet",
+    "level": "a2"
+  },
+  {
+    "word": "unbedingt",
+    "meaning": "absolutely",
+    "level": "a2"
+  },
+  {
+    "word": "und",
+    "meaning": "and",
+    "level": "a2"
+  },
+  {
+    "word": "Treppe",
+    "meaning": "stairway",
+    "level": "a2"
+  },
+  {
+    "word": "Unfall",
+    "meaning": "accident",
+    "level": "a2"
+  },
+  {
+    "word": "trinken",
+    "meaning": "to drink",
+    "level": "a2"
+  },
+  {
+    "word": "trocken",
+    "meaning": "dry",
+    "level": "a2"
+  },
+  {
+    "word": "Universität",
+    "meaning": "university",
+    "level": "a2"
+  },
+  {
+    "word": "unten",
+    "meaning": "at the bottom / downstairs / below",
+    "level": "a2"
+  },
+  {
+    "word": "unter",
+    "meaning": "under",
+    "level": "a2"
+  },
+  {
+    "word": "tschüs",
+    "meaning": "Bye-bye! / Cheers!",
+    "level": "a2"
+  },
+  {
+    "word": "T-Shirt",
+    "meaning": "T-Shirt",
+    "level": "a2"
+  },
+  {
+    "word": "sich unterhalten",
+    "meaning": "to talk",
+    "level": "a2"
+  },
+  {
+    "word": "tun",
+    "meaning": "to do",
+    "level": "a2"
+  },
+  {
+    "word": "Tür",
+    "meaning": "door",
+    "level": "a2"
+  },
+  {
+    "word": "Unterkunft",
+    "meaning": "accommodation",
+    "level": "a2"
+  },
+  {
+    "word": "unternehmen",
+    "meaning": "to undertake sth. / to venture",
+    "level": "a2"
+  },
+  {
+    "word": "typisch",
+    "meaning": "typical",
+    "level": "a2"
+  },
+  {
+    "word": "Unterricht",
+    "meaning": "class",
+    "level": "a2"
+  },
+  {
+    "word": "üben",
+    "meaning": "to practice",
+    "level": "a2"
+  },
+  {
+    "word": "Unterschied",
+    "meaning": "difference",
+    "level": "a2"
+  },
+  {
+    "word": "unterschreiben",
+    "meaning": "to sign",
+    "level": "a2"
+  },
+  {
+    "word": "über",
+    "meaning": "above / about",
+    "level": "a2"
+  },
+  {
+    "word": "überall",
+    "meaning": "all over",
+    "level": "a2"
+  },
+  {
+    "word": "übermorgen",
+    "meaning": "day after tomorrow",
+    "level": "a2"
+  },
+  {
+    "word": "Unterschrift",
+    "meaning": "signature",
+    "level": "a2"
+  },
+  {
+    "word": "untersuchen",
+    "meaning": "to investigate",
+    "level": "a2"
+  },
+  {
+    "word": "unterwegs sein",
+    "meaning": "to be on the move / to be out",
+    "level": "a2"
+  },
+  {
+    "word": "übernachten",
+    "meaning": "to stay (over night)",
+    "level": "a2"
+  },
+  {
+    "word": "übersetzen",
+    "meaning": "to translate",
+    "level": "a2"
+  },
+  {
+    "word": "Urlaub",
+    "meaning": "vacation",
+    "level": "a2"
+  },
+  {
+    "word": "Übersetzung",
+    "meaning": "translation",
+    "level": "a2"
+  },
+  {
+    "word": "verabredet sein",
+    "meaning": "to have an appointment",
+    "level": "a2"
+  },
+  {
+    "word": "überweisen",
+    "meaning": "to transfer",
+    "level": "a2"
+  },
+  {
+    "word": "Uhr",
+    "meaning": "Clock",
+    "level": "a2"
+  },
+  {
+    "word": "um",
+    "meaning": "around",
+    "level": "a2"
+  },
+  {
+    "word": "Veranstaltung",
+    "meaning": "event",
+    "level": "a2"
+  },
+  {
+    "word": "umsteigen",
+    "meaning": "to transfer / to change (transport)",
+    "level": "a2"
+  },
+  {
+    "word": "umziehen",
+    "meaning": "to move",
+    "level": "a2"
+  },
+  {
+    "word": "sich umziehen",
+    "meaning": "to get changed",
+    "level": "a2"
+  },
+  {
+    "word": "verboten sein",
+    "meaning": "to be forbidden / to be prohibited",
+    "level": "a2"
+  },
+  {
+    "word": "verbieten",
+    "meaning": "to forbid sth. / to prohibit / to ban sth.",
+    "level": "a2"
+  },
+  {
+    "word": "verdienen",
+    "meaning": "to earn",
+    "level": "a2"
+  },
+  {
+    "word": "Verein",
+    "meaning": "union / club",
+    "level": "a2"
+  },
+  {
+    "word": "vereinbaren",
+    "meaning": "to agree sth. / to reach an agreement",
+    "level": "a2"
+  },
+  {
+    "word": "vergessen",
+    "meaning": "to forget",
+    "level": "a2"
+  },
+  {
+    "word": "Umzug",
+    "meaning": "move",
+    "level": "a2"
+  },
+  {
+    "word": "vergleichen",
+    "meaning": "to compare",
+    "level": "a2"
+  },
+  {
+    "word": "verkaufen",
+    "meaning": "to sell",
+    "level": "a2"
+  },
+  {
+    "word": "Volleyball",
+    "meaning": "volleyball",
+    "level": "a2"
+  },
+  {
+    "word": "von",
+    "meaning": "from",
+    "level": "a2"
+  },
+  {
+    "word": "vor",
+    "meaning": "in front",
+    "level": "a2"
+  },
+  {
+    "word": "vorbei",
+    "meaning": "over / past",
+    "level": "a2"
+  },
+  {
+    "word": "Verkehr",
+    "meaning": "traffic",
+    "level": "a2"
+  },
+  {
+    "word": "Verkehrsmittel",
+    "meaning": "means of transport",
+    "level": "a2"
+  },
+  {
+    "word": "vorbereiten",
+    "meaning": "to prepare",
+    "level": "a2"
+  },
+  {
+    "word": "sich verletzen",
+    "meaning": "to hurt oneself",
+    "level": "a2"
+  },
+  {
+    "word": "sich verlieben",
+    "meaning": "to fall in love",
+    "level": "a2"
+  },
+  {
+    "word": "vorgestern",
+    "meaning": "the day before yesterday",
+    "level": "a2"
+  },
+  {
+    "word": "vorher",
+    "meaning": "before",
+    "level": "a2"
+  },
+  {
+    "word": "vorne",
+    "meaning": "ahead / in front",
+    "level": "a2"
+  },
+  {
+    "word": "verlieren",
+    "meaning": "to lose",
+    "level": "a2"
+  },
+  {
+    "word": "Vorname",
+    "meaning": "first given name",
+    "level": "a2"
+  },
+  {
+    "word": "Vorschlag",
+    "meaning": "suggestion",
+    "level": "a2"
+  },
+  {
+    "word": "vermieten",
+    "meaning": "to rent sth. (out) / to let sth.",
+    "level": "a2"
+  },
+  {
+    "word": "vorsichtig",
+    "meaning": "careful",
+    "level": "a2"
+  },
+  {
+    "word": "Vermieter",
+    "meaning": "landlord",
+    "level": "a2"
+  },
+  {
+    "word": "Vermieterin",
+    "meaning": "landlady",
+    "level": "a2"
+  },
+  {
+    "word": "verpassen",
+    "meaning": "to miss",
+    "level": "a2"
+  },
+  {
+    "word": "sich vorstellen",
+    "meaning": "to imagine",
+    "level": "a2"
+  },
+  {
+    "word": "verreisen",
+    "meaning": "to travel",
+    "level": "a2"
+  },
+  {
+    "word": "vorwärts",
+    "meaning": "forward",
+    "level": "a2"
+  },
+  {
+    "word": "verschieben",
+    "meaning": "to shift sth. / to move sth.",
+    "level": "a2"
+  },
+  {
+    "word": "wach",
+    "meaning": "awake",
+    "level": "a2"
+  },
+  {
+    "word": "Wagen",
+    "meaning": "car / carriage / wagon",
+    "level": "a2"
+  },
+  {
+    "word": "wählen",
+    "meaning": "to choose / to select / to dial / to vote",
+    "level": "a2"
+  },
+  {
+    "word": "verschieden",
+    "meaning": "different",
+    "level": "a2"
+  },
+  {
+    "word": "Verspätung",
+    "meaning": "delay",
+    "level": "a2"
+  },
+  {
+    "word": "verstehen",
+    "meaning": "to understand",
+    "level": "a2"
+  },
+  {
+    "word": "wahr",
+    "meaning": "true",
+    "level": "a2"
+  },
+  {
+    "word": "wahrscheinlich",
+    "meaning": "probably",
+    "level": "a2"
+  },
+  {
+    "word": "versuchen",
+    "meaning": "to try",
+    "level": "a2"
+  },
+  {
+    "word": "Wald",
+    "meaning": "forest",
+    "level": "a2"
+  },
+  {
+    "word": "Vertrag",
+    "meaning": "contract",
+    "level": "a2"
+  },
+  {
+    "word": "wandern",
+    "meaning": "to hike",
+    "level": "a2"
+  },
+  {
+    "word": "viel",
+    "meaning": "a lot of",
+    "level": "a2"
+  },
+  {
+    "word": "viele",
+    "meaning": "lots",
+    "level": "a2"
+  },
+  {
+    "word": "wann",
+    "meaning": "when",
+    "level": "a2"
+  },
+  {
+    "word": "vielleicht",
+    "meaning": "maybe",
+    "level": "a2"
+  },
+  {
+    "word": "warm",
+    "meaning": "warm",
+    "level": "a2"
+  },
+  {
+    "word": "Vogel",
+    "meaning": "bird",
+    "level": "a2"
+  },
+  {
+    "word": "warten",
+    "meaning": "to wait",
+    "level": "a2"
+  },
+  {
+    "word": "voll",
+    "meaning": "full",
+    "level": "a2"
+  },
+  {
+    "word": "warum",
+    "meaning": "why",
+    "level": "a2"
+  },
+  {
+    "word": "was",
+    "meaning": "what",
+    "level": "a2"
+  },
+  {
+    "word": "wenn",
+    "meaning": "when / if",
+    "level": "a2"
+  },
+  {
+    "word": "wer",
+    "meaning": "who",
+    "level": "a2"
+  },
+  {
+    "word": "wen",
+    "meaning": "who / whom",
+    "level": "a2"
+  },
+  {
+    "word": "wem",
+    "meaning": "to whom / to who",
+    "level": "a2"
+  },
+  {
+    "word": "Wäsche",
+    "meaning": "cloths / laundry",
+    "level": "a2"
+  },
+  {
+    "word": "werden",
+    "meaning": "to become",
+    "level": "a2"
+  },
+  {
+    "word": "sich waschen",
+    "meaning": "to wash oneself",
+    "level": "a2"
+  },
+  {
+    "word": "Wasser",
+    "meaning": "water",
+    "level": "a2"
+  },
+  {
+    "word": "Werkstatt",
+    "meaning": "workshop",
+    "level": "a2"
+  },
+  {
+    "word": "Wettbewerb",
+    "meaning": "competition",
+    "level": "a2"
+  },
+  {
+    "word": "Wetter",
+    "meaning": "weather",
+    "level": "a2"
+  },
+  {
+    "word": "Webseite",
+    "meaning": "website",
+    "level": "a2"
+  },
+  {
+    "word": "wechseln",
+    "meaning": "to change / to switch",
+    "level": "a2"
+  },
+  {
+    "word": "wichtig",
+    "meaning": "important",
+    "level": "a2"
+  },
+  {
+    "word": "wecken",
+    "meaning": "to wake so. up",
+    "level": "a2"
+  },
+  {
+    "word": "wie",
+    "meaning": "as",
+    "level": "a2"
+  },
+  {
+    "word": "wie viel",
+    "meaning": "how much",
+    "level": "a2"
+  },
+  {
+    "word": "weg",
+    "meaning": "off / away",
+    "level": "a2"
+  },
+  {
+    "word": "wegbringen",
+    "meaning": "to bring away",
+    "level": "a2"
+  },
+  {
+    "word": "wegfahren",
+    "meaning": "to drive away",
+    "level": "a2"
+  },
+  {
+    "word": "weggehen",
+    "meaning": "to go away",
+    "level": "a2"
+  },
+  {
+    "word": "weglaufen",
+    "meaning": "to run away",
+    "level": "a2"
+  },
+  {
+    "word": "wegmachen",
+    "meaning": "to remove sth.",
+    "level": "a2"
+  },
+  {
+    "word": "wegnehmen",
+    "meaning": "to take away",
+    "level": "a2"
+  },
+  {
+    "word": "wegwerfen",
+    "meaning": "to discard sth. / to litter / to throw away",
+    "level": "a2"
+  },
+  {
+    "word": "wieder",
+    "meaning": "again",
+    "level": "a2"
+  },
+  {
+    "word": "wiederholen",
+    "meaning": "to repeat",
+    "level": "a2"
+  },
+  {
+    "word": "Weg",
+    "meaning": "path",
+    "level": "a2"
+  },
+  {
+    "word": "wegen",
+    "meaning": "because of",
+    "level": "a2"
+  },
+  {
+    "word": "wehtun",
+    "meaning": "to hurt",
+    "level": "a2"
+  },
+  {
+    "word": "Wiederhören",
+    "meaning": "Goodbye (on the phone)",
+    "level": "a2"
+  },
+  {
+    "word": "Wiedersehen",
+    "meaning": "Goodbye (in person) / meet again",
+    "level": "a2"
+  },
+  {
+    "word": "weiblich",
+    "meaning": "female",
+    "level": "a2"
+  },
+  {
+    "word": "willkommen",
+    "meaning": "welcome",
+    "level": "a2"
+  },
+  {
+    "word": "Wind",
+    "meaning": "wind",
+    "level": "a2"
+  },
+  {
+    "word": "weich",
+    "meaning": "soft",
+    "level": "a2"
+  },
+  {
+    "word": "windig",
+    "meaning": "windy",
+    "level": "a2"
+  },
+  {
+    "word": "weil",
+    "meaning": "because",
+    "level": "a2"
+  },
+  {
+    "word": "Wein",
+    "meaning": "wine",
+    "level": "a2"
+  },
+  {
+    "word": "wirklich",
+    "meaning": "for real",
+    "level": "a2"
+  },
+  {
+    "word": "wissen",
+    "meaning": "to know",
+    "level": "a2"
+  },
+  {
+    "word": "weinen",
+    "meaning": "to cry",
+    "level": "a2"
+  },
+  {
+    "word": "weit",
+    "meaning": "far",
+    "level": "a2"
+  },
+  {
+    "word": "weiter",
+    "meaning": "continue",
+    "level": "a2"
+  },
+  {
+    "word": "weitermachen",
+    "meaning": "to keep going",
+    "level": "a2"
+  },
+  {
+    "word": "weiterhelfen",
+    "meaning": "to help so. with sth.",
+    "level": "a2"
+  },
+  {
+    "word": "welcher",
+    "meaning": "which one",
+    "level": "a2"
+  },
+  {
+    "word": "Witz",
+    "meaning": "joke",
+    "level": "a2"
+  },
+  {
+    "word": "witzig",
+    "meaning": "funny",
+    "level": "a2"
+  },
+  {
+    "word": "wo",
+    "meaning": "where",
+    "level": "a2"
+  },
+  {
+    "word": "woher",
+    "meaning": "from where",
+    "level": "a2"
+  },
+  {
+    "word": "wohin",
+    "meaning": "where to",
+    "level": "a2"
+  },
+  {
+    "word": "wohnen",
+    "meaning": "to stay / to live",
+    "level": "a2"
+  },
+  {
+    "word": "Welt",
+    "meaning": "world",
+    "level": "a2"
+  },
+  {
+    "word": "wenig",
+    "meaning": "little",
+    "level": "a2"
+  },
+  {
+    "word": "wenigstens",
+    "meaning": "at least",
+    "level": "a2"
+  },
+  {
+    "word": "Wohnung",
+    "meaning": "flat / appartment",
+    "level": "a2"
+  },
+  {
+    "word": "Wohnzimmer",
+    "meaning": "living room",
+    "level": "a2"
+  },
+  {
+    "word": "Wolke",
+    "meaning": "cloud",
+    "level": "a2"
+  },
+  {
+    "word": "Zimmer",
+    "meaning": "room",
+    "level": "a2"
+  },
+  {
+    "word": "wollen",
+    "meaning": "to want",
+    "level": "a2"
+  },
+  {
+    "word": "Zirkus",
+    "meaning": "circus",
+    "level": "a2"
+  },
+  {
+    "word": "Workshop",
+    "meaning": "seminar / workshop",
+    "level": "a2"
+  },
+  {
+    "word": "Zitrone",
+    "meaning": "lemon",
+    "level": "a2"
+  },
+  {
+    "word": "Zoo",
+    "meaning": "zoo",
+    "level": "a2"
+  },
+  {
+    "word": "zu",
+    "meaning": "to",
+    "level": "a2"
+  },
+  {
+    "word": "Wort",
+    "meaning": "title",
+    "level": "a2"
+  },
+  {
+    "word": "wunderbar",
+    "meaning": "wonderful",
+    "level": "a2"
+  },
+  {
+    "word": "Wunsch",
+    "meaning": "wish",
+    "level": "a2"
+  },
+  {
+    "word": "wünschen",
+    "meaning": "to wish",
+    "level": "a2"
+  },
+  {
+    "word": "Zucker",
+    "meaning": "sugar",
+    "level": "a2"
+  },
+  {
+    "word": "zuerst",
+    "meaning": "first",
+    "level": "a2"
+  },
+  {
+    "word": "Wurst",
+    "meaning": "sausage",
+    "level": "a2"
+  },
+  {
+    "word": "zufrieden",
+    "meaning": "satisfied",
+    "level": "a2"
+  },
+  {
+    "word": "Zug",
+    "meaning": "train",
+    "level": "a2"
+  },
+  {
+    "word": "zuhören",
+    "meaning": "to listen",
+    "level": "a2"
+  },
+  {
+    "word": "zuletzt",
+    "meaning": "last",
+    "level": "a2"
+  },
+  {
+    "word": "Zahl",
+    "meaning": "number",
+    "level": "a2"
+  },
+  {
+    "word": "zahlen",
+    "meaning": "to pay",
+    "level": "a2"
+  },
+  {
+    "word": "Zahn",
+    "meaning": "tooth",
+    "level": "a2"
+  },
+  {
+    "word": "zeichnen",
+    "meaning": "to draw",
+    "level": "a2"
+  },
+  {
+    "word": "zum Beispiel",
+    "meaning": "for example",
+    "level": "a2"
+  },
+  {
+    "word": "zumachen",
+    "meaning": "to close (sth.) / to shut (sth.)",
+    "level": "a2"
+  },
+  {
+    "word": "zeigen",
+    "meaning": "to show / to demonstrate",
+    "level": "a2"
+  },
+  {
+    "word": "zurück",
+    "meaning": "back",
+    "level": "a2"
+  },
+  {
+    "word": "Zeit",
+    "meaning": "time",
+    "level": "a2"
+  },
+  {
+    "word": "zurückfahren",
+    "meaning": "to drive back",
+    "level": "a2"
+  },
+  {
+    "word": "zurückgeben",
+    "meaning": "to hand back / to give back",
+    "level": "a2"
+  },
+  {
+    "word": "zurückgehen",
+    "meaning": "to go back",
+    "level": "a2"
+  },
+  {
+    "word": "zurückkommen",
+    "meaning": "to come back / to return",
+    "level": "a2"
+  },
+  {
+    "word": "zurücklaufen",
+    "meaning": "to run back",
+    "level": "a2"
+  },
+  {
+    "word": "Zeitschrift",
+    "meaning": "magazine",
+    "level": "a2"
+  },
+  {
+    "word": "Zeitung",
+    "meaning": "newspaper",
+    "level": "a2"
+  },
+  {
+    "word": "Zelt",
+    "meaning": "tent",
+    "level": "a2"
+  },
+  {
+    "word": "Zentrum",
+    "meaning": "center",
+    "level": "a2"
+  },
+  {
+    "word": "Zettel",
+    "meaning": "note",
+    "level": "a2"
+  },
+  {
+    "word": "zusammen",
+    "meaning": "together",
+    "level": "a2"
+  },
+  {
+    "word": "zwischen",
+    "meaning": "in between",
+    "level": "a2"
+  },
+  {
+    "word": "Zeugnis",
+    "meaning": "certificate / school report",
+    "level": "a2"
+  },
+  {
+    "word": "anziehen",
+    "meaning": "to dress / to put (sth.) on / to attract",
+    "level": "a2"
+  },
+  {
+    "word": "ausziehen",
+    "meaning": "move out",
+    "level": "a2"
+  },
+  {
+    "word": "Ziel",
+    "meaning": "aim / target",
+    "level": "a2"
   }
 ]
+

@@ -10,7 +10,6 @@ const Lainter = () => {
   const [count, setCount] = useState({ num: 0, path: "next" });
   const [showAnswer, setShowAnswer] = useState(false)
 
-
   const nextWord = () => {
     setShowAnswer(false)
     setCount(prev => { return { num: prev.num + 1, path: "next" } })
