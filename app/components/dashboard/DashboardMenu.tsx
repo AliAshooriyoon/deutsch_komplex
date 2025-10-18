@@ -100,9 +100,9 @@ const DashboardMenu = () => {
             <ul className=" flex flex-col text-lg gap-5 indent-4">
               <Link className={`${path == '/dashboard/listen/listen-files' && 'underline text-[#FFBF08]'}`}
                 href={'/dashboard/listen/listen-files'}>
-                Lainter </Link>
+                Hördateien</Link>
               <Link className={`${path == '/dashboard/listen/podcasts' && 'underline text-[#FFBF08]'}`}
-                href={'/dashboard/listen/podcasts'}>Wörter zu jedem Niveau</Link>
+                href={'/dashboard/listen/podcasts'}>Podcasts auf Deutsch</Link>
               <Link
                 className={`${path == '/dashboard/listen/tests' && 'underline text-[#FFBF08]'}`}
                 href={'/dashboard/listen/tests'}>Test-modelle</Link>
