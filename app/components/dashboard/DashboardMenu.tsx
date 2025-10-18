@@ -118,7 +118,8 @@ const DashboardMenu = () => {
             </Link>
           </div>
           <div className="main_item pt-6">
-            <Link href={'/dashboard/setting'} className="showItem flex items-center">
+            {/* <Link href={'/dashboard/setting'} className="showItem flex items-center"> */}
+            <Link href={'#'} className="showItem flex items-center">
               <IoSettingsSharp className="" />
               <span>Einstellung</span>
             </Link>
@@ -127,19 +128,20 @@ const DashboardMenu = () => {
         <div className='contact'>
           <div className='wrapper'></div>
           <div className="main_item pt-6">
-            <Link href={'/about'} className="showItem flex items-center">
+            {/* <Link href={'/about'} className="showItem flex items-center"> */}
+            <Link href={'https://aliashouriyoun-beta-ochre.vercel.app/de'} className="showItem flex items-center">
               <FcAbout className="" />
               <span>Über uns</span>
             </Link>
           </div>
           <div className="main_item pt-6">
-            <Link href={'/about'} className="showItem flex items-center">
+            <Link href={'mailto:aliashouriyoun@tutamail.com'} className="showItem flex items-center">
               <MdEmail />
               <span>E-Mail</span>
             </Link>
           </div>
           <div className="main_item pt-6">
-            <Link href={'/report'} className="showItem flex items-center">
+            <Link href={'mailto:aliashouriyoun@tutamail.com'} className="showItem flex items-center">
               <MdReport />
               <span>Berichten</span>
             </Link>
