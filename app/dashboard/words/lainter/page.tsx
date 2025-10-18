@@ -19,33 +19,18 @@ const Lainter = () => {
       page: lengthBack <= 0 ? Math.floor(Math.random() * words.length - 1) + 1
         : prevLocation[prevLocation.length - lengthBack], path: `${lengthBack <= 0 ? "next" : "prev"}`
     })
-    console.log(lengthBack)
   }
 
   const previousWord = () => {
     setShowAnswer(false)
     setCount(prev => prev.num > 0 ? { num: prev.num - 1, path: "prev" } : prev)
     setLengthBack(prev => prev < prevLocation.length && count.num > 1 ? prev + 1 : prevLocation.length - 1)
-    console.log(lengthBack < prevLocation.length)
-    console.log(lengthBack)
-    console.log(words[prevLocation[prevLocation.length - 1]].word)
   }
   useEffect(() => {
     setLocation({ page: prevLocation.length > 1 ? prevLocation[prevLocation.length - (lengthBack + 1)] : 0, path: "prev" })
-    console.log("fitst use effect")
   }, [lengthBack])
-
-  useEffect(() => {
-    console.log("---------prevLocation--------")
-    console.log(prevLocation)
-  }, [prevLocation])
-
   useEffect(() => {
     setPrevLocation(prev => location.path == "next" ? [...prev, location.page] : [...prev])
-
-    console.log(prevLocation)
-    console.log(location.path)
-    console.log("second use effect")
   }, [location]);
   const showAnswerFunc = () => {
     setShowAnswer(prev => !prev)
@@ -64,11 +49,11 @@ const Lainter = () => {
           <div className='flex items-center justify-around pb-24 gap-12 flex-row-reverse'>
             <button type='button' onClick={() => nextWord()} className='border-4 rounded-full p-1 flex items-center justify-center'>
               <GrNext className="w-10 h-10" /> </button>
-            <p onClick={showAnswerFunc}
+            <div onClick={showAnswerFunc}
               className="text-2xl text-center bg-emerald-700
   px-6 py-4 rounded-3xl cursor-pointer"> {
                 !showAnswer ? <p>Bedeutung sehen </p> : <p>Wort sehen</p>
-              } </p>
+              } </div>
             <button type='button' onClick={() => previousWord()} className='border-4 rounded-full rotate-180 p-1 flex items-center
       justify-center'> <GrNext className="w-10 h-10" /> </button>
           </div>

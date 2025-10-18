@@ -5,7 +5,7 @@ import { useState } from "react"
 
 const WordsList = () => {
   const [words, setWords] = useState([{ id: "", title: "", mean: "", level: "" }])
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
   const showWords = async (level: string) => {
     setLoading(true)
     const res = await fetch("/api/selectWord", {
