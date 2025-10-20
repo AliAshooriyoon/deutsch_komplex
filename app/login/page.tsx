@@ -32,6 +32,9 @@ const LoginPage = () => {
               </div>
             </div>
             <div className='text-center flex flex-col justify-between items-center'>
+              <Link href="/forgot-password" className="pt-2 text-lg hover:text-[#F0B100]">
+                Forgot password?
+              </Link>
               <button onClick={doLogin} className="h-[4rem] cursor-pointer hover:rounded-2xl delay-100 w-[24rem] bg-black text-white text-xl" type="button">Einloggen</button>
               <Link className="pt-4 text-lg hover:text-[#F0B100]"
                 href={'/register'}>Keinen Konto? anmelden</Link>
