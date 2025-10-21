@@ -1,13 +1,18 @@
 
 "use client";
-import { useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { redirect, useSearchParams } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function ResetPasswordPage() {
   const params = useSearchParams();
   const token = params.get("token");
   const [password, setPassword] = useState('');
   const [done, setDone] = useState(false);
+  useEffect(() => {
+    if (done) {
+      redirect("/login")
+    }
+  }, [done])
 
   const handleReset = async () => {
     const res = await fetch("/api/auth/reset-password", {
