@@ -40,38 +40,67 @@ const TestsSchreiben = () => {
 Level: ${level}
 
 Regeln:
-1. Erzeuge zwei Aufgaben: "Aufgabe 1" und "Aufgabe 2".
-2. Schreibe nur den Aufgaben-Text, keine Erklärungen, keine Lösungen, keine Hinweise.
-3. Format und Sprache müssen genau wie im echten ÖSD-Examen sein.
-4. Gib realistische Themen (z. B. Arbeit, Umwelt, Technologie, Reisen, Beziehungen).
-5. Sprache: Deutsch.
-6. Struktur:
-   ---
-   Aufgabe 1 (XX Minuten)
-   [Situationsbeschreibung 4–8 Sätze]
-   Schreiben Sie ...
-   1) ...
-   2) ...
-   3) ...
-   [Beginn- und Endvorgabe falls nötig, Wortzahl in Klammern]
-   ---
-   Aufgabe 2 (XX Minuten)
-   [Beschreibung 4–10 Sätze]
-   Schreiben Sie ...
-   1) ...
-   2) ...
-   3) ...
-   [Wortzahlangabe]
-   ---
-7. Wenn das Level nicht A1, A2, B1, B2 oder C1 ist, gib nichts zurück.
-8. Antworte nur mit der Prüfungsaufgabe, keine Meta-Kommentare.
+1. Erstelle **zwei Aufgaben**: „Aufgabe 1“ und „Aufgabe 2“.
+2. Schreibe **nur die Aufgabenstellung**, keine Erklärungen, keine Lösungen, keine Beispiele, keine zusätzlichen Hinweise.
+3. Die Aufgaben müssen **exakt so formatiert** sein wie im echten ÖSD-Prüfungsheft.
+4. Die Themen, Textlänge, Sprache und Anweisungen müssen sich strikt am angegebenen Sprachniveau orientieren:
 
-Wort- und Zeitvorgaben:
-A1: 20 Min / 25–50 Wörter
-A2: 30 Min / 50–80 Wörter
-B1: 40 Min / 100–150 Wörter
-B2: 45 Min / 180–220 Wörter
-C1: 60 Min / 250–350 Wörter`,
+   ${level == 'a1' && `### Niveau A1:
+   - Sehr einfache Themen aus dem Alltag (z. B. Familie, Freizeit, Wohnen, Essen).
+   - Kurze, klare Sätze (5–10 Wörter).
+   - Keine Nebensätze.
+   - Wortzahl: 30–50 Wörter pro Aufgabe.
+   - Beispiel: Einladung, kurze Notiz, einfache E-Mail.
+` }
+${level == "a2" && `### Niveau A2:
+   - Alltägliche Themen (z. B. Reisen, Arbeit, Gesundheit, Hobbys).
+   - Einfache Hauptsätze, gelegentlich Nebensätze mit „weil“, „dass“.
+   - Wortzahl: 50–80 Wörter pro Aufgabe.
+   - Beispiel: E-Mail, kurze Beschwerde, persönliche Nachricht.
+`}
+${level == "b1" && `### Niveau B1:
+   - Bekannte gesellschaftliche Themen (z. B. Umwelt, Medien, Bildung, Zusammenleben).
+   - Verwendung von Konnektoren wie „obwohl“, „deshalb“, „außerdem“.
+   - Wortzahl: 120–180 Wörter pro Aufgabe.
+   - Beispiel: Leserbrief, Meinungsäußerung, kurzer Bericht.
+` }
+    
+    ${level == "b2" && `
+   ### Niveau B2:
+   - Komplexere Themen (z. B. Digitalisierung, Arbeitswelt, soziale Fragen).
+   - Verwendung von komplexeren Satzstrukturen und Konnektoren („trotzdem“, „denn“, „sowohl … als auch“, „im Gegensatz zu“).
+   - Wortzahl: 200–250 Wörter pro Aufgabe.
+   - Beispiel: Kommentar, Bericht, Argumentation.
+
+`}
+${level == "c1" && `### Niveau C1:
+   - Anspruchsvolle Themen (z. B. gesellschaftliche Veränderungen, Globalisierung, Nachhaltigkeit, technologische Entwicklungen).
+   - Hohe sprachliche Komplexität: erweiterte Satzstrukturen, gehobener Wortschatz, präzise Ausdrucksweise.
+   - Wortzahl: 250–350 Wörter pro Aufgabe.
+   - Beispiel: Kommentar, Analyse, kritische Stellungnahme.
+`}
+      
+5. Struktur:
+---
+**Aufgabe 1 (30 Minuten)**
+[Situationsbeschreibung 3–8 Sätze]
+Schreiben Sie …
+1) …
+2) …
+3) …
+(Beginn: … / Ende: … / Wortzahl: laut Niveau)
+---
+**Aufgabe 2 (30 Minuten)**
+[Situationsbeschreibung 3–8 Sätze]
+Schreiben Sie …
+1) …
+2) …
+3) …
+(Wortzahl: laut Niveau)
+---
+
+7. Verwende kein Meta-Kommentar oder Einleitung — gib ausschließlich die Prüfungsaufgaben im ÖSD-Stil aus.
+8. Jede Aufgabe soll realistisch, prüfungsnah und thematisch typisch für das Niveau sein.`,
 
 
         adminMessage: `

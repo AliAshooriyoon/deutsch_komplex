@@ -21,15 +21,15 @@ export async function POST(req: Request) {
       ],
       temperature: 0.2,
       top_p: 0.9,
-      max_tokens: 3000,
+      max_tokens: 5000,
       presence_penalty: 0.1,
       frequency_penalty: 0.1,
     });
 
     const answer = completion.choices[0].message.content;
     return NextResponse.json({ reply: answer });
-  } catch (err: unknown) {
-    console.error('Error:', err);
+  } catch (err) {
+    console.error('Error:', err.message);
     //    if (err!.code === 429) {
     //   return NextResponse.json(
     //     {
