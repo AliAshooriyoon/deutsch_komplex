@@ -21,7 +21,7 @@ export async function POST(req: Request) {
       ],
       temperature: 0.2,
       top_p: 0.9,
-      max_tokens: 5000,
+      max_tokens: 6000,
       presence_penalty: 0.1,
       frequency_penalty: 0.1,
     });
