@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import { FaUser } from "react-icons/fa";
 import { FaBookOpen } from "react-icons/fa";
@@ -7,6 +8,10 @@ import customPic from "../public/removebg.png"
 import Plan from "./components/home-design/plan";
 import Footer from "./components/home-design/Footer";
 import Header from "./components/Header";
+import dynamic from "next/dynamic";
+const Element = dynamic(() => import('react-scroll').then((mod) => mod.Element), {
+  ssr: false,
+});
 export default function Home() {
   return (
     <>
@@ -24,7 +29,7 @@ export default function Home() {
           </div>
           <Image alt="main picture" className="w-[50rem]" src={mainPic} />
         </div>
-        <div className="analys p-6 h-44  shadow-2xl shadow-[#D73722] w-[96%] mx-auto
+        <Element name="services" className="analys p-6 h-44  shadow-2xl shadow-[#D73722] w-[96%] mx-auto
           bg-zinc-900 rounded-4xl flex justify-between">
           <div className='users flex items-center gap-6'>
             <div className='iconBox border-2 p-4 rounded-full bg-red-300 border-red-300'>
@@ -53,7 +58,7 @@ export default function Home() {
               <p className='text-xl'>Modell-Tests</p>
             </div>
           </div>
-        </div>
+        </Element>
         <div className='flex items-center justify-between px-12 py-30 flex-wrap'>
           <Image className="" src={customPic} alt='' />
           <div className='description_customer max-w-[40%]'>
@@ -70,7 +75,7 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className="">
+        <Element name="price" className="py-6">
           <h3 className="text-center text-4xl">Preise</h3>
           <div className='plans py-12 px-10 flex justify-between w-[85%] mx-auto'>
             <Plan mode={'free'} />
@@ -78,7 +83,7 @@ export default function Home() {
             <Plan mode={'premium'} />
           </div>
           <p className="text-center text-xl pb-8 pt-2">Ich machte Witze!!  Diese Plattform ist jetzt total konstenkos 🙂 </p>
-        </div>
+        </Element>
         <Footer />
       </div>
     </>

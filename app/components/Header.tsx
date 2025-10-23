@@ -1,4 +1,5 @@
 "use client"
+import { Link as ScrollLink, Element } from 'react-scroll';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import logo from "@/public/de-icon.png"
@@ -18,10 +19,12 @@ const Header = () => {
         <div className='wrapper'></div>
       </div>
       <div className="items_header  w-[40%] text-xl justify-around pr-6 hidden lg:flex">
-        <div className="">Haus</div>
-        <div className="">Anfangen</div>
-        <div className="">Preise</div>
-        <div className="">Über uns</div>
+        <div className="cursor-pointer"> Haus </div>
+        <div className="cursor-pointer"> <ScrollLink to="services" smooth={true} duration={500} > Services </ScrollLink> </div>
+        <div className="cursor-pointer"><ScrollLink to="price" smooth={true} duration={500} > Preise </ScrollLink></div>
+        <div className="cursor-pointer">
+          <Link href={'https://aliashouriyoun-beta-ochre.vercel.app/de'}>
+            Über uns </Link></div>
       </div>
       <div className="buttons_box hidden lg:flex gap-8 pr-8 text-xl  flex-row items-center">
         {isLoading ? <SkeletonTheme baseColor="#202020" highlightColor="#444"
