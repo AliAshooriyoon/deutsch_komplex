@@ -32,32 +32,33 @@ export default function Home() {
           </div>
           <Image alt="main picture" className="w-[50rem]" src={mainPic} />
         </div>
-        <Element name="services" className="analys p-6 h-44  shadow-2xl shadow-[#D73722] w-[96%] mx-auto
-          bg-zinc-900 rounded-4xl flex justify-between">
+        <Element name="services" className="analys p-6 lg:h-44  shadow-2xl
+          shadow-[#D73722] w-[96%] mx-auto
+          bg-zinc-900 rounded-4xl flex max-lg:flex-col max-lg:gap-16 justify-between">
           <div className='users flex items-center gap-6'>
             <div className='iconBox border-2 p-4 rounded-full bg-red-300 border-red-300'>
-              <FaUser className="w-8 h-8 fill-[#D73722]" />
+              <FaUser className="max-lg:h-6 max-lg:w-6 lg:w-8 lg:h-8 fill-[#D73722]" />
             </div>
             <div className='nums'>
-              <p className='text-3xl font-bold'>Über 200</p>
+              <p className='lg:text-3xl max-lg:text-2xl font-bold'>Über 200</p>
               <p className='text-xl'>Benutzer</p>
             </div>
           </div>
           <div className='practices flex items-center gap-6'>
             <div className="iconBox border-2 p-4 rounded-full bg-red-300 border-red-300">
-              <FaBookOpen className="w-8 h-8 fill-[#D73722]" />  </div>
+              <FaBookOpen className="max-lg:h-6 max-lg:w-6 lg:w-8 lg:h-8 fill-[#D73722]" />  </div>
             <div className='nums'>
-              <p className='text-3xl font-bold'>Über 130</p>
+              <p className='lg:text-3xl max-lg:text-2xl font-bold'>Über 130</p>
               <p className='text-xl'>Übungen</p>
             </div>
           </div>
 
           <div className='Modell-Tests flex items-center gap-6'>
             <div className="iconBox border-2 p-4 rounded-full bg-red-300 border-red-300">
-              <PiExamFill className="w-8 h-8 fill-[#D73722]" />
+              <PiExamFill className="max-lg:h-6 max-lg:w-6 lg:w-8 lg:h-8 fill-[#D73722]" />
             </div>
             <div className='nums'>
-              <p className='text-3xl font-bold'>Über 40</p>
+              <p className='lg:text-3xl max-lg:text-2xl font-bold'>Über 40</p>
               <p className='text-xl'>Modell-Tests</p>
             </div>
           </div>
