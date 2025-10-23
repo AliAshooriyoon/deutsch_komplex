@@ -82,7 +82,7 @@ export default function Home() {
             <Plan mode={'standard'} />
             <Plan mode={'premium'} />
           </div>
-          <p className="text-center text-xl pb-8 pt-2">Ich machte Witze!!  Diese Plattform ist jetzt total konstenkos 🙂 </p>
+          <p className="text-center text-xl pb-8 pt-2">Ich machte Witze!!  Diese Plattform ist jetzt total kostenlos 🙂 </p>
         </Element>
         <Footer />
       </div>

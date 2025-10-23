@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return <>
     <div className='footer w-full h-52 p-4 bg-stone-900 rounded-xl flex justify-between flex-row'>
-      <div className="main_footer flex flex-col justify-start gap-8 h-full">
+      <div className="main_footer flex flex-col justify-start gap-8 h-full items-start">
 
         <p className="text-3xl">Möchten Sie mit uns Kontakt knüpfen? </p>
         <Link className="text-xl" href={'mailto:aliashooriyoon@yahoo.com'}> Geben Sie uns Bescheid! </Link>
