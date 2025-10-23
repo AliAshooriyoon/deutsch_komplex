@@ -70,10 +70,14 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className='plans py-12 px-10 flex justify-between w-[85%] mx-auto'>
-          <Plan mode={'free'} />
-          <Plan mode={'standard'} />
-          <Plan mode={'premium'} />
+        <div className="">
+          <h3 className="text-center text-4xl">Preise</h3>
+          <div className='plans py-12 px-10 flex justify-between w-[85%] mx-auto'>
+            <Plan mode={'free'} />
+            <Plan mode={'standard'} />
+            <Plan mode={'premium'} />
+          </div>
+          <p className="text-center text-xl pb-8 pt-2">Ich machte Witze!!  Diese Plattform ist jetzt total konstenkos 🙂 </p>
         </div>
         <Footer />
       </div>
