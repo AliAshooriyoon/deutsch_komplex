@@ -63,15 +63,15 @@ export default function Home() {
             </div>
           </div>
         </Element>
-        <div className='flex items-center justify-between px-12 py-30 flex-wrap'>
+        <div className='flex items-center justify-between max-lg:px-4 lg:px-12 py-30 flex-wrap'>
           <Image className="" src={customPic} alt='' />
-          <div className='description_customer max-w-[40%]'>
-            <h4 className="text-5xl text-left">Was bieten wir genau an?</h4>
-            <p className="text-2xl mt-6 ">Unsere verschiedene Services helfen Ihnen dabei,
+          <div className='description_customer lg:max-w-[40%]'>
+            <h4 className="lg:text-5xl max-lg:text-3xl text-left">Was bieten wir genau an?</h4>
+            <p className="lg:text-2xl max-lg:text-xl mt-6 ">Unsere verschiedene Services helfen Ihnen dabei,
               Deutsch besser zu können. Diese Plattform könnte bei allen Kompetenzen,
               die man nicht nur bei einer prüfung, sondern auch im Leben braucht,
               förderlich sein!</p>
-            <ul className="list-disc text-2xl mt-6 leading-9">
+            <ul className="list-disc lg:text-2xl max-lg:text-xl max-lg:pl-4 mt-6 leading-9">
               <li>Schreibübungen</li>
               <li>verschiedene Hörübungen </li>
               <li>Großartige Wortschätze</li>
