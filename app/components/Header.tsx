@@ -11,17 +11,19 @@ const Header = () => {
   console.log(user.status)
   return <>
     <div className="w-full h-20 bg-[#4a4b4e] rounded-b-3xl flex items-center justify-between">
-      <div className="logo_box h-full gap-4 flex items-center pl-4">
+      <div className="logo_box max-lg:w-full h-full gap-4 flex justify-between
+        items-center  pl-4">
         <Image className="h-[80%] w-17" alt="logo" src={logo} />
-        <p className="logo_title text-2xl font-bold">Deutsch komplex</p>
+        <p className="logo_title text-2xl font-bold max-lg:pr-4">Deutsch komplex</p>
+        <div className='wrapper'></div>
       </div>
-      <div className="items_header flex w-[40%] text-xl justify-around pr-6">
+      <div className="items_header  w-[40%] text-xl justify-around pr-6 hidden lg:flex">
         <div className="">Haus</div>
         <div className="">Anfangen</div>
         <div className="">Preise</div>
         <div className="">Über uns</div>
       </div>
-      <div className="buttons_box flex gap-8 pr-8 text-xl  flex-row items-center">
+      <div className="buttons_box hidden lg:flex gap-8 pr-8 text-xl  flex-row items-center">
         {isLoading ? <SkeletonTheme baseColor="#202020" highlightColor="#444"
           width={'9rem'} borderRadius={'3rem'} height={'3rem'}> <Skeleton /> </SkeletonTheme>
           : !user.data?.user?.email ?
