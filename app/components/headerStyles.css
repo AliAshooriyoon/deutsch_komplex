@@ -1,0 +1,5 @@
+.phone_menu {
+  height: calc(100% - 5rem);
+  bottom: 0;
+  left: 0;
+}

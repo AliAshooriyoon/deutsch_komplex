@@ -1,22 +1,61 @@
 "use client"
+import { TbLayoutDashboard } from "react-icons/tb";
+import { FcAbout } from "react-icons/fc";
+import { MdPriceChange } from "react-icons/md";
+import { MdOutlineDesignServices } from "react-icons/md";
+import { IoMdHome } from "react-icons/io";
+import { MdAccountCircle } from "react-icons/md";
+import "./headerStyles.css"
 import { Link as ScrollLink, Element } from 'react-scroll';
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import logo from "@/public/de-icon.png"
+import { IoMdMenu } from "react-icons/io";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from 'react';
 const Header = () => {
   const user = useSession()
   const isLoading = user.status == "loading"
   console.log(user.status)
+  const [showMenu, setShowMenu] = useState(false)
+  const hideMenu = () => {
+    setShowMenu(false)
+  }
   return <>
-    <div className="w-full h-20 bg-[#4a4b4e] rounded-b-3xl flex items-center justify-between">
+    <div className="w-full h-20 sticky top-0 bg-[#4a4b4e] rounded-b-3xl flex items-center justify-between">
       <div className="logo_box max-lg:w-full h-full gap-4 flex justify-between
         items-center  pl-4">
         <Image className="h-[80%] w-17" alt="logo" src={logo} />
-        <p className="logo_title text-2xl font-bold max-lg:pr-4">Deutsch komplex</p>
-        <div className='wrapper'></div>
+        <p className="logo_title text-2xl  font-bold max-lg:pr-4">Deutsch komplex</p>
+        <div className='wrapper lg:hidden mr-4'>
+          <IoMdMenu onClick={() => setShowMenu(prev => !prev)} className="w-10 h-10" />
+        </div>
+        {showMenu && <div className='phone_menu fixed pl-5 pt-6 w-[100vw] 
+           bg-[#18181B]'>
+          <div className="items_header flex flex-col gap-6 text-2xl indent-4 justify-around pr-6 ">
+            <div className="cursor-pointer flex items-center" onClick={hideMenu} >
+              <IoMdHome /> <span>Haus</span> </div>
+            <div className="cursor-pointer" >
+              <ScrollLink className="flex items-center" onClick={hideMenu} to="services" smooth={true} duration={500}>
+                <MdOutlineDesignServices />
+                <span>Services</span> </ScrollLink> </div>
+            <div className="cursor-pointer">
+              <ScrollLink className="flex items-center" onClick={hideMenu} to="price" smooth={true} duration={500}>
+                <MdPriceChange />    <span>Preise</span> </ScrollLink></div>
+            <div className="cursor-pointer">
+              <Link className="flex items-center" onClick={hideMenu} href={'https://aliashouriyoun-beta-ochre.vercel.app/de'}>
+                <FcAbout /> <span>Über uns</span> </Link></div>
+            <div className="cursor-pointer">
+              {user.status == "unauthenticated" ? <Link className="flex items-center" href={'/login'}>
+                <MdAccountCircle /> <span>Einloggen  </span> </Link>
+                : <Link className="flex items-center" href={'/dashboard'}>
+                  <TbLayoutDashboard /> <span>Dashboard  </span> </Link>}
+            </div>
+          </div>
+
+        </div>}
       </div>
       <div className="items_header  w-[40%] text-xl justify-around pr-6 hidden lg:flex">
         <div className="cursor-pointer"> Haus </div>
