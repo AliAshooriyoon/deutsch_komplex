@@ -14,7 +14,8 @@ const options: Record<string, Array<string>> = {
 const Plan = ({ mode }: { mode: string }) => {
   return <>
 
-    <div className="plan flex flex-col justify-between py-8  h-[40rem] w-[25rem] bg-neutral-800 rounded-3xl">
+    <div className="plan flex flex-col justify-between py-8 max-lg:w-[90%]  h-[40rem] lg:w-[25rem] 
+      bg-neutral-800 rounded-3xl">
 
       <div className='title_plan text-center text-3xl font-bold flex flex-col items-center gap-2'>
         {mode == "free" ? <LuGlasses className='fill-green-500 w-10 h-10' />
@@ -27,8 +28,9 @@ const Plan = ({ mode }: { mode: string }) => {
       <div className='options'>
         {options[mode].map((i) => {
 
-          return <div key={i} className='option flex items-center gap-1 pl-4 pt-6'>
-            <FiTriangle className={` fill-${mode == 'free' ? 'green' : mode == 'standard' ? 'red' : 'blue'}-500 w-6 h-6`} />
+          return <div key={i} className='option flex items-center gap-1.5 pl-4 pt-6'>
+            <span> <FiTriangle className={` fill-${mode == 'free' ? 'green' : mode == 'standard'
+              ? 'red' : 'blue'}-500 w-6 h-6 mb-1.5`} /> </span>
             <p className="text-xl">{i}</p>
           </div>
         })}

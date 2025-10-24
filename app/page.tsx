@@ -81,7 +81,8 @@ export default function Home() {
         </div>
         <Element name="price" className="py-6">
           <h3 className="text-center text-4xl">Preise</h3>
-          <div className='plans py-12 px-10 flex justify-between w-[85%] mx-auto'>
+          <div className='plans py-12 lg:px-10 flex max-lg:items-center max-lg:gap-16 max-lg:flex-col 
+            justify-between lg:w-[85%] mx-auto'>
             <Plan mode={'free'} />
             <Plan mode={'standard'} />
             <Plan mode={'premium'} />
