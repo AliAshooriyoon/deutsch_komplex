@@ -49,9 +49,9 @@ const Header = () => {
                 <FcAbout /> <span>Über uns</span> </Link></div>
             <div className="cursor-pointer">
               {user.status == "unauthenticated" ? <Link className="flex items-center" href={'/login'}>
-                <MdAccountCircle /> <span>Einloggen  </span> </Link>
+                <MdAccountCircle /> <span> Einloggen  </span> </Link>
                 : <Link className="flex items-center" href={'/dashboard'}>
-                  <TbLayoutDashboard /> <span>Dashboard  </span> </Link>}
+                  <TbLayoutDashboard /> <span> Dashboard  </span> </Link>}
             </div>
           </div>
 
