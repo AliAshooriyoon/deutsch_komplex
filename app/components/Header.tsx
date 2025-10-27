@@ -1,5 +1,6 @@
 "use client"
 import { TbLayoutDashboard } from "react-icons/tb";
+import { AiOutlineClose } from "react-icons/ai";
 import { FcAbout } from "react-icons/fc";
 import { MdPriceChange } from "react-icons/md";
 import { MdOutlineDesignServices } from "react-icons/md";
@@ -30,7 +31,11 @@ const Header = () => {
         <Image className="h-[80%] w-17" alt="logo" src={logo} />
         <p className="logo_title text-2xl  font-bold max-lg:pr-4">Deutsch komplex</p>
         <div className='wrapper lg:hidden mr-4'>
-          <IoMdMenu onClick={() => setShowMenu(prev => !prev)} className="w-10 h-10" />
+          <div onClick={() => setShowMenu(prev => !prev)}>
+            {!showMenu ? <IoMdMenu className="w-10 h-10" /> :
+              <AiOutlineClose className="w-10 h-10" />
+            }
+          </div>
         </div>
         {showMenu && <div className='phone_menu fixed pl-5 pt-6 w-[100vw] 
            bg-[#18181B]'>
