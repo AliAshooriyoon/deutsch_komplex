@@ -28,3 +28,6 @@ body {
   color: var(--foreground);
   font-family: comic, sans-serif;
 }
+.header_list div {
+  cursor: pointer;
+}
