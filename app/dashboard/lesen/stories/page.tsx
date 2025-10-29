@@ -4,8 +4,10 @@ import { useEffect, useState } from "react";
 
 const Stories = () => {
   const [level, setLevel] = useState('');
+  const [isLoading, setIsLoading] = useState(false)
   const [stories, setStories] = useState([{ id: "", title: "", content: "" }]);
   const showLevel = async () => {
+    setIsLoading(true)
     const res = await fetch("/api/findStories", {
       method: "POST", body: JSON.stringify({
         level
@@ -13,6 +15,7 @@ const Stories = () => {
     })
     const data = await res.json();
     setStories(data);
+    setIsLoading(false)
   }
   useEffect(() => {
     showLevel();
@@ -31,8 +34,9 @@ const Stories = () => {
             <option value={'c1'}>c1</option>
           </select>
         </div>
+        {isLoading && <div className="text-center text-3xl text-cyan-700"> Loading... </div>}
         <div className='flex flex-col justify-between gap-12'>
-          {stories.map((i) => <div className="flex flex-col gap-3 w-[95%] mx-auto max-lg:py-12 lg:py-6" key={i.id}>
+          {!isLoading && stories.map((i) => <div className="flex flex-col gap-3 w-[95%] mx-auto max-lg:py-12 lg:py-6" key={i.id}>
             <p className="text-2xl text-[#FFC105]">{i.title}</p>
             <p className="text-lg ">{i.content}</p>
           </div>)}
