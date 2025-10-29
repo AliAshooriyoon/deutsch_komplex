@@ -1,12 +1,11 @@
 "use client";
-
 import {
+  FaUserAlt,
   FaBookReader,
   FaPenAlt,
   FaHeadphones,
 } from "react-icons/fa";
 import { VscSymbolKeyword } from "react-icons/vsc";
-import { MdOutlineSettings } from "react-icons/md";
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
@@ -122,9 +121,9 @@ const DashboardPhone = () => {
         </button>
 
         {/* Settings */}
-        <button className="flex flex-col items-center justify-center h-full">
-          <MdOutlineSettings className="w-10 h-10 text-white" />
-        </button>
+        <Link href={"/dashboard/account"} className="flex flex-col items-center justify-center h-full">
+          <FaUserAlt className="w-10 h-10 text-white" />
+        </Link>
       </div>
 
       {showItems.status && showItems.path && (
