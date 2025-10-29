@@ -1,9 +1,11 @@
 'use client'
 import { useState } from "react"
 const TestsLesen = () => {
+  const [isLoading, setIsLoading] = useState(false)
   const [answer, setAnswer] = useState('');
   const [level, setLevel] = useState('');
   const createExam = async () => {
+    setIsLoading(true)
     const res = await fetch("/api/createExam", {
       method: "POST",
       body: JSON.stringify({
@@ -71,6 +73,10 @@ Generate a new exam now for level {level}. `
       })
     })
     const data = await res.json();
+    if (!res.ok) {
+      throw new Error("Error!")
+    }
+    setIsLoading(false)
     setAnswer(data.reply)
   }
 
@@ -78,7 +84,6 @@ Generate a new exam now for level {level}. `
   return <>
     <div className=''>
       <div className='text-2xl flex flex-col items-start gap-12'>
-        <p className="text-xl text-center py-12">{answer}</p>
         <p className='text-2xl '>Eine Prüfung auswählen</p>
         <select onChange={(e) => setLevel(e.target.value)}
           className="w-32 border-2 py-2 px-5 rounded-2xl">
@@ -90,6 +95,8 @@ Generate a new exam now for level {level}. `
         </select>
         <button onClick={createExam} className="cursor-pointer border-2 p-2 rounded-2xl">Prüfung erstellen</button>
       </div>
+      {isLoading && <div className="text-center text-3xl text-cyan-700 py-4">Loading...</div>}
+      <p className="text-xl text-left pl-2 py-12">{!isLoading && answer}</p>
     </div>
   </>
 }
