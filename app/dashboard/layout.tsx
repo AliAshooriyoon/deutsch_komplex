@@ -17,7 +17,7 @@ const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
       <section className="lg:hidden fixed bottom-0 w-full bg-[#4a4b4e] h-20">
         <DashboardPhone />
       </section>
-      <section className="main_page lg:absolute right-0 top-0 lg:w-[70%]">
+      <section className="main_page px-2 py-20 lg:absolute right-0 top-0 lg:w-[70%]">
 
         {children}</section>
 

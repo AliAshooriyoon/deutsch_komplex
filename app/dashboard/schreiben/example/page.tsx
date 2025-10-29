@@ -21,10 +21,10 @@ const ExampleSchreiben = async () => {
   console.log(data)
 
   return <>
-    <div className="flex flex-col justify-around gap-16 w-[80%] mx-auto">
-      <div className='a1 goethe example_box'>
+    <div className="flex flex-col justify-around max-lg:pb-8 gap-16 lg:w-[80%] max-lg:w-full lg:mx-auto">
+      <div className='example_box max-lg:p-3 lg:p-5'>
         {data.map((i: { id: string, level: string, exam: string, topic: string, content: string }) =>
-          <div key={i.id} className='text-xl p-12 border-2 border-blue-400 rounded-2xl'>
+          <div key={i.id} className='text-xl max-lg:p-4 lg:p-12 border-2 border-blue-400 rounded-2xl'>
             <p className='text-center text-3xl'>{i.level} {i.exam}</p>
             <span className="situation">Situation:</span>
             <p>{i.topic}</p>
