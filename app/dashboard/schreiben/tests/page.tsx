@@ -126,11 +126,6 @@ Schreiben Sie …
     <>
       <div className=''>
         <div className='text-2xl flex flex-col items-start gap-12'>
-          <div className="w-full text-center"> {isLoading ? <SkeletonTheme baseColor="#202020" highlightColor="#444"
-            width={'calc(100% - 25rem)'} borderRadius={'3rem'} height={'15rem'}>
-            <Skeleton /> </SkeletonTheme> :
-            <p className="text-xl text-center py-12">{answer}</p>
-          } </div>
           <p className='text-2xl '>Eine Prüfung auswählen</p>
           <select onChange={(e) => setLevel(e.target.value)}
             className="w-32 border-2 py-2 px-5 rounded-2xl">
@@ -141,43 +136,13 @@ Schreiben Sie …
             <option value={'c1'}>C1</option>
           </select>
           <button onClick={createExam} className="cursor-pointer border-2 p-2 rounded-2xl">Prüfung erstellen</button>
+          <div className="w-full text-center"> {isLoading ? <SkeletonTheme baseColor="#202020" highlightColor="#444"
+            width={'calc(100% - 25rem)'} borderRadius={'3rem'} height={'15rem'}>
+            <Skeleton /> </SkeletonTheme> :
+            <p className="text-xl max-lg:text-start lg:text-center max-lg:pl-2 py-12">{answer}</p>
+          } </div>
         </div>
 
-        {/* <div className=" flex flex-col gap-16 my-12"> */}
-        {/* <h2 className="text-3xl text-center">Niveau A2</h2> */}
-        {/* {a2Exams.map(i => <div key={i.id} className="border-2 p-4 rounded-2xl flex flex-col */}
-        {/*   justify-between gap-16 "> */}
-        {/**/}
-        {/*   <div className=" text-left"> */}
-        {/*     <p className="title_schreiben text-2xl py-3">Thema : </p> */}
-        {/*     <p className="text-xl">{i.topic}</p> */}
-        {/*     </div> */}
-        {/*     <div className="text-xl text-left "> */}
-        {/*       <p className="py-6 text-2xl">Lösung : </p> */}
-        {/*       <p className=""> */}
-        {/*         {i.content} */}
-        {/*       </p> */}
-        {/*     </div> */}
-        {/*   </div>)} */}
-        {/* </div> */}
-
-        {/* <div className=" flex flex-col gap-16 my-12"> */}
-        {/*   <h2 className="text-3xl text-center">Niveau B1</h2> */}
-        {/*   {b1Exams.map(i => <div key={i.id} className="border-2 p-4 rounded-2xl flex flex-col */}
-        {/*     justify-between gap-16 "> */}
-        {/**/}
-        {/*     <div className=" text-left"> */}
-        {/*       <p className="title_schreiben text-2xl py-3">Thema : </p> */}
-        {/*       <p className="text-xl">{i.topic}</p> */}
-        {/*     </div> */}
-        {/*     <div className="text-xl text-left "> */}
-        {/*       <p className="py-6 text-2xl">Lösung : </p> */}
-        {/*       <p className=""> */}
-        {/*         {i.content} */}
-        {/*       </p> */}
-        {/*     </div> */}
-        {/*   </div>)} */}
-        {/* </div> */}
       </div>
     </>)
 }
