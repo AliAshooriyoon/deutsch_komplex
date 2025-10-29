@@ -25,16 +25,19 @@ const WordsList = () => {
   return <>
     <div className=''>
       <div className="selector pb-8">
-        <p className="text-2xl py-8">Wähle dein Niveau aus!</p>
-        <select onChange={(e) => showWords(e.target.value)} className="border-2 rounded-3xl
+        <p className="text-2xl py-8 max-lg:text-center">Wähle dein Niveau aus!</p>
+        <div className="max-lg:pl-10">
+          <select onChange={(e) => showWords(e.target.value)} className=" border-2 rounded-3xl
           text-2xl p-2 min-w-24 text-center">
-          <option value={""} >Auswählen</option>
-          <option value={"a1"}>a1</option>
-          <option value={"a2"}>a2</option>
-          <option value={"b1"}>b1</option>
-          <option value={"b2"}>b2</option>
-          <option value={"c1"}>c1</option>
-        </select>
+            <option value={""} >Auswählen</option>
+            <option value={"a1"}>a1</option>
+            <option value={"a2"}>a2</option>
+            <option value={"b1"}>b1</option>
+            <option value={"b2"}>b2</option>
+            <option value={"c1"}>c1</option>
+          </select>
+
+        </div>
       </div>
       <div className="flex flex-col gap-12 lg:p-12 max-lg:px-4 max-lg:w-full ">
         {!loading ? words[0].id && words.map(w => <div key={w.id}>
