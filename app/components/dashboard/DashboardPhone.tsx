@@ -1,6 +1,5 @@
 "use client";
 
-import { TiArrowSortedDown } from "react-icons/ti";
 import {
   FaBookReader,
   FaPenAlt,
@@ -50,9 +49,6 @@ const DashboardPhone = () => {
 
   const headerRef = useRef<HTMLDivElement>(null);
 
-  /* --------------------------------------------------------------
-     Close when clicking outside the whole header (icon bar + dropdown)
-     -------------------------------------------------------------- */
   useEffect(() => {
     const handleOutside = (e: MouseEvent) => {
       if (
@@ -71,7 +67,7 @@ const DashboardPhone = () => {
 
   return (
     <div ref={headerRef} className="relative w-full">
-      {/* ---------- 1. Fixed bottom bar (your icons) ---------- */}
+
       <div className="header_list flex items-center h-20 w-full bg-[#4a4b4e] px-4 justify-between">
         {/* Schreiben */}
         <button
@@ -131,7 +127,6 @@ const DashboardPhone = () => {
         </button>
       </div>
 
-      {/* ---------- 2. Dropdown panel (above the bar) ---------- */}
       {showItems.status && showItems.path && (
         <div className="absolute bottom-20 left-0 right-0 bg-[#1E201E] w-full
             rounded-t-3xl overflow-hidden shadow-2xl z-50">
@@ -150,11 +145,10 @@ const DashboardPhone = () => {
         </div>
       )}
 
-      {/* ---------- 3. Full-page overlay (starts right above the bar) ---------- */}
       {showItems.status && (
         <div
           className="fixed inset-0 z-40"
-          style={{ top: "calc(100vh - 5rem)" }} // 5rem = 20rem (h-20) header height
+          style={{ top: "calc(100vh - 5rem)" }}
           onClick={() => setShowItems({ status: false, path: "" })}
         />
       )}
