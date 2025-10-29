@@ -68,7 +68,7 @@ const DashboardPhone = () => {
   return (
     <div ref={headerRef} className="relative w-full">
 
-      <div className="header_list flex items-center h-20 w-full bg-[#4a4b4e] px-4 justify-between">
+      <div className="header_list flex items-center h-20 z-20 w-full bg-[#4a4b4e] px-4 justify-between">
         {/* Schreiben */}
         <button
           onClick={() =>
