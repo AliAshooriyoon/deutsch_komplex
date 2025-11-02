@@ -10,7 +10,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
 const DashboardPhone = () => {
-  const lists = {
+  const lists: Record<string, { items: string[], links: string[] }> = {
     schreiben: {
       items: ["Tipps zum Schreiben", "Beispiele zum Schreiben", "Test-modelle"],
       links: [
@@ -32,7 +32,9 @@ const DashboardPhone = () => {
       links: ["/dashboard/words/lainter", "/dashboard/words/words-list"],
     },
     listen: {
-      items: ["Hördateien", "Podcasts auf Deutsch", "Test-modelle"],
+      items: ["Hördateien",
+        "Podcasts auf Deutsch",
+        "Test-modelle"],
       links: [
         "/dashboard/listen/listen-files",
         "/dashboard/listen/podcasts",
