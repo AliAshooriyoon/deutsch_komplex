@@ -47,7 +47,7 @@ const RegisterPage = () => {
             </div>
             <div className='text-center flex flex-col justify-between items-center'>
               <button onClick={register} className="h-[4rem] cursor-pointer hover:rounded-2xl 
-      delay-100 lg:w-[24rem] max-lg:w-[80%] bg-black text-white text-xl" type="button">anmelden</button>
+      delay-100 lg:w-[24rem] max-lg:w-[80%] bg-black text-white max-lg:rounded-2xl text-xl" type="button">anmelden</button>
               <Link className="pt-4 text-lg hover:text-[#F0B100]"
                 href={'/login'}>Haben Sie Konto? einloggen</Link>
             </div>
