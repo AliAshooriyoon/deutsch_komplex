@@ -19,7 +19,6 @@ import { useState } from 'react';
 const Header = () => {
   const user = useSession()
   const isLoading = user.status == "loading"
-  console.log(user.status)
   const [showMenu, setShowMenu] = useState(false)
   const hideMenu = () => {
     setShowMenu(false)

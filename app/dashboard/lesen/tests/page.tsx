@@ -1,9 +1,12 @@
 'use client'
+import { useSession } from "next-auth/react";
 import { useState } from "react"
 const TestsLesen = () => {
-  const [isLoading, setIsLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(false);
   const [answer, setAnswer] = useState('');
   const [level, setLevel] = useState('');
+  const user = useSession();
+  console.log(user.data?.user)
   const createExam = async () => {
     setIsLoading(true)
     const res = await fetch("/api/createExam", {
