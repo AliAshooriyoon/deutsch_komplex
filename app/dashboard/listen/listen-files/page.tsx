@@ -1,7 +1,7 @@
 const ListenFiles = () => {
   return (
     <div>
-      Hördateien
+      Dieser Teil ist nun nicht erreichbar!
     </div>
   )
 }

@@ -1,6 +1,6 @@
 const Podcasts = () => {
   return <>
-    <div className=''>Podcasts</div>
+    <div className=''>Dieser Teil ist nun nicht erreichbar!</div>
   </>
 }
 export default Podcasts;

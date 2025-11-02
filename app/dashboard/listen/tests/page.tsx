@@ -1,6 +1,6 @@
 const TestListen = () => {
   return <>
-    <div className=''>Tests zum Hören</div>
+    <div className=''>Dieser Teil ist nun nicht erreichbar!</div>
   </>
 }
 export default TestListen;
