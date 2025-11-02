@@ -29,7 +29,6 @@ export async function POST(req: Request) {
     const answer = completion.choices[0].message.content;
     return NextResponse.json({ reply: answer });
   } catch (err) {
-    console.error('Error:', err.message);
     //    if (err!.code === 429) {
     //   return NextResponse.json(
     //     {
