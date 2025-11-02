@@ -6,13 +6,13 @@ const TestsLesen = () => {
   const [answer, setAnswer] = useState('');
   const [level, setLevel] = useState('');
   const user = useSession();
-  console.log(user.data?.user)
   const createExam = async () => {
-    setIsLoading(true)
-    const res = await fetch("/api/createExam", {
-      method: "POST",
-      body: JSON.stringify({
-        message: `You are an expert in creating German language reading comprehension tests modeled exactly after the official ÖSD (Österreichisches Sprachdiplom Deutsch) Lesen exams. Your task is to generate a complete, original Lesen exam for the specified level {level} (A1, A2, B1, B2, or C1), strictly matching the official ÖSD structure, difficulty, and format for that level. Use only authentic-like, original German texts from topics such as everyday life, work, leisure, society, education, environment, technology, health, or current events, adjusted to the level. The entire exam must be in German only, with no English or any other language translations, explanations, or hints.
+    if (user.data?.user.role != "USER") {
+      setIsLoading(true)
+      const res = await fetch("/api/createExam", {
+        method: "POST",
+        body: JSON.stringify({
+          message: `You are an expert in creating German language reading comprehension tests modeled exactly after the official ÖSD (Österreichisches Sprachdiplom Deutsch) Lesen exams. Your task is to generate a complete, original Lesen exam for the specified level {level} (A1, A2, B1, B2, or C1), strictly matching the official ÖSD structure, difficulty, and format for that level. Use only authentic-like, original German texts from topics such as everyday life, work, leisure, society, education, environment, technology, health, or current events, adjusted to the level. The entire exam must be in German only, with no English or any other language translations, explanations, or hints.
 Do not include any introductory text, explanations, or additional content beyond the exact exam format. Start directly with the exam title and time in markdown, followed by the parts, texts, questions, and end with the answer key separated by "---". Use markdown for structure (e.g., # for title, ## for Teil, ### for Text subsections if needed). Ensure texts are original and randomized each time. Questions must test appropriate comprehension (global, detailed, selective) at the level, with no tricks beyond the level's difficulty.
 Adapt strictly to the following level-specific structures (based on official ÖSD models: total items, task types, text lengths, question formats, and time). Total items must exactly match the specified number—no more, no less.
 
@@ -73,14 +73,15 @@ For matching: List Texte (A. Text... B. Text...), then Überschriften/Optionen (
 End with: --- # Antwortschlüssel Teil 1: 1. A 2. B ... (list correct answers only, no explanations).
 
 Generate a new exam now for level {level}. `
+        })
       })
-    })
-    const data = await res.json();
-    if (!res.ok) {
-      throw new Error("Error!")
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error("Error!")
+      }
+      setIsLoading(false)
+      setAnswer(data.reply)
     }
-    setIsLoading(false)
-    setAnswer(data.reply)
   }
 
 
@@ -88,15 +89,18 @@ Generate a new exam now for level {level}. `
     <div className=''>
       <div className='text-2xl flex flex-col items-start gap-12'>
         <p className='text-2xl '>Eine Prüfung auswählen</p>
-        <select onChange={(e) => setLevel(e.target.value)}
-          className="w-32 border-2 py-2 px-5 rounded-2xl">
+        <select disabled={user.data?.user.role == "USER"} onChange={(e) => setLevel(e.target.value)}
+          className={` ${user.data?.user.role == 'USER' && 'cursor-not-allowed text-gray-600'}
+          w-32 border-2 py-2 px-5 rounded-2xl`} >
           <option value={'a1'}>A1</option>
           <option value={'a2'}>A2</option>
           <option value={'b1'}>B1</option>
           <option value={'b2'}>B2</option>
           <option value={'c1'}>C1</option>
         </select>
-        <button onClick={createExam} className="cursor-pointer border-2 p-2 rounded-2xl">Prüfung erstellen</button>
+        <button onClick={createExam} disabled={user.data?.user.role == "USER"}
+          className={` ${user.data?.user.role == 'USER' && 'cursor-not-allowed text-gray-600'} border-2 p-2 rounded-2xl`}>Prüfung erstellen</button>
+        <p className="text-xl text-red-600"> {user.data?.user.role == 'USER' && 'KI ist nur für VIP Nutzer erreichbar!'} </p>
       </div>
       {isLoading && <div className="text-center text-3xl text-cyan-700 py-4">Loading...</div>}
       <p className="text-xl text-left pl-2 py-12">{!isLoading && answer}</p>
