@@ -100,7 +100,8 @@ Generate a new exam now for level {level}. `
         </select>
         <button onClick={createExam} disabled={user.data?.user.role == "USER"}
           className={` ${user.data?.user.role == 'USER' && 'cursor-not-allowed text-gray-600'} border-2 p-2 rounded-2xl`}>Prüfung erstellen</button>
-        <p className="text-xl text-red-600"> {user.data?.user.role == 'USER' && 'KI ist nur für VIP Nutzer erreichbar!'} </p>
+        <p className="text-xl text-red-600">
+          {user.data?.user.role == 'USER' && 'KI ist nur für VIP Nutzer erreichbar!'} </p>
       </div>
       {isLoading && <div className="text-center text-3xl text-cyan-700 py-4">Loading...</div>}
       <p className="text-xl text-left pl-2 py-12">{!isLoading && answer}</p>
