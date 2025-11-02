@@ -1,39 +1,41 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useSession } from "next-auth/react";
+import { useState } from "react"
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css'
 const TestsSchreiben = () => {
   const [level, setLevel] = useState('');
-  const [a2Exams, setA2Exams] = useState([{ id: "", topic: "", content: "" }])
-  const [b1Exams, setB1Exams] = useState([{ id: "", topic: "", content: "" }])
   const [answer, setAnswer] = useState('')
   const [isLoading, setIsLoading] = useState(false)
-  const examData = async () => {
-    setIsLoading(true)
-    console.log("------------data--------------")
-    const req = await fetch("http://localhost:3000/api/exams")
-    if (!req.ok) {
-      console.log("-----------------Error----------------")
-      throw new Error("Connection Error!")
-
-    } else {
-      setIsLoading(false)
-      const data = await req.json()
-      const a2Exams = data.filter((d: Record<string, string | number>) => d.level == "a2")
-      const b1Exams = data.filter((d: Record<string, string | number>) => d.level == "b1")
-      setA2Exams(a2Exams)
-      setB1Exams(b1Exams)
-    }
-
-  }
+  const user = useSession()
+  const isPremium = user.data?.user.role != "USER";
+  // const examData = async () => {
+  //   if (user.data?.user.role != "USER") {
+  //     setIsLoading(true)
+  //     const req = await fetch("http://localhost:3000/api/exams")
+  //     if (!req.ok) {
+  //       throw new Error("Connection Error!")
+  //
+  //     } else {
+  //       setIsLoading(false)
+  //       const data = await req.json()
+  //       const a2Exams = data.filter((d: Record<string, string | number>) => d.level == "a2")
+  //       const b1Exams = data.filter((d: Record<string, string | number>) => d.level == "b1")
+  //       setA2Exams(a2Exams)
+  //       setB1Exams(b1Exams)
+  //     }
+  //
+  //   }
+  // }
 
   const createExam = async () => {
-    setIsLoading(true)
-    const res = await fetch("/api/createExam", {
-      method: "POST",
-      body: JSON.stringify({
-        message: `Du bist ein Prüfungsaufgabengenerator für schriftliche ÖSD-Prüfungen.
+    if (user.data?.user.role != "USER") {
+      setIsLoading(true)
+      const res = await fetch("/api/createExam", {
+        method: "POST",
+        body: JSON.stringify({
+          message: `Du bist ein Prüfungsaufgabengenerator für schriftliche ÖSD-Prüfungen.
             Erzeuge ausschließlich die Prüfungsaufgaben (Schreiben) im exakten Format
             einer echten ÖSD-Prüfung für das angegebene Niveau.
 
@@ -103,23 +105,20 @@ Schreiben Sie …
 8. Jede Aufgabe soll realistisch, prüfungsnah und thematisch typisch für das Niveau sein.`,
 
 
-        adminMessage: `
+          adminMessage: `
         Du bist ein Prüfungsaufgabengenerator für schriftliche ÖSD-Prüfungen. 
         Erzeuge **ausschließlich** die Prüfungsaufgaben (Schreiben) im exakten Format einer ÖSD-Prüfung für das angegebene Niveau. 
         Antworte **nur** mit dem Prüfungsblatt (ohne Einleitung, ohne Erklärungen, ohne Beispiele, ohne Lösungen, keine Meta-Kommentare).
 ` })
-    })
-    const data = await res.json();
-    setAnswer(data.reply)
-    if (data && res.ok) {
-      setIsLoading(false)
+      })
+      const data = await res.json();
+      setAnswer(data.reply)
+      if (data && res.ok) {
+        setIsLoading(false)
+      }
     }
   }
 
-  useEffect(() => {
-    examData()
-
-  }, [])
 
 
   return (
@@ -127,15 +126,17 @@ Schreiben Sie …
       <div className=''>
         <div className='text-2xl flex flex-col items-start gap-12'>
           <p className='text-2xl '>Eine Prüfung auswählen</p>
-          <select onChange={(e) => setLevel(e.target.value)}
-            className="w-32 border-2 py-2 px-5 rounded-2xl">
+          <select disabled={!isPremium} onChange={(e) => setLevel(e.target.value)}
+            className={`${!isPremium && 'cursor-not-allowed text-gray-600'} w-32 border-2 py-2 px-5 rounded-2xl`}>
             <option value={'a1'}>A1</option>
             <option value={'a2'}>A2</option>
             <option value={'b1'}>B1</option>
             <option value={'b2'}>B2</option>
             <option value={'c1'}>C1</option>
           </select>
-          <button onClick={createExam} className="cursor-pointer border-2 p-2 rounded-2xl">Prüfung erstellen</button>
+          <button disabled={!isPremium} onClick={createExam}
+            className={` ${!isPremium && 'cursor-not-allowed text-gray-600'} border-2 p-2 rounded-2xl`}>Prüfung erstellen</button>
+          <p className="text-xl text-red-600"> {!isPremium && 'KI ist nur für VIP Nutzer erreichbar!'} </p>
           <div className="w-full text-center"> {isLoading ? <SkeletonTheme baseColor="#202020" highlightColor="#444"
             width={'calc(100% - 25rem)'} borderRadius={'3rem'} height={'15rem'}>
             <Skeleton /> </SkeletonTheme> :
