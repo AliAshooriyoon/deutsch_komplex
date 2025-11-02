@@ -15,17 +15,18 @@ const LoginPage = () => {
   return <>
     <Header />
     <div className=" flex items-center justify-center w-[100vw] h-[100vh]">
-      <div className='w-[30%] h-[40rem] bg-[#555] rounded-4xl mx-auto shadow-xl shadow-[#F0B100]'>
+      <div className='lg:w-[30%] lg:h-[40rem]  pb-8 max-lg:w-[97%] bg-[#555]
+        rounded-4xl mx-auto shadow-xl shadow-[#F0B100]'>
         <div className='login_form_manual'>
           <h2 className="text-center pb-4 pt-12 text-4xl font-bold">Einloggen</h2>
           <div className="flex flex-col gap-8 mx-auto pt-12 pb-6">
             <div className="">
-              <div className='userNameBox p-2  h-[6rem] w-[24rem] border-black
+              <div className='userNameBox p-2  h-[6rem] lg:w-[24rem] max-lg:w-[90%] border-black
               border-2 mx-auto flex flex-col justify-between'>
                 <span className="text-lg">E-Mail Addresse </span>
                 <input onChange={(e) => setEmail(e.target.value)} id="email" name="email" className="h-[70%] outline-0  text-xl" type='text' />
               </div>
-              <div className='userNameBox p-2  h-[6rem] w-[24rem] border-black
+              <div className='userNameBox p-2  h-[6rem] lg:w-[24rem] max-lg:w-[90%] border-black
               border-b-2 border-r-2 border-l-2 mx-auto flex flex-col justify-between'>
                 <span className="text-lg"> Passwort </span>
                 <input onChange={(e) => setPassword(e.target.value)} id="email" name="password" className="h-[70%] outline-0  text-xl" type='password' />
@@ -35,7 +36,9 @@ const LoginPage = () => {
               <Link href="/forgot-password" className="pt-2 text-lg hover:text-[#F0B100]">
                 Forgot password?
               </Link>
-              <button onClick={doLogin} className="h-[4rem] cursor-pointer hover:rounded-2xl delay-100 w-[24rem] bg-black text-white text-xl" type="button">Einloggen</button>
+              <button onClick={doLogin}
+                className="h-[4rem] cursor-pointer hover:rounded-2xl delay-100
+                lg:w-[24rem] max-lg:w-[80%] max-lg:rounded-2xl bg-black text-white text-xl" type="button">Einloggen</button>
               <Link className="pt-4 text-lg hover:text-[#F0B100]"
                 href={'/register'}>Keinen Konto? anmelden</Link>
             </div>
