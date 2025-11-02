@@ -28,7 +28,9 @@ const Header = () => {
     <div className="w-full h-20 sticky top-0 bg-[#4a4b4e] rounded-b-3xl flex items-center justify-between">
       <div className="logo_box max-lg:w-full h-full gap-4 flex justify-between
         items-center  pl-4">
-        <Image className="h-[80%] w-17" alt="logo" src={logo} />
+        <Link href={"/"} >
+          <Image className="h-[80%] w-17" alt="logo" src={logo} />
+        </Link>
         <p className="logo_title text-2xl  font-bold max-lg:pr-4">Deutsch komplex</p>
         <div className='wrapper lg:hidden mr-4'>
           <div onClick={() => setShowMenu(prev => !prev)}>
@@ -41,7 +43,7 @@ const Header = () => {
            bg-[#18181B]'>
           <div className="items_header flex flex-col gap-6 text-2xl indent-4 justify-around pr-6 ">
             <div className="cursor-pointer flex items-center" onClick={hideMenu} >
-              <IoMdHome /> <span>Haus</span> </div>
+              <IoMdHome /> <Link href={"/"}>Haus</Link> </div>
             <div className="cursor-pointer" >
               <ScrollLink className="flex items-center" onClick={hideMenu} to="services" smooth={true} duration={500}>
                 <MdOutlineDesignServices />
