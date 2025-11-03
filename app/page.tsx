@@ -64,7 +64,7 @@ export default function Home() {
           </div>
         </Element>
         <div className='flex items-center justify-between max-lg:px-4 lg:px-12 py-30 flex-wrap'>
-          <Image className="" src={customPic} alt='' />
+          <Image className="" src={customPic} alt='services_pictures' />
           <div className='description_customer lg:max-w-[40%]'>
             <h4 className="lg:text-5xl max-lg:text-3xl text-left">Was bieten wir genau an?</h4>
             <p className="lg:text-2xl max-lg:text-xl mt-6 ">Unsere verschiedene Services helfen Ihnen dabei,

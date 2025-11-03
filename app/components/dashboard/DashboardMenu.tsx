@@ -23,7 +23,7 @@ const DashboardMenu = () => {
   return <>
     <div className="max-lg:hidden dashboard_menu fixed w-[22rem] left-0 top-0 bg-[#4a4b4e] px-4 pl-6 rounded-r-3xl h-screen flex flex-col">
       <Link href={'/dashboard'} className="logoBox flex items-center gap-3 text-2xl py-4  shrink-0">
-        <Image alt="" src={Logo} />
+        <Image alt="dashboard_logo" src={Logo} />
         <p>Deutsch komplex </p>
       </Link>
 

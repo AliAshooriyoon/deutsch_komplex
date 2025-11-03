@@ -28,7 +28,7 @@ const Header = () => {
       <div className="logo_box max-lg:w-full h-full gap-4 flex justify-between
         items-center  pl-4">
         <Link href={"/"} >
-          <Image className="h-[80%] w-17" alt="logo" src={logo} />
+          <Image className="h-[80%] w-17" alt="main_logo" src={logo} />
         </Link>
         <p className="logo_title text-2xl  font-bold max-lg:pr-4">Deutsch komplex</p>
         <div className='wrapper lg:hidden mr-4'>
