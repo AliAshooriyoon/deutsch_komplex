@@ -35,7 +35,7 @@ const Stories = () => {
           </select>
         </div>
         {isLoading && <div className="text-center text-3xl text-cyan-700"> Loading... </div>}
-        <div className='flex flex-col justify-between gap-12'>
+        <div className='flex flex-col justify-between gap-24'>
           {!isLoading && stories.map((i) => <div className="flex flex-col gap-3 w-[95%] mx-auto max-lg:py-12 lg:py-6" key={i.id}>
             <p className="text-2xl text-[#FFC105]">{i.title}</p>
             <p className="text-lg ">{i.content}</p>
