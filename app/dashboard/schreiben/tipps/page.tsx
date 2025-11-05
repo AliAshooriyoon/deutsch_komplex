@@ -12,7 +12,7 @@ const TippsPage = () => {
           Grußformel
 ` },
     {
-      level: "a2", textlang: ": ca. 50–80 Wörter.",
+      level: "a2", textlang: " ca. 50–80 Wörter.",
       tasks: 'private Briefe, einfache E-Mails, kleine Beschreibungen.', tipps: `Immer Einleitung – Hauptteil – Schluss.
           Wichtige Redemittel: „Zuerst… Dann… Danach… Schließlich…“
           Wörter für persönliche Meinungen: „Ich finde…“, „Meiner Meinung nach…“.
@@ -66,20 +66,20 @@ const TippsPage = () => {
 
   ]
   return <>
-    <div className="max-lg:px-2">
+    <div className="max-lg:px-2 lg:pr-8 flex flex-col gap-12">
 
       {tipps.map(i => {
-        return <div key={i.level} className='py-4 flex flex-col gap-12'>
-          <h2 className="text-3xl text-center">Tipps im Niveau {i.level.toUpperCase()}</h2>
+        return <div key={i.level} className='py-4 flex flex-col gap-12 border-2 p-2 rounded-2xl'>
+          <h2 className="text-3xl text-center text-cyan-600">Tipps im Niveau {i.level.toUpperCase()}</h2>
           <div className="flex">
-            <span className="text-xl">Textlänge : </span>
+            <span className="text-xl text-cyan-600">Textlänge : </span>
             <span className="text-lg"> {i.textlang} </span>
           </div>
-          <p className="lg:text-2xl max-lg:text-xl">Aufgabenarten :
+          <p className="lg:text-2xl max-lg:text-xl"> <span className="text-cyan-600">Aufgabenarten :</span>
             <span className="lg:text-xl max-lg:text-lg">
               <span>  </span> {i.tasks}  </span> </p>
           <p className='lg:text-2xl max-lg:text-lg'>
-            <span className="text-xl">Tipps : </span>
+            <span className="text-xl text-cyan-600">Tipps : </span>
             <span className="text-lg">{i.tipps}</span>
           </p>
         </div>
