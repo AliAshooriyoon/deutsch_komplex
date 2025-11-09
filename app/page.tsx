@@ -9,10 +9,13 @@ import Plan from "./components/home-design/plan";
 import Footer from "./components/home-design/Footer";
 import Header from "./components/Header";
 import dynamic from "next/dynamic";
+import Link from "next/link";
+import { useSession } from "next-auth/react";
 const Element = dynamic(() => import('react-scroll').then((mod) => mod.Element), {
   ssr: false,
 });
 export default function Home() {
+  const user = useSession()
   return (
     <>
       <Header />
@@ -26,8 +29,9 @@ export default function Home() {
               Hier könnte Ihr neuer Anfang sein!
             </h3>
             <div className="btn_box max-lg:text-center">
-              <button className="cursor-pointer  px-5 py-3 bg-[#D73722] shadow-[#D73722]
-              shadow-2xl  text-xl rounded-2xl">Fangen Sie an</button>
+              <Link href={user.data?.user.email ? "/dashboard" : "/login"} className="cursor-pointer  px-5 py-3 bg-[#D73722] shadow-[#D73722]
+              shadow-2xl  text-xl rounded-2xl">
+                Fange Sie an</Link>
             </div>
           </div>
           <Image alt="main picture" className="w-[50rem]" src={mainPic} />
