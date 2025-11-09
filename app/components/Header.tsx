@@ -30,7 +30,7 @@ const Header = () => {
         <Link href={"/"} >
           <Image className="h-[80%] w-17" alt="main_logo" src={logo} />
         </Link>
-        <p className="logo_title text-2xl  font-bold max-lg:pr-4">Deutsch komplex</p>
+        <p className="logo_title text-2xl  font-bold max-lg:pr-4 text-[#EDEDED]">Deutsch komplex</p>
         <div className='wrapper lg:hidden mr-4'>
           <div onClick={() => setShowMenu(prev => !prev)}>
             {!showMenu ? <IoMdMenu className="w-10 h-10" /> :
@@ -40,30 +40,30 @@ const Header = () => {
         </div>
         {showMenu && <div className='phone_menu fixed pl-5 pt-6 w-[100vw] 
            bg-[#18181B]'>
-          <div className="items_header flex flex-col gap-6 text-2xl indent-4 justify-around pr-6 ">
-            <div className="cursor-pointer flex items-center" onClick={hideMenu} >
-              <IoMdHome /> <Link href={"/"}>Haus</Link> </div>
+          <div className="items_header flex flex-col gap-6 text-[#EDEDED] text-2xl indent-4 justify-around pr-6 ">
+            <div className="cursor-pointer flex items-center text-[#EDEDED]" onClick={hideMenu} >
+              <IoMdHome className="text-[#EDEDED]" /> <Link href={"/"}>Haus</Link> </div>
             <div className="cursor-pointer" >
               <ScrollLink className="flex items-center" onClick={hideMenu} to="services" smooth={true} duration={500}>
-                <MdOutlineDesignServices />
+                <MdOutlineDesignServices className="text-[#EDEDED]" />
                 <span>Services</span> </ScrollLink> </div>
             <div className="cursor-pointer">
               <ScrollLink className="flex items-center" onClick={hideMenu} to="price" smooth={true} duration={500}>
-                <MdPriceChange />    <span>Preise</span> </ScrollLink></div>
+                <MdPriceChange className="text-[#EDEDED]" />    <span>Preise</span> </ScrollLink></div>
             <div className="cursor-pointer">
               <Link className="flex items-center" onClick={hideMenu} href={'https://aliashouriyoun-beta-ochre.vercel.app/de'}>
-                <FcAbout /> <span>Über uns</span> </Link></div>
+                <FcAbout className="text-[#EDEDED]" /> <span>Über uns</span> </Link></div>
             <div className="cursor-pointer">
               {user.status == "unauthenticated" ? <Link className="flex items-center" href={'/login'}>
-                <MdAccountCircle /> <span> Einloggen  </span> </Link>
+                <MdAccountCircle className="text-[#EDEDED]" /> <span> Einloggen  </span> </Link>
                 : <Link className="flex items-center" href={'/dashboard'}>
-                  <TbLayoutDashboard /> <span> Dashboard  </span> </Link>}
+                  <TbLayoutDashboard className="text-[#EDEDED]" /> <span> Dashboard  </span> </Link>}
             </div>
           </div>
 
         </div>}
       </div>
-      <div className="items_header  w-[40%] text-xl justify-around pr-6 hidden lg:flex">
+      <div className="items_header text-[#EDEDED] w-[40%] text-xl justify-around pr-6 hidden lg:flex">
         <div className="cursor-pointer"> Haus </div>
         <div className="cursor-pointer"> <ScrollLink to="services" smooth={true} duration={500} > Services </ScrollLink> </div>
         <div className="cursor-pointer"><ScrollLink to="price" smooth={true} duration={500} > Preise </ScrollLink></div>

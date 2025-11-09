@@ -21,24 +21,25 @@ const DashboardMenu = () => {
   const changeStatus = useStatus(state => state.changeStatus)
   const path = usePathname()
   return <>
-    <div className="max-lg:hidden dashboard_menu fixed w-[22rem] left-0 top-0 bg-[#4a4b4e] px-4 pl-6 rounded-r-3xl h-screen flex flex-col">
+    <div className="max-lg:hidden dashboard_menu text-white fixed w-[22rem] left-0 top-0 bg-[#4a4b4e] px-4 pl-6 rounded-r-3xl h-screen flex flex-col">
       <Link href={'/dashboard'} className="logoBox flex items-center gap-3 text-2xl py-4  shrink-0">
         <Image alt="dashboard_logo" src={Logo} />
-        <p>Deutsch komplex </p>
+        <p className="text-[#EDEDED]">Deutsch komplex </p>
       </Link>
 
       <div className="items flex-1 min-h-0 flex flex-col gap-8 overflow-y-auto pr-2">
         <div className='wrapper'></div>
         <div className="main_item schreiben">
           <div onClick={() => setSelectedMenu(state => ["schreiben", !state[1]])} className="showItem flex items-center">
-            <FaPenAlt />
+            <FaPenAlt className="text-[#EDEDED]" />
             <p>Schreiben</p>
             {selectedMenu[0] == "schreiben" && selectedMenu[1] &&
-              <TiArrowSortedDown className="absolute right-10" />}
+              <TiArrowSortedDown className="absolute right-10 text-[#EDEDED]" />}
           </div>
           {selectedMenu[0] == "schreiben" && selectedMenu[1] &&
             <ul className=" flex flex-col text-lg gap-5 indent-4">
-              <Link className={`${path == '/dashboard/schreiben/tipps' && 'underline text-[#FFBF08]'}`}
+              <Link className={`${path == '/dashboard/schreiben/tipps' &&
+                'underline text-[#FFBF08]'}`}
                 href={'/dashboard/schreiben/tipps'}>
                 Tipps zum Schreiben </Link>
               <Link className={`${path == '/dashboard/schreiben/example' && 'underline text-[#FFBF08]'}`}
@@ -51,10 +52,10 @@ const DashboardMenu = () => {
 
         <div className="main_item">
           <p onClick={() => setSelectedMenu(prev => ["lesen", !prev[1]])} className="showItem flex items-center">
-            <FaBookReader />
+            <FaBookReader className="text-[#EDEDED]" />
             <span>Lesen</span>
             {selectedMenu[0] == "lesen" && selectedMenu[1] &&
-              <TiArrowSortedDown className="absolute right-10" />}
+              <TiArrowSortedDown className="absolute right-10 text-white" />}
 
           </p>
           {selectedMenu[0] == "lesen" && selectedMenu[1] &&
@@ -71,10 +72,10 @@ const DashboardMenu = () => {
         </div>
         <div className="main_item">
           <p onClick={() => setSelectedMenu((prev) => ["words", !prev[1]])} className="showItem flex items-center">
-            <VscSymbolKeyword />
+            <VscSymbolKeyword className="text-[#EDEDED]" />
             <span>Wörter</span>
             {selectedMenu[0] == "words" && selectedMenu[1] &&
-              <TiArrowSortedDown className="absolute right-10" />}
+              <TiArrowSortedDown className="absolute right-10 text-white" />}
 
           </p>
           {selectedMenu[0] == "words" && selectedMenu[1] &&
@@ -88,16 +89,16 @@ const DashboardMenu = () => {
 
         </div>
 
-        <div className="main_item">
+        <div className="main_item text-white">
           <p onClick={() => setSelectedMenu((prev) => ["listen", !prev[1]])} className="showItem flex items-center">
-            <FaHeadphones />
+            <FaHeadphones className="text-[#EDEDED]" />
             <span> Hören</span>
             {selectedMenu[0] == "listen" && selectedMenu[1] &&
-              <TiArrowSortedDown className="absolute right-10" />}
+              <TiArrowSortedDown className="absolute right-10 text-white" />}
 
           </p>
           {selectedMenu[0] == "listen" && selectedMenu[1] &&
-            <ul className=" flex flex-col text-lg gap-5 indent-4">
+            <ul className=" flex flex-col text-white text-lg gap-5 indent-4">
               <Link className={`${path == '/dashboard/listen/listen-files' && 'underline text-[#FFBF08]'}`}
                 href={'/dashboard/listen/listen-files'}>
                 Hördateien</Link>
@@ -113,15 +114,15 @@ const DashboardMenu = () => {
           <div className='wrapper' />
           <div className="main_item pt-6">
             <Link href={'/dashboard/account'} className="showItem flex items-center">
-              <MdAccountCircle className="" />
-              <span>Konto</span>
+              <MdAccountCircle className="text-[#EDEDED]" />
+              <span className="text-white">Konto</span>
             </Link>
           </div>
           <div className="main_item pt-6">
             {/* <Link href={'/dashboard/setting'} className="showItem flex items-center"> */}
             <Link href={'#'} className="showItem flex items-center">
-              <IoSettingsSharp className="" />
-              <span>Einstellung</span>
+              <IoSettingsSharp className="text-[#EDEDED]" />
+              <span className="text-white">Einstellung</span>
             </Link>
           </div>
         </div>
@@ -130,19 +131,19 @@ const DashboardMenu = () => {
           <div className="main_item pt-6">
             {/* <Link href={'/about'} className="showItem flex items-center"> */}
             <Link href={'https://aliashouriyoun-beta-ochre.vercel.app/de'} className="showItem flex items-center">
-              <FcAbout className="" />
+              <FcAbout className="text-[#EDEDED]" />
               <span>Über uns</span>
             </Link>
           </div>
           <div className="main_item pt-6">
             <Link href={'mailto:aliashouriyoun@tutamail.com'} className="showItem flex items-center">
-              <MdEmail />
+              <MdEmail className="text-[#EDEDED]" />
               <span>E-Mail</span>
             </Link>
           </div>
           <div className="main_item pt-6">
             <Link href={'mailto:aliashouriyoun@tutamail.com'} className="showItem flex items-center">
-              <MdReport />
+              <MdReport className="text-[#EDEDED]" />
               <span>Berichten</span>
             </Link>
           </div>
