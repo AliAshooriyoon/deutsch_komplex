@@ -1,9 +1,10 @@
 "use client"
+import "./styles.css"
 import Image from "next/image";
 import { GoBook } from "react-icons/go";
 import mainPic from "../public/team-university-colleagues-are-doing-research-class-project.jpg"
-import customPic from "../public/removebg.png"
 import { VscComment } from "react-icons/vsc";
+import examPic from "../public/picExam.jpg"
 import { AiFillThunderbolt } from "react-icons/ai";
 import { PiBrain } from "react-icons/pi";
 import Plan from "./components/home-design/plan";
@@ -59,9 +60,9 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Image alt="main picture" draggable={false} className="w-[40rem] rounded-3xl" src={mainPic} />
+          <Image alt="main picture" draggable={false} className="shadow-2xl shadow-amber-400 w-[40rem] rounded-3xl" src={mainPic} />
         </div>
-        <Element name="services" className="analys text-center">
+        <Element name="services" className="analys bg-white text-center py-12">
           <h3 className="text-4xl mt-12">Alle
             <span className="text-red-600 "> Prüfungsteile</span> abgedeckt</h3>
           <h5 className="text-xl pt-4 mx-auto text-gray-700">Bereite dich gezielt auf alle vier Fertigkeiten vor und meistere
@@ -118,20 +119,59 @@ export default function Home() {
             </div>
           </div>
         </Element>
-        <div className='flex items-center justify-between max-lg:px-4 lg:px-12 py-30 flex-wrap'>
-          <Image className="" src={customPic} alt='services_pictures' />
-          <div className='description_customer lg:max-w-[40%]'>
-            <h4 className="lg:text-5xl max-lg:text-3xl text-left">Was bieten wir genau an?</h4>
-            <p className="lg:text-2xl max-lg:text-xl mt-6 ">Unsere verschiedene Services helfen Ihnen dabei,
-              Deutsch besser zu können. Diese Plattform könnte bei allen Kompetenzen,
-              die man nicht nur bei einer prüfung, sondern auch im Leben braucht,
-              förderlich sein!</p>
-            <ul className="list-disc lg:text-2xl max-lg:text-xl max-lg:pl-4 mt-6 leading-9">
-              <li>Schreibübungen</li>
-              <li>verschiedene Hörübungen </li>
-              <li>Großartige Wortschätze</li>
-              <li>Viele deutsche Geschichten</li>
-            </ul>
+        <div className='py-28 bg-[#FBFBF4]'>
+          <div className="title_box text-center py-18">
+            <h2 className="text-4xl">Dein Weg zum Zertifikat</h2>
+            <p className="text-gray-600 text-lg mt-2">In vier strukturierten Schritten zur erfolgreichen Deutschprüfung</p>
+          </div>
+          <div className="flex flex-row-reverse justify-center items-center w-[80%] mx-auto">
+            <div className="picBox "></div>
+            {/* <Image className="w-[40rem] rounded-3xl rotate-2 shadow-2xl mt-6" */}
+            {/*   alt="" src={examPic} /> */}
+            <div className="h-full">
+              <div className="map_items h-full w-full flex items-start flex-col justify-between ">
+                <div className="flex flex-row items-center gap-4 h-full">
+                  <div className="w-16 h-16 bg-gradient-to-r from-red-500 
+                to-yellow-500 rounded-full flex items-center justify-center
+                text-2xl text-white">01</div>
+                  <div className="max-w-[80%] mt-6">
+                    <p className="text-black text-2xl">Niveau bestimmen</p>
+                    <p className="text-xl text-gray-600">Mache einen Einstufungstest, um dein aktuelles
+                      Sprachniveau (A1-C2) zu ermitteln und die passende Prüfung auszuwählen.</p>
+                  </div>
+                </div>
+                <div className="flex flex-row items-center gap-4">
+                  <div className="w-16 h-16 bg-gradient-to-r from-red-500 
+                to-yellow-500 rounded-full flex items-center justify-center
+                text-2xl text-white">02</div>
+                  <div className="max-w-[80%] mt-6">
+                    <p className="text-black text-2xl">Gezielt trainieren</p>
+                    <p className="text-xl text-gray-600">Übe alle vier Fertigkeiten
+                      mit authentischen Aufgaben, die den echten Prüfungsformaten entsprechen.</p>
+                  </div>
+                </div>
+                <div className="flex flex-row items-center gap-4">
+                  <div className="w-16 h-16 bg-gradient-to-r from-red-500 
+                to-yellow-500 rounded-full flex items-center justify-center
+                text-2xl text-white">03</div>
+                  <div className="max-w-[80%] mt-6">
+                    <p className="text-black text-2xl">Schwächen erkennen</p>
+                    <p className="text-xl text-gray-600">Erhalte detailliertes Feedback zu deinen
+                      Antworten und erkenne deine Verbesserungsbereiche.</p>
+                  </div>
+                </div>
+                <div className="flex flex-row items-center gap-4">
+                  <div className="w-16 h-16 bg-gradient-to-r from-red-500 
+                to-yellow-500 rounded-full flex items-center justify-center
+                text-2xl text-white">04</div>
+                  <div className="max-w-[80%] mt-6">
+                    <p className="text-black text-2xl">Prüfung bestehen</p>
+                    <p className="text-xl text-gray-600">Tritt selbstbewusst zur
+                      Prüfung an und erhalte dein offizielles Deutschzertifikat.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <Element name="price" className="py-6">
