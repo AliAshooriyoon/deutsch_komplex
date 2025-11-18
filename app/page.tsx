@@ -23,10 +23,10 @@ export default function Home() {
         <div className="main lg:py-16 lg:pl-12 max-lg:p-4 flex max-lg:flex-col 
           items-center justify-between">
           <div className="main_content max-lg:flex flex-col gap-8 ">
-            <h2 className="lg:text-6xl lg:max-w-[60%] max-lg:text-center max-lg:text-4xl">Deutsche Fähigkeiten in jedem Bereich einfach verbessern </h2>
+            <h2 className="lg:text-6xl lg:max-w-[60%] max-lg:text-center max-lg:text-4xl">
+              Bestehe deine <span className="bg-gradient-to-r from-red-700 to-[#F9B13C] bg-clip-text text-transparent">Deutschprüfung</span> </h2>
             <h3 className="description leading-9 indent-6 max-lg:text-xl lg:text-2xl py-6 lg:max-w-[60%]">
-              Möchten Sie Deutsch lernen, aber haben Sie bisher keine besondere Plattform, in der man Deutsch komplex und fähig lernen kann, gefunden?
-              Hier könnte Ihr neuer Anfang sein!
+              Bereite dich optimal auf Goethe-Zertifikat, TestDaF, telc und andere deutsche Sprachprüfungen vor. Gezieltes Training für alle Prüfungsteile: Lesen, Hören, Schreiben und Sprechen.
             </h3>
             <div className="btn_box max-lg:text-center">
               <Link href={user.data?.user.email ? "/dashboard" : "/login"} className="cursor-pointer  px-5 py-3 bg-[#D73722] shadow-[#D73722]
