@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaUser } from "react-icons/fa";
 import { FaBookOpen } from "react-icons/fa";
 import { PiExamFill } from "react-icons/pi";
-import mainPic from "../public/de-home-removebg-preview.png"
+import mainPic from "../public/team-university-colleagues-are-doing-research-class-project.jpg"
 import customPic from "../public/removebg.png"
 import Plan from "./components/home-design/plan";
 import Footer from "./components/home-design/Footer";
@@ -20,21 +20,45 @@ export default function Home() {
     <>
       <Header />
       <div className="p-2">
-        <div className="main lg:py-16 lg:pl-12 max-lg:p-4 flex max-lg:flex-col 
-          items-center justify-between">
-          <div className="main_content max-lg:flex flex-col gap-8 ">
-            <h2 className="lg:text-6xl lg:max-w-[60%] max-lg:text-center max-lg:text-4xl">
-              Bestehe deine <span className="bg-gradient-to-r from-red-700 to-[#F9B13C] bg-clip-text text-transparent">Deutschprüfung</span> </h2>
-            <h3 className="description leading-9 indent-6 max-lg:text-xl lg:text-2xl py-6 lg:max-w-[60%]">
-              Bereite dich optimal auf Goethe-Zertifikat, TestDaF, telc und andere deutsche Sprachprüfungen vor. Gezieltes Training für alle Prüfungsteile: Lesen, Hören, Schreiben und Sprechen.
+        <div className="main bg-[#FFFEF5] lg:py-16 lg:pl-2 max-lg:p-4 flex max-lg:flex-col 
+          items-center lg:justify-center lg:flex-row lg:gap-0">
+          <div className="main_content max-lg:flex flex-col gap-8 lg:w-[45%]">
+            <h2 className="lg:text-6xl max-lg:text-center text-black lg:max-w-[70%] max-lg:text-4xl">
+              Bestehe deine <span className="bg-gradient-to-r from-red-700
+                to-[#F9B13C] bg-clip-text text-transparent ">Deutschprüfung</span> </h2>
+            <h3 className="description leading-9 indent-2 max-lg:text-xl
+              lg:text-xl py-6 lg:max-w-[80%] text-gray-600">
+              Bereite dich optimal auf Goethe-Zertifikat,
+              TestDaF, telc und andere deutsche Sprachprüfungen vor.
+              Gezieltes Training für alle Prüfungsteile: Lesen, Hören, Schreiben und Sprechen.
             </h3>
-            <div className="btn_box max-lg:text-center">
-              <Link href={user.data?.user.email ? "/dashboard" : "/login"} className="cursor-pointer  px-5 py-3 bg-[#D73722] shadow-[#D73722]
-              shadow-2xl  text-xl rounded-2xl">
-                Fange Sie an</Link>
+            <div className="btn_box max-lg:text-center flex gap-4 ">
+              <Link href={user.data?.user.email ? "/dashboard" : "/login"}
+                className="cursor-pointer  px-5 py-3 bg-[#D73722] shadow-[#D73722]
+              shadow-2xl hover:bg-red-600 text-xl rounded-2xl">
+                Kostenlos starten</Link>
+              <Link href={user.data?.user.email ? "/dashboard" : "/login"}
+                className="cursor-pointer  px-5 py-3 bg-transparent text-black shadow-[#D73722]
+              shadow-2xl  text-xl rounded-2xl border-2 hover:bg-zinc-900 hover:text-white hover:border-white">
+                Mehr erfahren</Link>
+            </div>
+            <div className="swapper w-[90%] h-0.5 bg-gray-700 mt-12 mb-5 " />
+            <div className="results text-black flex justify-between w-[85%]">
+              <div className="erfolg flex flex-col items-start">
+                <span className="text-3xl text-red-600">95%</span>
+                <span className="text-lg text-gray-600">Erfolgsquote</span>
+              </div>
+              <div className="erfolg flex flex-col items-start">
+                <span className="text-3xl text-yellow-700">A1-C1</span>
+                <span className="text-lg text-gray-600">Alle Niveaus</span>
+              </div>
+              <div className="erfolg flex flex-col items-start">
+                <span className="text-3xl text-black">4Skills</span>
+                <span className="text-lg text-gray-600">Komplett</span>
+              </div>
             </div>
           </div>
-          <Image alt="main picture" className="w-[50rem]" src={mainPic} />
+          <Image alt="main picture" draggable={false} className="w-[40rem] rounded-3xl" src={mainPic} />
         </div>
         <Element name="services" className="analys p-6 lg:h-44  shadow-2xl
           shadow-[#D73722] w-[96%] mx-auto
