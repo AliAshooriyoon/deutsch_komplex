@@ -1,48 +1,58 @@
-import { FiTriangle } from "react-icons/fi";
-import { LuGlasses } from "react-icons/lu";
-import { FiBox } from "react-icons/fi";
-import { FiBookOpen } from "react-icons/fi";
+import { IoCloseCircleSharp } from "react-icons/io5";
+import { FaCircleCheck } from "react-icons/fa6";
 const options: Record<string, Array<string>> = {
-  free: ["Übungen zu jedem Niveau", "Großer Wortschatz",
-    "veschiede deutsche Geschichten", "Tipps zu jeder Prüfung"],
-  standard: ["Alles im Free Plan", "Texte durch AI korrigieren",
-    "Spezieller Wortschatz zu jeder Prüfung", "Podcasts auf Deutsch"
+  free: ["Zugang zu Grundübungen", "Tägliche Wortschatzübungen",
+    "Einstufungstest", "Community-Forum", "Basis-Grammatikübungen",
+    "Begrenzte Testmodelle", "Kein Premium-Content"],
+  standard: ["Alle kostenlosen Features", "Unbegrenzte Testmodelle",
+    "Alle Hördateien & Podcasts", "Erweiterte Schreibübungen",
+    "Detailliertes Feedback", "Fortschritts-Tracking", "Alle Geschichten & Texte"
   ],
-  premium: ["Alles im Standard Plan", "Verschiedene TestModelle",
-    "Private Unterrichten bis B2", "Besseres AI-Model"]
+  premium: ["Alle Standard Features", "Persönlicher Lernplan",
+    "Unbegrenzte Sprechübungen", "Live-Korrekturen",
+    "Prüfungssimulationen", "Alle Niveaus A1-C2", "Premium Support 24/7", "Zertifikatsgarantie"]
 }
 const Plan = ({ mode }: { mode: string }) => {
   return <>
 
-    <div className="plan flex flex-col justify-between py-8 max-lg:w-[90%]  h-[40rem] lg:w-[25rem] 
-      bg-neutral-800 rounded-3xl">
-
-      <div className='title_plan text-center text-3xl font-bold flex flex-col items-center gap-2'>
-        {mode == "free" ? <LuGlasses className='fill-green-500 w-10 h-10' />
-          : mode == "standard" ? <FiBookOpen className='fill-red-500 w-10 h-10' /> :
-            <FiBox className="fill-blue-500 w-10 h-10" />}
-
-
-        <p> {mode == 'free' ? 'Free Plan' : mode == "standard" ? 'Standard Plan' : 'Premium Plan'} </p>
-      </div>
-      <div className='options'>
-        {options[mode].map((i) => {
-
-          return <div key={i} className='option flex items-center gap-1.5 pl-4 pt-6'>
-            <span> <FiTriangle className={` fill-${mode == 'free' ? 'green' : mode == 'standard'
-              ? 'red' : 'blue'}-500 w-6 h-6 mb-1.5`} /> </span>
-            <p className="text-xl">{i}</p>
-          </div>
-        })}
-      </div>
-      <div className='btn_box text-center'>
-        <p className='price text-xl py-2 font-bold'>
-          {mode == 'free' ? 'Kostenlos' : mode == 'standard' ? '3$ pro Monat' : '5$ pro Monat'}
+    <div className={`plan rounded-3xl w-[32%] border-2 
+        ${mode !== "free" ? "bg-gradient-to-r from-red-600/10 to-yellow-600/10" : "bg-gradient-to-t from-gray-500/20 to-white"}
+      ${mode == "standard" && 'border-4 hover:shadow-2xl scale-y-[1.06] delay-100  shadow-red-600'}
+      ${mode !== "standard" ? 'border-gray-400' : 'border-amber-500'}`}>
+      <div className={`head_plan p-8 flex flex-col gap-2 ${mode == "standard" && ''}`}>
+        <p className="text-3xl">{`${mode.split("")[0].toUpperCase()}${mode.split("").slice(1).join("")}`}
         </p>
-        <button className={`text-2xl py-2 border-4 px-10 cursor-pointer delay-100
-        ${mode == 'free' ? 'border-green-500 hover:bg-green-500 hover:border-white' :
-            mode == 'standard' ? 'border-red-600 hover:bg-red-600 hover:border-white' : 'border-blue-600 hover:bg-blue-600 hover:border-white'}
-        mx-auto rounded-2xl`}>{mode == "free" ? 'anmelden' : 'abonnieren'}</button>
+        <div className="flex items-center gap-2">
+          <p className="price text-5xl">{mode == "free" ? '0€' :
+            mode == "standard" ? '8€' : '12€'}</p>
+          <span className="text-lg text-gray-600 mt-2">
+            {mode == "free" ? 'für immer' :
+              'pro Monat'}
+          </span>
+        </div>
+        <p className="explain text-gray-700 text-lg -mt-1.5">
+          {mode == "free" ? 'Perfekt zum Ausprobieren' :
+            mode == "standard" ? 'Für ernsthaftes Lernen' : 'Maximaler Erfolg'}
+        </p>
+      </div>
+      <div className={`btn_box w-[85%] rounded-xl cursor-pointer text-lg  h-10 flex items-center justify-center
+        ${mode !== "free" ? 'bg-gradient-to-r text-white hover:to-yellow-700 hover:from-red-700 from-red-600 to-yellow-600' :
+          'border-gray-800 border-2 text-gray-900 hover:bg-gray-900 hover:text-white'} mx-auto`}>
+        <span>{mode == "free" ? 'jetzt anfangen' : 'Plan auswählen'}</span>
+      </div>
+      <div className="p-8">
+        <div className="items_plan py-7 flex flex-col gap-4">
+          {options[mode].map((i) => <div className="flex items-center text-lg gap-1 justify-start" key={i}>
+            <div className="w-10 h-10 flex items-center justify-between">
+              {mode == "free" && options[mode].indexOf(i) >= 5 ?
+                <IoCloseCircleSharp className="text-gray-600 w-[70%] h-[70%]" /> :
+                <FaCircleCheck className={`text-green-500 w-[70%] h-[70%]`} />}
+            </div>
+            <span
+              className={` ${mode == "free" && options[mode].indexOf(i) >= 5 ? 'text-gray-400' : 'text-black'} `}>
+              {i}</span>
+          </div>)}
+        </div>
 
       </div>
     </div>
