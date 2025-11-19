@@ -6,14 +6,14 @@ const Comment = ({ data }: { data: { title: string; personName: string; personJo
   data.personName.split(" ")[1].split("")[0]
   ]
   return <>
-    <div className="comment flex justify-between flex-col w-[30%]
+    <div className="comment flex justify-between flex-col lg:w-[30%]
           h-56 border-2 hover:border-yellow-500 border-gray-400 delay-100 p-4 rounded-2xl">
       <div className="starts flex items-center">
-        <FaStar className="text-yellow-500 w-6 h-6" />
-        <FaStar className="text-yellow-500 w-6 h-6" />
-        <FaStar className="text-yellow-500 w-6 h-6" />
-        <FaStar className="text-yellow-500 w-6 h-6" />
-        <FaStar className="text-yellow-500 w-6 h-6" />
+        <FaStar className="text-yellow-500 max-lg:w-5 lg:w-6 lg:h-6 max-lg:h-5" />
+        <FaStar className="text-yellow-500 max-lg:w-5 lg:w-6 lg:h-6 max-lg:h-5" />
+        <FaStar className="text-yellow-500 max-lg:w-5 lg:w-6 lg:h-6 max-lg:h-5" />
+        <FaStar className="text-yellow-500 max-lg:w-5 lg:w-6 lg:h-6 max-lg:h-5" />
+        <FaStar className="text-yellow-500 max-lg:w-5 lg:w-6 lg:h-6 max-lg:h-5" />
       </div>
       <p className="text-md text-gray-700">
         {data.title}

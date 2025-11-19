@@ -22,10 +22,12 @@ const CommentPage = () => {
   return <>
     <div className="py-24">
       <div className="text-center">
-        <h3 className="title text-4xl text-black">CommentPage </h3>
-        <p className="text-gray-600 text-lg mt-3">Tausende haben bereits ihre Deutschprüfung erfolgreich bestanden </p>
+        <h3 className="title max-lg:text-3xl lg:text-4xl text-black"> Erfolgsgeschichten </h3>
+        <p className="text-gray-600 max-lg:max-w-[85%] mx-auto text-lg mt-3">
+          Tausende haben bereits ihre Deutschprüfung erfolgreich bestanden </p>
       </div>
-      <div className="comments_box flex justify-between w-[80%] mx-auto mt-8">
+      <div className="comments_box flex justify-between max-lg:gap-8 lg:w-[80%] max-lg:flex-col 
+        flex-wrap mx-auto mt-8 max-lg:w-[90%]">
         <Comment data={commentsData[0]} />
         <Comment data={commentsData[1]} />
         <Comment data={commentsData[2]} />
