@@ -15,7 +15,7 @@ const options: Record<string, Array<string>> = {
 const Plan = ({ mode }: { mode: string }) => {
   return <>
 
-    <div className={`plan rounded-3xl w-[32%] border-2 
+    <div className={`plan rounded-3xl lg:w-[32%] border-2 
         ${mode !== "free" ? "bg-gradient-to-r from-red-600/10 to-yellow-600/10" : "bg-gradient-to-t from-gray-500/20 to-white"}
       ${mode == "standard" && 'border-4 hover:shadow-none shadow-2xl scale-y-[1.06] delay-100  shadow-red-600'}
       ${mode !== "standard" ? 'border-gray-400' : 'border-amber-500'}`}>

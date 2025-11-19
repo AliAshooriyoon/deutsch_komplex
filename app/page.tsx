@@ -22,11 +22,13 @@ export default function Home() {
         <StepsPage />
         <CommentPage />
         <Element name="price" className="py-20  bg-[#F9FAFB]">
-          <h3 className="text-center text-4xl py-1">Wähle deinen
+          <h3 className="text-center max-lg:text-3xl lg:text-4xl py-1">Wähle deinen
             <span className="text-red-600"> Plan</span> </h3>
-          <p className="text-center text-gray-600">Starte kostenlos oder wähle einen Plan, der zu deinen Lernzielen passt</p>
-          <div className='plans py-12 lg:px-10 flex max-lg:items-center max-lg:gap-16 max-lg:flex-col 
-            justify-between lg:w-[82%] mx-auto'>
+          <p className="text-center text-gray-600 max-lg:max-w-[90%] max-lg:mx-auto">
+            Starte kostenlos oder wähle einen Plan, der zu deinen Lernzielen passt</p>
+          <div className='plans py-12 lg:px-10 flex max-lg:items-center 
+            max-lg:gap-16 max-lg:flex-col 
+            justify-between lg:w-[82%] max-lg:w-[95%] mx-auto'>
             <Plan mode={'free'} />
             <Plan mode={'standard'} />
             <Plan mode={'premium'} />
