@@ -24,13 +24,15 @@ const Header = () => {
     setShowMenu(false)
   }
   return <>
-    <div className="w-full h-20 sticky top-0 z-10 bg-[#4a4b4e] rounded-b-3xl flex items-center justify-between">
-      <div className="logo_box max-lg:w-full h-full gap-4 flex justify-between
-        items-center  pl-4">
+    <div className="w-full h-20 sticky top-0 z-10 bg-white/70 text-black 
+      flex items-center justify-between border-b-2 border-gray-300">
+      <div className="logo_box max-lg:w-full h-full max-lg:gap-1 lg:gap-4 flex 
+        justify-between items-center  pl-4">
         <Link href={"/"} >
-          <Image className="h-[80%] w-17" alt="main_logo" src={logo} />
+          <Image className="lg:h-[80%] max-lg:h-[75%] lg:w-17 border-4 max-lg:w-14
+            border-black rounded-full" alt="main_logo" src={logo} />
         </Link>
-        <p className="logo_title text-2xl  font-bold max-lg:pr-4 text-[#EDEDED]">Deutsch komplex</p>
+        <p className="logo_title lg:text-2xl max-lg:text-xl max-lg:-ml-6  font-bold max-lg:pr-4 ">Deutsch komplex</p>
         <div className='wrapper lg:hidden mr-4'>
           <div onClick={() => setShowMenu(prev => !prev)}>
             {!showMenu ? <IoMdMenu className="w-10 h-10" /> :
@@ -63,11 +65,12 @@ const Header = () => {
 
         </div>}
       </div>
-      <div className="items_header text-[#EDEDED] w-[40%] text-xl justify-around pr-6 hidden lg:flex">
-        <div className="cursor-pointer"> Haus </div>
-        <div className="cursor-pointer"> <ScrollLink to="services" smooth={true} duration={500} > Services </ScrollLink> </div>
-        <div className="cursor-pointer"><ScrollLink to="price" smooth={true} duration={500} > Preise </ScrollLink></div>
-        <div className="cursor-pointer">
+      <div className="items_header text-gray-700 w-[40%] text-xl justify-around
+        pr-6 hidden lg:flex">
+        <div className="cursor-pointer delay-75 hover:text-red-500"> Haus </div>
+        <div className="cursor-pointer delay-75 hover:text-red-500"> <ScrollLink to="services" smooth={true} duration={500} > Services </ScrollLink> </div>
+        <div className="cursor-pointer delay-75 hover:text-red-500"> <ScrollLink to="price" smooth={true} duration={500} > Preise </ScrollLink></div>
+        <div className="cursor-pointer delay-75 hover:text-red-500">
           <Link href={'https://aliashouriyoun-beta-ochre.vercel.app/de'}>
             Über uns </Link></div>
       </div>
