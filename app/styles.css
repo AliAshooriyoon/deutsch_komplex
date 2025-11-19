@@ -1,6 +1,4 @@
 .picBox {
-  width: 48rem;
-  height: 30rem;
   rotate: 6deg;
   border-radius: 2rem;
   background: linear-gradient(90deg, rgba(254, 61, 0, 1) 0%, rgba(255, 192, 9, 1) 100%);
