@@ -24,7 +24,7 @@ const Header = () => {
     setShowMenu(false)
   }
   return <>
-    <div className="w-full h-20 sticky top-0 bg-[#4a4b4e] rounded-b-3xl flex items-center justify-between">
+    <div className="w-full h-20 sticky top-0 z-10 bg-[#4a4b4e] rounded-b-3xl flex items-center justify-between">
       <div className="logo_box max-lg:w-full h-full gap-4 flex justify-between
         items-center  pl-4">
         <Link href={"/"} >
