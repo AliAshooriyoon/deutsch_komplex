@@ -22,8 +22,8 @@ export default function Home() {
         <StepsPage />
         <CommentPage />
         <Element name="price" className="py-20  bg-[#F9FAFB]">
-          <h3 className="text-center text-4xl">Wähle deinen
-            <span className="text-red-600">Plan</span> </h3>
+          <h3 className="text-center text-4xl py-1">Wähle deinen
+            <span className="text-red-600"> Plan</span> </h3>
           <p className="text-center text-gray-600">Starte kostenlos oder wähle einen Plan, der zu deinen Lernzielen passt</p>
           <div className='plans py-12 lg:px-10 flex max-lg:items-center max-lg:gap-16 max-lg:flex-col 
             justify-between lg:w-[82%] mx-auto'>
@@ -32,8 +32,8 @@ export default function Home() {
             <Plan mode={'premium'} />
           </div>
         </Element>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 }

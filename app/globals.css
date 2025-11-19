@@ -5,8 +5,10 @@
   --foreground: #171717;
 }
 @font-face {
-  src: url(../public/ComicShannsMonoNerdFont-Regular.otf);
-  font-family: comic;
+  /* src: url(../public/ComicShannsMonoNerdFont-Regular.otf); */
+  src: url(../public/Poppins-Regular.ttf);
+  /* font-family: comic; */
+  font-family: poppins;
 }
 
 @theme inline {
@@ -26,7 +28,8 @@
 body {
   background: transparent;
   color: black;
-  font-family: comic, sans-serif;
+  /* font-family: comic, sans-serif; */
+  font-family: poppins;
 }
 .header_list div {
   cursor: pointer;

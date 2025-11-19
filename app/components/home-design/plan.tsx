@@ -17,14 +17,14 @@ const Plan = ({ mode }: { mode: string }) => {
 
     <div className={`plan rounded-3xl w-[32%] border-2 
         ${mode !== "free" ? "bg-gradient-to-r from-red-600/10 to-yellow-600/10" : "bg-gradient-to-t from-gray-500/20 to-white"}
-      ${mode == "standard" && 'border-4 hover:shadow-2xl scale-y-[1.06] delay-100  shadow-red-600'}
+      ${mode == "standard" && 'border-4 hover:shadow-none shadow-2xl scale-y-[1.06] delay-100  shadow-red-600'}
       ${mode !== "standard" ? 'border-gray-400' : 'border-amber-500'}`}>
       <div className={`head_plan p-8 flex flex-col gap-2 ${mode == "standard" && ''}`}>
         <p className="text-3xl">{`${mode.split("")[0].toUpperCase()}${mode.split("").slice(1).join("")}`}
         </p>
         <div className="flex items-center gap-2">
           <p className="price text-5xl">{mode == "free" ? '0€' :
-            mode == "standard" ? '8€' : '12€'}</p>
+            mode == "standard" ? '7€' : '12€'}</p>
           <span className="text-lg text-gray-600 mt-2">
             {mode == "free" ? 'für immer' :
               'pro Monat'}
