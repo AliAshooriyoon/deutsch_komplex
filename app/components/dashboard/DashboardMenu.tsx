@@ -18,12 +18,12 @@ import { usePathname } from "next/navigation";
 
 
 const DashboardMenu = () => {
-  const [selectedMenu, setSelectedMenu] = useState(["", false])
+  const [selectedMenu, setSelectedMenu] = useState(["home", true])
   const changeStatus = useStatus(state => state.changeStatus)
   const path = usePathname()
   return <>
-    <div className="max-lg:hidden dashboard_menu text-white fixed w-[22rem] left-0 top-0 
-      bg-gray-800 px-4 pl-6 h-screen flex flex-col">
+    <div className="max-lg:hidden dashboard_menu text-white fixed pr-8 aw-[22rem] left-0 top-0 
+      bg-gray-800 px-2 pl-2 h-screen flex flex-col">
       <Link href={'/dashboard'} className="logoBox flex items-center gap-3 text-2xl py-4  shrink-0">
         <Image className="w-16 h-16" alt="dashboard_logo" src={Logo} />
         <p className="text-[#EDEDED]">Deutsch komplex </p>
@@ -33,14 +33,16 @@ const DashboardMenu = () => {
 
         <div className='wrapper'></div>
         <div className="main_item pt-6">
-          <Link href={'/'} className="showItem flex items-center">
+          <Link href={'/'} className={`showItem flex ${selectedMenu[0] == "home" && selectedMenu[1] && "bg-gradient-to-r"}
+from-red-500 to-amber-500 items-center`}
+            onClick={() => setSelectedMenu(prev => ["home", !prev[1]])}>
             <BiHomeAlt className="text-[#EDEDED] text-2xl" />
             <span className="text-white text-xl">Startseite</span>
           </Link>
         </div>
         <div className="main_item schreiben">
           <div onClick={() => setSelectedMenu(state => ["schreiben", !state[1]])}
-            className="showItem flex items-center text-white">
+            className="showItem flex items-center text-white pl-4">
             <FaPenAlt className="text-[#EDEDED]  text-xl" />
             <p className="text-xl">Schreiben</p>
             {selectedMenu[0] == "schreiben" && selectedMenu[1] &&

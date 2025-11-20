@@ -22,9 +22,9 @@
 }
 .showItem {
   cursor: pointer;
-  padding: 0.6rem 0.2rem;
+  padding: 0.6rem 0.2rem 0.6rem 1.5rem;
+  border-radius: 1rem;
 }
 .showItem:hover {
   background-color: #425b61;
-  border-radius: 1rem;
 }
