@@ -10,7 +10,7 @@
   padding-left: 0.7rem;
 }
 .main_item * {
-  font-size: 1.3rem;
+  /* font-size: 1.3rem; */
   text-align: center;
   display: flex;
   gap: 0.5rem;

@@ -1,5 +1,6 @@
 "use client"
 import { MdEmail } from "react-icons/md";
+import { BiHomeAlt } from "react-icons/bi";
 import Image from "next/image";
 import { FcAbout } from "react-icons/fc";
 import { MdReport } from "react-icons/md";
@@ -21,18 +22,27 @@ const DashboardMenu = () => {
   const changeStatus = useStatus(state => state.changeStatus)
   const path = usePathname()
   return <>
-    <div className="max-lg:hidden dashboard_menu text-white fixed w-[22rem] left-0 top-0 bg-[#4a4b4e] px-4 pl-6 rounded-r-3xl h-screen flex flex-col">
+    <div className="max-lg:hidden dashboard_menu text-white fixed w-[22rem] left-0 top-0 
+      bg-gray-800 px-4 pl-6 h-screen flex flex-col">
       <Link href={'/dashboard'} className="logoBox flex items-center gap-3 text-2xl py-4  shrink-0">
-        <Image alt="dashboard_logo" src={Logo} />
+        <Image className="w-16 h-16" alt="dashboard_logo" src={Logo} />
         <p className="text-[#EDEDED]">Deutsch komplex </p>
       </Link>
 
       <div className="items flex-1 min-h-0 flex flex-col gap-8 overflow-y-auto pr-2">
+
         <div className='wrapper'></div>
+        <div className="main_item pt-6">
+          <Link href={'/'} className="showItem flex items-center">
+            <BiHomeAlt className="text-[#EDEDED] text-2xl" />
+            <span className="text-white text-xl">Startseite</span>
+          </Link>
+        </div>
         <div className="main_item schreiben">
-          <div onClick={() => setSelectedMenu(state => ["schreiben", !state[1]])} className="showItem flex items-center">
-            <FaPenAlt className="text-[#EDEDED]" />
-            <p>Schreiben</p>
+          <div onClick={() => setSelectedMenu(state => ["schreiben", !state[1]])}
+            className="showItem flex items-center text-white">
+            <FaPenAlt className="text-[#EDEDED]  text-xl" />
+            <p className="text-xl">Schreiben</p>
             {selectedMenu[0] == "schreiben" && selectedMenu[1] &&
               <TiArrowSortedDown className="absolute right-10 text-[#EDEDED]" />}
           </div>
@@ -52,8 +62,8 @@ const DashboardMenu = () => {
 
         <div className="main_item">
           <p onClick={() => setSelectedMenu(prev => ["lesen", !prev[1]])} className="showItem flex items-center">
-            <FaBookReader className="text-[#EDEDED]" />
-            <span>Lesen</span>
+            <FaBookReader className="text-[#EDEDED]  text-xl" />
+            <span className="text-xl">Lesen</span>
             {selectedMenu[0] == "lesen" && selectedMenu[1] &&
               <TiArrowSortedDown className="absolute right-10 text-white" />}
 
@@ -72,8 +82,8 @@ const DashboardMenu = () => {
         </div>
         <div className="main_item">
           <p onClick={() => setSelectedMenu((prev) => ["words", !prev[1]])} className="showItem flex items-center">
-            <VscSymbolKeyword className="text-[#EDEDED]" />
-            <span>Wörter</span>
+            <VscSymbolKeyword className="text-[#EDEDED]  text-xl" />
+            <span className="text-xl">Wörter</span>
             {selectedMenu[0] == "words" && selectedMenu[1] &&
               <TiArrowSortedDown className="absolute right-10 text-white" />}
 
@@ -91,8 +101,8 @@ const DashboardMenu = () => {
 
         <div className="main_item text-white">
           <p onClick={() => setSelectedMenu((prev) => ["listen", !prev[1]])} className="showItem flex items-center">
-            <FaHeadphones className="text-[#EDEDED]" />
-            <span> Hören</span>
+            <FaHeadphones className="text-[#EDEDED]  text-xl" />
+            <span className="text-xl"> Hören</span>
             {selectedMenu[0] == "listen" && selectedMenu[1] &&
               <TiArrowSortedDown className="absolute right-10 text-white" />}
 
@@ -114,15 +124,15 @@ const DashboardMenu = () => {
           <div className='wrapper' />
           <div className="main_item pt-6">
             <Link href={'/dashboard/account'} className="showItem flex items-center">
-              <MdAccountCircle className="text-[#EDEDED]" />
-              <span className="text-white">Konto</span>
+              <MdAccountCircle className="text-[#EDEDED]  text-xl" />
+              <span className="text-white text-xl">Konto</span>
             </Link>
           </div>
           <div className="main_item pt-6">
             {/* <Link href={'/dashboard/setting'} className="showItem flex items-center"> */}
             <Link href={'#'} className="showItem flex items-center">
-              <IoSettingsSharp className="text-[#EDEDED]" />
-              <span className="text-white">Einstellung</span>
+              <IoSettingsSharp className="text-[#EDEDED]  text-xl" />
+              <span className="text-white text-xl">Einstellung</span>
             </Link>
           </div>
         </div>
@@ -131,20 +141,20 @@ const DashboardMenu = () => {
           <div className="main_item pt-6">
             {/* <Link href={'/about'} className="showItem flex items-center"> */}
             <Link href={'https://aliashouriyoun-beta-ochre.vercel.app/de'} className="showItem flex items-center">
-              <FcAbout className="text-[#EDEDED]" />
-              <span>Über uns</span>
+              <FcAbout className="text-[#EDEDED]  text-xl" />
+              <span className="text-xl">Über uns</span>
             </Link>
           </div>
           <div className="main_item pt-6">
             <Link href={'mailto:aliashouriyoun@tutamail.com'} className="showItem flex items-center">
-              <MdEmail className="text-[#EDEDED]" />
-              <span>E-Mail</span>
+              <MdEmail className="text-[#EDEDED]  text-xl" />
+              <span className="text-xl">E-Mail</span>
             </Link>
           </div>
           <div className="main_item pt-6">
             <Link href={'mailto:aliashouriyoun@tutamail.com'} className="showItem flex items-center">
-              <MdReport className="text-[#EDEDED]" />
-              <span>Berichten</span>
+              <MdReport className="text-[#EDEDED] text-xl" />
+              <span className="text-xl">Berichten</span>
             </Link>
           </div>
         </div>
