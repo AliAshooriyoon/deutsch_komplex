@@ -36,9 +36,27 @@ const Schreiben = () => {
           </div>
           <div onClick={() => setCurrentPath("test")}
             className={`flex cursor-pointer items-center gap-1
-           ${currentPath == "test" ? "bg-white" : "bg-transparent"} rounded-2xl w-[33.3%] justify-center`}>
-            <LuFileCheck2 className="text-xl" />
-            <span className="text-sm">TestModelle</span>
+           ${currentPath == "test" ? "bg-white" : "bg-transparent"} 
+              rounded-2xl w-[33.3%] justify-center`}>
+            <div className="inline-block">
+              {/* Hidden defs SVG for the gradient definition */}
+              <svg className="absolute w-0 h-0 overflow-hidden" aria-hidden="true">
+                <defs>
+                  <linearGradient id="icon-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style={{ stopColor: "#ef4444" }} /> {/* Tailwind red-500 hex */}
+                    <stop offset="100%" style={{ stopColor: "#f59e0b" }} /> {/* Tailwind amber-500 hex */}
+                  </linearGradient>
+                </defs>
+              </svg>
+
+              {/* The Lucide icon, referencing the gradient */}
+              <LuFileCheck2
+                size={24} // Equivalent to size-16; adjust as needed
+                strokeWidth={2.5} // Ensures visibility; default is 2
+                stroke="url(#icon-gradient)" // References the gradient ID
+                className="text-transparent" // Optional: prevents default color interference
+              />
+            </div>            <span className="text-sm font-bold bg-gradient-to-r bg-clip-text text-transparent from-red-500 to-amber-500">TestModelle (KI)</span>
           </div>
         </div>
       </div>
