@@ -1,12 +1,7 @@
-import { NextResponse, type NextRequest } from 'next/server';
+import { NextResponse } from 'next/server';
 import prisma from '@/prisma/client';
 
-export const POST = async (req: NextRequest) => {
-  const body = await req.json();
-  const res = await prisma.story.findMany({
-    where: {
-      level: body.level,
-    },
-  });
+export const GET = async () => {
+  const res = await prisma.story.findMany();
   return NextResponse.json(res);
 };

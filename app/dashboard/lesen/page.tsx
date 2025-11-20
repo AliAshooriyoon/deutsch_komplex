@@ -2,7 +2,6 @@
 import { LuFileCheck2 } from "react-icons/lu";
 import { FaFileAlt } from "react-icons/fa";
 import { FaBook } from "react-icons/fa";
-import { MdLightbulbOutline } from "react-icons/md";
 import { useState } from "react";
 import { GoBook } from "react-icons/go";
 import Stories from "@/app/components/lesen/stories";
