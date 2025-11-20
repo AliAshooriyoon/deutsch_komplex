@@ -11,7 +11,9 @@ const Examples = () => {
     }
 
   ])
+  const [isLoading, setIsLoadnig] = useState(false)
   const examplesShow = async () => {
+    setIsLoadnig(true)
     const res = await fetch("/api/exampleShow",
       {
         method: "POST",
@@ -21,8 +23,9 @@ const Examples = () => {
     const data = await res.json();
     if (res.ok) {
       setData(data)
+      setIsLoadnig(false)
     } else {
-      alert("err!")
+      return <p className="text-red-500 text-center text-4xl">Connecting error!</p>
     }
   }
   useEffect(() => {
@@ -31,7 +34,7 @@ const Examples = () => {
 
   return <>
     <div className="flex items-center justify-between flex-wrap gap-12 px-8 h-full">
-      {data?.map(i => <Example key={i.id} item={i} />)}
+      {!isLoading ? data?.map(i => <Example key={i.id} item={i} />) : <p className="text-red-500 text-2xl">Loading...</p>}
 
     </div>
   </>
