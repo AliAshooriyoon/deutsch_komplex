@@ -1,9 +1,9 @@
 "use client"
 
 import { useEffect, useState } from "react";
-import Example from "./example";
+import ExampleSchreiben from "./example";
 
-const Examples = () => {
+const ExamplesSchreiben = () => {
   const [data, setData] = useState<Array<{ id: number, level: string, exam: string, topic: string, content: string }>>([
     {
       id: 0, level: "", exam: "", topic: "",
@@ -34,9 +34,9 @@ const Examples = () => {
 
   return <>
     <div className="flex items-center justify-between flex-wrap gap-12 px-8 h-full">
-      {!isLoading ? data?.map(i => <Example key={i.id} item={i} />) : <p className="text-red-500 text-2xl">Loading...</p>}
+      {!isLoading ? data?.map(i => <ExampleSchreiben key={i.id} item={i} />) : <p className="text-red-500 text-2xl">Loading...</p>}
 
     </div>
   </>
 }
-export default Examples;
+export default ExamplesSchreiben;

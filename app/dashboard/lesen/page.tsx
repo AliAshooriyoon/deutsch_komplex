@@ -5,6 +5,7 @@ import { FaBook } from "react-icons/fa";
 import { useState } from "react";
 import { GoBook } from "react-icons/go";
 import Stories from "@/app/components/lesen/stories";
+import ExamplesLesen from "@/app/components/lesen/examples";
 
 const Lesen = () => {
   const [currentPath, setCurrentPath] = useState("stories")
@@ -61,6 +62,7 @@ const Lesen = () => {
     </div>
     <div className="">
       {currentPath == "stories" && <Stories />}
+      {currentPath == "example" && <ExamplesLesen />}
     </div>
   </>
 }

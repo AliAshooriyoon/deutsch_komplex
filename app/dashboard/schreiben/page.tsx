@@ -5,7 +5,7 @@ import { FaFileAlt } from "react-icons/fa";
 import { MdLightbulbOutline } from "react-icons/md";
 import TippsComponent from "@/app/components/schreiben/tipps";
 import { useState } from "react";
-import Examples from "@/app/components/schreiben/examples";
+import ExamplesSchreiben from "@/app/components/schreiben/examples";
 const Schreiben = () => {
   const [currentPath, setCurrentPath] = useState("tipps")
   return <>
@@ -63,7 +63,7 @@ const Schreiben = () => {
       <div className="">
         {currentPath == "tipps" && <TippsComponent />
         }
-        {currentPath == "example" && <Examples />}
+        {currentPath == "example" && <ExamplesSchreiben />}
       </div>
     </div>
   </>

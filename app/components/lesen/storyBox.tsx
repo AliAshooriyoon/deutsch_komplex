@@ -15,7 +15,7 @@ const StoryBox = ({ data }: { data: { id: number, title: string, content: string
           {data.level == "a1" || data.level == "a2" ? "Einfach" : data.level == "b1" ? "Mittel" : "Schwierig"}
         </span>
       </div>
-      <Link href={`/dashboard/lesen/${data.id}`}
+      <Link href={`/dashboard/lesen/stories/${data.id}`}
         className="btn bg-gray-800 w-[95%] mx-auto py-2 rounded-xl
             my-4 text-white text-center cursor-pointer">
         Jetzt lesen</Link>

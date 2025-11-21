@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react";
 import { IoMdCloseCircle } from "react-icons/io";
-const Example = ({ item }:
+const ExampleSchreiben = ({ item }:
   { item: { id: number, level: string, exam: string, topic: string, content: string } }) => {
   const [showExam, setShowExam] = useState(false)
   return <>
@@ -44,4 +44,4 @@ const Example = ({ item }:
     }
   </>
 }
-export default Example;
+export default ExampleSchreiben;
