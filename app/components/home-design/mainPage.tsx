@@ -14,7 +14,7 @@ const MainPage = () => {
           Bestehe deine <span className="bg-gradient-to-r from-red-700
                 to-[#F9B13C] bg-clip-text text-transparent ">Deutschprüfung</span> </h2>
         <h3 className="description leading-9 indent-2 max-lg:text-xl
-              lg:text-xl max-lg:py-6 lg:max-w-[80%] text-gray-600">
+              lg:text-xl max-lg:py-6 lg:max-w-[80%] my-6 text-gray-600">
           Bereite dich optimal auf Goethe-Zertifikat,
           TestDaF, telc und andere deutsche Sprachprüfungen vor.
           Gezieltes Training für alle Prüfungsteile: Lesen, Hören, Schreiben und Sprechen.
