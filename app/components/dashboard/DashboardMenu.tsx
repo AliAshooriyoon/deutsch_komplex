@@ -43,7 +43,7 @@ const DashboardMenu = () => {
           <Link href={'/dashboard/schreiben'}
             onClick={() => setSelectedMenu(state => ["schreiben", state[1]])}
             className={`showItem flex items-center text-white pl-4 from-red-500/80 to-amber-500/80
-            ${selectedMenu[0] == "schreiben" || path == "/dashboard/schreiben" ? "bg-gradient-to-r" : ''}`}>
+            ${selectedMenu[0] == "schreiben" || (selectedMenu[0] == "home" && path == "/dashboard/schreiben") ? "bg-gradient-to-r" : ''}`}>
             <FaPenAlt className="text-[#EDEDED]  text-xl " />
             <span className="text-white text-xl">Schreiben</span>
           </Link>
@@ -52,7 +52,7 @@ const DashboardMenu = () => {
         <div className="main_item">
           <Link href={'/dashboard/lesen'} onClick={() => setSelectedMenu(prev => ["lesen", prev[1]])}
             className={`showItem flex from-red-500/80 to-amber-500/80
-          items-center ${selectedMenu[0] == "lesen" || path == "/dashboard/lesen" ? 'bg-gradient-to-r' : ""}`}>
+          items-center ${selectedMenu[0] == "lesen" || (selectedMenu[0] == "home" && path == "/dashboard/lesen") ? 'bg-gradient-to-r' : ""}`}>
             <FaBookReader className="text-[#EDEDED]  text-xl" />
             <span className="text-xl">Lesen</span>
           </Link>
@@ -60,7 +60,8 @@ const DashboardMenu = () => {
         <div className="main_item">
           <Link href={'/dashboard/words'} onClick={() => setSelectedMenu((prev) => ["words", prev[1]])}
             className={`showItem flex from-red-500/80 to-amber-500/80
-            items-center ${selectedMenu[0] == "words" || path == "/dashboard/words" ? 'bg-gradient-to-r' : ''}`}>
+            items-center ${selectedMenu[0] == "words" ||
+                (selectedMenu[0] == "home" && path == "/dashboard/words") ? 'bg-gradient-to-r' : ''}`}>
             <VscSymbolKeyword className="text-[#EDEDED]  text-xl" />
             <span className="text-xl">Wörter</span>
           </Link>
@@ -69,7 +70,9 @@ const DashboardMenu = () => {
         <div className="main_item text-white">
           <Link href={'/dashboard/listen'}
             onClick={() => setSelectedMenu((prev) => ["listen", prev[1]])}
-            className={` ${selectedMenu[0] == "listen" || path == "/dashboard/listen"
+            className={` ${selectedMenu[0] == "listen" ||
+              (selectedMenu[0] == "home" && path == "/dashboard/listen"
+              )
               ? 'bg-gradient-to-r' : ""} from-red-500/80 to-amber-500/80
                     showItem flex items-center`}>
             <FaHeadphones className="text-[#EDEDED]  text-xl" />
@@ -83,7 +86,7 @@ const DashboardMenu = () => {
           <div className="main_item pt-6">
             <Link href={'/dashboard/account'}
               onClick={() => setSelectedMenu(prev => ["account", prev[1]])}
-              className={` ${selectedMenu[0] == "account" || path == "/dashboard/account" ? 'bg-gradient-to-r' : ""}
+              className={` ${selectedMenu[0] == "account" || (selectedMenu[0] == "home" && path == "/dashboard/account") ? 'bg-gradient-to-r' : ""}
                 from-red-500/80 to-amber-500/80
                   showItem flex items-center`}>
               <MdAccountCircle className="text-[#EDEDED]  text-xl" />
@@ -94,7 +97,7 @@ const DashboardMenu = () => {
             {/* <Link href={'/dashboard/setting'} className="showItem flex items-center"> */}
             <Link href={'#'}
               onClick={() => setSelectedMenu(prev => ["setting", prev[1]])}
-              className={` ${selectedMenu[0] == "setting" || path == "/dashboard/setting" ? 'bg-gradient-to-r' : ''}
+              className={` ${selectedMenu[0] == "setting" || (selectedMenu[0] == "home" && path == "/dashboard/setting") ? 'bg-gradient-to-r' : ''}
               from-red-500/80 to-amber-500/80 showItem flex items-center`}>
 
               <IoSettingsSharp className="text-[#EDEDED]  text-xl" />
