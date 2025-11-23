@@ -37,10 +37,9 @@ const LainterBox = () => {
   }
   return <>
     <div className=''>
-      <div className="">
-        <div className="lainter_box flex items-center justify-between flex-col lg:w-[60%] 
-          max-lg:w-[98%]
-          mt-24 bg-gray-300 border-2 rounded-3xl lg:h-[40rem] max-lg:h-[30rem] mx-auto">
+      <div className="py-20">
+        <div className="lainter_box shadow-2xl shadow-red-500/70 ring-amber-600 ring-2 flex items-center justify-between flex-col lg:w-[60%] 
+          max-lg:w-[98%]  mt-24 bg-gray-300 border-2 rounded-3xl lg:h-[40rem] max-lg:h-[30rem] mx-auto">
           <div className="lg:pt-24">
             <p className="lg:text-5xl max-lg:text-3xl text-center pt-12">
               {!showAnswer ? words[location.page].word : words[location.page].meaning}
