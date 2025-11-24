@@ -39,6 +39,7 @@ const WordsList = () => {
 
         </div>
       </div>
+      {words.map((i) => <div key={i.id} className="">{i.title}</div>)}
     </div>
   </>
 }
