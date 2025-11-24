@@ -1,7 +1,8 @@
 "use client"
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
-const levelsTopic = ["a1", "a2", "b1", "b2", "c1", "c2"]
+const levelsTopic = ["a1", "a2", "b1", "b2", "c1"]
 const WordsList = () => {
   const [words, setWords] = useState([{ id: "", title: "", mean: "", level: "" }])
   const [loading, setLoading] = useState(false);
@@ -82,14 +83,31 @@ const WordsList = () => {
       {/*   </div> */}
       {/* </div> */}
       {/* {words.map((i) => <div key={i.id} className="">{words.length}</div>)} */}
-      <div className="flex items-center gap-8 flex-col">
-        {levelsTopic.map((i) => <div key={i} className="w-full px-6">
-          <div className="bg-white border-2 border-gray-500/60 w-full 
-            h-32 mx-auto rounded-2xl p-2">
-            <p className="">{wordsLength[levelsTopic.indexOf(i)]}</p>
+      {!loading ? <div className="flex items-center gap-8 flex-col px-4">
+        {levelsTopic.map((i) => <div key={i} className="bg-white border-2 border-gray-500/60
+          w-full px-6 flex h-48 mx-auto rounded-2xl p-6">
+          <div className=" w-full flex flex-col gap-4">
+            <div className="title_levels flex items-center gap-4">
+
+              <div className="w-16 h-12 text-white flex text-xl items-center justify-center 
+                bg-gradient-to-r from-red-600/95 rounded-xl to-amber-500/95"> {i.toUpperCase()} </div>
+              <p className="text-xl"> {i == "a1" ? "Anfänger" : i == "a2" ? "Grundlegende Kenntnisse" : i == "b1" ? "Fortgeschrittene Anfänger" : i == "b2" ? "Selbstständige Sprachverwendung" : "Fachkundige Sprachkenntnisse"} </p>
+            </div>
+            <div className="flex justify-between ">
+              <p className="text-2xl">{wordsLength[levelsTopic.indexOf(i)]} Wörter</p>
+            </div>
           </div>
+          <div className="btn_box flex flex-col gap-4 px-12 items-center w-[25%] py-6 text-center">
+            <Link href={`words/words-list/${i}`}
+              className="py-2 px-4 cursor-pointer rounded-xl text-white text-lg
+              bg-gradient-to-r w-full from-red-600 to-amber-500">Jetzt lernen
+            </Link>
+            <div className="py-2 px-4 cursor-pointer rounded-xl text-white text-sm bg-gradient-to-r w-full
+              from-gray-600 to-stone-500">Wortliste ansehen</div>
+          </div>
+
         </div>)}
-      </div>
+      </div> : <div className="text-center text-3xl text-red-500">Loading...</div>}
     </div>
   </>
 }
