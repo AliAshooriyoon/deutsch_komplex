@@ -10,7 +10,7 @@ const Schreiben = () => {
   const [currentPath, setCurrentPath] = useState("tipps")
   return <>
     <div className=''>
-      <div className="header__schreiben w-full ">
+      <div className="header__schreiben w-full">
         <div className="schreiben__logo flex items-center gap-4">
           <div className="bg-red-600  p-4 flex items-center rounded-2xl justify-center">
             <LuPencilLine className="text-white text-4xl" />
