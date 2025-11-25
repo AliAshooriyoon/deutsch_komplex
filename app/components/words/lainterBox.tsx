@@ -4,6 +4,8 @@ import { GrPrevious } from "react-icons/gr";
 import { useEffect, useState } from 'react';
 import data from '../../../../../anki_vocab.json' assert { type: 'json' };
 const LainterBox = () => {
+
+
   const [words, setWords] = useState(data);
   const [location, setLocation] = useState({ page: 0, path: "next" });
   const [lengthBack, setLengthBack] = useState(0);
