@@ -1,13 +1,12 @@
 "use client"
 import LainterBox from "@/app/components/words/lainterBox";
 import { useState } from "react";
-import { LuFileCheck2, LuPencilLine } from "react-icons/lu";
+import { LuPencilLine } from "react-icons/lu";
 import { LuLayers } from "react-icons/lu";
 import { LiaBoxSolid } from "react-icons/lia";
 import WordsList from "@/app/components/words/wordsList";
 
 const Words = () => {
-
   const [currentPath, setCurrentPath] = useState("lainter")
   return <>
     <div className="header__schreiben w-full ">
@@ -37,7 +36,6 @@ const Words = () => {
         </div>
       </div>
     </div>
-    Words
     {currentPath == "lainter" && <LainterBox />}
     {currentPath == "words" && <WordsList />}
   </>
