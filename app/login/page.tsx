@@ -8,8 +8,11 @@ import { useState } from "react";
 const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [isLoading, setIsLoading] = useState(false)
   const doLogin = async () => {
+    setIsLoading(true)
     await signIn("credentials", { email, password, callbackUrl: "/dashboard" });
+    setIsLoading(false)
   }
   return <>
     <Header />
@@ -35,9 +38,11 @@ const LoginPage = () => {
               <Link href="/forgot-password" className="pt-2 text-lg hover:text-[#F0B100]">
                 Forgot password?
               </Link>
-              <button onClick={doLogin}
+              {!isLoading ? <button onClick={doLogin}
                 className="h-[4rem] cursor-pointer hover:rounded-2xl delay-100
                 lg:w-[24rem] max-lg:w-[80%] max-lg:rounded-2xl bg-black text-white text-xl" type="button">Einloggen</button>
+                : <button className="h-[4rem] cursor-pointer hover:rounded-2xl delay-100
+                lg:w-[24rem] max-lg:w-[80%] max-lg:rounded-2xl bg-gray-400/80 text-white text-xl" type="button">Loading...</button>}
               <Link className="pt-4 text-lg hover:text-[#F0B100]"
                 href={'/register'}>Keinen Konto? anmelden</Link>
             </div>
