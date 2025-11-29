@@ -22,8 +22,8 @@ const RegisterPage = () => {
   return <>
     <Header />
     <div className=" flex items-center justify-center w-[100vw] h-[100vh]">
-      <div className='lg:w-[30%] max-lg:w-[97%] pt-2 pb-8 bg-[#555] rounded-4xl mx-auto
-        shadow-xl shadow-[#F0B100]'>
+      <div className='lg:w-[30%] max-lg:w-[97%] pt-2 pb-8 bg-white border-2 border-gray-500
+        rounded-4xl mx-auto shadow-xl shadow-[#F0B100]'>
         <div className='login_form_manual'>
           <h2 className="text-center pb-4 pt-12 text-4xl font-bold">Register</h2>
           <div className="flex flex-col gap-8 mx-auto pt-12 pb-6">
