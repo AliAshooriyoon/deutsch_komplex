@@ -2,23 +2,40 @@
 import { GrNext } from "react-icons/gr";
 import { GrPrevious } from "react-icons/gr";
 import { useEffect, useState } from 'react';
-import data from '../../../../../anki_vocab.json' assert { type: 'json' };
+// import data from '../../../../../anki_vocab.json' assert { type: 'json' };
 const LainterBox = () => {
-
-
-  const [words, setWords] = useState(data);
+  const [level, setLevel] = useState("a1")
+  const [words, setWords] = useState([{ title: "", mean: "" }]);
   const [location, setLocation] = useState({ page: 0, path: "next" });
   const [lengthBack, setLengthBack] = useState(0);
   const [prevLocation, setPrevLocation] = useState<number[]>([]);
   const [count, setCount] = useState({ num: 0, path: "next" });
   const [showAnswer, setShowAnswer] = useState(false)
+  const getWords = async () => {
+    const res = await fetch("/api/selectWord", {
+      method: "POST", body: JSON.stringify({
+        level
+      })
+    })
+    const data = await res.json()
+    console.log("====== data is : ")
+    console.log(data)
+    if (!res.ok) {
+      return <div className="text-red-500">connection failed!</div>
 
+    } else {
+      setWords(data)
+    }
+  }
+  useEffect(() => {
+    getWords()
+  }, [level])
   const nextWord = () => {
     setShowAnswer(false)
     setCount(prev => { return { num: prev.num + 1, path: "next" } })
     setLengthBack(prev => prev > 0 ? prev - 1 : prev)
     setLocation({
-      page: lengthBack <= 0 ? Math.floor(Math.random() * words.length - 1) + 1
+      page: lengthBack <= 0 ? Math.floor(Math.random() * words?.length - 1) + 1
         : prevLocation[prevLocation.length - lengthBack], path: `${lengthBack <= 0 ? "next" : "prev"}`
     })
   }
@@ -40,11 +57,22 @@ const LainterBox = () => {
   return <>
     <div className=''>
       <div className="py-20">
+        <div className="flex items-center gap-4">
+          <p className="text-xl"> Wähle dein Niveau aus! </p>
+          <select onChange={(e) => setLevel(e.target.value)} className="text-2xl border-2 px-6 py-2 rounded-xl cursor-pointer">
+            <option value={"a1"}>A1</option>
+            <option value={"a2"}>A2</option>
+            <option value={"b1"}>B1</option>
+            <option value={"b2"}>B2</option>
+            <option value={"c1"}>C1</option>
+          </select>
+
+        </div>
         <div className="lainter_box shadow-2xl shadow-red-500/70 ring-amber-600 ring-2 flex items-center justify-between flex-col lg:w-[60%] 
           max-lg:w-[98%]  mt-24 bg-gray-300 border-2 rounded-3xl lg:h-[40rem] max-lg:h-[30rem] mx-auto">
           <div className="lg:pt-24">
             <p className="lg:text-5xl max-lg:text-3xl text-center pt-12">
-              {!showAnswer ? words[location.page].word : words[location.page].meaning}
+              {!showAnswer ? words[location.page].title : words[location.page].mean}
             </p>
             <p className="lg:text-2xl max-lg:text-lg text-center pt-6">In besonderen Haltungen wird es verwendet</p>
           </div>
