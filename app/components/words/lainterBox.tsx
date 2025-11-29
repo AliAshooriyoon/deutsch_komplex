@@ -25,6 +25,10 @@ const LainterBox = () => {
 
     } else {
       setWords(data)
+      setLocation({ page: 0, path: "next" })
+      setPrevLocation([])
+      setLengthBack(0)
+      setCount(prev => { return { num: 0, path: "next" } })
     }
   }
   useEffect(() => {
