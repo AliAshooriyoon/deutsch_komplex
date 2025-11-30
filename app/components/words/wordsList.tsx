@@ -85,19 +85,23 @@ const WordsList = () => {
       {/* {words.map((i) => <div key={i.id} className="">{words.length}</div>)} */}
       {!loading ? <div className="flex items-center gap-8 flex-col px-4">
         {levelsTopic.map((i) => <div key={i} className="bg-white border-2 border-gray-500/60
-          w-full px-6 flex h-48 mx-auto rounded-2xl p-6">
+          w-full px-6 flex max-lg:flex-col mx-auto rounded-2xl p-6">
           <div className=" w-full flex flex-col gap-4">
             <div className="title_levels flex items-center gap-4">
 
               <div className="w-16 h-12 text-white flex text-xl items-center justify-center 
-                bg-gradient-to-r from-red-600/95 rounded-xl to-amber-500/95"> {i.toUpperCase()} </div>
-              <p className="text-xl"> {i == "a1" ? "Anfänger" : i == "a2" ? "Grundlegende Kenntnisse" : i == "b1" ? "Fortgeschrittene Anfänger" : i == "b2" ? "Selbstständige Sprachverwendung" : "Fachkundige Sprachkenntnisse"} </p>
+                bg-gradient-to-r from-red-600/95 rounded-xl to-amber-500/95">
+                {i.toUpperCase()} </div>
+              <p className="max-lg:text-lg lg:text-xl max-lg:max-w-48">
+                {i == "a1" ? "Anfänger" : i == "a2" ? "Grundlegende Kenntnisse" : i == "b1" ?
+                  "Fortgeschrittene Anfänger" : i == "b2" ?
+                    "Selbstständige Sprachverwendung" : "Fachkundige Sprachkenntnisse"} </p>
             </div>
             <div className="flex justify-between ">
               <p className="text-2xl">{wordsLength[levelsTopic.indexOf(i)]} Wörter</p>
             </div>
           </div>
-          <div className="btn_box flex flex-col gap-4 px-12 items-center w-[25%] py-6 text-center">
+          <div className="btn_box flex flex-col gap-4 lg:px-12 items-center lg:w-[25%] py-6 text-center">
             <Link href={`words/words-list/${i}`}
               className="py-2 px-4 cursor-pointer rounded-xl text-white text-lg
               bg-gradient-to-r w-full from-red-600 to-amber-500">Jetzt lernen

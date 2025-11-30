@@ -60,8 +60,8 @@ const LainterBox = () => {
     <div className=''>
       <div className="py-20">
         <div className="flex items-center gap-4">
-          <p className="text-xl"> Wähle dein Niveau aus! </p>
-          <select onChange={(e) => setLevel(e.target.value)} className="text-2xl border-2 px-6 py-2 rounded-xl cursor-pointer">
+          <p className="text-lg lg:text-xl"> Wähle dein Niveau aus! </p>
+          <select onChange={(e) => setLevel(e.target.value)} className="max-lg:text-xl lg:text-2xl border-2 px-6 py-2 rounded-xl cursor-pointer">
             <option value={"a1"}>A1</option>
             <option value={"a2"}>A2</option>
             <option value={"b1"}>B1</option>
