@@ -33,7 +33,7 @@ const ExamplesSchreiben = () => {
   }, [])
 
   return <>
-    <div className="flex items-center justify-between flex-wrap gap-12 px-8 h-full">
+    <div className="flex items-center justify-between flex-wrap gap-12 max-lg:px-4 lg:px-8 py-12 h-full">
       {!isLoading ? data?.map(i => <ExampleSchreiben key={i.id} item={i} />) : <p className="text-red-500 text-2xl">Loading...</p>}
 
     </div>
