@@ -66,7 +66,7 @@ const ExampleSchreiben = ({ params }: Props) => {
         </div>
         <div className="wrapper w-full h-0.5 bg-black rounded-3xl"></div>
         <div className="flex flex-col gap-12">
-          <p className="text-3xl">{example.topic}</p>
+          <p className="max-lg:text-lg max-lg:font-bold lg:text-3xl">{example.topic}</p>
           <p className="text-lg leading-12">{example.content}</p>
         </div>
       </div>
