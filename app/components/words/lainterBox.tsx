@@ -70,8 +70,10 @@ const LainterBox = () => {
           </select>
 
         </div>
-        <div className="lainter_box shadow-2xl shadow-red-500/70 ring-amber-600 ring-2 flex items-center justify-between flex-col lg:w-[60%] 
-          max-lg:w-[98%]  mt-24 bg-gray-300 border-2 rounded-3xl lg:h-[40rem] max-lg:h-[30rem] mx-auto">
+        <div className="lainter_box shadow-2xl shadow-red-500/70 ring-amber-600 ring-2 flex 
+          items-center justify-between flex-col lg:w-[60%] 
+          max-lg:w-[98%]  mt-24 bg-gray-300 border-2 rounded-3xl lg:h-[40rem] 
+          max-lg:h-[30rem] mx-auto">
           <div className="lg:pt-24">
             <p className="lg:text-5xl max-lg:text-3xl text-center pt-12">
               {!showAnswer ? words[location.page].title : words[location.page].mean}
@@ -81,17 +83,17 @@ const LainterBox = () => {
           <div className='flex items-center justify-around lg:pb-24 max-lg:pb-12 max-lg:gap-4 lg:gap-12 flex-row-reverse'>
             <button type='button' onClick={() => nextWord()}
               className='border-4 rounded-full p-1 flex items-center justify-center'>
-              <GrNext className="lg:w-10 lg:h-10 max-lg:w-8 max-lg:h-8" /> </button>
+              <GrNext className="lg:w-10 lg:h-10 max-lg:w-6 max-lg:h-6" /> </button>
             <div onClick={showAnswerFunc}
               className={`lg:text-2xl from-red-500/70 to-amber-600/70 
-                    max-lg:text-lg text-center min-w-[18rem]
+                    max-lg:text-lg text-center max-lg:min-w-[12rem] lg:min-w-[18rem]
             ${!showAnswer ? "bg-gradient-to-r" : "bg-gradient-to-l"}
-                  px-6 py-4 rounded-3xl cursor-pointer`}> {
+                  lg:px-6 max-lg:px-2 max-lg:py-3 lg:py-4 rounded-3xl cursor-pointer`}> {
                 !showAnswer ? <p>Bedeutung sehen </p> : <p>Wort sehen</p>
               } </div>
             <button type='button' onClick={() => previousWord()}
               className=' border-4 rounded-full p-1 flex items-center justify-center'>
-              <GrPrevious className="lg:w-10 lg:h-10 max-lg:w-8  max-lg:h-8" /> </button>
+              <GrPrevious className="lg:w-10 lg:h-10 max-lg:w-6  max-lg:h-6" /> </button>
           </div>
         </div>
       </div>

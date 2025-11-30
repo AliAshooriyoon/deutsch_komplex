@@ -23,7 +23,7 @@ const ExamplesLesen = () => {
     getData()
   }, [])
   return <>
-    <div className="flex items-center justify-between flex-wrap gap-12 px-8 h-full">
+    <div className="flex items-center justify-between flex-wrap gap-12 py-12 max-lg:px-4 lg:px-8 h-full">
       {!isLoading ? data?.map((i) => <ExampleLesen key={i.id} item={i} />) :
         <div className=""> <p className="text-2xl text-red-500">Loading...</p> </div>}
 

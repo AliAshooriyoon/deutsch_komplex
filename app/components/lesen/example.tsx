@@ -7,7 +7,7 @@ const ExampleLesen = ({ item }: {
   }
 }) => {
   return <>
-    <div key={item.id} className="w-[48%]  bg-white rounded-2xl
+    <div key={item.id} className="lg:w-[48%]  bg-white rounded-2xl
         border-gray-600 p-6">
       <div className="title_box flex flex-col gap-2">
         <div className="py-1 px-3 w-12 flex items-center justify-center text-white

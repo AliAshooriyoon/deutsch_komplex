@@ -56,7 +56,10 @@ const Lesen = () => {
               stroke="url(#icon-gradient)" // References the gradient ID
               className="text-transparent" // Optional: prevents default color interference
             />
-          </div>            <span className="text-sm font-bold bg-gradient-to-r bg-clip-text text-transparent from-red-500 to-amber-500">TestModelle (KI)</span>
+          </div>
+          <span className="text-sm font-bold bg-gradient-to-r bg-clip-text
+              text-transparent from-red-500 to-amber-500">Test<span className="lg:hidden">s</span>
+            <span className="max-lg:hidden">Modelle</span> (KI)</span>
         </div>
       </div>
     </div>

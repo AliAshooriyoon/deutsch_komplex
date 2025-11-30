@@ -21,7 +21,7 @@ const Stories = () => {
   return <>
     <div className="">
       <div className=""></div>
-      <div className="p-6 flex flex-wrap justify-between gap-12">
+      <div className="p-6 flex flex-wrap justify-between max-lg:flex-col gap-12">
         {!isLoading ? stories?.map((d) => <StoryBox key={d.id} data={d} />) :
           <p className="text-red-500 text-center text-2xl"> <span>Loading...</span> </p>}
 
