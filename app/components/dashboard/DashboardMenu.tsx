@@ -21,7 +21,7 @@ const DashboardMenu = () => {
   const path = usePathname()
   return <>
     <div className="max-lg:hidden dashboard_menua text-white fixed pr-8 left-0 top-0 
-      bg-gray-800 px-2 pl-2 h-screen flex flex-col">
+      bg-gray-800 px-2 pl-2 h-screen flex flex-col lg:sticky">
       <Link href={'/dashboard'} className="logoBox flex items-center gap-3 text-2xl py-4  shrink-0">
         <Image className="w-16 h-16" alt="dashboard_logo" src={Logo} />
         <p className="text-[#EDEDED]">Deutsch komplex </p>
