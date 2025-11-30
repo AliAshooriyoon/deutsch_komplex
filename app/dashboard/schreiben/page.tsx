@@ -24,9 +24,10 @@ const Schreiben = () => {
           rounded-2xl bg-gray-300 ">
           <div onClick={() => setCurrentPath("tipps")}
             className={`flex cursor-pointer items-center gap-1 
-          ${currentPath == "tipps" ? "bg-white" : "bg-transparent"} rounded-2xl w-[33.3%] justify-center`}>
+          ${currentPath == "tipps" ? "bg-white" : "bg-transparent"} rounded-2xl w-[33.3%] 
+              justify-center`}>
             <MdLightbulbOutline className="text-xl" />
-            <span className="text-sm">Tipps zum Schreiben</span>
+            <span className="text-sm">Tipps <span className="max-lg:hidden">zum Schreiben</span> </span>
           </div>
           <div onClick={() => setCurrentPath("example")}
             className={`flex cursor-pointer items-center gap-1 
@@ -56,7 +57,9 @@ const Schreiben = () => {
                 stroke="url(#icon-gradient)" // References the gradient ID
                 className="text-transparent" // Optional: prevents default color interference
               />
-            </div>            <span className="text-sm font-bold bg-gradient-to-r bg-clip-text text-transparent from-red-500 to-amber-500">TestModelle (KI)</span>
+            </div>            <span className="text-sm font-bold bg-gradient-to-r bg-clip-text
+              text-transparent from-red-500 to-amber-500">Test<span className="lg:hidden">s</span>
+              <span className="max-lg:hidden">Modelle</span> (KI)</span>
           </div>
         </div>
       </div>
