@@ -16,7 +16,6 @@ const RegisterPage = () => {
       body: JSON.stringify({ name, email, password })
     })
     const data = await res.json()
-    console.log(data)
     redirect('/login')
   }
   return <>

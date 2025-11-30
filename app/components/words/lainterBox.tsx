@@ -18,8 +18,6 @@ const LainterBox = () => {
       })
     })
     const data = await res.json()
-    console.log("====== data is : ")
-    console.log(data)
     if (!res.ok) {
       return <div className="text-red-500">connection failed!</div>
 
