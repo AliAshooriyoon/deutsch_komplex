@@ -1,97 +1,188 @@
-"use client"
-import { TbLayoutDashboard } from "react-icons/tb";
-import { AiOutlineClose } from "react-icons/ai";
-import { FcAbout } from "react-icons/fc";
-import { MdPriceChange } from "react-icons/md";
-import { MdOutlineDesignServices } from "react-icons/md";
-import { IoMdHome } from "react-icons/io";
-import { MdAccountCircle } from "react-icons/md";
-import "./headerStyles.css"
-import { Link as ScrollLink, Element } from 'react-scroll';
-import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
-import 'react-loading-skeleton/dist/skeleton.css'
-import logo from "@/public/de-icon.png"
+"use client";
+import { useState } from 'react';
 import { IoMdMenu } from "react-icons/io";
+import { AiOutlineClose } from "react-icons/ai";
+import { IoMdHome } from "react-icons/io";
+import { MdOutlineDesignServices, MdPriceChange, MdAccountCircle } from "react-icons/md";
+import { TbLayoutDashboard } from "react-icons/tb";
+import { FcAbout } from "react-icons/fc";
+import { Link as ScrollLink } from 'react-scroll';
 import { useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from 'react';
+import Skeleton, { SkeletonTheme } from 'react-loading-skeleton';
+import 'react-loading-skeleton/dist/skeleton.css';
+import logo from "@/public/de-icon.png";
+
 const Header = () => {
-  const user = useSession()
-  const isLoading = user.status == "loading"
-  const [showMenu, setShowMenu] = useState(false)
-  const hideMenu = () => {
-    setShowMenu(false)
-  }
-  return <>
-    <div className="w-full h-20 sticky top-0 z-10 bg-white/70 text-black 
-      flex items-center justify-between border-b-2 border-gray-300">
-      <div className="logo_box max-lg:w-full h-full max-lg:gap-1 lg:gap-4 flex 
-        justify-between items-center  pl-4">
-        <Link href={"/"} >
-          <Image className="lg:h-[80%] max-lg:h-[75%] lg:w-17 border-4 max-lg:w-14
-            border-black rounded-full" alt="main_logo" src={logo} />
-        </Link>
-        <p className="logo_title lg:text-2xl max-lg:text-xl max-lg:-ml-6  font-bold max-lg:pr-4">Deutsch komplex</p>
-        <div className='wrapper_header lg:hidden mr-4'>
-          <div onClick={() => setShowMenu(prev => !prev)}>
-            {!showMenu ? <IoMdMenu className="w-10 h-10" /> :
-              <AiOutlineClose className="w-10 h-10" />
-            }
+  const { data: session, status } = useSession();
+  const isLoading = status === "loading";
+  const [showMenu, setShowMenu] = useState(false);
+
+  const closeMenu = () => setShowMenu(false);
+
+  return (
+    <>
+      <header className="fixed top-0 left-0 right-0 z-50 h-20 bg-white/80 backdrop-blur-md border-b
+        border-gray-300 shadow-sm px-3">
+        <div className="flex items-center justify-between h-full px-px-6 lg:px-8">
+
+          <div className="flex items-center gap-3 lg:gap-5">
+            <Link href={'/'} className="flex items-center gap-3">
+              <Image
+                src={logo}
+                alt="Deutsch komplex"
+                className="h-14 w-14 lg:h-16 lg:w-16 rounded-full border-4 border-black object-cover"
+              />
+              <span className="text-xl lg:text-2xl font-bold text-gray-900">
+                Deutsch komplex
+              </span>
+            </Link>
+          </div>
+
+          <nav className="hidden lg:flex items-center gap-10 bg-gray-400 text-lg font-medium text-gray-700">
+            <ScrollLink to="home" smooth={true} duration={500} className="cursor-pointer hover:text-red-600 transition">
+              Haus
+            </ScrollLink>
+            <ScrollLink to="services" smooth={true} duration={500} className="cursor-pointer hover:text-red-600 transition">
+              Services
+            </ScrollLink>
+            <ScrollLink to="price" smooth={true} duration={500} className="cursor-pointer hover:text-red-600 transition">
+              Preise
+            </ScrollLink>
+            <a href="https://aliashouriyoun-beta-ochre.vercel.app/de" target="_blank" rel="noopener noreferrer"
+              className="hover:text-red-600 transition">
+              Über uns
+            </a>
+          </nav>
+
+          <div className="hidden lg:flex items-center gap-6">
+            {isLoading ? (
+              <SkeletonTheme baseColor="#e5e7eb" highlightColor="#f3f4f6">
+                <Skeleton width={140} height={44} borderRadius={32} />
+              </SkeletonTheme>
+            ) : !session?.user ? (
+              <>
+                <Link href="/register" className="text-lg font-medium hover:text-red-600 transition">
+                  registieren
+                </Link>
+                <Link
+                  href="/login"
+                  className="px-8 py-3 rounded-full border-4 border-yellow-500 text-yellow-500 font-semibold
+                             hover:bg-yellow-500 hover:text-black transition duration-300"
+                >
+                  Einloggen
+                </Link>
+              </>
+            ) : (
+              <Link
+                href="/dashboard"
+                className="px-8 py-3 rounded-full border-4 border-orange-600 text-orange-600 font-semibold
+                           hover:bg-orange-600 hover:text-white transition duration-300"
+              >
+                Dashboard
+              </Link>
+            )}
+          </div>
+
+          <button
+            onClick={() => setShowMenu(!showMenu)}
+            className="lg:hidden text-gray-800"
+          >
+            {showMenu ? <AiOutlineClose size={36} /> : <IoMdMenu size={36} />}
+          </button>
+        </div>
+      </header>
+
+      <div
+        className={`
+          fixed inset-y-0 left-0 z-40 w-[75%] max-w-[380px] bg-gray-800 text-white shadow-2xl
+          transform-gpu
+          transition-transform duration-500 ease-out-expo
+          ${showMenu ? "translate-x-0" : "-translate-x-full"}
+        `}
+      >
+        <div className="flex flex-col h-full pt-24 pb-8 px-8 overflow-y-auto">
+          <nav className="flex flex-col gap-10 text-xl font-medium">
+
+            <Link href={'/'} onClick={closeMenu} className="flex items-center gap-4 hover:text-yellow-400 transition">
+              <IoMdHome size={26} />
+              <span>Haus</span>
+            </Link>
+
+            <ScrollLink
+              to="services"
+              smooth={true}
+              duration={500}
+              onClick={closeMenu}
+              className="flex items-center gap-4 cursor-pointer hover:text-yellow-400 transition"
+            >
+              <MdOutlineDesignServices size={26} />
+              <span>Services</span>
+            </ScrollLink>
+
+            <ScrollLink
+              to="price"
+              smooth={true}
+              duration={500}
+              onClick={closeMenu}
+              className="flex items-center gap-4 cursor-pointer hover:text-yellow-400 transition"
+            >
+              <MdPriceChange size={26} />
+              <span>Preise</span>
+            </ScrollLink>
+
+            <a
+              href="https://aliashouriyoun-beta-ochre.vercel.app/de"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
+              className="flex items-center gap-4 hover:text-yellow-400 transition"
+            >
+              <FcAbout size={26} />
+              <span>Über uns</span>
+            </a>
+
+            {session?.user ? (
+              <Link href="/dashboard" onClick={closeMenu} className="flex items-center gap-4 hover:text-yellow-400 transition">
+                <TbLayoutDashboard size={26} />
+                <span>Dashboard</span>
+              </Link>
+            ) : (
+              <Link href="/login" onClick={closeMenu} className="flex items-center gap-4 hover:text-yellow-400 transition">
+                <MdAccountCircle size={26} />
+                <span>Einloggen</span>
+              </Link>
+            )}
+          </nav>
+
+          <div className="mt-auto pt-8 border-t border-white/10">
+            {!session?.user && (
+              <Link
+                href="/register"
+                onClick={closeMenu}
+                className="block text-center py-3 text-lg font-medium text-yellow-400 hover:text-white transition"
+              >
+                registieren
+              </Link>
+            )}
           </div>
         </div>
-        {showMenu && <div className='phone_menu fixed pl-5 pt-6 w-[100vw] 
-           bg-[#18181B]'>
-          <div className="items_header flex flex-col gap-6 text-[#EDEDED] text-2xl indent-4 justify-around pr-6 ">
-            <div className="cursor-pointer flex items-center text-[#EDEDED]" onClick={hideMenu} >
-              <IoMdHome className="text-[#EDEDED]" /> <Link href={"/"}>Haus</Link> </div>
-            <div className="cursor-pointer" >
-              <ScrollLink className="flex items-center" onClick={hideMenu} to="services" smooth={true} duration={500}>
-                <MdOutlineDesignServices className="text-[#EDEDED]" />
-                <span>Services</span> </ScrollLink> </div>
-            <div className="cursor-pointer">
-              <ScrollLink className="flex items-center" onClick={hideMenu} to="price" smooth={true} duration={500}>
-                <MdPriceChange className="text-[#EDEDED]" />    <span>Preise</span> </ScrollLink></div>
-            <div className="cursor-pointer">
-              <Link className="flex items-center" onClick={hideMenu} href={'https://aliashouriyoun-beta-ochre.vercel.app/de'}>
-                <FcAbout className="text-[#EDEDED]" /> <span>Über uns</span> </Link></div>
-            <div className="cursor-pointer">
-              {user.status == "unauthenticated" ? <Link className="flex items-center" href={'/login'}>
-                <MdAccountCircle className="text-[#EDEDED]" /> <span> Einloggen  </span> </Link>
-                : <Link className="flex items-center" href={'/dashboard'}>
-                  <TbLayoutDashboard className="text-[#EDEDED]" /> <span> Dashboard  </span> </Link>}
-            </div>
-          </div>
+      </div>
 
-        </div>}
-      </div>
-      <div className="items_header text-gray-700 w-[40%] text-xl justify-around
-        pr-6 hidden lg:flex">
-        <div className="cursor-pointer delay-75 hover:text-red-500"> Haus </div>
-        <div className="cursor-pointer delay-75 hover:text-red-500"> <ScrollLink to="services" smooth={true} duration={500} > Services </ScrollLink> </div>
-        <div className="cursor-pointer delay-75 hover:text-red-500"> <ScrollLink to="price" smooth={true} duration={500} > Preise </ScrollLink></div>
-        <div className="cursor-pointer delay-75 hover:text-red-500">
-          <Link href={'https://aliashouriyoun-beta-ochre.vercel.app/de'}>
-            Über uns </Link></div>
-      </div>
-      <div className="buttons_box hidden lg:flex gap-8 pr-8 text-xl  flex-row items-center">
-        {isLoading ? <SkeletonTheme baseColor="#202020" highlightColor="#444"
-          width={'9rem'} borderRadius={'3rem'} height={'3rem'}> <Skeleton /> </SkeletonTheme>
-          : !user.data?.user?.email ?
-            <>
-              <Link href='/register' type="button" className="">registieren</Link>
-              <Link href='/login' className="border-4 hover:border-black delay-75 text-yellow-500 hover:text-black hover:bg-yellow-500
-          py-2 px-5 rounded-3xl border-yellow-500">
-                Einloggen
-              </Link>
-            </>
-            : <Link href='/dashboard' className="border-4 hover:border-black delay-75 text-[#FF3D00] hover:text-black hover:bg-yellow-500
-          py-2 px-5 rounded-3xl border-[#FF3D00]">
-              Dashboard
-            </Link>}
+      {showMenu && (
+        <>
+          <div
+            onClick={() => setShowMenu(false)}
+            className="fixed inset-0 z-30 bg-black/60 backdrop-blur-sm transition-opacity duration-400"
+          />
+          <style jsx global>{`
+            body { overflow: hidden; }
+          `}</style>
+        </>
+      )}
+    </>
+  );
+};
 
-      </div>
-    </div>
-  </>
-}
 export default Header;
