@@ -1,159 +1,160 @@
 "use client";
-import {
-  FaUserAlt,
-  FaBookReader,
-  FaPenAlt,
-  FaHeadphones,
-} from "react-icons/fa";
+import { useState } from "react";
+import { IoMenu, IoClose } from "react-icons/io5";
+import { MdEmail, MdOutlineDarkMode } from "react-icons/md";
+import { BiHomeAlt } from "react-icons/bi";
+import { FcAbout } from "react-icons/fc";
+import { MdReport, MdAccountCircle } from "react-icons/md";
+import { IoSettingsSharp } from "react-icons/io5";
 import { VscSymbolKeyword } from "react-icons/vsc";
-import { useState, useRef, useEffect } from "react";
+import { FaHeadphones, FaPenAlt, FaBookReader } from "react-icons/fa";
 import Link from "next/link";
-
+import { usePathname } from "next/navigation";
+import logo from "@/public/de-icon.png"
+import Image from "next/image";
 const DashboardPhone = () => {
-  const lists: Record<string, { items: string[], links: string[] }> = {
-    schreiben: {
-      items: ["Tipps zum Schreiben", "Beispiele zum Schreiben", "Test-modelle"],
-      links: [
-        "/dashboard/schreiben/tipps",
-        "/dashboard/schreiben/example",
-        "/dashboard/schreiben/tests",
-      ],
-    },
-    lesen: {
-      items: ["Geschichten", "Beispiele zum Lesen", "Test-modelle"],
-      links: [
-        "/dashboard/lesen/stories",
-        "/dashboard/lesen/example",
-        "/dashboard/lesen/tests",
-      ],
-    },
-    words: {
-      items: ["Lainter", "Wörter zu jedem Niveau"],
-      links: ["/dashboard/words/lainter", "/dashboard/words/words-list"],
-    },
-    listen: {
-      items: ["Hördateien",
-        "Podcasts auf Deutsch",
-        "Test-modelle"],
-      links: [
-        "/dashboard/listen/listen-files",
-        "/dashboard/listen/podcasts",
-        "/dashboard/listen/tests",
-      ],
-    },
-  };
-
-  const [showItems, setShowItems] = useState<{
-    status: boolean;
-    path: keyof typeof lists | "";
-  }>({ status: false, path: "" });
-
-  const headerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const handleOutside = (e: MouseEvent) => {
-      if (
-        headerRef.current &&
-        !headerRef.current.contains(e.target as Node)
-      ) {
-        setShowItems({ status: false, path: "" });
-      }
-    };
-
-    if (showItems.status) {
-      document.addEventListener("mousedown", handleOutside);
-    }
-    return () => document.removeEventListener("mousedown", handleOutside);
-  }, [showItems.status]);
+  const [showMenu, setShowMenu] = useState(false);
+  const [selectedMenu, setSelectedMenu] = useState(["home"]);
+  const path = usePathname();
 
   return (
-    <div ref={headerRef} className="relative w-full">
+    <>
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-300 shadow-sm">
+        <div className="flex items-center justify-between gap-4 h-16 px-5">
+          <button
+            onClick={() => setShowMenu(!showMenu)}
+            className="text-gray-800"
+          >
+            {showMenu ? <IoClose size={32} /> : <IoMenu size={32} />}
+          </button>
 
-      <div className="header_list flex text-[#EDEDED] items-center h-20 z-20 w-full bg-[#4a4b4e] px-4 justify-between">
-        {/* Schreiben */}
-        <button
-          onClick={() =>
-            setShowItems((prev) => ({
-              status: !prev.status,
-              path: "schreiben",
-            }))
-          }
-          className="flex flex-col items-center justify-center h-full"
-        >
-          <FaPenAlt className="w-10 h-10 text-white" />
-        </button>
+          <h1 className="text-xl flex items-center font-semibold text-gray-900 gap-2">
+            <Image src={logo} alt="" className="w-10 h-10 border-2 border-black rounded-full" />
+            <span>Deutsch komplex</span> </h1>
 
-        {/* Lesen */}
-        <button
-          onClick={() =>
-            setShowItems((prev) => ({
-              status: !prev.status,
-              path: "lesen",
-            }))
-          }
-          className="flex flex-col items-center justify-center h-full"
-        >
-          <FaBookReader className="w-10 h-10 text-white" />
-        </button>
-
-        {/* Words */}
-        <button
-          onClick={() =>
-            setShowItems((prev) => ({
-              status: !prev.status,
-              path: "words",
-            }))
-          }
-          className="flex flex-col items-center justify-center h-full"
-        >
-          <VscSymbolKeyword className="w-10 h-10 text-white" />
-        </button>
-
-        {/* Listen */}
-        <button
-          onClick={() =>
-            setShowItems((prev) => ({
-              status: !prev.status,
-              path: "listen",
-            }))
-          }
-          className="flex flex-col items-center justify-center h-full"
-        >
-          <FaHeadphones className="w-10 h-10 text-white" />
-        </button>
-
-        {/* Settings */}
-        <Link href={"/dashboard/account"} className="flex flex-col items-center justify-center h-full">
-          <FaUserAlt className="w-10 h-10 text-white" />
-        </Link>
+          <MdOutlineDarkMode size={28} className="text-gray-700 cursor-pointer" />
+        </div>
       </div>
 
-      {showItems.status && showItems.path && (
-        <div className="absolute bottom-20 left-0 right-0 bg-[#1E201E] w-full
-            rounded-t-3xl overflow-hidden shadow-2xl z-50">
-          <div className="p-4 space-y-2">
-            {lists[showItems.path].items.map((item, idx) => (
-              <Link
-                key={item}
-                href={lists[showItems.path].links[idx]}
-                onClick={() => setShowItems({ status: false, path: "" })}
-                className="block py-3 px-4 text-lg text-white hover:bg-white/10 rounded transition"
-              >
-                {item}
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
+      {/* منوی کشویی با انیمیشن خیلی نرم و لوکس */}
+      <div
+        className={`
+          fixed inset-y-0 left-0 z-40 w-[75%] max-w-[320px] bg-gray-900 shadow-2xl
+          /* ←←← بخش انیمیشن طلایی (فقط همین ۵ کلاس) */
+          transform-gpu               // GPU acceleration → بدون لرزش
+          transition-transform 
+          duration-500              // ۰.۵ ثانیه (عالیه)
+          ease-out-expo             // خیلی خیلی نرم (مثل اپل و Vercel)
+          ${showMenu ? "translate-x-0" : "-translate-x-full"}
+        `}
+      >
+        <div className="flex flex-col h-full pt-20 pb-6 overflow-y-auto">
+          <nav className="flex-1 px-4 space-y-4">
+            {/* Startseite */}
+            <Link
+              href="/dashboard"
+              onClick={() => {
+                setSelectedMenu(["home"]);
+                setShowMenu(false);
+              }}
+              className={`flex items-center gap-4 px-4 py-3 rounded-xl text-lg font-medium transition-all
+                ${path === "/dashboard" || path === "/"
+                  ? "bg-gradient-to-r from-red-600 to-amber-500 text-white shadow-lg"
+                  : "text-gray-300 hover:text-white hover:bg-white/10"
+                }`}
+            >
+              <BiHomeAlt size={22} />
+              <span>Startseite</span>
+            </Link>
 
-      {showItems.status && (
-        <div
-          className="fixed inset-0 z-40"
-          style={{ top: "calc(100vh - 5rem)" }}
-          onClick={() => setShowItems({ status: false, path: "" })}
-        />
+            {/* Schreiben */}
+            <Link
+              href="/dashboard/schreiben"
+              onClick={() => { setSelectedMenu(["schreiben"]); setShowMenu(false); }}
+              className={`flex items-center gap-4 px-4 py-3 rounded-xl text-lg font-medium transition-all
+                ${path.includes("/schreiben") ? "bg-gradient-to-r from-red-600 to-amber-500 text-white shadow-lg" : "text-gray-300 hover:text-white hover:bg-white/10"}`}
+            >
+              <FaPenAlt size={20} />
+              <span>Schreiben</span>
+            </Link>
+
+            {/* Lesen */}
+            <Link href="/dashboard/lesen" onClick={() => { setSelectedMenu(["lesen"]); setShowMenu(false); }}
+              className={`flex items-center gap-4 px-4 py-3 rounded-xl text-lg font-medium transition-all
+                ${path.includes("/lesen") ? "bg-gradient-to-r from-red-600 to-amber-500 text-white shadow-lg" : "text-gray-300 hover:text-white hover:bg-white/10"}`}>
+              <FaBookReader size={20} />
+              <span>Lesen</span>
+            </Link>
+
+            {/* Wörter */}
+            <Link href="/dashboard/words" onClick={() => { setSelectedMenu(["words"]); setShowMenu(false); }}
+              className={`flex items-center gap-4 px-4 py-3 rounded-xl text-lg font-medium transition-all
+                ${path.includes("/words") ? "bg-gradient-to-r from-red-600 to-amber-500 text-white shadow-lg" : "text-gray-300 hover:text-white hover:bg-white/10"}`}>
+              <VscSymbolKeyword size={22} />
+              <span>Wörter</span>
+            </Link>
+
+            {/* Hören */}
+            <Link href="/dashboard/listen" onClick={() => { setSelectedMenu(["listen"]); setShowMenu(false); }}
+              className={`flex items-center gap-4 px-4 py-3 rounded-xl text-lg font-medium transition-all
+                ${path.includes("/listen") ? "bg-gradient-to-r from-red-600 to-amber-500 text-white shadow-lg" : "text-gray-300 hover:text-white hover:bg-white/10"}`}>
+              <FaHeadphones size={20} />
+              <span>Hören</span>
+            </Link>
+
+            {/* Konto & Einstellung */}
+            <div className="mt-8 mb-4 border-t border-white/10 pt-6">
+              <Link href="/dashboard/account" onClick={() => { setSelectedMenu(["account"]); setShowMenu(false); }}
+                className={`flex items-center gap-4 px-4 py-3 rounded-xl text-lg font-medium transition-all
+                  ${path.includes("/account") ? "bg-gradient-to-r from-red-600 to-amber-500 text-white shadow-lg" : "text-gray-300 hover:text-white hover:bg-white/10"}`}>
+                <MdAccountCircle size={22} />
+                <span>Konto</span>
+              </Link>
+
+              <Link href="#" onClick={() => setShowMenu(false)}
+                className="flex items-center gap-4 px-4 py-3 rounded-xl text-lg font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-all">
+                <IoSettingsSharp size={22} />
+                <span>Einstellungen</span>
+              </Link>
+            </div>
+
+            {/* تماس و درباره ما */}
+            <div className="border-t border-white/10 pt-6">
+              <a href="https://aliashouriyoun-beta-ochre.vercel.app/de" target="_blank" rel="noopener"
+                className="flex items-center gap-4 px-4 py-3 rounded-xl text-lg font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-all">
+                <FcAbout size={22} />
+                <span>Über uns</span>
+              </a>
+
+              <a href="mailto:aliashouriyoun@tutamail.com"
+                className="flex items-center gap-4 px-4 py-3 rounded-xl text-lg font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-all">
+                <MdEmail size={22} />
+                <span>E-Mail</span>
+              </a>
+
+              <a href="mailto:aliashouriyoun@tutamail.com"
+                className="flex items-center gap-4 px-4 py-3 rounded-xl text-lg font-medium text-gray-300 hover:text-white hover:bg-white/10 transition-all">
+                <MdReport size={22} />
+                <span>Berichten</span>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      {/* بک‌دراپ تیره + جلوگیری از اسکرول وقتی منو باز است */}
+      {showMenu && (
+        <>
+          <div
+            onClick={() => setShowMenu(false)}
+            className="fixed inset-0 z-30 bg-black/50 backdrop-blur-sm transition-opacity duration-300"
+          />
+          <style jsx global>{`
+            body { overflow: hidden; }
+          `}</style>
+        </>
       )}
-    </div>
+    </>
   );
 };
 

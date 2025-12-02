@@ -32,7 +32,8 @@ const Words = () => {
           className={`flex cursor-pointer items-center gap-1 
           ${currentPath == "words" ? "bg-white" : "bg-transparent"} rounded-2xl w-[50%] justify-center`}>
           <LuLayers className="text-xl" />
-          <span className="text-sm"> <span className="max-lg:hidden">Wörter</span> nach Niveaus</span>
+          <span className="text-sm">
+            <span className="max-lg:hidden">Wörter</span> nach Niveaus</span>
         </div>
       </div>
     </div>
