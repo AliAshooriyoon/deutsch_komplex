@@ -31,18 +31,18 @@ const MainPage = () => {
         </div>
         <div className="swapper w-[90%] h-0.5 bg-gray-700 mt-12 lg:mb-5 " />
         <div className="results text-black flex justify-between lg:w-[85%] max-lg:w-[98%] 
-          flex-wrap max-lg:gap-6 lg:gap-12 max-lg:p-4">
+          flex-wrap max-lg:gap-2 lg:gap-12 max-lg:p-4">
           <div className="erfolg flex flex-col items-start">
             <span className="lg:text-3xl max-lg:text-xl text-red-600">95%</span>
-            <span className="max-lg:text-md lg:text-lg text-gray-600">Erfolgsquote</span>
+            <span className="max-lg:text-sm lg:text-lg text-gray-600">Erfolgsquote</span>
           </div>
           <div className="erfolg flex flex-col items-start">
             <span className="lg:text-3xl max-lg:text-xl text-yellow-700">A1-C1</span>
-            <span className="max-lg:text-md lg:text-lg text-gray-600">Alle Niveaus</span>
+            <span className="max-lg:text-sm lg:text-lg text-gray-600">Alle Niveaus</span>
           </div>
           <div className="erfolg flex flex-col items-start">
             <span className="lg:text-3xl max-lg:text-xl text-black">4Skills</span>
-            <span className="max-lg:text-md lg:text-lg text-gray-600">Komplett</span>
+            <span className="max-lg:text-sm lg:text-lg text-gray-600">Komplett</span>
           </div>
         </div>
       </div>
