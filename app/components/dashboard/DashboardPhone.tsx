@@ -50,7 +50,7 @@ const DashboardPhone = () => {
           <nav className="flex-1 px-4 space-y-4">
             {/* Startseite */}
             <Link
-              href="/dashboard"
+              href="/"
               onClick={() => {
                 setSelectedMenu(["home"]);
                 setShowMenu(false);

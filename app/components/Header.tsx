@@ -32,8 +32,8 @@ const Header = () => {
           <Image className="lg:h-[80%] max-lg:h-[75%] lg:w-17 border-4 max-lg:w-14
             border-black rounded-full" alt="main_logo" src={logo} />
         </Link>
-        <p className="logo_title lg:text-2xl max-lg:text-xl max-lg:-ml-6  font-bold max-lg:pr-4 ">Deutsch komplex</p>
-        <div className='wrapper lg:hidden mr-4'>
+        <p className="logo_title lg:text-2xl max-lg:text-xl max-lg:-ml-6  font-bold max-lg:pr-4">Deutsch komplex</p>
+        <div className='wrapper_header lg:hidden mr-4'>
           <div onClick={() => setShowMenu(prev => !prev)}>
             {!showMenu ? <IoMdMenu className="w-10 h-10" /> :
               <AiOutlineClose className="w-10 h-10" />
