@@ -36,15 +36,13 @@ const DashboardPhone = () => {
         </div>
       </div>
 
-      {/* منوی کشویی با انیمیشن خیلی نرم و لوکس */}
       <div
         className={`
           fixed inset-y-0 left-0 z-40 w-[75%] max-w-[320px] bg-gray-900 shadow-2xl
-          /* ←←← بخش انیمیشن طلایی (فقط همین ۵ کلاس) */
-          transform-gpu               // GPU acceleration → بدون لرزش
+          transform-gpu               
           transition-transform 
-          duration-500              // ۰.۵ ثانیه (عالیه)
-          ease-out-expo             // خیلی خیلی نرم (مثل اپل و Vercel)
+          duration-500              
+          ease-out-expo             
           ${showMenu ? "translate-x-0" : "-translate-x-full"}
         `}
       >
