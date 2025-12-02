@@ -18,7 +18,6 @@ const ExampleLesen = ({ params }: Props) => {
   // Unwrap params using the 'use' hook with explicit typing
   const resolvedParams = use(params) as { slug: string };
   const { slug } = resolvedParams;
-  console.log(slug)
   const getExample = async () => {
     try {
       const res = await fetch(`/api/findExample`, {
