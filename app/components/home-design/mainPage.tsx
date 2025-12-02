@@ -7,14 +7,14 @@ const MainPage = () => {
   const user = useSession()
 
   return <>
-    <div className="main bg-[#FFFEF5] lg:py-40 lg:pl-2 max-lg:pb-12 max-lg:pt-12 max-lg:p-4 flex max-lg:flex-col 
-          items-center lg:justify-center lg:flex-row lg:gap-0">
+    <div className="main bg-[#FFFEF5] lg:py-40 lg:pl-2 max-lg:pb-12 max-lg:pt-12
+      max-lg:p-4 flex max-lg:flex-col items-center lg:justify-center lg:flex-row lg:gap-0">
       <div className="main_content max-lg:flex flex-col gap-8 lg:w-[45%]">
         <h2 className="lg:text-6xl max-lg:text-center text-black lg:max-w-[70%] max-lg:text-4xl">
           Bestehe deine <span className="bg-gradient-to-r from-red-700
                 to-[#F9B13C] bg-clip-text text-transparent ">Deutschprüfung</span> </h2>
         <h3 className="description leading-9 indent-2 max-lg:text-xl
-              lg:text-xl max-lg:py-6 lg:max-w-[80%] my-6 text-gray-600">
+              lg:text-xl max-lg:py-1 lg:max-w-[80%] my-6 max-lg:my-1 text-gray-600">
           Bereite dich optimal auf Goethe-Zertifikat,
           TestDaF, telc und andere deutsche Sprachprüfungen vor.
           Gezieltes Training für alle Prüfungsteile: Lesen, Hören, Schreiben und Sprechen.
