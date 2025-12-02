@@ -8,7 +8,7 @@ const MainPage = () => {
 
   return <>
     <div className="main bg-[#FFFEF5] lg:py-40 lg:pl-2 max-lg:pb-12 max-lg:pt-12
-      max-lg:p-4 flex max-lg:flex-col items-center lg:justify-center lg:flex-row lg:gap-0">
+      max-lg:p-4 flex max-lg:flex-col items-center lg:justify-center max-lg:mt-16 lg:flex-row lg:gap-0">
       <div className="main_content max-lg:flex flex-col gap-8 lg:w-[45%]">
         <h2 className="lg:text-6xl max-lg:text-center text-black lg:max-w-[70%] max-lg:text-4xl">
           Bestehe deine <span className="bg-gradient-to-r from-red-700
