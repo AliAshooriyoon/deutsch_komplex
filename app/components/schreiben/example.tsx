@@ -1,12 +1,9 @@
 "use client"
 import Link from "next/link";
-import { useState } from "react";
-import { IoMdCloseCircle } from "react-icons/io";
 const ExampleSchreiben = ({ item }:
   { item: { id: number, level: string, exam: string, topic: string, content: string } }) => {
-  const [showExam, setShowExam] = useState(false)
   return <>
-    <div key={item.id} className="2xl:w-[48%]  bg-white rounded-2xl
+    <div key={item.id} className="2xl:w-[48%]  bg-white dark:bg-gray-800 rounded-2xl
         border-gray-600 p-6">
       <div className="title_box flex flex-col gap-2">
         <div className="py-1 px-3 w-12 flex items-center justify-center text-red-600

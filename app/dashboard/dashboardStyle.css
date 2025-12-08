@@ -31,3 +31,31 @@
 .showItem:hover {
   background-color: #425b61;
 }
+
+/* Dark mode styles for dashboard */
+html.dark .dashboard_menua {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+html.dark .main_page {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+html.dark .wrapper {
+  background-color: #444;
+}
+
+html.dark .showItem:hover {
+  background-color: #333;
+}
+
+html.dark .showItem {
+  color: #ffffff;
+}
+
+html.dark {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}

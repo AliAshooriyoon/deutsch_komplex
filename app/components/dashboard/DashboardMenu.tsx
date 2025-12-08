@@ -1,6 +1,4 @@
 "use client"
-import { MdOutlineDarkMode } from "react-icons/md";
-import { MdEmail } from "react-icons/md";
 import { BiHomeAlt } from "react-icons/bi";
 import Image from "next/image";
 import { FcAbout } from "react-icons/fc";
@@ -14,11 +12,11 @@ import Link from "next/link";
 import Logo from "../../../public/de-icon.png";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import DarkModeButton from "./DarkModeButton";
 
 
 const DashboardMenu = () => {
   const [selectedMenu, setSelectedMenu] = useState(["home"])
-  // const changeStatus = useStatus(state => state.changeStatus)
   const path = usePathname()
   return <>
     <div className="max-lg:hidden dashboard_menua text-white fixed pr-8 left-0 top-0 
@@ -121,10 +119,7 @@ const DashboardMenu = () => {
       <div className="pb-8 bg-gray-900 -mr-8 -ml-2 border-gray-600 border-t-2">
         <div className="pr-8">
           <div className="main_item pt-6">
-            <Link href={'mailto:aliashouriyoun@tutamail.com'} className="showItem flex items-center">
-              <MdOutlineDarkMode className="text-[#EDEDED]  text-xl" />
-              <span className="text-xl">Dunkel</span>
-            </Link>
+            <DarkModeButton />
           </div>
           <div className="main_item pt-6">
             <Link href={'mailto:aliashouriyoun@tutamail.com'} className="showItem flex items-center">
