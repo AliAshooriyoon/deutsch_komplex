@@ -44,7 +44,7 @@ export default function DarkModeButton() {
   };
 
   return (
-    <button
+    <div
       onClick={toggle}
       aria-pressed={current === "dark"}
       title={current === "dark" ? "Switch to light" : "Switch to dark"}
@@ -56,6 +56,6 @@ export default function DarkModeButton() {
         <MdOutlineDarkMode className="text-xl" />
       )}
       <span className="text-xl">{current === "dark" ? "Hell" : "Dunkel"}</span>
-    </button>
+    </div>
   );
 }

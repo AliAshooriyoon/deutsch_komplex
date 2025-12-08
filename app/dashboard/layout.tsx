@@ -11,18 +11,22 @@ const DashboardLayout = async ({ children }: { children: React.ReactNode }) => {
   }
   return (
     <>
-      <div className="w-full bg-gray-200 flex  justify-between h-full">
-        <section className="max-lg:hidden lg:max-w-[20%] lg:left-0 ">
-          <DashboardMenu />
-        </section>
-        <section className="lg:hidden fixed top-0 mb-12 w-full ">
-          <DashboardPhone />
-        </section>
-        <section className="main_page px-2 max-lg:py-30 lg:py-20 lg:w-[80%] max-lg:w-full">
+      <div className="w-[100vw] absolute">
+        <div className="w-full bg-gray-200 flex  justify-between h-full">
+          <section className="max-lg:hidden lg:relative lg:max-w-[20%] lg:left-0 ">
+            <DashboardMenu />
+          </section>
+          <section className="lg:hidden fixed top-0 mb-12 w-full ">
+            <DashboardPhone />
+          </section>
+          <section className="main_page max-lg:px-2 lg:pr-6 lg:pl-12 max-lg:py-30
+          lg:relative right-0 lg:py-20 lg:w-[83.5%] max-lg:w-full">
 
-          {children}</section>
+            {children}</section>
+        </div>
+
+
       </div>
-
     </>
   )
 }

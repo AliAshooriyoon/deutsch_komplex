@@ -5,7 +5,7 @@ const TippsComponent = () => {
             bg-red-600 text-white`
   ]
   return <>
-    <div className="w-full bg-white border-2 border-gray-300 rounded-2xl p-4">
+    <div className="w-full bg-white schreiben_tipps_box border-2 border-gray-300 text-black rounded-2xl p-4">
       <p className="header-tipps text-2xl"> Wichtige Schreibtipps</p>
       <div className="w-full h-full p-6 flex justify-around max-lg:flex-col flex-wrap gap-y-12">
         <div className={classes[0]}>
