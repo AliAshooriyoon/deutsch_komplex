@@ -1,4 +1,5 @@
 "use client"
+import { MdOutlineDarkMode } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { BiHomeAlt } from "react-icons/bi";
 import Image from "next/image";
@@ -114,10 +115,15 @@ const DashboardMenu = () => {
               <span className="text-xl">Über uns</span>
             </Link>
           </div>
+
+        </div>
+      </div>
+      <div className="pb-8 bg-gray-900 -mr-8 -ml-2 border-gray-600 border-t-2">
+        <div className="pr-8">
           <div className="main_item pt-6">
             <Link href={'mailto:aliashouriyoun@tutamail.com'} className="showItem flex items-center">
-              <MdEmail className="text-[#EDEDED]  text-xl" />
-              <span className="text-xl">E-Mail</span>
+              <MdOutlineDarkMode className="text-[#EDEDED]  text-xl" />
+              <span className="text-xl">Dunkel</span>
             </Link>
           </div>
           <div className="main_item pt-6">
