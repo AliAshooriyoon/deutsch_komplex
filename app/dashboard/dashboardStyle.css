@@ -62,6 +62,9 @@ html.dark .story_box {
 html.dark .text_explain {
   color: #999;
 }
+html.dark .podcast_item {
+  background-color: #1f2937;
+}
 html.dark .dashboard_menua .wrapper {
   background-color: #333 !important;
 }

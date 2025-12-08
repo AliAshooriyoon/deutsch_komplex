@@ -36,7 +36,7 @@ const PodcastBox = ({ info }: { info: InfoKey }) => {
   return (
     <>
       <div
-        className="w-[90%] px-2 py-4 flex flex-col justify-between
+        className="w-[90%] podcast_item px-2 py-4 flex flex-col justify-between
        bg-white rounded-2xl gap-10 border-2 border-gray-400/70"
       >
         <div className="flex items-center justify-start gap-4">
