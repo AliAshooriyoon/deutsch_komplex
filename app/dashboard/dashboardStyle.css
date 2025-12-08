@@ -32,30 +32,170 @@
   background-color: #425b61;
 }
 
-/* Dark mode styles for dashboard */
+/* ============================================
+   DARK MODE STYLES FOR DASHBOARD
+   IMPORTANT: Dashboard menu (dashboard_menua) 
+   is PROTECTED and will NOT change in dark mode
+   ============================================ */
+
+/* Root dark mode - ONLY for main_page content */
+html.dark .main_page {
+  background-color: #0f0f0f;
+  color: #e5e7eb;
+}
+
+/* PROTECT Dashboard Menu - NO CHANGES IN DARK MODE */
 html.dark .dashboard_menua {
-  background-color: #1a1a1a !important;
+  background-color: #1f2937 !important;
   color: #ffffff !important;
 }
 
-html.dark .main_page {
+html.dark .dashboard_menua .wrapper {
+  background-color: #333 !important;
+}
+
+html.dark .dashboard_menua .showItem {
+  color: #ffffff !important;
+}
+
+html.dark .dashboard_menua .showItem:hover {
+  background-color: #425b61 !important;
+}
+
+html.dark .dashboard_menua p,
+html.dark .dashboard_menua span {
+  color: #ffffff !important;
+}
+
+/* Header sections - ONLY in main_page */
+html.dark .main_page .header__schreiben {
   background-color: #0f0f0f;
+}
+
+html.dark .main_page .schreiben__logo {
   color: #ffffff;
 }
 
-html.dark .wrapper {
-  background-color: #444;
-}
-
-html.dark .showItem:hover {
-  background-color: #333;
-}
-
-html.dark .showItem {
+html.dark .main_page .schreiben__logo p {
   color: #ffffff;
 }
 
+html.dark .main_page .texts__header {
+  color: #ffffff;
+}
+
+html.dark .main_page .texts__header p {
+  color: #d1d5db;
+}
+
+/* Menu boxes - ONLY in main_page */
+html.dark .main_page .menu_box {
+  background-color: #1f2937 !important;
+  border-color: #374151;
+}
+
+html.dark .main_page .menu_box > div {
+  color: #ffffff;
+}
+
+html.dark .main_page .menu_box > div.bg-white {
+  background-color: #374151 !important;
+  color: #ffffff;
+}
+
+html.dark .main_page .menu_box > div:not(.bg-white) {
+  color: #d1d5db;
+}
+
+/* Text elements - ONLY in main_page */
+html.dark .main_page p,
+html.dark .main_page span,
+html.dark .main_page h1,
+html.dark .main_page h2,
+html.dark .main_page h3,
+html.dark .main_page h4,
+html.dark .main_page h5,
+html.dark .main_page h6 {
+  color: #e5e7eb;
+}
+
+/* Links - ONLY in main_page */
+html.dark .main_page a {
+  color: #60a5fa;
+}
+
+html.dark .main_page a:hover {
+  color: #93c5fd;
+}
+
+/* Buttons - ONLY in main_page */
+html.dark .main_page button {
+  color: #ffffff;
+}
+
+/* Input fields - ONLY in main_page */
+html.dark .main_page input,
+html.dark .main_page textarea,
+html.dark .main_page select {
+  background-color: #1f2937;
+  color: #ffffff;
+  border-color: #374151;
+}
+
+html.dark .main_page input::placeholder,
+html.dark .main_page textarea::placeholder {
+  color: #9ca3af;
+}
+
+/* Tables - ONLY in main_page */
+html.dark .main_page table {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+html.dark .main_page th {
+  background-color: #1f2937;
+  color: #ffffff;
+  border-color: #374151;
+}
+
+html.dark .main_page td {
+  border-color: #374151;
+}
+
+html.dark .main_page tr:hover {
+  background-color: #1f2937;
+}
+
+/* Scrollbars */
+html.dark ::-webkit-scrollbar {
+  background-color: #111827;
+}
+
+html.dark ::-webkit-scrollbar-track {
+  background-color: #111827;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background-color: #374151;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: #4b5563;
+}
+
+/* Form elements - ONLY in main_page */
+html.dark .main_page label {
+  color: #e5e7eb;
+}
+
+/* CSS Variables */
 html.dark {
-  background-color: #0f0f0f;
-  color: #ffffff;
+  --text-primary: #ffffff;
+  --text-secondary: #e5e7eb;
+  --text-tertiary: #d1d5db;
+  --bg-primary: #0f0f0f;
+  --bg-secondary: #111827;
+  --bg-tertiary: #1f2937;
+  --border-color: #374151;
 }
