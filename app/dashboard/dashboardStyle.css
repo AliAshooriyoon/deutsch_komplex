@@ -47,8 +47,20 @@ html.dark .exampleItem {
 html.dark .exampleLesen {
   background-color: #1f2937;
 }
+html.dark .lainter_box {
+  background-color: #1f2937;
+}
+html.dark .start_btn {
+  color: white !important;
+}
+html.dark .words_box {
+  background-color: #1f2937;
+}
 html.dark .story_box {
   background-color: #374151;
+}
+html.dark .text_explain {
+  color: #999;
 }
 html.dark .dashboard_menua .wrapper {
   background-color: #333 !important;

@@ -16,8 +16,8 @@ const WordsPerLevel = async ({ params }: { params: Promise<{ slug: string }> }) 
     <div className="flex flex-col w-[90%] mx-auto gap-8">
       {data.map((i) => <div key={i.id} className="border-2 text-xl border-gray-700 p-4 rounded-2xl">
         <div className="flex flex-col gap-8">
-          <p> <span className="text-gray-800 text-lg">Wort:</span>  {i.title}</p>
-          <p> <span className="text-gray-800 text-lg">Bedeutung:</span>  {i.mean}</p>
+          <p> <span className="text-gray-800 text_explain text-lg">Wort:</span>  {i.title}</p>
+          <p> <span className="text-gray-800 text_explain text-lg">Bedeutung:</span>  {i.mean}</p>
         </div>
       </div>)}
     </div>

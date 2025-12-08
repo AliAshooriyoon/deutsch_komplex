@@ -84,7 +84,7 @@ const WordsList = () => {
       {/* </div> */}
       {/* {words.map((i) => <div key={i.id} className="">{words.length}</div>)} */}
       {!loading ? <div className="flex items-center gap-8 flex-col px-4">
-        {levelsTopic.map((i) => <div key={i} className="bg-white border-2 border-gray-500/60
+        {levelsTopic.map((i) => <div key={i} className="bg-white words_box border-2 border-gray-500/60
           w-full px-6 flex max-lg:flex-col mx-auto rounded-2xl p-6">
           <div className=" w-full flex flex-col gap-4">
             <div className="title_levels flex items-center gap-4">
@@ -101,9 +101,10 @@ const WordsList = () => {
               <p className="text-2xl">{wordsLength[levelsTopic.indexOf(i)]} Wörter</p>
             </div>
           </div>
-          <div className="btn_box flex flex-col gap-4 lg:px-12 items-center lg:w-[25%] py-6 text-center">
+          <div className="btn_box flex flex-col gap-4 lg:px-12 items-center
+            lg:w-[25%] py-6 text-center">
             <Link href={`words/words-list/${i}`}
-              className="py-2 px-4 cursor-pointer rounded-xl text-white text-lg
+              className="py-2 px-4 start_btn cursor-pointer rounded-xl text-white text-lg
               bg-gradient-to-r w-full from-red-600 to-amber-500">Jetzt lernen
             </Link>
             <div className="py-2 px-4 cursor-pointer rounded-xl text-white text-sm bg-gradient-to-r w-full
