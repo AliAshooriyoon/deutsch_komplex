@@ -1,8 +1,11 @@
 "use client"
+
+import { signOut } from "next-auth/react";
 import { BiHomeAlt } from "react-icons/bi";
 import Image from "next/image";
 import { FcAbout } from "react-icons/fc";
 import { MdReport } from "react-icons/md";
+import { MdLogout } from "react-icons/md";
 import { MdAccountCircle } from "react-icons/md";
 import { IoSettingsSharp } from "react-icons/io5";
 import { VscSymbolKeyword } from "react-icons/vsc";
@@ -122,10 +125,10 @@ const DashboardMenu = () => {
             <DarkModeButton />
           </div>
           <div className="main_item pt-6">
-            <Link href={'mailto:aliashouriyoun@tutamail.com'} className="showItem flex items-center">
-              <MdReport className="text-[#EDEDED] text-xl" />
-              <span className="text-xl">Berichten</span>
-            </Link>
+            <div onClick={() => signOut({ callbackUrl: "/login" })} className="showItem flex items-center">
+              <MdLogout className="text-[#EDEDED] text-xl" />
+              <span className="text-xl">Abmelden</span>
+            </div>
           </div>
         </div>
       </div>
