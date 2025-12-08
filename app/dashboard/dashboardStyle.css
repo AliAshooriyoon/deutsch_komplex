@@ -44,6 +44,12 @@ html.dark .dashboard_menua {
 html.dark .exampleItem {
   background-color: #1f2937;
 }
+html.dark .exampleLesen {
+  background-color: #1f2937;
+}
+html.dark .story_box {
+  background-color: #374151;
+}
 html.dark .dashboard_menua .wrapper {
   background-color: #333 !important;
 }

@@ -5,7 +5,8 @@ import Link from "next/link";
 const StoryBox = ({ data }: { data: { id: number, title: string, content: string, level: string } }) => {
 
   return <>
-    <div className="story_box border-2 border-gray-400 lg:w-[30%] p-4 flex flex-col gap-4 justify-between bg-white rounded-2xl">
+    <div className="story_box border-2 border-gray-400 lg:w-[30%] p-4 flex flex-col gap-4 
+      justify-between bg-white rounded-2xl">
       <div className="level flex p-2">
         <div className="bg-gray-800 text-white py-2 px-3 rounded-3xl">{data.level.toUpperCase()}</div>
       </div>
