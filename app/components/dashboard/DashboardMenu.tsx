@@ -19,8 +19,8 @@ import DarkModeButton from "./DarkModeButton";
 
 
 const DashboardMenu = () => {
-  const [selectedMenu, setSelectedMenu] = useState(["home"])
-  const path = usePathname()
+  const [selectedMenu, setSelectedMenu] = useState(["home"]);
+  const path = usePathname();
   return <>
     <div className="max-lg:hidden dashboard_menua text-white fixed pr-8 left-0 top-0 
       bg-gray-800 px-2 pl-2 h-screen flex flex-col lg:sticky">
