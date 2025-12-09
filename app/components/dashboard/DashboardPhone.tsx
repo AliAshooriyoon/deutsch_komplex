@@ -12,6 +12,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import logo from "@/public/de-icon.png"
 import Image from "next/image";
+import DarkModeButton from "./DarkModeButton";
 const DashboardPhone = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [selectedMenu, setSelectedMenu] = useState(["home"]);
@@ -32,7 +33,8 @@ const DashboardPhone = () => {
             <Image src={logo} alt="" className="w-10 h-10 border-2 border-black rounded-full" />
             <span>Deutsch komplex</span> </h1>
 
-          <MdOutlineDarkMode size={28} className="text-gray-700 cursor-pointer" />
+          {/* <MdOutlineDarkMode size={28} className="text-gray-700 cursor-pointer" /> */}
+          <DarkModeButton />
         </div>
       </div>
 

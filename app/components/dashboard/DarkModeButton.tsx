@@ -23,7 +23,7 @@ export default function DarkModeButton() {
         className="showItem flex items-center opacity-0 pointer-events-none"
       >
         <MdOutlineDarkMode className="text-xl" />
-        <span className="text-xl">Dunkel</span>
+        <span className="text-xl max-lg:hidden">Dunkel</span>
       </button>
     );
   }
@@ -55,7 +55,7 @@ export default function DarkModeButton() {
       ) : (
         <MdOutlineDarkMode className="text-xl" />
       )}
-      <span className="text-xl">{current === "dark" ? "Hell" : "Dunkel"}</span>
+      <span className="text-xl max-lg:hidden">{current === "dark" ? "Hell" : "Dunkel"}</span>
     </div>
   );
 }
