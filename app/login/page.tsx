@@ -17,7 +17,7 @@ const LoginPage = () => {
   return <>
     <Header />
     <div className=" flex items-center justify-center w-[100vw] h-[100vh]">
-      <div className='lg:w-[30%]  pb-8 max-lg:w-[97%] bg-white border-2 border-gray-400
+      <div className='lg:w-[30%]  pb-8 max-lg:w-[92%] py-12 bg-white border-2 border-gray-400
         rounded-4xl mx-auto shadow-xl shadow-[#F0B100]'>
         <div className='login_form_manual'>
           <h2 className="text-center pb-4 pt-12 text-4xl font-bold">Einloggen</h2>
