@@ -3,6 +3,7 @@ import { HiSpeakerWave } from "react-icons/hi2";
 import { useState } from "react";
 import { GoBook } from "react-icons/go";
 import { FaPodcast } from "react-icons/fa";
+import { MdHeadphones } from "react-icons/md";
 import PodcastsPage from "@/app/components/listen/listenPodcasts";
 import ListenFiles from "@/app/components/listen/listenFiles";
 const Listen = () => {
@@ -12,12 +13,13 @@ const Listen = () => {
 
       <div className="header__schreiben w-full ">
         <div className="schreiben__logo flex items-center gap-4">
-          <div className="bg-gray-800  p-4 flex items-center rounded-2xl justify-center">
-            <GoBook className="text-white text-4xl" />
+          <div className="bg-gradient-to-r from-amber-500 to-amber-600  p-4 flex items-center 
+            rounded-2xl justify-center">
+            <MdHeadphones className="text-white text-4xl" />
           </div>
           <div className="texts__header flex flex-col">
-            <p className="text-2xl">Lesen</p>
-            <p className="">Verbessere dein Leseverstehen</p>
+            <p className="text-2xl">Hören</p>
+            <p className="">Trainiere dein Hörverstehen</p>
           </div>
         </div>
         <div className="menu_box w-[95%] mx-auto h-10 my-8 px-0.5 py-1 flex justify-between
