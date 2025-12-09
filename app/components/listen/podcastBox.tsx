@@ -36,12 +36,12 @@ const PodcastBox = ({ info }: { info: InfoKey }) => {
   return (
     <>
       <div
-        className="w-[90%] podcast_item px-2 py-4 flex flex-col justify-between
+        className="lg:w-[90%] max-lg:w-[99%] podcast_item px-2 py-4 flex flex-col justify-between
        bg-white rounded-2xl gap-10 border-2 border-gray-400/70"
       >
-        <div className="flex items-center justify-start gap-4">
-          <div className="rounded-3xl">
-            <Image className="rounded-3xl w-24 h-24" src={imageSrc} alt={data[info].title} />
+        <div className="flex items-center max-lg:justify-between lg:justify-start gap-4">
+          <div className="rounded-3xl max-lg:w-[70%]">
+            <Image className="rounded-3xl lg:w-24 lg:h-24" src={imageSrc} alt={data[info].title} />
           </div>
 
           <div className="flex flex-col">
