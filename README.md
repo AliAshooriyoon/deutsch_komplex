@@ -22,7 +22,7 @@ Ziel des Projekts ist es, Lernenden zu helfen, ihre Sprachkenntnisse effektiv zu
 | Bereich | Technologien |
 |----------|--------------|
 | **Frontend** | [![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](#) Next.js (App Router), React, TypeScript, Tailwind CSS |
-| **Backend** | Prisma 	[![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)](#) Next.js API Routes, Prisma (geplant für DB) |
+| **Backend** |  	[![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)](#) Prisma, Next.js API Routes, Prisma (geplant für DB) |
 | **Deployment** | [Vercel](https://vercel.com) |
 | **Entwicklung** | ESLint, Prettier, GitHub |
 
