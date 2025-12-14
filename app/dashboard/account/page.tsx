@@ -1,15 +1,105 @@
 "use client"
+import { LuMail } from "react-icons/lu";
 import { useSession } from "next-auth/react";
+import { FaUser } from "react-icons/fa";
 import Link from "next/link";
+import { FaPhone } from "react-icons/fa6";
+import { useEffect, useState } from "react";
+import { IoLocationSharp } from "react-icons/io5";
 
 const Account = () => {
   const user = useSession();
+  const [name, setName] = useState("")
+  const [mail, setMail] = useState("")
   console.log(user)
-
+  useEffect(() => {
+    setName(user.data?.user?.name)
+    setMail(user.data?.user?.email)
+  }, [user])
+  // {user.data?.user?.name}
   return <>
     <div className=''>
-      <div className="max-lg:flex flex-col items-center gap-12">
-        <p className='user text-3xl text-center'>Hallo {user.data?.user?.name}!</p>
+      <div className="flex items-center gap-12 text-center lg:justify-center px-18">
+        <div className="flex items-center p-6 bg-white gap-4 justify-center flex-col border-2 
+          border-gray-500 rounded-2xl">
+          <div className="w-36 h-36 rounded-full bg-gradient-to-r
+           from-red-700 to-amber-500 flex items-center justify-center">
+            <p className="text-6xl text-white">{user.data?.user?.name[0]}</p>
+          </div>
+          <div className="flex gap-1 flex-col">
+            <p className="text-3xl"> {user.data?.user?.name} </p>
+            <p className="text-xl text-gray-800"> {user.data?.user?.email} </p>
+          </div>
+          <div className="flex flex-col gap-4 p-4">
+            <div className="w-96 bg-red-500 p-1.5 bg-gradient-to-r
+           from-red-700 to-amber-500 rounded-xl cursor-pointer">Profilbild ändern</div>
+            <div className="w-96 bg-gray-500 p-1.5 cursor-pointer rounded-xl">Passwort ändern</div>
+          </div>
+        </div>
+        <div className="border-2 border-gray-500 bg-white rounded-xl py-8">
+          <p className=" py-2 text-xl">Persönliche Dateien</p>
+          <div className="p-4 flex flex-col justify-around gap-12">
+            <div className="names_box flex gap-8">
+              <div className="name_f flex gap-8">
+                <label className="flex gap-1 items-start flex-col" form="">
+                  <span className="">Vorname</span>
+                  <div className="flex items-center gap-2 bg-gray-200 indent-2 px-4 py-1.5
+                    text-lg rounded-xl outline-0">
+                    <span className="text-gray-500"> <FaUser /> </span>
+                    <input onChange={(e) => setName(e.target.value)} value={name} className="outline-0" type="text" />
+                  </div>
+                </label>
+                <div className="name_l">
+                  <label className="flex gap-1 items-start flex-col" form="">
+                    <span className="">Nachname</span>
+                    <div className="flex items-center gap-2 bg-gray-200 indent-2 px-4 py-1.5
+                    text-lg rounded-xl outline-0">
+                      <span className="text-gray-500"> <FaUser /> </span>
+                      <input className="outline-0" type="text" />
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div className="mail_box">
+              <label className="flex gap-1 items-start flex-col" form="">
+                <span className="">E-Mail</span>
+                <div className="flex w-full items-center gap-2 bg-gray-200 indent-2 px-4 py-1.5
+                    text-lg rounded-xl outline-0">
+                  <span className="text-gray-500"> <LuMail /> </span>
+                  <input disabled value={mail} className="outline-0 w-full text-gray-500"
+                    type="email" />
+                </div>
+              </label>
+            </div>
+            <div className="phone_box">
+              <label className="flex w-full gap-1 items-start flex-col" form="">
+                <span className="">Telefon</span>
+                <div className="flex w-full items-center gap-2 bg-gray-200 indent-2 px-4 py-1.5
+                    text-lg rounded-xl outline-0">
+                  <span className="text-gray-500"> <FaPhone /> </span>
+                  <input className="outline-0 w-full" type="number" />
+                </div>
+              </label>
+            </div>
+            <div className="address_box">
+              <label className="flex w-full gap-1 items-start flex-col" form="">
+                <span className="">Adresse</span>
+                <div className="flex w-full items-center gap-2 bg-gray-200 indent-2 px-4 py-1.5
+                    text-lg rounded-xl outline-0">
+                  <span className="text-gray-500"> <IoLocationSharp /> </span>
+                  <input className="outline-0 w-full" type="text" />
+                </div>
+              </label>
+            </div>
+            <div className="btn_box flex items-center justify-between px-2 gap-4">
+              <div className="bg-gradient-to-r from-red-500 to-amber-500
+               py-2 px-4 rounded-2xl text-white w-[85%] font-bold cursor-pointer
+                hover:from-red-600 hover:to-amber-600">Änderung speichern</div>
+              <div className="py-2 px-4 rounded-2xl text-white bg-gray-800 cursor-pointer">Abbrechen</div>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="py-10 px-4 text-xl">
         Hast du jede Probleme ?
