@@ -84,6 +84,10 @@ html.dark .cancel_btn_dark {
   background-color: white;
   color: black;
 }
+html.dark .warn_edit {
+  color: red !important;
+}
+
 html.dark .dashboard_menua p,
 html.dark .dashboard_menua span {
   color: #ffffff !important;

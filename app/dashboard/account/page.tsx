@@ -1,6 +1,6 @@
 "use client"
 import { LuMail } from "react-icons/lu";
-import { useSession } from "next-auth/react";
+import { signOut, useSession } from "next-auth/react";
 import { FaUser } from "react-icons/fa";
 import Link from "next/link";
 import { FaPhone } from "react-icons/fa6";
@@ -9,13 +9,35 @@ import { IoLocationSharp } from "react-icons/io5";
 
 const Account = () => {
   const user = useSession();
-  const [name, setName] = useState("")
+  const [name, setName] = useState(["", ""])
   const [mail, setMail] = useState("")
-  console.log(user)
+  const [loading, setLoading] = useState(false)
   useEffect(() => {
-    setName(user.data?.user?.name)
+    const usr: string = user.data?.user?.name
+    if (user.status == "authenticated") {
+      console.log(usr)
+      setName([usr.split(" ")[0], usr.split(" ")[1]])
+
+    }
     setMail(user.data?.user?.email)
   }, [user])
+  const changeData = async () => {
+    // console.log(name.join("").split(" "))
+    setLoading(true)
+    console.log(name)
+    console.log(user.status)
+    console.log(name.join(" "))
+    const req = await fetch("/api/changeName", {
+      method: "PUT", body: JSON.stringify({
+        name: name.join(" ")
+      })
+    })
+    // const data = await req.json()
+    if (req.ok) {
+      setLoading(false)
+      signOut({ callbackUrl: "/login" })
+    }
+  }
   // {user.data?.user?.name}
   return <>
     <div className='flex lg:px-18 flex-col lg:h-full w-full lg:justify-between items-center max-lg:w-[90%]  
@@ -51,7 +73,8 @@ const Account = () => {
                   <div className="flex items-center w-full gap-2 item_pr_dark bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
                     <span className="text-gray-500"> <FaUser /> </span>
-                    <input onChange={(e) => setName(e.target.value)} value={name} className="outline-0 item_pr_dark" type="text" />
+                    <input onChange={(e) => setName(prev => [e.target.value, prev[1]])}
+                      value={name[0]} className="outline-0 item_pr_dark" type="text" />
                   </div>
                 </label>
                 <div className="name_l w-full">
@@ -60,7 +83,9 @@ const Account = () => {
                     <div className="flex w-full items-center item_pr_dark gap-2 bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
                       <span className="text-gray-500"> <FaUser /> </span>
-                      <input className="item_pr_dark outline-0 w-full" type="text" />
+                      <input onChange={(e) => setName(prev => [prev[0], e.target.value])}
+                        value={name[1]}
+                        className="item_pr_dark outline-0 w-full" type="text" />
                     </div>
                   </label>
                 </div>
@@ -98,11 +123,14 @@ const Account = () => {
               </label>
             </div>
             <div className="btn_box flex items-center justify-between px-2 gap-4">
-              <div className="bg-gradient-to-r from-red-500 to-amber-500
+              <div onClick={() => changeData()} className="bg-gradient-to-r from-red-500 to-amber-500
                py-2 px-4 rounded-2xl text-white w-[85%] font-bold cursor-pointer
-                hover:from-red-600 hover:to-amber-600">Änderung speichern</div>
+                hover:from-red-600 hover:to-amber-600">
+                {!loading ? `Änderung speichern` : `Loading...`}
+              </div>
               <div className="py-2 px-4 rounded-2xl cancel_btn_dark text-white bg-gray-800 cursor-pointer">Abbrechen</div>
             </div>
+            <p className="text-xl text-red-600 warn_edit">Sie werden nach jeder Änderung abgemeldet!</p>
           </div>
         </div>
       </div>
