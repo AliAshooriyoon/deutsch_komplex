@@ -68,15 +68,22 @@ html.dark .podcast_item {
 html.dark .dashboard_menua .wrapper {
   background-color: #333 !important;
 }
-
+html.dark .person_avatar_box {
+  background-color: #1f2937;
+}
 html.dark .dashboard_menua .showItem {
   color: #ffffff !important;
 }
-
+html.dark .item_pr_dark {
+  background-color: #111 !important;
+}
 html.dark .dashboard_menua .showItem:hover {
   background-color: #425b61 !important;
 }
-
+html.dark .cancel_btn_dark {
+  background-color: white;
+  color: black;
+}
 html.dark .dashboard_menua p,
 html.dark .dashboard_menua span {
   color: #ffffff !important;
