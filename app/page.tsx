@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Header />
 
-      <div className="p-2">
+      <div className="">
         <MainPage />
         <ServicesPage />
         <StepsPage />

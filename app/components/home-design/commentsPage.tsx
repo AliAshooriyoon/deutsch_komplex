@@ -20,7 +20,7 @@ const commentsData = [
 
 const CommentPage = () => {
   return <>
-    <div className="py-24">
+    <div className="py-24 bg-white">
       <div className="text-center">
         <h3 className="title max-lg:text-3xl lg:text-4xl text-black"> Erfolgsgeschichten </h3>
         <p className="text-gray-600 max-lg:max-w-[85%] mx-auto text-lg mt-3">
