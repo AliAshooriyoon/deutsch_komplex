@@ -1,12 +1,43 @@
 "use client"
 
-const prompt = `
-Eingaben:
-- Prüfungsniveau:  
+
+
+
+import { useEffect, useState } from "react";
+
+const TestKI = () => {
+  const [words, setWords] = useState("")
+  const [level, setLevel] = useState("a1")
+  const [response, setResponse] = useState("")
+  const [wordsLength, setWordsLength] = useState(0)
+  const [prompt, setPrompt] = useState("")
+  useEffect(() => {
+    sendRequestToWrite()
+  }, [words])
+
+  const sendReq = async () => {
+    const req = await fetch("/api/createExam", {
+      method: "POST", body: JSON.stringify({
+        message: prompt
+      })
+    })
+    if (!req.ok) {
+      throw new Error("err!")
+    }
+    const res = await req.json()
+    setResponse(res)
+  }
+
+
+  const sendRequestToWrite = () => {
+    const length = words.split("\n").join(" ").split(" ").length
+    setWordsLength(length)
+    setPrompt(`Eingaben:
+- Prüfungsniveau: ${level}
 - Aufgabenstellung (Schreiben):
 <Hier die originale Aufgabenstellung einfügen>
 - Text des Kandidaten:
-<Hier den Text des Kandidaten einfügen>
+${words}
 
 Aufgabe:
 Bewerte den Text streng nach ÖSD-Kriterien für das angegebene Niveau.
@@ -36,26 +67,10 @@ Regeln:
 - Bewerte nicht milder als in einer echten ÖSD-Prüfung.
 
 `
-
-
-import { useEffect, useState } from "react";
-
-const TestKI = () => {
-  const [words, setWords] = useState("")
-  const [level, setLevel] = useState("a1")
-  const [wordsLength, setWordsLength] = useState(0)
-  useEffect(() => {
-    calcWordsLength()
-    console.log(words)
-  }, [words])
-  const calcWordsLength = () => {
-    const length = words.split("\n").join(" ").split(" ").length
-    console.log(length)
-    setWordsLength(length)
-    const newPrompt = prompt.split("")
-    newPrompt[29] = level
-    console.log(newPrompt.join(""))
+    )
+    sendReq()
   }
+
 
 
   return <>
@@ -82,9 +97,12 @@ const TestKI = () => {
             <textarea onChange={(e) => setWords(e.target.value)}
               className={`w-full border-2 border-gray-800 rounded-xl leading-10 min-h-96 p-4 outline-0`} />
             <div className="btn-box text-center py-6">
-              <button onClick={calcWordsLength} className="text-xl rounded-2xl bg-gradient-to-r from-red-500 to-amber-500 px-12 py-4">
+              <button onClick={sendRequestToWrite} className="text-xl rounded-2xl bg-gradient-to-r from-red-500 to-amber-500 px-12 py-4">
                 Shreibteil überprüfen</button>
             </div>
+          </div>
+          <div>
+            {response}
           </div>
         </div>
       </div>

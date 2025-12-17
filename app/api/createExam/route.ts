@@ -19,7 +19,7 @@ export async function POST(req: Request) {
           role: 'system',
           content: `Du bist ein offizieller ÖSD-Prüfer für den Prüfungsteil Schreiben.`,
         },
-        { role: 'system', content: body.adminMessage },
+        // { role: 'system', content: body.adminMessage },
         { role: 'user', content: body.message },
       ],
       temperature: 0.2,
