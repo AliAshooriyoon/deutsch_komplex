@@ -11,9 +11,11 @@ const TestKI = () => {
   const [response, setResponse] = useState("")
   const [wordsLength, setWordsLength] = useState(0)
   const [prompt, setPrompt] = useState("")
-  useEffect(() => {
-    sendRequestToWrite()
-  }, [words])
+
+
+  const getExam = async () => {
+    await fetch("")
+  }
 
   const sendReq = async () => {
     const req = await fetch("/api/createExam", {

@@ -51,7 +51,7 @@ model exam {
   id         String  @id @default(cuid())
   level      String
   examCenter String?
-  topic      String
+  topic      String  @unique
   content    String
   type       String
 
