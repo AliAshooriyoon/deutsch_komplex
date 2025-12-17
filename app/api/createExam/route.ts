@@ -13,9 +13,12 @@ export async function POST(req: Request) {
   const body = await req.json();
   try {
     const completion = await openai.chat.completions.create({
-      model: 'mistralai/mistral-small-3.2-24b-instruct:free',
+      model: 'google/gemini-2.5-flash',
       messages: [
-        { role: 'system', content: `Du bist ein präziser Prüfungsaufgabengenerator für das ÖSD.` },
+        {
+          role: 'system',
+          content: `Du bist ein offizieller ÖSD-Prüfer für den Prüfungsteil Schreiben.`,
+        },
         { role: 'system', content: body.adminMessage },
         { role: 'user', content: body.message },
       ],

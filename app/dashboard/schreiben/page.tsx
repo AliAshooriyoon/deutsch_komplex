@@ -6,6 +6,7 @@ import { MdLightbulbOutline } from "react-icons/md";
 import TippsComponent from "@/app/components/schreiben/tipps";
 import { useState } from "react";
 import ExamplesSchreiben from "@/app/components/schreiben/examples";
+import TestKI from "@/app/components/schreiben/testsKI";
 const Schreiben = () => {
   const [currentPath, setCurrentPath] = useState("tipps")
   return <>
@@ -57,9 +58,9 @@ const Schreiben = () => {
                 stroke="url(#icon-gradient)" // References the gradient ID
                 className="text-transparent" // Optional: prevents default color interference
               />
-            </div>            <span className="text-sm font-bold bg-gradient-to-r bg-clip-text
+            </div>            <div className="text-sm font-bold bg-gradient-to-r bg-clip-text
               text-transparent from-red-500 to-amber-500">Test<span className="lg:hidden">s</span>
-              <span className="max-lg:hidden">Modelle</span> (KI)</span>
+              <span className="max-lg:hidden">Modelle</span> (KI)</div>
           </div>
         </div>
       </div>
@@ -67,6 +68,7 @@ const Schreiben = () => {
         {currentPath == "tipps" && <TippsComponent />
         }
         {currentPath == "example" && <ExamplesSchreiben />}
+        {currentPath == "test" && <TestKI />}
       </div>
     </div>
   </>
