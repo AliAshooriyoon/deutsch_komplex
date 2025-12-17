@@ -101,7 +101,7 @@ Regeln:
             <div className="flex items-center gap-6 text-lg">
               <p>Wähle das Niveau dieser Prüfung aus!</p>
               <select onChange={(e) => setLevel(e.target.value)} className="px-8 py-2 text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
-                {allQuestions && allQuestions.map((i) => <option key={i.id} value={i.topic} >
+                {allQuestions && allQuestions.map((i: { id: string, topic: string, level: string }) => <option key={i.id} value={i.topic} >
                   {`${i.topic.split("").slice(0, 30).join("")}...`}</option>)}
               </select>
             </div>
