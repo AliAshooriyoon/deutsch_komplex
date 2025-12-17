@@ -11,10 +11,23 @@ const TestKI = () => {
   const [response, setResponse] = useState("")
   const [wordsLength, setWordsLength] = useState(0)
   const [prompt, setPrompt] = useState("")
+  const [allQuestions, setQuestions] = useState([])
 
+  useEffect(() => {
+    getExam()
+  }, [level])
 
   const getExam = async () => {
-    await fetch("")
+    const res = await fetch("/api/getExam", {
+      method: "POST", body: JSON.stringify({
+        level
+      })
+    })
+    if (!res.ok) {
+      throw new Error("err!")
+    }
+    const data = await res.json()
+    setQuestions(data)
   }
 
   const sendReq = async () => {
@@ -85,6 +98,13 @@ Regeln:
             Es ist heute ziemlich kühles Wetter und die Sonne scheint ein wenig. Dieser Beispieltext dient gerade einen Entwickler weil die Rose blüht und man schreiben soll. Die Parteien glauben doch nicht ernsthaft, dass es das Beispiel als Blindtext ist. Eine weitere Konstante befindet sich am Horizont. Ich muss mir das durchlesen. Was als Beispieltext gelesen wird, kommt auf
           </p>
           <div className="py-24">
+            <div className="flex items-center gap-6 text-lg">
+              <p>Wähle das Niveau dieser Prüfung aus!</p>
+              <select onChange={(e) => setLevel(e.target.value)} className="px-8 py-2 text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
+                {allQuestions && allQuestions.map((i) => <option key={i.id} value={i.topic} >
+                  {`${i.topic.split("").slice(0, 30).join("")}...`}</option>)}
+              </select>
+            </div>
             <div className="flex items-center gap-6 text-lg">
               <p>Wähle das Niveau dieser Prüfung aus!</p>
               <select onChange={(e) => setLevel(e.target.value)} className="px-8 py-2 text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
