@@ -120,6 +120,7 @@ model User {
   passwordResetToken PasswordResetToken[]
   role               Role                 @default(USER)
   aiCredits          Int                  @default(1)
+  lastReset          DateTime?
 
   @@map("users")
 }
