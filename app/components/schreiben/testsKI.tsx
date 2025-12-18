@@ -8,16 +8,28 @@ import { useEffect, useState } from "react";
 const TestKI = () => {
   const [words, setWords] = useState("")
   const [level, setLevel] = useState("a1")
-  const [response, setResponse] = useState("")
+  const [response, setResponse] = useState<{ reply: string }>()
   const [wordsLength, setWordsLength] = useState(0)
   const [prompt, setPrompt] = useState("")
   const [loading, setLoading] = useState(false)
+  const [loadingResp, setLoadingResp] = useState(false)
   const [allQuestions, setQuestions] = useState([])
-  const [currentQuestion, setCurrentQuestion] = useState<{ id: string; topic: string; level: string, content: string }>()
+  const [currentQuestion, setCurrentQuestion] = useState<{ id: string; topic: string; level: string, content: string } | null>()
+
+
+  useEffect(() => {
+    console.log("-------------- prompt --------------")
+    console.log(prompt)
+    sendReq()
+  }, [prompt])
+
+
 
   useEffect(() => {
     getExam()
     console.log(currentQuestion)
+    console.log(level)
+    setCurrentQuestion(null)
   }, [level])
 
   const getExam = async () => {
@@ -36,6 +48,10 @@ const TestKI = () => {
   }
 
   const sendReq = async () => {
+    if (!prompt.length || prompt == "") return
+    setLoadingResp(true)
+    console.log("aaaaaaaaaaaaaa      prompt     aaaaaaaaaaaaaaaaaaaa ")
+    console.log(prompt)
     const req = await fetch("/api/createExam", {
       method: "POST", body: JSON.stringify({
         message: prompt
@@ -45,17 +61,22 @@ const TestKI = () => {
       throw new Error("err!")
     }
     const res = await req.json()
+    setLoadingResp(false)
     setResponse(res)
   }
 
 
   const sendRequestToWrite = () => {
+    console.log("------- data ---------")
+    console.log(words)
+    console.log(currentQuestion?.topic)
+    console.log(level)
     const length = words.split("\n").join(" ").split(" ").length
     setWordsLength(length)
     setPrompt(`Eingaben:
 - Prüfungsniveau: ${level}
 - Aufgabenstellung (Schreiben):
-<Hier die originale Aufgabenstellung einfügen>
+  ${currentQuestion?.content}
 - Text des Kandidaten:
 ${words}
 
@@ -88,7 +109,8 @@ Regeln:
 
 `
     )
-    sendReq()
+    // sendReq()
+    console.log(currentQuestion)
   }
 
 
@@ -97,17 +119,25 @@ Regeln:
     <div className="">
       <div className="">
         <div className="py-12">
-          <p className="text-xl leading-10 max-lg:leading-8 max-lg:px-4 max-lg:text-lg">
+          <div className="text-xl leading-10 max-lg:leading-8 max-lg:px-4 max-lg:text-lg">
             {!loading ? currentQuestion?.content : <p className="lg:text-3xl text-red-500">Loading...</p>}
-          </p>
+          </div>
           <div className="py-24">
             <div className="flex justify-around flex-row-reverse max-lg:flex-col flex-wrap">
               <div className="flex items-center gap-6 text-lg max-lg:flex-col">
                 <p className="lg:text-xl">Wähle das Niveau dieser Prüfung aus!</p>
-                <select onChange={(e) => setLevel(e.target.value)} className="lg:px-8 max-lg:px-1 py-2 lg:text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
+                <select onChange={(e) => {
+                  const selectedQuestion = allQuestions.find((q:
+                    { id: string, topic: string, level: string, content: string }) => q.topic == e.target.value);
+                  if (selectedQuestion) setCurrentQuestion(selectedQuestion);
+                  if (!e.target.value) setCurrentQuestion(null)
+                }}
+                  className="lg:px-8 max-lg:px-1 py-2 lg:text-2xl bg-gradient-to-r from-red-500
+                  to-amber-500 rounded-2xl">
+                  <option value={""} >--- Wählen Sie eine Frage ---</option>
                   {allQuestions && allQuestions.map((i: { id: string, topic: string, level: string, content: string }) =>
-                    <option onClick={() => setCurrentQuestion(i)} key={i.id} value={i.topic} >
-                      {`${i.topic.split("").slice(0, 30).join("")}...`}</option>)}
+                    <option key={i.id} value={i.topic} >
+                      {`${i.topic.split("").slice(0, 30).join("")}...  `}</option>)}
                 </select>
               </div>
 
@@ -115,7 +145,7 @@ Regeln:
               <div className="flex max-lg:flex-col items-center gap-6 lg:text-lg">
                 <p className="lg:text-xl">Wähle das Niveau dieser Prüfung aus!</p>
                 <select onChange={(e) => setLevel(e.target.value)} className="px-8 py-2 text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
-                  <option value={"a1"} >A1</option>
+                  <option value={"a1"}>A1</option>
                   <option value={"a2"}>A2</option>
                   <option value={"b1"}>B1</option>
                   <option value={"b2"}>B2</option>
@@ -132,7 +162,7 @@ Regeln:
             </div>
           </div>
           <div>
-            {response}
+            <p className="text-xl">{!loadingResp ? response?.reply : <span>Wartung auf KI</span>}</p>
           </div>
         </div>
       </div>
