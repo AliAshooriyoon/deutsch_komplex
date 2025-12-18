@@ -118,7 +118,8 @@ model User {
   accounts           Account[]
   sessions           Session[]
   passwordResetToken PasswordResetToken[]
-  role               Role?                @default(USER)
+  role               Role                 @default(USER)
+  aiCredits          Int                  @default(1)
 
   @@map("users")
 }
