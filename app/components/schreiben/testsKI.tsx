@@ -11,13 +11,17 @@ const TestKI = () => {
   const [response, setResponse] = useState("")
   const [wordsLength, setWordsLength] = useState(0)
   const [prompt, setPrompt] = useState("")
+  const [loading, setLoading] = useState(false)
   const [allQuestions, setQuestions] = useState([])
+  const [currentQuestion, setCurrentQuestion] = useState<{ id: string; topic: string; level: string, content: string }>()
 
   useEffect(() => {
     getExam()
+    console.log(currentQuestion)
   }, [level])
 
   const getExam = async () => {
+    setLoading(true)
     const res = await fetch("/api/getExam", {
       method: "POST", body: JSON.stringify({
         level
@@ -27,6 +31,7 @@ const TestKI = () => {
       throw new Error("err!")
     }
     const data = await res.json()
+    setLoading(false)
     setQuestions(data)
   }
 
@@ -93,27 +98,30 @@ Regeln:
       <div className="">
         <div className="py-12">
           <p className="text-xl leading-10 max-lg:leading-8 max-lg:px-4 max-lg:text-lg">
-            Die ist ein Beispiel für einen Blindtext, der auf deutsch geschrieben ist. Es gibt noch viele weitere Arten des Hauses, wobei die ersten Menschen heute nicht sind. Zudem sind Beispiele jetzt noch frei, denn man sollte bedenken, der Text macht wenig Sinn. Mit brausender Geschwindigkeit war der Titel des neuen Boots in naher Ferne, weshalb sich der Briefträger einen roten Mantel zur Reinigung brachte. Ein weiterer Punkt wäre es, die verständliche Blindtexte heute noch anzurufen denn der Tisch steht im Gang. Zur damaligen Zeit war es eher üblich, die gebrauchten Handtücher mittels Fensterreiniger auszulüften, um auch die Wanduhr als Beispiel richtig auszurichten.
-            Da sitzt er in einer Vorlesung, die sich wundervoll nennt. Diese Spinne ermüdet sich gerade wieder. Deshalb haben keine großen Tabellen Attribute und stehen im Verhältnis kursiv. In dieser Woche lernen die Studierenden relevanter Ereignisse eigentlich nur kompletten Spass. Aber aus Sich der Mitarbeiter ist der Meinung, dass alles was zuzuordnen war Relavanz und Einfachheit ist.
-            Es ist heute ziemlich kühles Wetter und die Sonne scheint ein wenig. Dieser Beispieltext dient gerade einen Entwickler weil die Rose blüht und man schreiben soll. Die Parteien glauben doch nicht ernsthaft, dass es das Beispiel als Blindtext ist. Eine weitere Konstante befindet sich am Horizont. Ich muss mir das durchlesen. Was als Beispieltext gelesen wird, kommt auf
+            {!loading ? currentQuestion?.content : <p className="lg:text-3xl text-red-500">Loading...</p>}
           </p>
           <div className="py-24">
-            <div className="flex items-center gap-6 text-lg">
-              <p>Wähle das Niveau dieser Prüfung aus!</p>
-              <select onChange={(e) => setLevel(e.target.value)} className="px-8 py-2 text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
-                {allQuestions && allQuestions.map((i: { id: string, topic: string, level: string }) => <option key={i.id} value={i.topic} >
-                  {`${i.topic.split("").slice(0, 30).join("")}...`}</option>)}
-              </select>
-            </div>
-            <div className="flex items-center gap-6 text-lg">
-              <p>Wähle das Niveau dieser Prüfung aus!</p>
-              <select onChange={(e) => setLevel(e.target.value)} className="px-8 py-2 text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
-                <option value={"a1"} >A1</option>
-                <option value={"a2"}>A2</option>
-                <option value={"b1"}>B1</option>
-                <option value={"b2"}>B2</option>
-                <option value={"c1"}>C1</option>
-              </select>
+            <div className="flex justify-around flex-row-reverse max-lg:flex-col flex-wrap">
+              <div className="flex items-center gap-6 text-lg max-lg:flex-col">
+                <p className="lg:text-xl">Wähle das Niveau dieser Prüfung aus!</p>
+                <select onChange={(e) => setLevel(e.target.value)} className="lg:px-8 max-lg:px-1 py-2 lg:text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
+                  {allQuestions && allQuestions.map((i: { id: string, topic: string, level: string, content: string }) =>
+                    <option onClick={() => setCurrentQuestion(i)} key={i.id} value={i.topic} >
+                      {`${i.topic.split("").slice(0, 30).join("")}...`}</option>)}
+                </select>
+              </div>
+
+
+              <div className="flex max-lg:flex-col items-center gap-6 lg:text-lg">
+                <p className="lg:text-xl">Wähle das Niveau dieser Prüfung aus!</p>
+                <select onChange={(e) => setLevel(e.target.value)} className="px-8 py-2 text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
+                  <option value={"a1"} >A1</option>
+                  <option value={"a2"}>A2</option>
+                  <option value={"b1"}>B1</option>
+                  <option value={"b2"}>B2</option>
+                  <option value={"c1"}>C1</option>
+                </select>
+              </div>
             </div>
             <p className="py-4 px-6">Länge: {wordsLength} </p>
             <textarea onChange={(e) => setWords(e.target.value)}
