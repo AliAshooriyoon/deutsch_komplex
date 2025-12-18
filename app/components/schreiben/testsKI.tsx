@@ -153,9 +153,8 @@ Regeln:
                 </select>
               </div>
             </div>
-            <p className="py-4 px-6">Länge: {wordsLength} </p>
             <textarea onChange={(e) => setWords(e.target.value)}
-              className={`w-full border-2 border-gray-800 rounded-xl leading-10 min-h-96 p-4 outline-0`} />
+              className={`w-full mt-8 border-2 border-gray-800 rounded-xl leading-10 min-h-96 p-4 outline-0`} />
             <div className="btn-box text-center py-6">
               <button onClick={sendRequestToWrite} className="text-xl rounded-2xl bg-gradient-to-r from-red-500 to-amber-500 px-12 py-4">
                 Shreibteil überprüfen</button>
