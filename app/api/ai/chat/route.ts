@@ -1,21 +1,15 @@
 import { NextResponse } from 'next/server';
-import { getToken } from 'next-auth/jwt';
+import { auth } from '@/auth';
 
 export async function POST(req: Request) {
-  console.log('--- AI ROUTE HIT ---');
+  console.log('--- AI ROUTE HIT (VERCEL) ---');
 
-  const token = await getToken({
-    req,
-    secret: process.env.AUTH_SECRET,
-  });
+  const session = await auth();
 
-  if (!token) {
-    console.log('❌ token is null');
-    return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
-  }
+  console.log('SESSION:', session);
 
-  if (!token.id) {
-    console.log('❌ token.id is missing');
+  if (!session?.user?.id) {
+    console.log('❌ session or user.id missing');
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
 
@@ -25,7 +19,7 @@ export async function POST(req: Request) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${token.id}`,
+      Authorization: `Bearer ${session.user.id}`,
     },
     body: JSON.stringify(body),
   });
