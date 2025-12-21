@@ -1,38 +1,54 @@
-# 🇩🇪 Deutsch Komplex
+# Deutsch-komplex 🇩🇪
 
-Eine interaktive Plattform zum Deutschlernen – mit Übungen zum **Schreiben**, **Hören** und **Wortschatz**.  
-Ziel des Projekts ist es, Lernenden zu helfen, ihre Sprachkenntnisse effektiv zu verbessern – und gleichzeitig meine praktischen Kenntnisse in **Fullstack-Webentwicklung** zu zeigen.
+**Deutsch-komplex** ist eine moderne Lernplattform für Deutschlernende mit Fokus auf **Prüfungsvorbereitung**  
+(z. B. ÖSD, Goethe, TestDaF).
 
-🌐 **Live-Demo:** [deutsch-komplex.vercel.app](https://deutsch-komplex.vercel.app)  
-💾 **Repository:** [github.com/AliAshooriyoon/deutsch_komplex](https://github.com/AliAshooriyoon/deutsch_komplex)
+Die Plattform kombiniert strukturierte Inhalte mit KI-Unterstützung, um Lernen effizienter und praxisnah zu machen.
+
+🌐 **Live Demo:** https://deutsch-komplex.vercel.app
 
 ---
 
 ## 🚀 Features
 
-- ✍️ **Schreibübungen:** Nutzer können eigene Texte schreiben und Feedback erhalten.  
-- 🧠 **Wortschatztrainer:** Wörterlisten mit Erklärungen und Beispielen.  
-- 📱 **Responsives Design:** Optimiert für Desktop & Mobilgeräte.  
-- 🔐 **Zukunftsplanung:**  Fortschrittsspeicherung  & 🎧 **Hörübungen:** (in Arbeit).
+### ✍️ Schreiben
+- Tipps zum Schreiben (prüfungsorientiert)
+- Beispiele für verschiedene Niveaus
+- **KI-gestützte Textkorrektur** mit Feedback
+
+### 📖 Lesen
+- Geschichten für jedes Sprachniveau
+- Leseverständnis-Beispiele
+
+### 🧠 Wörter
+- Worttrainer (Lainter)
+- Wortschatz nach Niveau (A1–B2)
+
+### 🎧 Hören
+- Podcasts zum Trainieren des Hörverstehens
+
+### ⚙️ Weitere Funktionen
+- Dark Mode
+- Benutzerprofil (Name & Nachname ändern)
+- Authentifizierung (Login erforderlich für Inhalte)
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-| Bereich | Technologien |
-|----------|--------------|
-| **Frontend** | [![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)](#) Next.js (App Router), React, TypeScript, Tailwind CSS |
-| **Backend** |  	[![Prisma](https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white)](#) Prisma, Next.js API Routes, Prisma (geplant für DB) |
-| **Deployment** | [Vercel](https://vercel.com) |
-| **Entwicklung** | ESLint, Prettier, GitHub |
+- **Frontend:** Next.js (App Router), React
+- **Styling:** Tailwind CSS
+- **Backend:** Next.js API Routes
+- **Auth:** NextAuth
+- **Database:** Prisma + PostgreSQL
+- **Deployment:** Vercel
 
 ---
 
-## ⚙️ Installation & Entwicklung
-
-### 1️⃣ Repository klonen
+## 📦 Installation & Development
 
 ```bash
 git clone https://github.com/AliAshooriyoon/deutsch_komplex.git
 cd deutsch_komplex
-
+npm install
+npm run dev
