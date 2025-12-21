@@ -38,7 +38,7 @@ Die Plattform kombiniert strukturierte Inhalte mit KI-Unterstützung, um Lernen 
 
 - **Frontend:** Next.js (App Router), React
 - **Styling:** Tailwind CSS
-- **Backend:** Next.js API Routes
+- **Backend:** Next.js API Routes, gin (golang)
 - **Auth:** NextAuth
 - **Database:** Prisma + PostgreSQL
 - **Deployment:** Vercel
