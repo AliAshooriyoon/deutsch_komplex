@@ -66,6 +66,7 @@ model example {
   content String
   type    String?
 
+  @@unique([topic, level])
   @@map("examples")
 }
 
