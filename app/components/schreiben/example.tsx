@@ -6,8 +6,8 @@ const ExampleSchreiben = ({ item }:
     <div key={item.id} className="2xl:w-[48%] exampleItem bg-white rounded-2xl
         border-gray-600 p-6">
       <div className="title_box flex flex-col gap-2">
-        <div className="py-1 px-3 w-12 flex items-center justify-center text-red-600
-            bg-red-500/50 rounded-full">{item.level.toUpperCase()}</div>
+        <div className="py-1 px-3 w-12 flex text-lg items-center justify-center text-red-700
+            bg-red-500/20 font-bold rounded-full">{item.level.toUpperCase()}</div>
         <p className="text-xl">{item.topic.length > 35 ? `${item.topic.split("").slice(0, 35).join("")}... ` : item.topic}</p>
         <p className="text-red-600">{item.exam}</p>
       </div>
