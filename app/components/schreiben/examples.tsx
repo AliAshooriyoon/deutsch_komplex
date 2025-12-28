@@ -46,7 +46,7 @@ const ExamplesSchreiben = () => {
       <div className="flex w-full justify-around max-lg:flex-col py-2  max-lg:py-12">
         <div className="flex items-center gap-4 p-8">
           <p className="lg:text-xl pl-4">Wähle das Niveau aus</p>
-          <select className="p-4  rounded-2xl lg:text-xl" onChange={(e) => setFilterLevel(e.target.value)}>
+          <select className="p-4 border-2 rounded-2xl lg:text-xl" onChange={(e) => setFilterLevel(e.target.value)}>
             <option value={""}>Alle</option>
             <option value={"a1"}>A1</option>
             <option value={"a2"}>A2</option>
@@ -59,7 +59,7 @@ const ExamplesSchreiben = () => {
         </div>
         <div className="flex items-center gap-4 p-8">
           <p className="lg:text-xl pl-4">Wähle das Prüfungszentrum aus</p>
-          <select className="p-4  rounded-2xl lg:text-xl" onChange={(e) => setFilterCenter(e.target.value)}>
+          <select className="p-4 border-2 rounded-2xl lg:text-xl" onChange={(e) => setFilterCenter(e.target.value)}>
             <option value={""}>Alle</option>
             <option value={"ÖSD"}>ÖSD</option>
             <option value={"TELC"}>TELC</option>
