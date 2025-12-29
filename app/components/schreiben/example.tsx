@@ -9,7 +9,7 @@ const ExampleSchreiben = ({ item }:
         <div className="py-1 px-3 w-12 flex text-lg items-center justify-center text-red-700
             bg-red-500/20 font-bold rounded-full">{item.level.toUpperCase()}</div>
         <p className="text-xl">{item.topic.length > 35 ? `${item.topic.split("").slice(0, 35).join("")}... ` : item.topic}</p>
-        <p className="text-red-600">{item.exam}</p>
+        <p className="text-red-600 exam_center">{item.exam}</p>
       </div>
       <div className="">
         <p className="text-gray-700 pt-6">

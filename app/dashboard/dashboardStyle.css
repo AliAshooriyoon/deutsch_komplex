@@ -147,6 +147,9 @@ html.dark .main_page h6 {
 html.dark .schreiben_tipps_box {
   background-color: #101828;
 }
+html.dark .exam_center {
+  color: #e7000b !important;
+}
 /* Links - ONLY in main_page */
 html.dark .main_page a {
   color: #60a5fa;

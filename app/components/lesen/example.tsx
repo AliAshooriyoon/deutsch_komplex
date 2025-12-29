@@ -3,7 +3,7 @@ import Link from "next/link"
 const ExampleLesen = ({ item }: {
   item: {
     id: number, level: string,
-    topic: string, content: string
+    topic: string, content: string, exam: string
   }
 }) => {
   return <>
@@ -14,6 +14,7 @@ const ExampleLesen = ({ item }: {
             bg-gray-900/90 rounded-full">{item.level.toUpperCase()}</div>
         <p className="text-xl">{item.topic.length > 35 ? `${item.topic.split("").slice(0, 35).join("")}... ` :
           item.topic}</p>
+        <p className="text-red-600 exam_center">{item.exam}</p>
       </div>
       <div className="">
         <p className="text-gray-700 pt-6">
