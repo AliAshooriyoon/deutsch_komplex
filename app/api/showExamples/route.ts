@@ -6,6 +6,9 @@ export const POST = async (req: NextRequest) => {
     where: {
       type: body.type,
     },
+    orderBy: {
+      level: 'asc',
+    },
   });
   return NextResponse.json(res);
 };
