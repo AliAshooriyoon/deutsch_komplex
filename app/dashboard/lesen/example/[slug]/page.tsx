@@ -69,7 +69,7 @@ const ExampleLesen = ({ params }: Props) => {
         <div className="wrapper w-full h-0.5 bg-black rounded-3xl"></div>
         <div className="flex flex-col gap-12">
           <p className="text-lg">{example.topic}</p>
-          <p className="text-xl leading-12">{example.content}</p>
+          <p className="text-xl leading-11 whitespace-pre-line">{example.content}</p>
         </div>
       </div>
     </>
