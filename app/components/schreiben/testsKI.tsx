@@ -42,6 +42,7 @@ const TestKI = () => {
   }, [level])
 
   const getExam = async () => {
+    if (session?.user?.role != "USER") return
     setLoading(true)
     const res = await fetch("/api/getExam", {
       method: "POST",
@@ -56,6 +57,7 @@ const TestKI = () => {
 
   const sendReq = async () => {
     if (!prompt) return
+    if (session?.user?.role != "USER") return
     setLoadingResp(true)
     // const res = await fetch("http://localhost:8080/ai/chat", {
     const res = await fetch("/api/ai/chat", {
@@ -150,7 +152,7 @@ Regeln:
           />
 
           <div className="btn-box text-center py-6">
-            <button onClick={sendRequestToWrite} className="text-xl rounded-2xl bg-gradient-to-r from-red-500 to-amber-500 px-12 py-4">
+            <button disabled={session?.user?.role == "USER"} onClick={sendRequestToWrite} className="text-xl rounded-2xl bg-gradient-to-r from-red-500 to-amber-500 px-12 py-4">
               Shreibteil überprüfen
             </button>
           </div>
