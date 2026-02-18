@@ -118,7 +118,7 @@ Regeln:
       <div className="py-12">
         <div className={`text-xl leading-10 max-lg:leading-8 max-lg:px-4 max-lg:text-lg`}>
           {!loading ? currentQuestion?.content : <p className="lg:text-3xl text-red-500">Loading...</p>}
-          {session?.user.role == "USER" && <p className="lg:text-3xl text-amber-500">Dieses Item is nur für VIP Benutzer erreichbar!</p>}
+          {session?.user.role == "USER" && <p className="lg:text-3xl text-amber-500 warn_message">Dieses Item is nur für VIP Benutzer erreichbar!</p>}
         </div>
 
         <div className={`py-24 ${session?.user.role == "USER" && "blur-xs"}`} >
