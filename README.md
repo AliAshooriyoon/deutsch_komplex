@@ -5,7 +5,7 @@
 
 Die Plattform kombiniert strukturierte Inhalte mit KI-Unterstützung, um Lernen effizienter und praxisnah zu machen.
 
-🌐 **Live Demo:** https://deutsch-komplex.vercel.app
+🌐 **Live Demo:** https://www.deutsch-komplex.com
 
 ---
 
