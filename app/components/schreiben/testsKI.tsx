@@ -124,7 +124,7 @@ Regeln:
           <div className={`flex justify-around flex-row-reverse max-lg:flex-col flex-wrap `}>
             <div className="flex items-center gap-6 text-lg max-lg:flex-col">
               <p className="lg:text-xl">Wähle die Frage aus!</p>
-              <select onChange={(e) => {
+              <select disabled={session?.user.role == "USER"} onChange={(e) => {
                 const selectedQuestion = allQuestions.find((q: { id: string, topic: string, level: string, content: string }) => q.topic === e.target.value)
                 setCurrentQuestion(selectedQuestion || null)
               }} className="lg:px-8 max-lg:px-1 py-2 lg:text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
@@ -137,7 +137,8 @@ Regeln:
 
             <div className="flex max-lg:flex-col items-center gap-6 lg:text-lg">
               <p className="lg:text-xl">Wähle das Niveau</p>
-              <select onChange={(e) => setLevel(e.target.value)} className="px-8 py-2 text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
+              <select disabled={session?.user.role == "USER"}
+                onChange={(e) => setLevel(e.target.value)} className="px-8 py-2 text-2xl bg-gradient-to-r from-red-500 to-amber-500 rounded-2xl">
                 <option value="a1">A1</option>
                 <option value="a2">A2</option>
                 <option value="b1">B1</option>
@@ -147,7 +148,7 @@ Regeln:
             </div>
           </div>
 
-          <textarea onChange={(e) => setWords(e.target.value)}
+          <textarea disabled={session?.user.role == "USER"} onChange={(e) => setWords(e.target.value)}
             className="w-full mt-8 border-2 border-gray-800 rounded-xl leading-10 min-h-96 p-4 outline-0"
           />
 
