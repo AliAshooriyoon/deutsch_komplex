@@ -121,7 +121,7 @@ Regeln:
         </div>
 
         <div className="py-24">
-          <div className="flex justify-around flex-row-reverse max-lg:flex-col flex-wrap">
+          <div className={`flex justify-around flex-row-reverse max-lg:flex-col flex-wrap ${session?.user.role == "USER" && "blur-xl"}`}>
             <div className="flex items-center gap-6 text-lg max-lg:flex-col">
               <p className="lg:text-xl">Wähle die Frage aus!</p>
               <select onChange={(e) => {
