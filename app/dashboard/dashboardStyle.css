@@ -65,7 +65,7 @@ html.dark .text_explain {
 html.dark .podcast_item {
   background-color: #1f2937;
 }
-html.dark warn_message {
+html.dark .warn_message {
   color: #be9801 !important;
 }
 html.dark .dashboard_menua .wrapper {
