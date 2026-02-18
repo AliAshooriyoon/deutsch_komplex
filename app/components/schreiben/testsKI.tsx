@@ -116,12 +116,12 @@ Regeln:
   return (
     <div className="">
       <div className="py-12">
-        <div className="text-xl leading-10 max-lg:leading-8 max-lg:px-4 max-lg:text-lg">
+        <div className={`text-xl leading-10 max-lg:leading-8 max-lg:px-4 max-lg:text-lg`}>
           {!loading ? currentQuestion?.content : <p className="lg:text-3xl text-red-500">Loading...</p>}
         </div>
 
-        <div className="py-24">
-          <div className={`flex justify-around flex-row-reverse max-lg:flex-col flex-wrap ${session?.user.role == "USER" && "blur-xl"}`}>
+        <div className={`py-24 ${session?.user.role == "USER" && "blur-xs"}`} >
+          <div className={`flex justify-around flex-row-reverse max-lg:flex-col flex-wrap `}>
             <div className="flex items-center gap-6 text-lg max-lg:flex-col">
               <p className="lg:text-xl">Wähle die Frage aus!</p>
               <select onChange={(e) => {
