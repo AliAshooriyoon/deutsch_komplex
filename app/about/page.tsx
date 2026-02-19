@@ -10,20 +10,20 @@ const About = () => {
     <div className="w-full bg-gray-800">
       <div className="w-full flex justify-between px-16 h-full py-12">
         <div className="flex flex-col gap-4 h-full">
-          <p className="text-2xl">1000+</p>
-          <p className="text-xl text-white">Erfolgreiche Lernende</p>
+          <p className="text-4xl">1000+</p>
+          <p className="text-xl text-gray-500">Erfolgreiche Lernende</p>
         </div>
         <div className="flex flex-col gap-4 h-full">
-          <p className="text-2xl">95%</p>
-          <p className="text-xl text-white">Erfolgsquote</p>
+          <p className="text-4xl">95%</p>
+          <p className="text-xl text-gray-500">Erfolgsquote</p>
         </div>
         <div className="flex flex-col gap-4 h-full">
-          <p className="text-2xl">120+</p>
-          <p className="text-xl text-white">Länder weltweit</p>
+          <p className="text-4xl">120+</p>
+          <p className="text-xl text-gray-500">Länder weltweit</p>
         </div>
         <div className="flex flex-col gap-4 h-full">
-          <p className="text-2xl">24/7</p>
-          <p className="text-xl text-white">Support</p>
+          <p className="text-4xl">24/7</p>
+          <p className="text-xl  text-gray-500">Support</p>
         </div>
       </div>
     </div>
