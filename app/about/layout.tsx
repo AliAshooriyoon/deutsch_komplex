@@ -2,8 +2,11 @@ import Header from "../components/Header";
 
 const AboutLayout = ({ children }: { children: React.ReactNode }) => {
   return <>
-    <Header />
-    <div className="pt-28">{children}</div>
+    <div className="flex flex-col">
+      <Header />
+      <div className="mt-20">{children}</div>
+
+    </div>
   </>
 }
 export default AboutLayout;
