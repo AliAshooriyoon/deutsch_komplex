@@ -8,7 +8,7 @@ const About = () => {
       <h2 className="text-3xl text-white max-lg:text-xl max-lg:px-4">Wir helfen Menschen weltweit dabei, ihre deutschen Sprachprüfungen erfolgreich zu bestehen</h2>
     </div>
     <div className="w-full bg-gray-800">
-      <div className="w-full flex justify-between px-16 h-full py-12">
+      <div className="w-full flex justify-around px-16 h-full py-12">
         <div className="flex flex-col gap-4 h-full">
           <p className="text-4xl">1000+</p>
           <p className="text-xl text-gray-500">Erfolgreiche Lernende</p>
