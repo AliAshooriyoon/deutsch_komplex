@@ -118,10 +118,12 @@ const Header = () => {
               <MdPriceChange size={28} /> <span>Preise</span>
             </ScrollLink>
 
-            <a href="https://aliashouriyoun-beta-ochre.vercel.app/de" target="_blank" rel="noopener noreferrer"
+            <Link
+              href="/about"
+              // target="_blank" rel="noopener noreferrer"
               onClick={closeMenu} className="flex items-center gap-5 hover:text-yellow-400 transition">
               <FcAbout size={28} /> <span>Über uns</span>
-            </a>
+            </Link>
 
             {session?.user ? (
               <Link href="/dashboard" onClick={closeMenu} className="flex items-center gap-5 hover:text-yellow-400 transition">
