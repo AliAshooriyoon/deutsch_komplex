@@ -1,6 +1,6 @@
 const About = () => {
   return <>
-    <div className='py-52 max-lg:py-24 bg-gradient-to-r from-red-700 from-[0%]  via-red-700 via-[60%]
+    <div className='py-52 max-lg:py-24 bg-gradient-to-r from-red-800 from-[0%]  via-red-700 via-[60%]
       to-amber-600 to-[100%] gap-12 flex items-center justify-center flex-col'>
       <h1 className="max-lg:flex max-lg:flex-col gap-4 text-7xl text-center max-lg:text-5xl text-white">
         <span className="">Über</span> <span className="max-lg:text-4xl">Deutsch-Komplex</span>
