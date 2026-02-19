@@ -1,6 +1,6 @@
 const About = () => {
   return <>
-    <div className='py-52 max-lg:py-44 bg-gradient-to-r from-red-700 from-[0%]  via-red-700 via-[70%]
+    <div className='py-52 max-lg:py-24 bg-gradient-to-r from-red-700 from-[0%]  via-red-700 via-[70%]
       to-amber-600 to-[100%] gap-12 flex items-center justify-center flex-col'>
       <h1 className="text-7xl text-center max-lg:text-5xl text-white">
         Über Deutsch-Komplex
