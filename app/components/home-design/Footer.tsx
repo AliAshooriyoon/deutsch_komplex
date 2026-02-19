@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-between max-lg:gap-2 max-lg:py-2 flex-col text-gray-400">
           <p className="text-lg pb-2 text-white">Unternehmen</p>
-          <p className="text-sm">Über uns</p>
+          <Link className="text-sm" href={'/about'}> Über uns</Link>
           <p className="text-sm">Blog</p>
           <p className="text-sm">Karriere</p>
         </div>
