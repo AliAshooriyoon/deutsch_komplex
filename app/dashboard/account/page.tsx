@@ -122,7 +122,7 @@ const Account = () => {
                 </div>
               </label>
             </div>
-            <div className="btn_box flex items-center justify-between px-2 gap-4">
+            <div className="btn_box flex items-center justify-between px-2 gap-4 flex-wrap">
               <div onClick={() => changeData()} className="bg-gradient-to-r from-red-500 to-amber-500
                py-2 px-4 rounded-2xl text-white w-[85%] font-bold cursor-pointer
                 hover:from-red-600 hover:to-amber-600">
