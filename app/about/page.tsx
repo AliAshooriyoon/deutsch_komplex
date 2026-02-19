@@ -1,7 +1,9 @@
 const About = () => {
   return <>
     <div className=''>
-      Über uns!
+      <h1 className="text-4xl py-16">
+        Über Deutsch-Komplex
+      </h1>
     </div>
   </>
 }
