@@ -28,17 +28,30 @@ const About = () => {
       </div>
     </div>
     <div className="bg-stone-800 w-full px-28 py-20">
-      <h2 className="text-6xl text-center text-white">Unsere Geschichte</h2>
+      <h2 className="text-6xl text-center text-white pb-6">Unsere Geschichte</h2>
       <p className="text-xl text-gray-400">
-        Deutsch Komplex entstand aus einer persönlichen Erfahrung. Als ich selbst Deutsch lernte,
-        merkte ich schnell, wie kompliziert und unübersichtlich viele Lernmaterialien sind.
-        Oft fehlte eine klare Struktur, praxisnahe Beispiele oder ehrliches Feedback. Genau hier wollte ich ansetzen.
-        Mein Ziel war es, eine Plattform zu schaffen, die Deutschlernen einfacher, strukturierter und effektiver macht
-        – besonders für Menschen, die sich auf Prüfungen vorbereiten oder in Deutschland studieren und arbeiten möchten.
-        Deutsch Komplex verbindet verständliche Erklärungen, echte Beispiele und moderne Technologien,
-        um individuelles Lernen zu ermöglichen. Die Idee dahinter ist simpel:
-        komplexe Inhalte klar erklären und Lernenden helfen, Schritt für Schritt sicherer zu werden.
-        Deutsch zu lernen ist eine Herausforderung – aber mit dem richtigen System ist sie machbar      </p>
+        Deutsch Komplex ist nicht einfach nur eine Lernplattform – es ist das Ergebnis einer persönlichen Reise.
+        Als ich selbst begann, Deutsch zu lernen, stand ich vor vielen Herausforderungen. Die meisten Materialien wirkten unübersichtlich,
+        kompliziert oder wenig praxisnah. Es gab unzählige Bücher, Apps und Videos,
+        aber oft fehlte eine klare Struktur und ein System, das wirklich Schritt für Schritt zum Ziel führt.
+        Besonders bei der Prüfungsvorbereitung hatte ich das Gefühl, dass wichtige Details entweder zu oberflächlich
+        oder unnötig kompliziert erklärt wurden.
+        Genau aus dieser Erfahrung heraus entstand die Idee zu Deutsch Komplex.
+        Ich wollte eine Plattform aufbauen, die komplexe Inhalte verständlich erklärt und sich auf das Wesentliche konzentriert.
+        Mein Ziel war es, nicht nur Theorie zu vermitteln, sondern echtes Verständnis zu schaffen.
+        Lernen sollte nicht chaotisch oder überwältigend sein, sondern klar, strukturiert und effizient.
+        Deutsch Komplex richtet sich vor allem an Menschen, die konkrete Ziele haben – sei es eine Sprachprüfung,
+        ein Studium oder eine Ausbildung in Deutschland. Deshalb liegt der Fokus auf prüfungsrelevanten Inhalten,
+        praxisnahen Beispielen und einer klaren Progression nach Sprachniveaus. Jede Lektion soll dabei helfen,
+        Sicherheit aufzubauen und typische Fehler zu vermeiden.
+        Ein weiterer wichtiger Bestandteil ist der Einsatz moderner Technologien. Durch intelligente Funktionen und
+        interaktive Inhalte wird individuelles Lernen unterstützt. Fehler werden nicht nur korrigiert, sondern erklärt,
+        damit man wirklich daraus lernt. Denn nachhaltiger Fortschritt entsteht nur durch Verständnis und Wiederholung.
+        Deutsch Komplex steht für Klarheit, Struktur und Motivation. Die Vision dahinter ist einfach:
+        Deutschlernen soll kein undurchsichtiger Prozess sein, sondern ein nachvollziehbarer Weg mit messbarem Fortschritt.
+        Schritt für Schritt, Level für Level. Denn am Ende geht es nicht nur darum,
+        eine Sprache zu lernen – sondern neue Möglichkeiten zu eröffnen.
+      </p>
     </div>
   </>
 }
