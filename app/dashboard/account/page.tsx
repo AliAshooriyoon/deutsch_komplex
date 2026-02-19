@@ -63,7 +63,7 @@ const Account = () => {
           </div>
         </div>
         <div className="border-2 h-full border-gray-500 flex flex-col justify-around flex-wrap person_avatar_box 
-          bg-white rounded-xl py-8">
+          bg-white rounded-xl py-8 max-lg:w-[90%]">
           <p className=" py-2 text-xl">Persönliche Dateien</p>
           <div className="p-4 flex flex-col justify-around gap-12">
             <div className="names_box flex gap-8 max-lg:flex-wrap">
