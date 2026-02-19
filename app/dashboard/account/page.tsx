@@ -70,7 +70,7 @@ const Account = () => {
               <div className="names flex gap-8 max-lg:flex-wrap">
                 <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
                   <span className="">Vorname</span>
-                  <div className="flex items-center w-full gap-2 item_pr_dark bg-gray-200 indent-2 px-4 py-1.5
+                  <div className="flex w-full items-center item_pr_dark gap-2 bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
                     <span className="text-gray-500"> <FaUser /> </span>
                     <input onChange={(e) => setName(prev => [e.target.value, prev[1]])}
