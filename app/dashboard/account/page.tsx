@@ -78,7 +78,7 @@ const Account = () => {
                   </div>
                 </label>
                 <div className="name_l w-full">
-                  <label className="flex gap-1 w-full items-start flex-col" form="">
+                  <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
                     <span className="">Nachname</span>
                     <div className="flex w-full items-center item_pr_dark gap-2 bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
@@ -92,7 +92,7 @@ const Account = () => {
               </div>
             </div>
             <div className="mail_box">
-              <label className="flex gap-1 items-start flex-col" form="">
+              <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
                 <span className="">E-Mail</span>
                 <div className="flex w-full items-center gap-2 item_pr_dark bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
@@ -103,7 +103,7 @@ const Account = () => {
               </label>
             </div>
             <div className="phone_box">
-              <label className="flex w-full gap-1 items-start flex-col" form="">
+              <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
                 <span className="">Telefon</span>
                 <div className="flex w-full items-center gap-2 item_pr_dark bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
