@@ -49,7 +49,7 @@ const Header = () => {
               Preise
             </ScrollLink>
             <Link
-              href="https://aliashouriyoun-beta-ochre.vercel.app/de"
+              href="/about"
               // target="_blank"
               // rel="noopener noreferrer"
               className="hover:text-red-600 transition"
