@@ -74,7 +74,7 @@ const Account = () => {
                     text-lg rounded-xl outline-0">
                     <span className="text-gray-500"> <FaUser /> </span>
                     <input onChange={(e) => setName(prev => [e.target.value, prev[1]])}
-                      value={name[0]} className="outline-0 item_pr_dark" type="text" />
+                      value={name[0]} className="item_pr_dark outline-0 w-full" type="text" />
                   </div>
                 </label>
                 <div className="name_l w-full">
