@@ -40,7 +40,7 @@ const Account = () => {
   }
   // {user.data?.user?.name}
   return <>
-    <div className='flex lg:px-18 flex-col lg:h-full w-full lg:justify-between items-center max-lg:max-w-[95%]
+    <div className='flex lg:px-18 flex-col lg:h-full w-full lg:justify-between items-center max-lg:max-w-[97%]
       max-lg:mx-auto'>
       <div className="flex items-center h-full max-lg:flex-col gap-12 text-center
         lg:justify-center">
@@ -63,12 +63,12 @@ const Account = () => {
           </div>
         </div>
         <div className="border-2 h-full border-gray-500 flex flex-col justify-around flex-wrap person_avatar_box 
-          bg-white rounded-xl py-8 max-lg:w-[90%]">
+          bg-white rounded-xl py-8 max-lg:w-[95%]">
           <p className=" py-2 text-xl">Persönliche Dateien</p>
           <div className="p-4 flex flex-col justify-around gap-12">
             <div className="names_box flex gap-8 max-lg:flex-wrap">
               <div className="names flex gap-8 max-lg:flex-wrap">
-                <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
+                <label className="flex w-full max-lg:w-[95%] gap-1 items-start flex-col" form="">
                   <span className="">Vorname</span>
                   <div className="flex w-full items-center item_pr_dark gap-2 bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
@@ -78,7 +78,7 @@ const Account = () => {
                   </div>
                 </label>
                 <div className="name_l w-full">
-                  <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
+                  <label className="flex w-full max-lg:w-[95%] gap-1 items-start flex-col" form="">
                     <span className="">Nachname</span>
                     <div className="flex w-full items-center item_pr_dark gap-2 bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
@@ -92,7 +92,7 @@ const Account = () => {
               </div>
             </div>
             <div className="mail_box">
-              <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
+              <label className="flex w-full max-lg:w-[95%] gap-1 items-start flex-col" form="">
                 <span className="">E-Mail</span>
                 <div className="flex w-full items-center gap-2 item_pr_dark bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
@@ -103,7 +103,7 @@ const Account = () => {
               </label>
             </div>
             <div className="phone_box">
-              <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
+              <label className="flex w-full max-lg:w-[95%] gap-1 items-start flex-col" form="">
                 <span className="">Telefon</span>
                 <div className="flex w-full items-center gap-2 item_pr_dark bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
@@ -113,7 +113,7 @@ const Account = () => {
               </label>
             </div>
             <div className="address_box">
-              <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
+              <label className="flex w-full max-lg:w-[95%] gap-1 items-start flex-col" form="">
                 <span className="">Adresse</span>
                 <div className="flex w-full items-center gap-2 bg-gray-200 item_pr_dark indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
