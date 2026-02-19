@@ -68,7 +68,7 @@ const Account = () => {
           <div className="p-4 flex flex-col justify-around gap-12">
             <div className="names_box flex gap-8 max-lg:flex-wrap">
               <div className="names flex gap-8 max-lg:flex-wrap">
-                <label className="flex w-full gap-1 items-start flex-col" form="">
+                <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
                   <span className="">Vorname</span>
                   <div className="flex items-center w-full gap-2 item_pr_dark bg-gray-200 indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
