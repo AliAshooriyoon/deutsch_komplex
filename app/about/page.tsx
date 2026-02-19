@@ -27,6 +27,19 @@ const About = () => {
         </div>
       </div>
     </div>
+    <div className="bg-stone-800 w-full">
+      <h2 className="text-6xl text-white">Unsere Geschichte</h2>
+      <p className="text-2xl text-gray-400">
+        Deutsch Komplex entstand aus einer persönlichen Erfahrung. Als ich selbst Deutsch lernte,
+        merkte ich schnell, wie kompliziert und unübersichtlich viele Lernmaterialien sind.
+        Oft fehlte eine klare Struktur, praxisnahe Beispiele oder ehrliches Feedback. Genau hier wollte ich ansetzen.
+        Mein Ziel war es, eine Plattform zu schaffen, die Deutschlernen einfacher, strukturierter und effektiver macht
+        – besonders für Menschen, die sich auf Prüfungen vorbereiten oder in Deutschland studieren und arbeiten möchten.
+        Deutsch Komplex verbindet verständliche Erklärungen, echte Beispiele und moderne Technologien,
+        um individuelles Lernen zu ermöglichen. Die Idee dahinter ist simpel:
+        komplexe Inhalte klar erklären und Lernenden helfen, Schritt für Schritt sicherer zu werden.
+        Deutsch zu lernen ist eine Herausforderung – aber mit dem richtigen System ist sie machbar      </p>
+    </div>
   </>
 }
 export default About;
