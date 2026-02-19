@@ -113,7 +113,7 @@ const Account = () => {
               </label>
             </div>
             <div className="address_box">
-              <label className="flex w-full gap-1 items-start flex-col" form="">
+              <label className="flex w-full max-lg:w-[90%] gap-1 items-start flex-col" form="">
                 <span className="">Adresse</span>
                 <div className="flex w-full items-center gap-2 bg-gray-200 item_pr_dark indent-2 px-4 py-1.5
                     text-lg rounded-xl outline-0">
@@ -122,7 +122,7 @@ const Account = () => {
                 </div>
               </label>
             </div>
-            <div className="btn_box flex items-center justify-between px-2 gap-4 flex-wrap">
+            <div className="btn_box flex items-center justify-between px-2 gap-4 max-lg:flex-wrap max-lg:flex-col">
               <div onClick={() => changeData()} className="bg-gradient-to-r from-red-500 to-amber-500
                py-2 px-4 rounded-2xl text-white w-[85%] font-bold cursor-pointer
                 hover:from-red-600 hover:to-amber-600">
