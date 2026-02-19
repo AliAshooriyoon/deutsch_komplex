@@ -48,14 +48,14 @@ const Header = () => {
             <ScrollLink to="price" smooth duration={600} className="cursor-pointer hover:text-red-600 transition">
               Preise
             </ScrollLink>
-            <a
+            <Link
               href="https://aliashouriyoun-beta-ochre.vercel.app/de"
-              target="_blank"
-              rel="noopener noreferrer"
+              // target="_blank"
+              // rel="noopener noreferrer"
               className="hover:text-red-600 transition"
             >
               Über uns
-            </a>
+            </Link>
           </nav>
 
           <div className="hidden lg:flex items-center gap-18">
