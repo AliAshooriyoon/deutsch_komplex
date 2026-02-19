@@ -39,9 +39,9 @@ const Header = () => {
           </Link>
 
           <nav className="hidden lg:flex items-center gap-20 text-lg font-medium text-gray-700">
-            <ScrollLink to="home" smooth duration={600} className="cursor-pointer hover:text-red-600 transition">
+            <Link href={"/"} className="cursor-pointer hover:text-red-600 transition">
               Haus
-            </ScrollLink>
+            </Link>
             <ScrollLink to="services" smooth duration={600} className="cursor-pointer hover:text-red-600 transition">
               Services
             </ScrollLink>
