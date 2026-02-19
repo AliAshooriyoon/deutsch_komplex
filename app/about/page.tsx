@@ -27,9 +27,9 @@ const About = () => {
         </div>
       </div>
     </div>
-    <div className="bg-stone-800 w-full">
-      <h2 className="text-6xl text-white">Unsere Geschichte</h2>
-      <p className="text-2xl text-gray-400">
+    <div className="bg-stone-800 w-full px-28 py-20">
+      <h2 className="text-6xl text-center text-white">Unsere Geschichte</h2>
+      <p className="text-xl text-gray-400">
         Deutsch Komplex entstand aus einer persönlichen Erfahrung. Als ich selbst Deutsch lernte,
         merkte ich schnell, wie kompliziert und unübersichtlich viele Lernmaterialien sind.
         Oft fehlte eine klare Struktur, praxisnahe Beispiele oder ehrliches Feedback. Genau hier wollte ich ansetzen.
