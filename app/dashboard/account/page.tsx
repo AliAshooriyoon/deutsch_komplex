@@ -40,7 +40,7 @@ const Account = () => {
   }
   // {user.data?.user?.name}
   return <>
-    <div className='flex lg:px-18 flex-col lg:h-full w-full lg:justify-between items-center max-lg:max-w-[90%]
+    <div className='flex lg:px-18 flex-col lg:h-full w-full lg:justify-between items-center max-lg:max-w-[95%]
       max-lg:mx-auto'>
       <div className="flex items-center h-full max-lg:flex-col gap-12 text-center
         lg:justify-center">
