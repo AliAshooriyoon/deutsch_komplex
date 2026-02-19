@@ -17,7 +17,7 @@ export async function POST(req: Request) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: `Bearer ${token}`, // JWT واقعی
+      Authorization: `Bearer ${token}`,
     },
     body: JSON.stringify(body),
   });
