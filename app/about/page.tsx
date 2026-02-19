@@ -5,7 +5,7 @@ const About = () => {
       <h1 className="text-7xl text-center max-lg:text-3xl text-white">
         Über Deutsch-Komplex
       </h1>
-      <h2 className="text-3xl max-lg:text-xl max-lg:px-4">Wir helfen Menschen weltweit dabei, ihre deutschen Sprachprüfungen erfolgreich zu bestehen</h2>
+      <h2 className="text-3xl text-white max-lg:text-xl max-lg:px-4">Wir helfen Menschen weltweit dabei, ihre deutschen Sprachprüfungen erfolgreich zu bestehen</h2>
     </div>
   </>
 }
