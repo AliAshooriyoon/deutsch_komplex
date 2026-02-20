@@ -62,19 +62,26 @@ const About = () => {
         <h2 className="text-5xl text-center">Kontaktiere uns</h2>
         <div className="flex gap-10 w-full justify-center ">
           <div className="h-48 bg-gray-900 px-20 flex flex-col gap-6">
-            <div className="bg-red-600 p-2"><MdOutlineEmail className="w-10 h-10" /></div>
             <p className="text-2xl">E-Mail</p>
+            <div className="">
+              <div className="bg-red-600 p-2">
+                <MdOutlineEmail className="w-10 h-10" />
+              </div>
+            </div>
             <p className="text-md">deutsch-komplex@proton.me</p>
           </div>
           <div className="h-48 bg-gray-900 px-20 flex flex-col gap-6">
-            <div className="bg-amber-600 p-2"><FaTelegram className="w-10 h-10" /></div>
             <p className="text-2xl">Telegram</p>
+            <div className="">
+              <div className="bg-amber-600 p-2"><FaTelegram className="w-10 h-10" /></div>
+            </div>
             <p className="text-md">deutsch-komplex@proton.me</p>
-
           </div>
           <div className="h-48 bg-gray-900 px-20 flex flex-col gap-6">
             <p className="text-2xl">GitHub</p>
-            <div className="bg-stone-900 p-2"><FaGithub className="w-10 h-10" /></div>
+            <div className="">
+              <div className="bg-stone-900 p-2"><FaGithub className="w-10 h-10" /></div>
+            </div>
             <Link href={"github.com/AliAshooriyoon/deutsch_komplex"} className="text-md">Github projekt</Link>
           </div>
         </div>
