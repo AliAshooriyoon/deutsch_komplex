@@ -60,7 +60,7 @@ const About = () => {
     <div className="bg-gray-800 py-14 px-24 w-full">
       <div className="">
         <h2 className="text-5xl text-center">Kontaktiere uns</h2>
-        <div className="flex gap-10 w-full justify-center ">
+        <div className="flex gap-10 w-full justify-center text-white">
           <div className="h-48 bg-gray-900 px-20 flex flex-col gap-6 items-center">
             <p className="text-2xl">E-Mail</p>
             <div className="flex">
@@ -70,14 +70,14 @@ const About = () => {
             </div>
             <p className="text-md">deutsch-komplex@proton.me</p>
           </div>
-          <div className="h-48 bg-gray-900 px-20 flex flex-col gap-6">
+          <div className="h-48 bg-gray-900 px-20 flex flex-col gap-6 items-center">
             <p className="text-2xl">Telegram</p>
             <div className="flex">
               <div className="bg-amber-600 p-2 rounded-2xl"><FaTelegram className="w-10 h-10" /></div>
             </div>
             <p className="text-md">deutsch-komplex@proton.me</p>
           </div>
-          <div className="h-48 bg-gray-900 px-20 flex flex-col gap-6">
+          <div className="h-48 bg-gray-900 px-20 flex flex-col gap-6 items-center">
             <p className="text-2xl">GitHub</p>
             <div className="flex">
               <div className="bg-stone-600 p-2 rounded-2xl"><FaGithub className="w-10 h-10" /></div>
