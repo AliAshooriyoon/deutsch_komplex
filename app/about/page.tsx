@@ -59,9 +59,9 @@ const About = () => {
     </div>
     <div className="bg-gray-800 py-28 px-24 w-full">
       <div className="">
-        <h2 className="text-5xl text-center text-white pb-10">Kontaktiere uns</h2>
-        <div className="flex gap-10 w-full justify-center text-white">
-          <div className="h-48 bg-gray-900 px-20 flex flex-col gap-5 items-center w-[24%]  py-4 rounded-xl">
+        <h2 className="text-5xl text-center text-white pb-14">Kontaktiere uns</h2>
+        <div className="flex gap-10 w-full justify-center text-white max-lg:flex-col max-lg:flex-wrap">
+          <div className="h-48 bg-gray-900 px-20 flex flex-col gap-5 items-center w-[22%]  py-4 rounded-xl">
             <div className="flex">
               <div className="bg-red-600 p-2 rounded-2xl">
                 <MdOutlineEmail className="w-10 h-10" />
@@ -70,14 +70,14 @@ const About = () => {
             <p className="text-2xl">E-Mail</p>
             <p className="text-md">deutsch-komplex@proton.me</p>
           </div>
-          <div className="h-48 bg-gray-900 px-20 flex flex-col gap-5 items-center w-[24%]  py-4 rounded-xl">
+          <div className="h-48 bg-gray-900 px-20 flex flex-col gap-5 items-center w-[22%]  py-4 rounded-xl">
             <div className="flex">
               <div className="bg-amber-600 p-2 rounded-2xl"><FaTelegram className="w-10 h-10" /></div>
             </div>
             <p className="text-2xl">Telegram</p>
             <p className="text-md">t.me/deutschkomplex</p>
           </div>
-          <div className="h-48 bg-gray-900 px-20 flex flex-col gap-5 items-center w-[24%] py-4 rounded-xl">
+          <div className="h-48 bg-gray-900 px-20 flex flex-col gap-5 items-center w-[22%] py-4 rounded-xl">
             <div className="flex">
               <div className="bg-stone-600 p-2 rounded-2xl"><FaGithub className="w-10 h-10" /></div>
             </div>
