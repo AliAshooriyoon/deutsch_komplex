@@ -8,7 +8,7 @@ const Dashboard = async () => {
   }
   return (
     <>
-      <div className="dashboard_main">
+      <div className="dashboard_main max-lg:h-[100vh]">
         <div className="wellcome">
           <h2 className="text-5xl text-center">Willkommen bei uns, {user?.user?.name}!</h2>
           <p className='text-2xl text-center py-12'>Verwende Side-Bar, um Services zu überprüfen</p>
