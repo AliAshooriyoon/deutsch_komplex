@@ -1,5 +1,7 @@
 import Link from "next/link";
-
+import { MdOutlineEmail } from "react-icons/md";
+import { FaTelegram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 const About = () => {
   return <>
     <div className='py-52 max-lg:py-24 bg-gradient-to-r from-red-800 from-[0%]  via-red-700 via-[60%]
@@ -59,17 +61,20 @@ const About = () => {
       <div className="">
         <h2 className="text-5xl text-center">Kontaktiere uns</h2>
         <div className="flex gap-10 w-full justify-center ">
-          <div className="h-48 bg-stone-800 px-20">
+          <div className="h-48 bg-gray-900 px-20">
+            <div className="bg-red-600 p-6"><MdOutlineEmail /></div>
             <p className="text-2xl">E-Mail</p>
             <p className="text-md">deutsch-komplex@proton.me</p>
           </div>
-          <div className="h-48 bg-stone-800 px-20">
+          <div className="h-48 bg-gray-900 px-20">
+            <div className="bg-amber-600 p-6"><FaTelegram /></div>
             <p className="text-2xl">Telegram</p>
             <p className="text-md">deutsch-komplex@proton.me</p>
 
           </div>
-          <div className="h-48 bg-stone-800 px-20">
+          <div className="h-48 bg-gray-900 px-20">
             <p className="text-2xl">GitHub</p>
+            <div className="bg-stone-900 p-6"><FaGithub /></div>
             <Link href={"github.com/AliAshooriyoon/deutsch_komplex"} className="text-md">Github projekt</Link>
           </div>
         </div>
