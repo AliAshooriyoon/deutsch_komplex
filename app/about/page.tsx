@@ -75,7 +75,7 @@ const About = () => {
               <div className="bg-amber-600 p-2 rounded-2xl"><FaTelegram className="w-10 h-10" /></div>
             </div>
             <p className="text-2xl">Telegram</p>
-            <Link href={"t.me/deutschkomplex"} className="text-md">t.me/deutschkomplex</Link>
+            <Link href={"https://t.me/deutschkomplex"} className="text-md">t.me/deutschkomplex</Link>
           </div>
           <div className=" bg-gray-900 flex flex-col gap-5 items-center lg:w-[22%] py-6 rounded-xl">
             <div className="flex">
