@@ -53,6 +53,17 @@ const About = () => {
         eine Sprache zu lernen – sondern neue Möglichkeiten zu eröffnen.
       </p>
     </div>
+    <div className="bg-gray-800 py-14 px-24">
+      <div className="">
+        <h2 className="text-5xl text-center">Kontaktiere uns</h2>
+        <div className="flex gap-6">
+          <div className="h-48 bg-stone-800">E-Mail</div>
+          <div className="h-48 bg-stone-800">Telegram</div>
+          <div className="h-48 bg-stone-800">Github</div>
+        </div>
+      </div>
+
+    </div>
   </>
 }
 export default About;
