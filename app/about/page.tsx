@@ -59,7 +59,7 @@ const About = () => {
     </div>
     <div className="bg-gray-800 py-28 lg:px-24 max-lg:px-6 w-full">
       <div className="">
-        <h2 className="text-5xl max-lg:text-3xl text-center text-white pb-14">Kontaktiere uns</h2>
+        <h2 className="text-5xl max-lg:text-4xl text-center text-white pb-14">Kontaktiere uns</h2>
         <div className="flex gap-10 w-full justify-center text-white max-lg:flex-col max-lg:flex-wrap">
           <div className=" bg-gray-900 flex flex-col gap-5 items-center lg:w-[22%]  py-6 rounded-xl">
             <div className="flex">
@@ -82,7 +82,7 @@ const About = () => {
               <div className="bg-stone-600 p-2 rounded-2xl"><FaGithub className="w-10 h-10" /></div>
             </div>
             <p className="text-2xl">GitHub</p>
-            <Link href={"github.com/AliAshooriyoon/deutsch_komplex"} className="text-md">Github projekts Adresse</Link>
+            <Link href={"https://github.com/AliAshooriyoon/deutsch_komplex"} className="text-md">Github projekts Adresse</Link>
           </div>
         </div>
       </div>
