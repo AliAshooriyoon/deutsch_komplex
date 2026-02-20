@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const About = () => {
   return <>
     <div className='py-52 max-lg:py-24 bg-gradient-to-r from-red-800 from-[0%]  via-red-700 via-[60%]
@@ -53,13 +55,23 @@ const About = () => {
         eine Sprache zu lernen – sondern neue Möglichkeiten zu eröffnen.
       </p>
     </div>
-    <div className="bg-gray-800 py-14 px-24">
+    <div className="bg-gray-800 py-14 px-24 w-full">
       <div className="">
         <h2 className="text-5xl text-center">Kontaktiere uns</h2>
-        <div className="flex gap-6">
-          <div className="h-48 bg-stone-800">E-Mail</div>
-          <div className="h-48 bg-stone-800">Telegram</div>
-          <div className="h-48 bg-stone-800">Github</div>
+        <div className="flex gap-10 w-full justify-center ">
+          <div className="h-48 bg-stone-800 px-20">
+            <p className="text-2xl">E-Mail</p>
+            <p className="text-md">deutsch-komplex@proton.me</p>
+          </div>
+          <div className="h-48 bg-stone-800 px-20">
+            <p className="text-2xl">Telegram</p>
+            <p className="text-md">deutsch-komplex@proton.me</p>
+
+          </div>
+          <div className="h-48 bg-stone-800 px-20">
+            <p className="text-2xl">GitHub</p>
+            <Link href={"github.com/AliAshooriyoon/deutsch_komplex"} className="text-md">Github projekt</Link>
+          </div>
         </div>
       </div>
 
