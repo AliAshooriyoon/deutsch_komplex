@@ -42,7 +42,7 @@ const TestKI = () => {
   }, [level])
 
   const getExam = async () => {
-    if (session?.user?.role != "USER") return
+    if (session?.user?.role == "USER") return
     setLoading(true)
     const res = await fetch("/api/getExam", {
       method: "POST",
@@ -59,7 +59,7 @@ const TestKI = () => {
     if (!prompt) return
     console.log("--------session--------")
     console.log(session)
-    if (session?.user?.role != "USER") return
+    if (session?.user?.role == "USER") return
     setLoadingResp(true)
     // const res = await fetch("http://localhost:8080/ai/chat", {
     const res = await fetch("/api/ai/chat", {
