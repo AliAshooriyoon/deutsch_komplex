@@ -57,6 +57,8 @@ const TestKI = () => {
 
   const sendReq = async () => {
     if (!prompt) return
+    console.log("--------session--------")
+    console.log(session)
     if (session?.user?.role != "USER") return
     setLoadingResp(true)
     // const res = await fetch("http://localhost:8080/ai/chat", {
